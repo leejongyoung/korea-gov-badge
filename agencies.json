@@ -968,5 +968,755 @@
     "type": "자치구",
     "homepage": "https://www.gangdong.go.kr",
     "logo": "seoul-gangdong"
+  },
+  {
+    "id": "gangwon-chuncheon",
+    "name": "춘천시",
+    "short_name": "춘천시",
+    "en_name": "Chuncheon City",
+    "en_short": "CHUNCHEON",
+    "type": "시",
+    "parent": "gangwon",
+    "logo": "gangwon-chuncheon"
+  },
+  {
+    "id": "gangwon-donghae",
+    "name": "동해시",
+    "short_name": "동해시",
+    "en_name": "Donghae City",
+    "en_short": "DONGHAE",
+    "type": "시",
+    "parent": "gangwon",
+    "logo": "gangwon-donghae"
+  },
+  {
+    "id": "gangwon-gangneung",
+    "name": "강릉시",
+    "short_name": "강릉시",
+    "en_name": "Gangneung City",
+    "en_short": "GANGNEUNG",
+    "type": "시",
+    "parent": "gangwon",
+    "logo": "gangwon-gangneung"
+  },
+  {
+    "id": "gangwon-samcheok",
+    "name": "삼척시",
+    "short_name": "삼척시",
+    "en_name": "Samcheok City",
+    "en_short": "SAMCHEOK",
+    "type": "시",
+    "parent": "gangwon",
+    "logo": "gangwon-samcheok"
+  },
+  {
+    "id": "gangwon-sokcho",
+    "name": "속초시",
+    "short_name": "속초시",
+    "en_name": "Sokcho City",
+    "en_short": "SOKCHO",
+    "type": "시",
+    "parent": "gangwon",
+    "logo": "gangwon-sokcho"
+  },
+  {
+    "id": "gangwon-taebaek",
+    "name": "태백시",
+    "short_name": "태백시",
+    "en_name": "Taebaek City",
+    "en_short": "TAEBAEK",
+    "type": "시",
+    "parent": "gangwon",
+    "logo": "gangwon-taebaek"
+  },
+  {
+    "id": "gangwon-wonju",
+    "name": "원주시",
+    "short_name": "원주시",
+    "en_name": "Wonju City",
+    "en_short": "WONJU",
+    "type": "시",
+    "parent": "gangwon",
+    "logo": "gangwon-wonju"
+  },
+  {
+    "id": "gyeonggi-suwon",
+    "name": "수원시",
+    "short_name": "수원시",
+    "en_name": "Suwon City",
+    "en_short": "SUWON",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-suwon"
+  },
+  {
+    "id": "gyeonggi-seongnam",
+    "name": "성남시",
+    "short_name": "성남시",
+    "en_name": "Seongnam City",
+    "en_short": "SEONGNAM",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-seongnam"
+  },
+  {
+    "id": "gyeonggi-uijeongbu",
+    "name": "의정부시",
+    "short_name": "의정부시",
+    "en_name": "Uijeongbu City",
+    "en_short": "UIJEONGBU",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-uijeongbu"
+  },
+  {
+    "id": "gyeonggi-anyang",
+    "name": "안양시",
+    "short_name": "안양시",
+    "en_name": "Anyang City",
+    "en_short": "ANYANG",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-anyang"
+  },
+  {
+    "id": "gyeonggi-bucheon",
+    "name": "부천시",
+    "short_name": "부천시",
+    "en_name": "Bucheon City",
+    "en_short": "BUCHEON",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-bucheon"
+  },
+  {
+    "id": "gyeonggi-gwangmyeong",
+    "name": "광명시",
+    "short_name": "광명시",
+    "en_name": "Gwangmyeong City",
+    "en_short": "GWANGMYEONG",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-gwangmyeong"
+  },
+  {
+    "id": "gyeonggi-pyeongtaek",
+    "name": "평택시",
+    "short_name": "평택시",
+    "en_name": "Pyeongtaek City",
+    "en_short": "PYEONGTAEK",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-pyeongtaek"
+  },
+  {
+    "id": "gyeonggi-dongducheon",
+    "name": "동두천시",
+    "short_name": "동두천시",
+    "en_name": "Dongducheon City",
+    "en_short": "DONGDUCHEON",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-dongducheon"
+  },
+  {
+    "id": "gyeonggi-ansan",
+    "name": "안산시",
+    "short_name": "안산시",
+    "en_name": "Ansan City",
+    "en_short": "ANSAN",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-ansan"
+  },
+  {
+    "id": "gyeonggi-goyang",
+    "name": "고양시",
+    "short_name": "고양시",
+    "en_name": "Goyang City",
+    "en_short": "GOYANG",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-goyang"
+  },
+  {
+    "id": "gyeonggi-gwacheon",
+    "name": "과천시",
+    "short_name": "과천시",
+    "en_name": "Gwacheon City",
+    "en_short": "GWACHEON",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-gwacheon"
+  },
+  {
+    "id": "gyeonggi-guri",
+    "name": "구리시",
+    "short_name": "구리시",
+    "en_name": "Guri City",
+    "en_short": "GURI",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-guri"
+  },
+  {
+    "id": "gyeonggi-namyangju",
+    "name": "남양주시",
+    "short_name": "남양주시",
+    "en_name": "Namyangju City",
+    "en_short": "NAMYANGJU",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-namyangju"
+  },
+  {
+    "id": "gyeonggi-osan",
+    "name": "오산시",
+    "short_name": "오산시",
+    "en_name": "Osan City",
+    "en_short": "OSAN",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-osan"
+  },
+  {
+    "id": "gyeonggi-siheung",
+    "name": "시흥시",
+    "short_name": "시흥시",
+    "en_name": "Siheung City",
+    "en_short": "SIHEUNG",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-siheung"
+  },
+  {
+    "id": "gyeonggi-gunpo",
+    "name": "군포시",
+    "short_name": "군포시",
+    "en_name": "Gunpo City",
+    "en_short": "GUNPO",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-gunpo"
+  },
+  {
+    "id": "gyeonggi-uiwang",
+    "name": "의왕시",
+    "short_name": "의왕시",
+    "en_name": "Uiwang City",
+    "en_short": "UIWANG",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-uiwang"
+  },
+  {
+    "id": "gyeonggi-hanam",
+    "name": "하남시",
+    "short_name": "하남시",
+    "en_name": "Hanam City",
+    "en_short": "HANAM",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-hanam"
+  },
+  {
+    "id": "gyeonggi-yongin",
+    "name": "용인시",
+    "short_name": "용인시",
+    "en_name": "Yongin City",
+    "en_short": "YONGIN",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-yongin"
+  },
+  {
+    "id": "gyeonggi-paju",
+    "name": "파주시",
+    "short_name": "파주시",
+    "en_name": "Paju City",
+    "en_short": "PAJU",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-paju"
+  },
+  {
+    "id": "gyeonggi-icheon",
+    "name": "이천시",
+    "short_name": "이천시",
+    "en_name": "Icheon City",
+    "en_short": "ICHEON",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-icheon"
+  },
+  {
+    "id": "gyeonggi-anseong",
+    "name": "안성시",
+    "short_name": "안성시",
+    "en_name": "Anseong City",
+    "en_short": "ANSEONG",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-anseong"
+  },
+  {
+    "id": "gyeonggi-gimpo",
+    "name": "김포시",
+    "short_name": "김포시",
+    "en_name": "Gimpo City",
+    "en_short": "GIMPO",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-gimpo"
+  },
+  {
+    "id": "gyeonggi-hwaseong",
+    "name": "화성시",
+    "short_name": "화성시",
+    "en_name": "Hwaseong City",
+    "en_short": "HWASEONG",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-hwaseong"
+  },
+  {
+    "id": "gyeonggi-gwangju",
+    "name": "광주시",
+    "short_name": "광주시",
+    "en_name": "Gwangju City",
+    "en_short": "GWANGJU",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-gwangju"
+  },
+  {
+    "id": "gyeonggi-yangju",
+    "name": "양주시",
+    "short_name": "양주시",
+    "en_name": "Yangju City",
+    "en_short": "YANGJU",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-yangju"
+  },
+  {
+    "id": "gyeonggi-pocheon",
+    "name": "포천시",
+    "short_name": "포천시",
+    "en_name": "Pocheon City",
+    "en_short": "POCHEON",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-pocheon"
+  },
+  {
+    "id": "gyeonggi-yeoju",
+    "name": "여주시",
+    "short_name": "여주시",
+    "en_name": "Yeoju City",
+    "en_short": "YEOJU",
+    "type": "시",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-yeoju"
+  },
+  {
+    "id": "chungbuk-cheongju",
+    "name": "청주시",
+    "short_name": "청주시",
+    "en_name": "Cheongju City",
+    "en_short": "CHEONGJU",
+    "type": "시",
+    "parent": "chungbuk",
+    "logo": "chungbuk-cheongju"
+  },
+  {
+    "id": "chungbuk-chungju",
+    "name": "충주시",
+    "short_name": "충주시",
+    "en_name": "Chungju City",
+    "en_short": "CHUNGJU",
+    "type": "시",
+    "parent": "chungbuk",
+    "logo": "chungbuk-chungju"
+  },
+  {
+    "id": "chungbuk-jecheon",
+    "name": "제천시",
+    "short_name": "제천시",
+    "en_name": "Jecheon City",
+    "en_short": "JECHEON",
+    "type": "시",
+    "parent": "chungbuk",
+    "logo": "chungbuk-jecheon"
+  },
+  {
+    "id": "gyeongbuk-pohang",
+    "name": "포항시",
+    "short_name": "포항시",
+    "en_name": "Pohang City",
+    "en_short": "POHANG",
+    "type": "시",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-pohang"
+  },
+  {
+    "id": "gyeongbuk-gyeongju",
+    "name": "경주시",
+    "short_name": "경주시",
+    "en_name": "Gyeongju City",
+    "en_short": "GYEONGJU",
+    "type": "시",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-gyeongju"
+  },
+  {
+    "id": "gyeongbuk-gimcheon",
+    "name": "김천시",
+    "short_name": "김천시",
+    "en_name": "Gimcheon City",
+    "en_short": "GIMCHEON",
+    "type": "시",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-gimcheon"
+  },
+  {
+    "id": "gyeongbuk-andong",
+    "name": "안동시",
+    "short_name": "안동시",
+    "en_name": "Andong City",
+    "en_short": "ANDONG",
+    "type": "시",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-andong"
+  },
+  {
+    "id": "gyeongbuk-gumi",
+    "name": "구미시",
+    "short_name": "구미시",
+    "en_name": "Gumi City",
+    "en_short": "GUMI",
+    "type": "시",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-gumi"
+  },
+  {
+    "id": "gyeongbuk-yeongju",
+    "name": "영주시",
+    "short_name": "영주시",
+    "en_name": "Yeongju City",
+    "en_short": "YEONGJU",
+    "type": "시",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-yeongju"
+  },
+  {
+    "id": "gyeongbuk-yeongcheon",
+    "name": "영천시",
+    "short_name": "영천시",
+    "en_name": "Yeongcheon City",
+    "en_short": "YEONGCHEON",
+    "type": "시",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-yeongcheon"
+  },
+  {
+    "id": "gyeongbuk-sangju",
+    "name": "상주시",
+    "short_name": "상주시",
+    "en_name": "Sangju City",
+    "en_short": "SANGJU",
+    "type": "시",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-sangju"
+  },
+  {
+    "id": "gyeongbuk-mungyeong",
+    "name": "문경시",
+    "short_name": "문경시",
+    "en_name": "Mungyeong City",
+    "en_short": "MUNGYEONG",
+    "type": "시",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-mungyeong"
+  },
+  {
+    "id": "gyeongbuk-gyeongsan",
+    "name": "경산시",
+    "short_name": "경산시",
+    "en_name": "Gyeongsan City",
+    "en_short": "GYEONGSAN",
+    "type": "시",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-gyeongsan"
+  },
+  {
+    "id": "jeonbuk-jeonju",
+    "name": "전주시",
+    "short_name": "전주시",
+    "en_name": "Jeonju City",
+    "en_short": "JEONJU",
+    "type": "시",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-jeonju"
+  },
+  {
+    "id": "jeonbuk-gunsan",
+    "name": "군산시",
+    "short_name": "군산시",
+    "en_name": "Gunsan City",
+    "en_short": "GUNSAN",
+    "type": "시",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-gunsan"
+  },
+  {
+    "id": "jeonbuk-iksan",
+    "name": "익산시",
+    "short_name": "익산시",
+    "en_name": "Iksan City",
+    "en_short": "IKSAN",
+    "type": "시",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-iksan"
+  },
+  {
+    "id": "jeonbuk-jeongeup",
+    "name": "정읍시",
+    "short_name": "정읍시",
+    "en_name": "Jeongeup City",
+    "en_short": "JEONGEUP",
+    "type": "시",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-jeongeup"
+  },
+  {
+    "id": "jeonbuk-namwon",
+    "name": "남원시",
+    "short_name": "남원시",
+    "en_name": "Namwon City",
+    "en_short": "NAMWON",
+    "type": "시",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-namwon"
+  },
+  {
+    "id": "jeonbuk-gimje",
+    "name": "김제시",
+    "short_name": "김제시",
+    "en_name": "Gimje City",
+    "en_short": "GIMJE",
+    "type": "시",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-gimje"
+  },
+  {
+    "id": "chungnam-cheonan",
+    "name": "천안시",
+    "short_name": "천안시",
+    "en_name": "Cheonan City",
+    "en_short": "CHEONAN",
+    "type": "시",
+    "parent": "chungnam",
+    "logo": "chungnam-cheonan"
+  },
+  {
+    "id": "chungnam-gongju",
+    "name": "공주시",
+    "short_name": "공주시",
+    "en_name": "Gongju City",
+    "en_short": "GONGJU",
+    "type": "시",
+    "parent": "chungnam",
+    "logo": "chungnam-gongju"
+  },
+  {
+    "id": "chungnam-boryeong",
+    "name": "보령시",
+    "short_name": "보령시",
+    "en_name": "Boryeong City",
+    "en_short": "BORYEONG",
+    "type": "시",
+    "parent": "chungnam",
+    "logo": "chungnam-boryeong"
+  },
+  {
+    "id": "chungnam-asan",
+    "name": "아산시",
+    "short_name": "아산시",
+    "en_name": "Asan City",
+    "en_short": "ASAN",
+    "type": "시",
+    "parent": "chungnam",
+    "logo": "chungnam-asan"
+  },
+  {
+    "id": "chungnam-seosan",
+    "name": "서산시",
+    "short_name": "서산시",
+    "en_name": "Seosan City",
+    "en_short": "SEOSAN",
+    "type": "시",
+    "parent": "chungnam",
+    "logo": "chungnam-seosan"
+  },
+  {
+    "id": "chungnam-nonsan",
+    "name": "논산시",
+    "short_name": "논산시",
+    "en_name": "Nonsan City",
+    "en_short": "NONSAN",
+    "type": "시",
+    "parent": "chungnam",
+    "logo": "chungnam-nonsan"
+  },
+  {
+    "id": "chungnam-gyeryong",
+    "name": "계룡시",
+    "short_name": "계룡시",
+    "en_name": "Gyeryong City",
+    "en_short": "GYERYONG",
+    "type": "시",
+    "parent": "chungnam",
+    "logo": "chungnam-gyeryong"
+  },
+  {
+    "id": "chungnam-dangjin",
+    "name": "당진시",
+    "short_name": "당진시",
+    "en_name": "Dangjin City",
+    "en_short": "DANGJIN",
+    "type": "시",
+    "parent": "chungnam",
+    "logo": "chungnam-dangjin"
+  },
+  {
+    "id": "gyeongnam-changwon",
+    "name": "창원시",
+    "short_name": "창원시",
+    "en_name": "Changwon City",
+    "en_short": "CHANGWON",
+    "type": "시",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-changwon"
+  },
+  {
+    "id": "gyeongnam-jinju",
+    "name": "진주시",
+    "short_name": "진주시",
+    "en_name": "Jinju City",
+    "en_short": "JINJU",
+    "type": "시",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-jinju"
+  },
+  {
+    "id": "gyeongnam-tongyeong",
+    "name": "통영시",
+    "short_name": "통영시",
+    "en_name": "Tongyeong City",
+    "en_short": "TONGYEONG",
+    "type": "시",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-tongyeong"
+  },
+  {
+    "id": "gyeongnam-sacheon",
+    "name": "사천시",
+    "short_name": "사천시",
+    "en_name": "Sacheon City",
+    "en_short": "SACHEON",
+    "type": "시",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-sacheon"
+  },
+  {
+    "id": "gyeongnam-gimhae",
+    "name": "김해시",
+    "short_name": "김해시",
+    "en_name": "Gimhae City",
+    "en_short": "GIMHAE",
+    "type": "시",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-gimhae"
+  },
+  {
+    "id": "gyeongnam-miryang",
+    "name": "밀양시",
+    "short_name": "밀양시",
+    "en_name": "Miryang City",
+    "en_short": "MIRYANG",
+    "type": "시",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-miryang"
+  },
+  {
+    "id": "gyeongnam-geoje",
+    "name": "거제시",
+    "short_name": "거제시",
+    "en_name": "Geoje City",
+    "en_short": "GEOJE",
+    "type": "시",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-geoje"
+  },
+  {
+    "id": "gyeongnam-yangsan",
+    "name": "양산시",
+    "short_name": "양산시",
+    "en_name": "Yangsan City",
+    "en_short": "YANGSAN",
+    "type": "시",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-yangsan"
+  },
+  {
+    "id": "jeonnam-gwangju-mokpo",
+    "name": "목포시",
+    "short_name": "목포시",
+    "en_name": "Mokpo City",
+    "en_short": "MOKPO",
+    "type": "시",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-mokpo"
+  },
+  {
+    "id": "jeonnam-gwangju-yeosu",
+    "name": "여수시",
+    "short_name": "여수시",
+    "en_name": "Yeosu City",
+    "en_short": "YEOSU",
+    "type": "시",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-yeosu"
+  },
+  {
+    "id": "jeonnam-gwangju-suncheon",
+    "name": "순천시",
+    "short_name": "순천시",
+    "en_name": "Suncheon City",
+    "en_short": "SUNCHEON",
+    "type": "시",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-suncheon"
+  },
+  {
+    "id": "jeonnam-gwangju-naju",
+    "name": "나주시",
+    "short_name": "나주시",
+    "en_name": "Naju City",
+    "en_short": "NAJU",
+    "type": "시",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-naju"
+  },
+  {
+    "id": "jeonnam-gwangju-gwangyang",
+    "name": "광양시",
+    "short_name": "광양시",
+    "en_name": "Gwangyang City",
+    "en_short": "GWANGYANG",
+    "type": "시",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-gwangyang"
   }
 ]

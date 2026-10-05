@@ -1,6 +1,6 @@
 # Korea Gov Badge (대한민국 정부 기관 배지)
 
-대한민국 중앙행정기관(19부·처·청·위원회 등 52개 기관)을 위한 SVG 배지 모음입니다. 공공 소프트웨어, 정부 R&D 과제, 공공데이터 연계 프로젝트, [전자정부 표준프레임워크(eGovFrame)](https://github.com/leejongyoung/egovframe-badge) 기반 시스템 등의 README에서 소관 부처 및 기관을 명확하게 표시할 수 있습니다.
+대한민국 중앙행정기관과 지방자치단체를 위한 SVG 배지 모음입니다. 공공 소프트웨어, 정부 R&D 과제, 공공데이터 연계 프로젝트, [전자정부 표준프레임워크(eGovFrame)](https://github.com/leejongyoung/egovframe-badge) 기반 시스템 등의 README에서 소관 부처 및 기관을 명확하게 표시할 수 있습니다.
 
 별도의 배포 서버나 JavaScript 없이 GitHub raw URL 한 줄로 즉시 임베드할 수 있는 자립형(self-contained) 정적 SVG입니다.
 
@@ -24,10 +24,16 @@
 
 ## 한 줄로 사용
 
-원하는 기관의 식별자 ID(`mois`, `mnd`, `knpa`, `kasa`, `cio`, `ppo`, `scia` 등) 또는 한글 기관명(`행정안전부`, `국방부`, `경찰청`, `우주항공청`, `고위공직자범죄수사처` 등)과 스타일을 URL 경로에서 선택합니다.
+원하는 기관의 식별자 ID(`mois`, `mnd`, `knpa`, `kasa`, `cio`, `ppo`, `scia`, `gyeonggi-suwon` 등) 또는 한글 기관명(`행정안전부`, `국방부`, `경찰청`, `우주항공청`, `고위공직자범죄수사처` 등)과 스타일을 URL 경로에서 선택합니다.
 
 ```md
 [![우주항공청 KASA](https://raw.githubusercontent.com/leejongyoung/korea-gov-badge/main/badges/kasa/flat.svg)](https://www.kasa.go.kr)
+```
+
+시 배지도 같은 방식으로 사용할 수 있습니다.
+
+```md
+![수원시 배지](https://raw.githubusercontent.com/leejongyoung/korea-gov-badge/main/badges/gyeonggi-suwon/flat.svg)
 ```
 
 한글 기관명 폴더 경로도 100% 동일하게 지원합니다:
@@ -97,7 +103,7 @@ python3 scripts/generate.py --agency cio --label-color "#ffffff" --text-color "#
 | 카탈로그 | 대상 기관 | 기관 수 | 바로가기 |
 | :--- | :--- | :---: | :--- |
 | **대한민국 중앙행정기관** | 19부, 처, 21청, 6위원회, 감사원, 국가정보원 | 55개 | [중앙행정기관 카탈로그 바로가기 →](docs/central-gov.md) |
-| **지방자치단체** | 광역 17개 시·도 + 서울 자치구 25개(기초단체는 진행 중) | 42개 | [지방자치단체 카탈로그 바로가기 →](docs/local-gov.md) |
+| **지방자치단체** | 광역 기록 17개(현행화 [#9](https://github.com/leejongyoung/korea-gov-badge/issues/9)) + 서울 자치구 25개 + 시 75개 | 117개 | [지방자치단체 카탈로그 바로가기 →](docs/local-gov.md) |
 | **공기업 및 공공기관** | 한국전력, 코레일, LH, NIA, KISA 등 주요 공기업·준정부기관 | 35개+ | [공기업·공공기관 카탈로그 바로가기 →](docs/public-enterprises.md) |
 
 ### 주요 대표 기관 배지 예시
@@ -120,7 +126,7 @@ python3 scripts/generate.py --agency cio --label-color "#ffffff" --text-color "#
 새로운 기관 추가나 배지 스타일 수정 시 아래 명령어를 통해 배지를 재빌드하고 무결성을 검증할 수 있습니다.
 
 ```sh
-# 1. 97개 기관 배지 생성 (컬러 테마 프리셋 포함 7,800개)
+# 1. 172개 기관 배지 생성 (컬러 테마 프리셋 포함 13,800개)
 python3 scripts/generate.py
 
 # 2. 단위 테스트 실행 (데이터 무결성, SVG 유효성, 커스텀 색상 검증)
