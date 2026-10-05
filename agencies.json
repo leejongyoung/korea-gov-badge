@@ -397,7 +397,7 @@
     "en_short": "KASA",
     "type": "청",
     "homepage": "https://www.kasa.go.kr",
-    "logo": "gov"
+    "logo": "kasa"
   },
   {
     "id": "oka",
@@ -538,5 +538,15 @@
     "type": "청",
     "homepage": "https://www.mois.go.kr",
     "logo": "gov"
+  },
+  {
+    "id": "cio",
+    "name": "고위공직자범죄수사처",
+    "short_name": "공수처",
+    "en_name": "Corruption Investigation Office for High-ranking Officials",
+    "en_short": "CIO",
+    "type": "처",
+    "homepage": "https://www.cio.go.kr",
+    "logo": "cio"
   }
 ]

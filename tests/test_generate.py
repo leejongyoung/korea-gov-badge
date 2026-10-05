@@ -20,7 +20,7 @@ class KoreaGovBadgeTests(unittest.TestCase):
 
         # Check key agencies
         agency_ids = {a["id"] for a in agencies}
-        for expected in ("mois", "msit", "moef", "molit", "pps", "nts", "fsc", "mnd", "knpa", "nis", "ppo", "scia", "spo-legacy"):
+        for expected in ("mois", "msit", "moef", "molit", "pps", "nts", "fsc", "mnd", "knpa", "nis", "ppo", "scia", "spo-legacy", "cio", "kasa"):
             self.assertIn(expected, agency_ids)
 
         # Verify custom logo agencies
@@ -33,6 +33,8 @@ class KoreaGovBadgeTests(unittest.TestCase):
         self.assertEqual(agency_map["spo-legacy"]["logo"], "spo")
         self.assertEqual(agency_map["president"]["logo"], "president")
         self.assertEqual(agency_map["bai"]["logo"], "bai")
+        self.assertEqual(agency_map["kasa"]["logo"], "kasa")
+        self.assertEqual(agency_map["cio"]["logo"], "cio")
         self.assertEqual(agency_map["ppo"]["logo"], "gov")
         self.assertEqual(agency_map["scia"]["logo"], "gov")
         self.assertEqual(agency_map["mois"]["logo"], "gov")
@@ -41,7 +43,7 @@ class KoreaGovBadgeTests(unittest.TestCase):
         logos = generate.load_logos()
         sample_agencies = [
             a for a in generate.load_agencies()
-            if a["id"] in ("mois", "mnd", "knpa", "nis", "ppo", "scia", "spo-legacy")
+            if a["id"] in ("mois", "mnd", "knpa", "nis", "ppo", "scia", "spo-legacy", "cio", "kasa")
         ]
 
         for agency in sample_agencies:

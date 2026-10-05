@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200.0" height="20" viewBox="0 0 200.0 20" role="img" aria-label="고위공직자범죄수사처 CIO">
+<title>고위공직자범죄수사처 CIO (flat)</title>
+<defs><clipPath id="badge-shape"><rect width="200.0" height="20" rx="4"/></clipPath></defs>
+<g clip-path="url(#badge-shape)">
+<rect width="200.0" height="20" rx="4" fill="#ffffff"/>
+<path d="M152.0 0h48v20h-48z" fill="#57606a"/>
+</g>
+<rect x="0.5" y="0.5" width="199.0" height="19" rx="4" fill="none" stroke="#d0d7de"/>
+<g transform="translate(6.000 6.173) scale(0.123457)"><path d="m 4.9181,0 v 20.603 c 11.889,5.97 24.95,10.449 38.734,13.324 2.817,0.588 4.849,3.049 4.849,5.927 v 21.624 h 28.369 V 31.84 c 0,-6.673 -5.058,-12.298 -11.703,-12.912 C 42.8831,16.869 22.1151,10.356 4.9181,0" /><path fill="#00a1e9" d="m 156.26,0 v 20.603 c -11.89,5.97 -24.95,10.449 -38.734,13.324 -2.817,0.588 -4.849,3.049 -4.849,5.927 V 61.478 H 84.308 V 31.84 c 0,-6.673 5.058,-12.298 11.704,-12.912 C 118.295,16.869 139.063,10.356 156.26,0" /></g>
+<text x="32.0" y="14" fill="#003764" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif" font-size="11" font-weight="600">고위공직자범죄수사처</text>
+<text x="176" y="14" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">CIO</text>
+</svg>
