@@ -12,16 +12,29 @@ spec.loader.exec_module(generate)
 class KoreaGovBadgeTests(unittest.TestCase):
     def test_agency_data_integrity(self):
         agencies = generate.load_agencies()
-        self.assertGreaterEqual(len(agencies), 50)
+        self.assertGreaterEqual(len(agencies), 72)
 
         # Verify 19 ministries (부) exist
         ministries = [a for a in agencies if a.get("type") == "부"]
         self.assertEqual(len(ministries), 19)
 
+        # Verify 17 metropolitan local governments exist
+        local_govs = [a for a in agencies if a.get("type") == "광역자치단체"]
+        self.assertEqual(len(local_govs), 17)
+
         # Check key agencies
         agency_ids = {a["id"] for a in agencies}
         for expected in ("mois", "msit", "moef", "molit", "pps", "nts", "fsc", "mnd", "knpa", "nis", "ppo", "scia", "spo-legacy", "cio", "kasa"):
             self.assertIn(expected, agency_ids)
+
+        # Check local government IDs
+        local_ids = {
+            "seoul", "busan", "daegu", "incheon", "gwangju", "daejeon", "ulsan",
+            "sejong", "gyeonggi", "gangwon", "chungbuk", "chungnam", "jeonbuk",
+            "jeonnam", "gyeongbuk", "gyeongnam", "jeju"
+        }
+        for lid in local_ids:
+            self.assertIn(lid, agency_ids)
 
         # Verify custom logo agencies
         agency_map = {a["id"]: a for a in agencies}
@@ -38,6 +51,10 @@ class KoreaGovBadgeTests(unittest.TestCase):
         self.assertEqual(agency_map["ppo"]["logo"], "gov")
         self.assertEqual(agency_map["scia"]["logo"], "gov")
         self.assertEqual(agency_map["mois"]["logo"], "gov")
+
+        # Verify all local governments have their dedicated logo
+        for lid in local_ids:
+            self.assertEqual(agency_map[lid]["logo"], lid)
 
     def test_badges_are_valid_accessible_svg(self):
         logos = generate.load_logos()

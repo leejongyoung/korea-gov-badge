@@ -8,25 +8,25 @@
 
 ## 1. 17개 광역지방자치단체 목록
 
-| 지자체명 | 영문 명칭 | 영문 약칭 / Slug | 구분 | 관할 구역 |
-| :--- | :--- | :---: | :---: | :--- |
-| **서울특별시** | Seoul Metropolitan Government | `seoul` | 특별시 | 25개 자치구 |
-| **부산광역시** | Busan Metropolitan City | `busan` | 광역시 | 15개 자치구, 1개 군 |
-| **대구광역시** | Daegu Metropolitan City | `daegu` | 광역시 | 8개 자치구, 1개 군 |
-| **인천광역시** | Incheon Metropolitan City | `incheon` | 광역시 | 8개 자치구, 2개 군 |
-| **광주광역시** | Gwangju Metropolitan City | `gwangju` | 광역시 | 5개 자치구 |
-| **대전광역시** | Daejeon Metropolitan City | `daejeon` | 광역시 | 5개 자치구 |
-| **울산광역시** | Ulsan Metropolitan City | `ulsan` | 광역시 | 4개 자치구, 1개 군 |
-| **세종특별자치시** | Sejong Special Self-Governing City | `sejong` | 특별자치시 | 단층제 (읍·면·동) |
-| **경기도** | Gyeonggi-do | `gyeonggi` | 도 | 28개 시, 3개 군 |
-| **강원특별자치도** | Gangwon State | `gangwon` | 특별자치도 | 7개 시, 11개 군 |
-| **충청북도** | Chungcheongbuk-do | `chungbuk` | 도 | 3개 시, 8개 군 |
-| **충청남도** | Chungcheongnam-do | `chungnam` | 도 | 8개 시, 7개 군 |
-| **전북특별자치도** | Jeonbuk State | `jeonbuk` | 특별자치도 | 6개 시, 8개 군 |
-| **전라남도** | Jeollanam-do | `jeonnam` | 도 | 5개 시, 17개 군 |
-| **경상북도** | Gyeongsangbuk-do | `gyeongbuk` | 도 | 10개 시, 12개 군 |
-| **경상남도** | Gyeongsangnam-do | `gyeongnam` | 도 | 8개 시, 10개 군 |
-| **제주특별자치도** | Jeju Special Self-Governing Province | `jeju` | 특별자치도 | 2개 행정시 (제주시, 서귀포시) |
+| 지자체명 | 구분 | 영문 명칭 | 영문 약칭 | 식별자 (Slug) | 배지 미리보기 (`flat.svg`) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **서울특별시** | 특별시 | Seoul Metropolitan Government | SEOUL | `seoul` | ![seoul](../badges/seoul/flat.svg) |
+| **부산광역시** | 광역시 | Busan Metropolitan City | BUSAN | `busan` | ![busan](../badges/busan/flat.svg) |
+| **대구광역시** | 광역시 | Daegu Metropolitan City | DAEGU | `daegu` | ![daegu](../badges/daegu/flat.svg) |
+| **인천광역시** | 광역시 | Incheon Metropolitan City | INCHEON | `incheon` | ![incheon](../badges/incheon/flat.svg) |
+| **광주광역시** | 광역시 | Gwangju Metropolitan City | GWANGJU | `gwangju` | ![gwangju](../badges/gwangju/flat.svg) |
+| **대전광역시** | 광역시 | Daejeon Metropolitan City | DAEJEON | `daejeon` | ![daejeon](../badges/daejeon/flat.svg) |
+| **울산광역시** | 광역시 | Ulsan Metropolitan City | ULSAN | `ulsan` | ![ulsan](../badges/ulsan/flat.svg) |
+| **세종특별자치시** | 특별자치시 | Sejong Special Self-Governing City | SEJONG | `sejong` | ![sejong](../badges/sejong/flat.svg) |
+| **경기도** | 도 | Gyeonggi-do | GYEONGGI | `gyeonggi` | ![gyeonggi](../badges/gyeonggi/flat.svg) |
+| **강원특별자치도** | 특별자치도 | Gangwon State | GANGWON | `gangwon` | ![gangwon](../badges/gangwon/flat.svg) |
+| **충청북도** | 도 | Chungcheongbuk-do | CHUNGBUK | `chungbuk` | ![chungbuk](../badges/chungbuk/flat.svg) |
+| **충청남도** | 도 | Chungcheongnam-do | CHUNGNAM | `chungnam` | ![chungnam](../badges/chungnam/flat.svg) |
+| **전북특별자치도** | 특별자치도 | Jeonbuk State | JEONBUK | `jeonbuk` | ![jeonbuk](../badges/jeonbuk/flat.svg) |
+| **전라남도** | 도 | Jeollanam-do | JEONNAM | `jeonnam` | ![jeonnam](../badges/jeonnam/flat.svg) |
+| **경상북도** | 도 | Gyeongsangbuk-do | GYEONGBUK | `gyeongbuk` | ![gyeongbuk](../badges/gyeongbuk/flat.svg) |
+| **경상남도** | 도 | Gyeongsangnam-do | GYEONGNAM | `gyeongnam` | ![gyeongnam](../badges/gyeongnam/flat.svg) |
+| **제주특별자치도** | 특별자치도 | Jeju Special Self-Governing Province | JEJU | `jeju` | ![jeju](../badges/jeju/flat.svg) |
 
 ---
 

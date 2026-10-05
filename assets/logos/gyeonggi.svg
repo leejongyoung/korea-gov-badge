@@ -1,0 +1,29 @@
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" viewBox="0 0 850.00012 311.45306" version="1.1" id="svg42" ns1:docname="Flag_of_Gyeonggi_Province_(2021).svg" width="850.00012" height="311.45306" ns2:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <ns0:metadata id="metadata48">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </ns4:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:defs id="defs46" />
+  <ns1:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" ns2:pageopacity="0" ns2:pageshadow="2" ns2:window-width="1920" ns2:window-height="1018" id="namedview44" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" ns2:zoom="0.59501726" ns2:cx="309.56772" ns2:cy="-80.474616" ns2:window-x="-8" ns2:window-y="-8" ns2:window-maximized="1" ns2:current-layer="g40" />
+  <ns0:g id="g40" transform="translate(-250,-199.99995)">
+    <ns0:g id="g22">
+      <ns0:path d="M 800.53212,287.16897 H 543.65156 v -87.16902 h 256.88056 z" id="path4" ns2:connector-curvature="0" style="fill:#02983b" />
+      <ns0:g id="g8">
+        <ns0:path d="M 0,0 -120.083,-62.198 V -13.78 L 14.229,55.071 V 24.779 C 14.229,14.559 9.83,5.088 0,0" transform="matrix(1.91257,0,0,-1.91257,773.318,392.495)" id="path6" ns2:connector-curvature="0" style="fill:#004097" />
+      </ns0:g>
+      <ns0:path d="M 1099.9998,287.16897 H 837.3012 v -87.16902 h 262.6986 z" id="path10" ns2:connector-curvature="0" style="fill:#02983b" />
+      <ns0:path d="M 506.87865,287.16897 H 250 v -87.16902 h 256.87865 z" id="path12" ns2:connector-curvature="0" style="fill:#02983b" />
+      <ns0:g id="g16">
+        <ns0:path d="M 0,0 -120.087,-62.198 V -13.78 L 14.224,55.071 V 24.779 C 14.224,14.559 9.819,5.088 0,0" transform="matrix(1.91257,0,0,-1.91257,479.675,392.495)" id="path14" ns2:connector-curvature="0" style="fill:#004097" />
+      </ns0:g>
+      <ns0:g id="g20">
+        <ns0:path d="M 0,0 V -23.377 C 0,-35.639 9.942,-45.579 22.206,-45.579 H 137.354 V 0 Z" transform="matrix(1.91257,0,0,-1.91257,837.301,363.353)" id="path18" ns2:connector-curvature="0" style="fill:#004097" />
+      </ns0:g>
+    </ns0:g>
+  </ns0:g>
+</ns0:svg>

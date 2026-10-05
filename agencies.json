@@ -548,5 +548,175 @@
     "type": "처",
     "homepage": "https://www.cio.go.kr",
     "logo": "cio"
+  },
+  {
+    "id": "seoul",
+    "name": "서울특별시",
+    "short_name": "서울시",
+    "en_name": "Seoul Metropolitan Government",
+    "en_short": "SEOUL",
+    "type": "광역자치단체",
+    "homepage": "https://www.seoul.go.kr",
+    "logo": "seoul"
+  },
+  {
+    "id": "busan",
+    "name": "부산광역시",
+    "short_name": "부산시",
+    "en_name": "Busan Metropolitan City",
+    "en_short": "BUSAN",
+    "type": "광역자치단체",
+    "homepage": "https://www.busan.go.kr",
+    "logo": "busan"
+  },
+  {
+    "id": "daegu",
+    "name": "대구광역시",
+    "short_name": "대구시",
+    "en_name": "Daegu Metropolitan City",
+    "en_short": "DAEGU",
+    "type": "광역자치단체",
+    "homepage": "https://www.daegu.go.kr",
+    "logo": "daegu"
+  },
+  {
+    "id": "incheon",
+    "name": "인천광역시",
+    "short_name": "인천시",
+    "en_name": "Incheon Metropolitan City",
+    "en_short": "INCHEON",
+    "type": "광역자치단체",
+    "homepage": "https://www.incheon.go.kr",
+    "logo": "incheon"
+  },
+  {
+    "id": "gwangju",
+    "name": "광주광역시",
+    "short_name": "광주시",
+    "en_name": "Gwangju Metropolitan City",
+    "en_short": "GWANGJU",
+    "type": "광역자치단체",
+    "homepage": "https://www.gwangju.go.kr",
+    "logo": "gwangju"
+  },
+  {
+    "id": "daejeon",
+    "name": "대전광역시",
+    "short_name": "대전시",
+    "en_name": "Daejeon Metropolitan City",
+    "en_short": "DAEJEON",
+    "type": "광역자치단체",
+    "homepage": "https://www.daejeon.go.kr",
+    "logo": "daejeon"
+  },
+  {
+    "id": "ulsan",
+    "name": "울산광역시",
+    "short_name": "울산시",
+    "en_name": "Ulsan Metropolitan City",
+    "en_short": "ULSAN",
+    "type": "광역자치단체",
+    "homepage": "https://www.ulsan.go.kr",
+    "logo": "ulsan"
+  },
+  {
+    "id": "sejong",
+    "name": "세종특별자치시",
+    "short_name": "세종시",
+    "en_name": "Sejong Special Self-Governing City",
+    "en_short": "SEJONG",
+    "type": "광역자치단체",
+    "homepage": "https://www.sejong.go.kr",
+    "logo": "sejong"
+  },
+  {
+    "id": "gyeonggi",
+    "name": "경기도",
+    "short_name": "경기도",
+    "en_name": "Gyeonggi-do",
+    "en_short": "GYEONGGI",
+    "type": "광역자치단체",
+    "homepage": "https://www.gg.go.kr",
+    "logo": "gyeonggi"
+  },
+  {
+    "id": "gangwon",
+    "name": "강원특별자치도",
+    "short_name": "강원도",
+    "en_name": "Gangwon State",
+    "en_short": "GANGWON",
+    "type": "광역자치단체",
+    "homepage": "https://state.gangwon.kr",
+    "logo": "gangwon"
+  },
+  {
+    "id": "chungbuk",
+    "name": "충청북도",
+    "short_name": "충북도",
+    "en_name": "Chungcheongbuk-do",
+    "en_short": "CHUNGBUK",
+    "type": "광역자치단체",
+    "homepage": "https://www.chungbuk.go.kr",
+    "logo": "chungbuk"
+  },
+  {
+    "id": "chungnam",
+    "name": "충청남도",
+    "short_name": "충남도",
+    "en_name": "Chungcheongnam-do",
+    "en_short": "CHUNGNAM",
+    "type": "광역자치단체",
+    "homepage": "https://www.chungnam.go.kr",
+    "logo": "chungnam"
+  },
+  {
+    "id": "jeonbuk",
+    "name": "전북특별자치도",
+    "short_name": "전북도",
+    "en_name": "Jeonbuk State",
+    "en_short": "JEONBUK",
+    "type": "광역자치단체",
+    "homepage": "https://www.jeonbuk.go.kr",
+    "logo": "jeonbuk"
+  },
+  {
+    "id": "jeonnam",
+    "name": "전라남도",
+    "short_name": "전남도",
+    "en_name": "Jeollanam-do",
+    "en_short": "JEONNAM",
+    "type": "광역자치단체",
+    "homepage": "https://www.jeonnam.go.kr",
+    "logo": "jeonnam"
+  },
+  {
+    "id": "gyeongbuk",
+    "name": "경상북도",
+    "short_name": "경북도",
+    "en_name": "Gyeongsangbuk-do",
+    "en_short": "GYEONGBUK",
+    "type": "광역자치단체",
+    "homepage": "https://www.gb.go.kr",
+    "logo": "gyeongbuk"
+  },
+  {
+    "id": "gyeongnam",
+    "name": "경상남도",
+    "short_name": "경남도",
+    "en_name": "Gyeongsangnam-do",
+    "en_short": "GYEONGNAM",
+    "type": "광역자치단체",
+    "homepage": "https://www.gyeongnam.go.kr",
+    "logo": "gyeongnam"
+  },
+  {
+    "id": "jeju",
+    "name": "제주특별자치도",
+    "short_name": "제주도",
+    "en_name": "Jeju Special Self-Governing Province",
+    "en_short": "JEJU",
+    "type": "광역자치단체",
+    "homepage": "https://www.jeju.go.kr",
+    "logo": "jeju"
   }
 ]

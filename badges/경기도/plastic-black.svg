@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="167.7" height="20" viewBox="0 0 167.7 20" role="img" aria-label="경기도 GYEONGGI">
+<title>경기도 GYEONGGI (plastic)</title>
+<defs><clipPath id="badge-shape"><rect width="167.7" height="20" rx="4"/></clipPath></defs>
+<g clip-path="url(#badge-shape)">
+<rect width="167.7" height="20" rx="4" fill="#ffffff"/>
+<path d="M83.7 0h84v20h-84z" fill="#24292f"/>
+<defs><linearGradient id="gloss" x2="0" y2="100%"><stop offset="0" stop-color="#fff" stop-opacity=".7"/><stop offset=".1" stop-color="#aaa" stop-opacity=".1"/><stop offset=".9" stop-color="#000" stop-opacity=".3"/><stop offset="1" stop-color="#000" stop-opacity=".5"/></linearGradient></defs>
+<rect width="167.7" height="20" rx="4" fill="url(#gloss)"/>
+</g>
+<rect x="0.5" y="0.5" width="166.7" height="19" rx="4" fill="none" stroke="#d0d7de"/>
+<g transform="translate(6.000 4.750) scale(0.033713)"><defs id="defs46" />
+  <g xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" id="g40" transform="translate(-250,-199.99995)">
+    <g id="g22">
+      <path d="M 800.53212,287.16897 H 543.65156 v -87.16902 h 256.88056 z" id="path4" ns1:connector-curvature="0" style="fill:#02983b" />
+      <g id="g8">
+        <path d="M 0,0 -120.083,-62.198 V -13.78 L 14.229,55.071 V 24.779 C 14.229,14.559 9.83,5.088 0,0" transform="matrix(1.91257,0,0,-1.91257,773.318,392.495)" id="path6" ns1:connector-curvature="0" style="fill:#004097" />
+      </g>
+      <path d="M 1099.9998,287.16897 H 837.3012 v -87.16902 h 262.6986 z" id="path10" ns1:connector-curvature="0" style="fill:#02983b" />
+      <path d="M 506.87865,287.16897 H 250 v -87.16902 h 256.87865 z" id="path12" ns1:connector-curvature="0" style="fill:#02983b" />
+      <g id="g16">
+        <path d="M 0,0 -120.087,-62.198 V -13.78 L 14.224,55.071 V 24.779 C 14.224,14.559 9.819,5.088 0,0" transform="matrix(1.91257,0,0,-1.91257,479.675,392.495)" id="path14" ns1:connector-curvature="0" style="fill:#004097" />
+      </g>
+      <g id="g20">
+        <path d="M 0,0 V -23.377 C 0,-35.639 9.942,-45.579 22.206,-45.579 H 137.354 V 0 Z" transform="matrix(1.91257,0,0,-1.91257,837.301,363.353)" id="path18" ns1:connector-curvature="0" style="fill:#004097" />
+      </g>
+    </g>
+  </g>
+</g>
+<text x="40.66" y="14" fill="#003764" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif" font-size="11" font-weight="600">경기도</text>
+<text x="125.7" y="14" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">GYEONGGI</text>
+</svg>

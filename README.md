@@ -120,7 +120,7 @@ python3 scripts/generate.py --agency cio --label-color "#ffffff" --text-color "#
 새로운 기관 추가나 배지 스타일 수정 시 아래 명령어를 통해 배지를 재빌드하고 무결성을 검증할 수 있습니다.
 
 ```sh
-# 1. 55개 기관 배지 생성 (컬러 테마 프리셋 포함 4,480개)
+# 1. 72개 기관 배지 생성 (컬러 테마 프리셋 포함 5,800개)
 python3 scripts/generate.py
 
 # 2. 단위 테스트 실행 (데이터 무결성, SVG 유효성, 커스텀 색상 검증)

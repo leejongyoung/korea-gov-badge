@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164.0" height="20" viewBox="0 0 164.0 20" role="img" aria-label="충청북도 CHUNGBUK">
+<title>충청북도 CHUNGBUK (flat-square)</title>
+<defs><clipPath id="badge-shape"><rect width="164.0" height="20" rx="0"/></clipPath></defs>
+<g clip-path="url(#badge-shape)">
+<rect width="164.0" height="20" rx="0" fill="#ffffff"/>
+<path d="M80.0 0h84v20h-84z" fill="#003764"/>
+</g>
+<rect x="0.5" y="0.5" width="163.0" height="19" rx="0" fill="none" stroke="#003764"/>
+<g transform="translate(6.000 3.000) scale(0.006836)"><g>
+	<g>
+		<polygon fill="#724598" points="1560.676,309.858 1403.614,219.172 1181.072,347.65 1181.072,90.686 1024,0 866.939,90.686     866.939,347.654 644.398,219.176 487.328,309.858 487.328,491.218 709.866,619.7 487.324,748.19 487.324,929.55 644.396,1020.236     1024.002,801.068 1403.611,1020.232 1560.672,929.546 1560.672,748.19 1338.133,619.7 1560.676,491.218   " />
+		<path fill="#00AEBB" d="M801.463,1303.597v-185.139l-157.073-90.686l-157.062,90.686v618.912L1024,2048l536.676-310.63    l-0.005-618.912l-157.071-90.686l-157.062,90.686v185.139L1024,1174.792L801.463,1303.597z M1243.175,1605.591L1024,1732.456    l-219.175-126.865L1024,1478.73L1243.175,1605.591z" />
+	</g>
+</g>
+</g>
+<text x="26.0" y="14" fill="#003764" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif" font-size="11" font-weight="600">충청북도</text>
+<text x="122" y="14" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">CHUNGBUK</text>
+</svg>
