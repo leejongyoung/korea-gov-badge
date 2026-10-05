@@ -1,0 +1,470 @@
+[
+  {
+    "id": "moef",
+    "name": "기획재정부",
+    "short_name": "기재부",
+    "en_name": "Ministry of Economy and Finance",
+    "en_short": "MOEF",
+    "type": "부",
+    "homepage": "https://www.moef.go.kr"
+  },
+  {
+    "id": "moe",
+    "name": "교육부",
+    "short_name": "교육부",
+    "en_name": "Ministry of Education",
+    "en_short": "MOE",
+    "type": "부",
+    "homepage": "https://www.moe.go.kr"
+  },
+  {
+    "id": "msit",
+    "name": "과학기술정보통신부",
+    "short_name": "과기정통부",
+    "en_name": "Ministry of Science and ICT",
+    "en_short": "MSIT",
+    "type": "부",
+    "homepage": "https://www.msit.go.kr"
+  },
+  {
+    "id": "mofa",
+    "name": "외교부",
+    "short_name": "외교부",
+    "en_name": "Ministry of Foreign Affairs",
+    "en_short": "MOFA",
+    "type": "부",
+    "homepage": "https://www.mofa.go.kr"
+  },
+  {
+    "id": "mou",
+    "name": "통일부",
+    "short_name": "통일부",
+    "en_name": "Ministry of Unification",
+    "en_short": "MOU",
+    "type": "부",
+    "homepage": "https://www.unikorea.go.kr"
+  },
+  {
+    "id": "moj",
+    "name": "법무부",
+    "short_name": "법무부",
+    "en_name": "Ministry of Justice",
+    "en_short": "MOJ",
+    "type": "부",
+    "homepage": "https://www.moj.go.kr"
+  },
+  {
+    "id": "mnd",
+    "name": "국방부",
+    "short_name": "국방부",
+    "en_name": "Ministry of National Defense",
+    "en_short": "MND",
+    "type": "부",
+    "homepage": "https://www.mnd.go.kr"
+  },
+  {
+    "id": "mois",
+    "name": "행정안전부",
+    "short_name": "행안부",
+    "en_name": "Ministry of the Interior and Safety",
+    "en_short": "MOIS",
+    "type": "부",
+    "homepage": "https://www.mois.go.kr"
+  },
+  {
+    "id": "mpva",
+    "name": "국가보훈부",
+    "short_name": "보훈부",
+    "en_name": "Ministry of Patriots and Veterans Affairs",
+    "en_short": "MPVA",
+    "type": "부",
+    "homepage": "https://www.mpva.go.kr"
+  },
+  {
+    "id": "mcst",
+    "name": "문화체육관광부",
+    "short_name": "문체부",
+    "en_name": "Ministry of Culture, Sports and Tourism",
+    "en_short": "MCST",
+    "type": "부",
+    "homepage": "https://www.mcst.go.kr"
+  },
+  {
+    "id": "mafra",
+    "name": "농림축산식품부",
+    "short_name": "농식품부",
+    "en_name": "Ministry of Agriculture, Food and Rural Affairs",
+    "en_short": "MAFRA",
+    "type": "부",
+    "homepage": "https://www.mafra.go.kr"
+  },
+  {
+    "id": "motie",
+    "name": "산업통상자원부",
+    "short_name": "산업부",
+    "en_name": "Ministry of Trade, Industry and Energy",
+    "en_short": "MOTIE",
+    "type": "부",
+    "homepage": "https://www.motie.go.kr"
+  },
+  {
+    "id": "mohw",
+    "name": "보건복지부",
+    "short_name": "복지부",
+    "en_name": "Ministry of Health and Welfare",
+    "en_short": "MOHW",
+    "type": "부",
+    "homepage": "https://www.mohw.go.kr"
+  },
+  {
+    "id": "me",
+    "name": "환경부",
+    "short_name": "환경부",
+    "en_name": "Ministry of Environment",
+    "en_short": "ME",
+    "type": "부",
+    "homepage": "https://www.me.go.kr"
+  },
+  {
+    "id": "moel",
+    "name": "고용노동부",
+    "short_name": "고용부",
+    "en_name": "Ministry of Employment and Labor",
+    "en_short": "MOEL",
+    "type": "부",
+    "homepage": "https://www.moel.go.kr"
+  },
+  {
+    "id": "mogef",
+    "name": "여성가족부",
+    "short_name": "여가부",
+    "en_name": "Ministry of Gender Equality and Family",
+    "en_short": "MOGEF",
+    "type": "부",
+    "homepage": "https://www.mogef.go.kr"
+  },
+  {
+    "id": "molit",
+    "name": "국토교통부",
+    "short_name": "국토부",
+    "en_name": "Ministry of Land, Infrastructure and Transport",
+    "en_short": "MOLIT",
+    "type": "부",
+    "homepage": "https://www.molit.go.kr"
+  },
+  {
+    "id": "mof",
+    "name": "해양수산부",
+    "short_name": "해수부",
+    "en_name": "Ministry of Oceans and Fisheries",
+    "en_short": "MOF",
+    "type": "부",
+    "homepage": "https://www.mof.go.kr"
+  },
+  {
+    "id": "mss",
+    "name": "중소벤처기업부",
+    "short_name": "중기부",
+    "en_name": "Ministry of SMEs and Startups",
+    "en_short": "MSS",
+    "type": "부",
+    "homepage": "https://www.mss.go.kr"
+  },
+  {
+    "id": "mfds",
+    "name": "식품의약품안전처",
+    "short_name": "식약처",
+    "en_name": "Ministry of Food and Drug Safety",
+    "en_short": "MFDS",
+    "type": "처",
+    "homepage": "https://www.mfds.go.kr"
+  },
+  {
+    "id": "mpm",
+    "name": "인사혁신처",
+    "short_name": "인사처",
+    "en_name": "Ministry of Personnel Management",
+    "en_short": "MPM",
+    "type": "처",
+    "homepage": "https://www.mpm.go.kr"
+  },
+  {
+    "id": "moleg",
+    "name": "법제처",
+    "short_name": "법제처",
+    "en_name": "Ministry of Government Legislation",
+    "en_short": "MOLEG",
+    "type": "처",
+    "homepage": "https://www.moleg.go.kr"
+  },
+  {
+    "id": "opm",
+    "name": "국무조정실",
+    "short_name": "국무조정실",
+    "en_name": "Office for Government Policy Coordination",
+    "en_short": "OPC",
+    "type": "실",
+    "homepage": "https://www.opc.go.kr"
+  },
+  {
+    "id": "nts",
+    "name": "국세청",
+    "short_name": "국세청",
+    "en_name": "National Tax Service",
+    "en_short": "NTS",
+    "type": "청",
+    "homepage": "https://www.nts.go.kr"
+  },
+  {
+    "id": "kcs",
+    "name": "관세청",
+    "short_name": "관세청",
+    "en_name": "Korea Customs Service",
+    "en_short": "KCS",
+    "type": "청",
+    "homepage": "https://www.customs.go.kr"
+  },
+  {
+    "id": "pps",
+    "name": "조달청",
+    "short_name": "조달청",
+    "en_name": "Public Procurement Service",
+    "en_short": "PPS",
+    "type": "청",
+    "homepage": "https://www.pps.go.kr"
+  },
+  {
+    "id": "kostat",
+    "name": "통계청",
+    "short_name": "통계청",
+    "en_name": "Statistics Korea",
+    "en_short": "KOSTAT",
+    "type": "청",
+    "homepage": "https://kostat.go.kr"
+  },
+  {
+    "id": "spo",
+    "name": "검찰청",
+    "short_name": "검찰청",
+    "en_name": "Supreme Prosecutors Office",
+    "en_short": "SPO",
+    "type": "청",
+    "homepage": "https://www.spo.go.kr"
+  },
+  {
+    "id": "mma",
+    "name": "병무청",
+    "short_name": "병무청",
+    "en_name": "Military Manpower Administration",
+    "en_short": "MMA",
+    "type": "청",
+    "homepage": "https://www.mma.go.kr"
+  },
+  {
+    "id": "dapa",
+    "name": "방위사업청",
+    "short_name": "방사청",
+    "en_name": "Defense Acquisition Program Administration",
+    "en_short": "DAPA",
+    "type": "청",
+    "homepage": "https://www.dapa.go.kr"
+  },
+  {
+    "id": "knpa",
+    "name": "경찰청",
+    "short_name": "경찰청",
+    "en_name": "Korean National Police Agency",
+    "en_short": "KNPA",
+    "type": "청",
+    "homepage": "https://www.police.go.kr"
+  },
+  {
+    "id": "nfa",
+    "name": "소방청",
+    "short_name": "소방청",
+    "en_name": "National Fire Agency",
+    "en_short": "NFA",
+    "type": "청",
+    "homepage": "https://www.nfa.go.kr"
+  },
+  {
+    "id": "khs",
+    "name": "국가유산청",
+    "short_name": "유산청",
+    "en_name": "Korea Heritage Service",
+    "en_short": "KHS",
+    "type": "청",
+    "homepage": "https://www.khs.go.kr"
+  },
+  {
+    "id": "rda",
+    "name": "농촌진흥청",
+    "short_name": "농진청",
+    "en_name": "Rural Development Administration",
+    "en_short": "RDA",
+    "type": "청",
+    "homepage": "https://www.rda.go.kr"
+  },
+  {
+    "id": "kfs",
+    "name": "산림청",
+    "short_name": "산림청",
+    "en_name": "Korea Forest Service",
+    "en_short": "KFS",
+    "type": "청",
+    "homepage": "https://www.forest.go.kr"
+  },
+  {
+    "id": "kipo",
+    "name": "특허청",
+    "short_name": "특허청",
+    "en_name": "Korean Intellectual Property Office",
+    "en_short": "KIPO",
+    "type": "청",
+    "homepage": "https://www.kipo.go.kr"
+  },
+  {
+    "id": "kdca",
+    "name": "질병관리청",
+    "short_name": "질병청",
+    "en_name": "Korea Disease Control and Prevention Agency",
+    "en_short": "KDCA",
+    "type": "청",
+    "homepage": "https://www.kdca.go.kr"
+  },
+  {
+    "id": "kma",
+    "name": "기상청",
+    "short_name": "기상청",
+    "en_name": "Korea Meteorological Administration",
+    "en_short": "KMA",
+    "type": "청",
+    "homepage": "https://www.kma.go.kr"
+  },
+  {
+    "id": "kcg",
+    "name": "해양경찰청",
+    "short_name": "해경",
+    "en_name": "Korea Coast Guard",
+    "en_short": "KCG",
+    "type": "청",
+    "homepage": "https://www.kcg.go.kr"
+  },
+  {
+    "id": "kasa",
+    "name": "우주항공청",
+    "short_name": "우주청",
+    "en_name": "Korea AeroSpace Administration",
+    "en_short": "KASA",
+    "type": "청",
+    "homepage": "https://www.kasa.go.kr"
+  },
+  {
+    "id": "oka",
+    "name": "재외동포청",
+    "short_name": "동포청",
+    "en_name": "Overseas Koreans Agency",
+    "en_short": "OKA",
+    "type": "청",
+    "homepage": "https://www.oka.go.kr"
+  },
+  {
+    "id": "naacc",
+    "name": "행정중심복합도시건설청",
+    "short_name": "행복청",
+    "en_name": "National Administrative City Construction Agency",
+    "en_short": "NAACC",
+    "type": "청",
+    "homepage": "https://www.macc.go.kr"
+  },
+  {
+    "id": "sdpa",
+    "name": "새만금개발청",
+    "short_name": "새만금청",
+    "en_name": "Saemangeum Development and Promotion Agency",
+    "en_short": "SDPA",
+    "type": "청",
+    "homepage": "https://www.saemangeum.go.kr"
+  },
+  {
+    "id": "kcc",
+    "name": "방송통신위원회",
+    "short_name": "방통위",
+    "en_name": "Korea Communications Commission",
+    "en_short": "KCC",
+    "type": "위원회",
+    "homepage": "https://www.kcc.go.kr"
+  },
+  {
+    "id": "ftc",
+    "name": "공정거래위원회",
+    "short_name": "공정위",
+    "en_name": "Korea Fair Trade Commission",
+    "en_short": "FTC",
+    "type": "위원회",
+    "homepage": "https://www.ftc.go.kr"
+  },
+  {
+    "id": "fsc",
+    "name": "금융위원회",
+    "short_name": "금융위",
+    "en_name": "Financial Services Commission",
+    "en_short": "FSC",
+    "type": "위원회",
+    "homepage": "https://www.fsc.go.kr"
+  },
+  {
+    "id": "acrc",
+    "name": "국민권익위원회",
+    "short_name": "권익위",
+    "en_name": "Anti-Corruption and Civil Rights Commission",
+    "en_short": "ACRC",
+    "type": "위원회",
+    "homepage": "https://www.acrc.go.kr"
+  },
+  {
+    "id": "pipc",
+    "name": "개인정보보호위원회",
+    "short_name": "개보위",
+    "en_name": "Personal Information Protection Commission",
+    "en_short": "PIPC",
+    "type": "위원회",
+    "homepage": "https://www.pipc.go.kr"
+  },
+  {
+    "id": "nssc",
+    "name": "원자력안전위원회",
+    "short_name": "원안위",
+    "en_name": "Nuclear Safety and Security Commission",
+    "en_short": "NSSC",
+    "type": "위원회",
+    "homepage": "https://www.nssc.go.kr"
+  },
+  {
+    "id": "bai",
+    "name": "감사원",
+    "short_name": "감사원",
+    "en_name": "Board of Audit and Inspection",
+    "en_short": "BAI",
+    "type": "원",
+    "homepage": "https://www.bai.go.kr"
+  },
+  {
+    "id": "nis",
+    "name": "국가정보원",
+    "short_name": "국정원",
+    "en_name": "National Intelligence Service",
+    "en_short": "NIS",
+    "type": "원",
+    "homepage": "https://www.nis.go.kr"
+  },
+  {
+    "id": "president",
+    "name": "대통령비서실",
+    "short_name": "대통령실",
+    "en_name": "Office of the President",
+    "en_short": "PRESIDENT",
+    "type": "실",
+    "homepage": "https://www.president.go.kr"
+  }
+]
