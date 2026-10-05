@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="147" height="20" viewBox="0 0 147 20" role="img" aria-label="Gov.kr MOTIE">
+<svg xmlns="http://www.w3.org/2000/svg" width="150.0" height="20" viewBox="0 0 150.0 20" role="img" aria-label="Gov.kr MOTIE">
 <title>Gov.kr MOTIE (flat)</title>
-<defs><clipPath id="badge-shape"><rect width="147" height="20" rx="4"/></clipPath></defs>
+<defs><clipPath id="badge-shape"><rect width="150.0" height="20" rx="4"/></clipPath></defs>
 <g clip-path="url(#badge-shape)">
-<rect width="147" height="20" rx="4" fill="#ffffff"/>
-<path d="M87 0h60v20h-60z" fill="#134f8c"/>
+<rect width="150.0" height="20" rx="4" fill="#ffffff"/>
+<path d="M90.0 0h60v20h-60z" fill="#134f8c"/>
 </g>
-<rect x="0.5" y="0.5" width="146" height="19" rx="4" fill="none" stroke="#d0d7de"/>
-<g transform="translate(6 2) scale(0.09233504)"><path fill="#fff" d="M173.282 86.65c0 47.844-38.794 86.632-86.646 86.632C38.799 173.282 0 134.494 0 86.65 0 38.788 38.799 0 86.636 0c47.852 0 86.646 38.788 86.646 86.65"/><path fill="#003764" d="M127.389 80.598c-13.791-9.365-31.439-5.542-40.717 8.533-7.72 11.767-19.405 13.235-23.906 13.235-14.751 0-24.824-10.367-27.818-21.095h-.01c-.039-.108-.059-.2-.09-.307-.025-.12-.056-.233-.089-.366-1.177-4.467-1.467-6.609-1.467-11.368 0-25.65 26.321-54.213 64.215-54.213 38.829 0 61.05 29.545 66.78 45.979-.107-.295-.209-.581-.291-.877-11.015-32.125-41.474-55.216-77.357-55.216-45.13 0-81.729 36.59-81.729 81.739 0 40.351 29.108 74.891 69.479 74.891 32.197 0 53.842-18.052 63.757-42.93 5.45-13.614 1.595-29.605-10.757-38.005"/><path fill="#e4032e" d="M164.788 62.589c-4.777-16.026-27.153-47.571-67.282-47.571-37.894 0-64.214 28.563-64.214 54.212 0 4.759.29 6.901 1.466 11.368-.489-1.951-.74-3.908-.74-5.823 0-26.721 26.741-45.227 54.248-45.227 37.218 0 67.388 30.174 67.388 67.39 0 29.173-16.785 54.437-41.179 66.565v.023c31.455-11.391 53.908-41.512 53.908-76.884 0-8.378-1.127-15.759-3.595-24.053"/></g>
-<text x="29" y="14" fill="#003764" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600">Gov.kr</text>
-<text x="117" y="14" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">MOTIE</text>
+<rect x="0.5" y="0.5" width="149.0" height="19" rx="4" fill="none" stroke="#d0d7de"/>
+<g transform="translate(16.000 10.000) scale(0.138889)"><path fill="#fff" d="M-72-48v96H72v-96z" /><g stroke="#000" stroke-width="4"><path d="M-34.946-37.72-48.26-17.75m4.992 3.328 13.313-19.97m4.992 3.329-13.312 19.969m63.236 42.157 6.101-9.152m1.11-1.664 6.101-9.153m4.993 3.328-6.102 9.153m-1.11 1.664-6.101 9.152m4.992 3.329 6.102-9.153m1.11-1.664 6.1-9.153M-48.259 17.75l13.313 19.97m4.992-3.329-6.102-9.152m-1.109-1.664-6.102-9.153m4.993-3.328 13.312 19.97m63.236-42.158-6.101-9.153m-1.11-1.664-6.101-9.152m4.992-3.328 13.313 19.969m4.992-3.328-6.102-9.153m-1.11-1.664-6.1-9.153" /></g><path fill="#cd2e3a" d="M9.985 6.656A18 18 0 1 1-19.97-13.313a24 24 0 1 1 39.938 26.626" /><path fill="#0047a0" d="M-19.97-13.313a24 24 0 1 0 39.94 26.626A12 12 0 1 0 0 0a12 12 0 1 1-19.97-13.313" /><rect x="-72" y="-48" width="144" height="96" fill="none" stroke="#c8d1d9" stroke-width="3" rx="2"/></g>
+<text x="32.0" y="14" fill="#003764" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600">Gov.kr</text>
+<text x="120" y="14" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">MOTIE</text>
 </svg>

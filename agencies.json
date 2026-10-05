@@ -6,7 +6,8 @@
     "en_name": "Ministry of Economy and Finance",
     "en_short": "MOEF",
     "type": "부",
-    "homepage": "https://www.moef.go.kr"
+    "homepage": "https://www.moef.go.kr",
+    "logo": "gov"
   },
   {
     "id": "moe",
@@ -15,7 +16,8 @@
     "en_name": "Ministry of Education",
     "en_short": "MOE",
     "type": "부",
-    "homepage": "https://www.moe.go.kr"
+    "homepage": "https://www.moe.go.kr",
+    "logo": "gov"
   },
   {
     "id": "msit",
@@ -24,7 +26,8 @@
     "en_name": "Ministry of Science and ICT",
     "en_short": "MSIT",
     "type": "부",
-    "homepage": "https://www.msit.go.kr"
+    "homepage": "https://www.msit.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mofa",
@@ -33,7 +36,8 @@
     "en_name": "Ministry of Foreign Affairs",
     "en_short": "MOFA",
     "type": "부",
-    "homepage": "https://www.mofa.go.kr"
+    "homepage": "https://www.mofa.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mou",
@@ -42,7 +46,8 @@
     "en_name": "Ministry of Unification",
     "en_short": "MOU",
     "type": "부",
-    "homepage": "https://www.unikorea.go.kr"
+    "homepage": "https://www.unikorea.go.kr",
+    "logo": "gov"
   },
   {
     "id": "moj",
@@ -51,7 +56,8 @@
     "en_name": "Ministry of Justice",
     "en_short": "MOJ",
     "type": "부",
-    "homepage": "https://www.moj.go.kr"
+    "homepage": "https://www.moj.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mnd",
@@ -60,7 +66,8 @@
     "en_name": "Ministry of National Defense",
     "en_short": "MND",
     "type": "부",
-    "homepage": "https://www.mnd.go.kr"
+    "homepage": "https://www.mnd.go.kr",
+    "logo": "mnd"
   },
   {
     "id": "mois",
@@ -69,7 +76,8 @@
     "en_name": "Ministry of the Interior and Safety",
     "en_short": "MOIS",
     "type": "부",
-    "homepage": "https://www.mois.go.kr"
+    "homepage": "https://www.mois.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mpva",
@@ -78,7 +86,8 @@
     "en_name": "Ministry of Patriots and Veterans Affairs",
     "en_short": "MPVA",
     "type": "부",
-    "homepage": "https://www.mpva.go.kr"
+    "homepage": "https://www.mpva.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mcst",
@@ -87,7 +96,8 @@
     "en_name": "Ministry of Culture, Sports and Tourism",
     "en_short": "MCST",
     "type": "부",
-    "homepage": "https://www.mcst.go.kr"
+    "homepage": "https://www.mcst.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mafra",
@@ -96,7 +106,8 @@
     "en_name": "Ministry of Agriculture, Food and Rural Affairs",
     "en_short": "MAFRA",
     "type": "부",
-    "homepage": "https://www.mafra.go.kr"
+    "homepage": "https://www.mafra.go.kr",
+    "logo": "gov"
   },
   {
     "id": "motie",
@@ -105,7 +116,8 @@
     "en_name": "Ministry of Trade, Industry and Energy",
     "en_short": "MOTIE",
     "type": "부",
-    "homepage": "https://www.motie.go.kr"
+    "homepage": "https://www.motie.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mohw",
@@ -114,7 +126,8 @@
     "en_name": "Ministry of Health and Welfare",
     "en_short": "MOHW",
     "type": "부",
-    "homepage": "https://www.mohw.go.kr"
+    "homepage": "https://www.mohw.go.kr",
+    "logo": "gov"
   },
   {
     "id": "me",
@@ -123,7 +136,8 @@
     "en_name": "Ministry of Environment",
     "en_short": "ME",
     "type": "부",
-    "homepage": "https://www.me.go.kr"
+    "homepage": "https://www.me.go.kr",
+    "logo": "gov"
   },
   {
     "id": "moel",
@@ -132,7 +146,8 @@
     "en_name": "Ministry of Employment and Labor",
     "en_short": "MOEL",
     "type": "부",
-    "homepage": "https://www.moel.go.kr"
+    "homepage": "https://www.moel.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mogef",
@@ -141,7 +156,8 @@
     "en_name": "Ministry of Gender Equality and Family",
     "en_short": "MOGEF",
     "type": "부",
-    "homepage": "https://www.mogef.go.kr"
+    "homepage": "https://www.mogef.go.kr",
+    "logo": "gov"
   },
   {
     "id": "molit",
@@ -150,7 +166,8 @@
     "en_name": "Ministry of Land, Infrastructure and Transport",
     "en_short": "MOLIT",
     "type": "부",
-    "homepage": "https://www.molit.go.kr"
+    "homepage": "https://www.molit.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mof",
@@ -159,7 +176,8 @@
     "en_name": "Ministry of Oceans and Fisheries",
     "en_short": "MOF",
     "type": "부",
-    "homepage": "https://www.mof.go.kr"
+    "homepage": "https://www.mof.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mss",
@@ -168,7 +186,8 @@
     "en_name": "Ministry of SMEs and Startups",
     "en_short": "MSS",
     "type": "부",
-    "homepage": "https://www.mss.go.kr"
+    "homepage": "https://www.mss.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mfds",
@@ -177,7 +196,8 @@
     "en_name": "Ministry of Food and Drug Safety",
     "en_short": "MFDS",
     "type": "처",
-    "homepage": "https://www.mfds.go.kr"
+    "homepage": "https://www.mfds.go.kr",
+    "logo": "gov"
   },
   {
     "id": "mpm",
@@ -186,7 +206,8 @@
     "en_name": "Ministry of Personnel Management",
     "en_short": "MPM",
     "type": "처",
-    "homepage": "https://www.mpm.go.kr"
+    "homepage": "https://www.mpm.go.kr",
+    "logo": "gov"
   },
   {
     "id": "moleg",
@@ -195,7 +216,8 @@
     "en_name": "Ministry of Government Legislation",
     "en_short": "MOLEG",
     "type": "처",
-    "homepage": "https://www.moleg.go.kr"
+    "homepage": "https://www.moleg.go.kr",
+    "logo": "gov"
   },
   {
     "id": "opm",
@@ -204,7 +226,8 @@
     "en_name": "Office for Government Policy Coordination",
     "en_short": "OPC",
     "type": "실",
-    "homepage": "https://www.opc.go.kr"
+    "homepage": "https://www.opc.go.kr",
+    "logo": "gov"
   },
   {
     "id": "nts",
@@ -213,7 +236,8 @@
     "en_name": "National Tax Service",
     "en_short": "NTS",
     "type": "청",
-    "homepage": "https://www.nts.go.kr"
+    "homepage": "https://www.nts.go.kr",
+    "logo": "gov"
   },
   {
     "id": "kcs",
@@ -222,7 +246,8 @@
     "en_name": "Korea Customs Service",
     "en_short": "KCS",
     "type": "청",
-    "homepage": "https://www.customs.go.kr"
+    "homepage": "https://www.customs.go.kr",
+    "logo": "gov"
   },
   {
     "id": "pps",
@@ -231,7 +256,8 @@
     "en_name": "Public Procurement Service",
     "en_short": "PPS",
     "type": "청",
-    "homepage": "https://www.pps.go.kr"
+    "homepage": "https://www.pps.go.kr",
+    "logo": "gov"
   },
   {
     "id": "kostat",
@@ -240,7 +266,8 @@
     "en_name": "Statistics Korea",
     "en_short": "KOSTAT",
     "type": "청",
-    "homepage": "https://kostat.go.kr"
+    "homepage": "https://kostat.go.kr",
+    "logo": "gov"
   },
   {
     "id": "spo",
@@ -249,7 +276,8 @@
     "en_name": "Supreme Prosecutors Office",
     "en_short": "SPO",
     "type": "청",
-    "homepage": "https://www.spo.go.kr"
+    "homepage": "https://www.spo.go.kr",
+    "logo": "spo"
   },
   {
     "id": "mma",
@@ -258,7 +286,8 @@
     "en_name": "Military Manpower Administration",
     "en_short": "MMA",
     "type": "청",
-    "homepage": "https://www.mma.go.kr"
+    "homepage": "https://www.mma.go.kr",
+    "logo": "gov"
   },
   {
     "id": "dapa",
@@ -267,7 +296,8 @@
     "en_name": "Defense Acquisition Program Administration",
     "en_short": "DAPA",
     "type": "청",
-    "homepage": "https://www.dapa.go.kr"
+    "homepage": "https://www.dapa.go.kr",
+    "logo": "gov"
   },
   {
     "id": "knpa",
@@ -276,7 +306,8 @@
     "en_name": "Korean National Police Agency",
     "en_short": "KNPA",
     "type": "청",
-    "homepage": "https://www.police.go.kr"
+    "homepage": "https://www.police.go.kr",
+    "logo": "knpa"
   },
   {
     "id": "nfa",
@@ -285,7 +316,8 @@
     "en_name": "National Fire Agency",
     "en_short": "NFA",
     "type": "청",
-    "homepage": "https://www.nfa.go.kr"
+    "homepage": "https://www.nfa.go.kr",
+    "logo": "nfa"
   },
   {
     "id": "khs",
@@ -294,7 +326,8 @@
     "en_name": "Korea Heritage Service",
     "en_short": "KHS",
     "type": "청",
-    "homepage": "https://www.khs.go.kr"
+    "homepage": "https://www.khs.go.kr",
+    "logo": "gov"
   },
   {
     "id": "rda",
@@ -303,7 +336,8 @@
     "en_name": "Rural Development Administration",
     "en_short": "RDA",
     "type": "청",
-    "homepage": "https://www.rda.go.kr"
+    "homepage": "https://www.rda.go.kr",
+    "logo": "gov"
   },
   {
     "id": "kfs",
@@ -312,7 +346,8 @@
     "en_name": "Korea Forest Service",
     "en_short": "KFS",
     "type": "청",
-    "homepage": "https://www.forest.go.kr"
+    "homepage": "https://www.forest.go.kr",
+    "logo": "gov"
   },
   {
     "id": "kipo",
@@ -321,7 +356,8 @@
     "en_name": "Korean Intellectual Property Office",
     "en_short": "KIPO",
     "type": "청",
-    "homepage": "https://www.kipo.go.kr"
+    "homepage": "https://www.kipo.go.kr",
+    "logo": "gov"
   },
   {
     "id": "kdca",
@@ -330,7 +366,8 @@
     "en_name": "Korea Disease Control and Prevention Agency",
     "en_short": "KDCA",
     "type": "청",
-    "homepage": "https://www.kdca.go.kr"
+    "homepage": "https://www.kdca.go.kr",
+    "logo": "gov"
   },
   {
     "id": "kma",
@@ -339,7 +376,8 @@
     "en_name": "Korea Meteorological Administration",
     "en_short": "KMA",
     "type": "청",
-    "homepage": "https://www.kma.go.kr"
+    "homepage": "https://www.kma.go.kr",
+    "logo": "gov"
   },
   {
     "id": "kcg",
@@ -348,7 +386,8 @@
     "en_name": "Korea Coast Guard",
     "en_short": "KCG",
     "type": "청",
-    "homepage": "https://www.kcg.go.kr"
+    "homepage": "https://www.kcg.go.kr",
+    "logo": "kcg"
   },
   {
     "id": "kasa",
@@ -357,7 +396,8 @@
     "en_name": "Korea AeroSpace Administration",
     "en_short": "KASA",
     "type": "청",
-    "homepage": "https://www.kasa.go.kr"
+    "homepage": "https://www.kasa.go.kr",
+    "logo": "gov"
   },
   {
     "id": "oka",
@@ -366,7 +406,8 @@
     "en_name": "Overseas Koreans Agency",
     "en_short": "OKA",
     "type": "청",
-    "homepage": "https://www.oka.go.kr"
+    "homepage": "https://www.oka.go.kr",
+    "logo": "gov"
   },
   {
     "id": "naacc",
@@ -375,7 +416,8 @@
     "en_name": "National Administrative City Construction Agency",
     "en_short": "NAACC",
     "type": "청",
-    "homepage": "https://www.macc.go.kr"
+    "homepage": "https://www.macc.go.kr",
+    "logo": "gov"
   },
   {
     "id": "sdpa",
@@ -384,7 +426,8 @@
     "en_name": "Saemangeum Development and Promotion Agency",
     "en_short": "SDPA",
     "type": "청",
-    "homepage": "https://www.saemangeum.go.kr"
+    "homepage": "https://www.saemangeum.go.kr",
+    "logo": "gov"
   },
   {
     "id": "kcc",
@@ -393,7 +436,8 @@
     "en_name": "Korea Communications Commission",
     "en_short": "KCC",
     "type": "위원회",
-    "homepage": "https://www.kcc.go.kr"
+    "homepage": "https://www.kcc.go.kr",
+    "logo": "gov"
   },
   {
     "id": "ftc",
@@ -402,7 +446,8 @@
     "en_name": "Korea Fair Trade Commission",
     "en_short": "FTC",
     "type": "위원회",
-    "homepage": "https://www.ftc.go.kr"
+    "homepage": "https://www.ftc.go.kr",
+    "logo": "gov"
   },
   {
     "id": "fsc",
@@ -411,7 +456,8 @@
     "en_name": "Financial Services Commission",
     "en_short": "FSC",
     "type": "위원회",
-    "homepage": "https://www.fsc.go.kr"
+    "homepage": "https://www.fsc.go.kr",
+    "logo": "gov"
   },
   {
     "id": "acrc",
@@ -420,7 +466,8 @@
     "en_name": "Anti-Corruption and Civil Rights Commission",
     "en_short": "ACRC",
     "type": "위원회",
-    "homepage": "https://www.acrc.go.kr"
+    "homepage": "https://www.acrc.go.kr",
+    "logo": "gov"
   },
   {
     "id": "pipc",
@@ -429,7 +476,8 @@
     "en_name": "Personal Information Protection Commission",
     "en_short": "PIPC",
     "type": "위원회",
-    "homepage": "https://www.pipc.go.kr"
+    "homepage": "https://www.pipc.go.kr",
+    "logo": "gov"
   },
   {
     "id": "nssc",
@@ -438,7 +486,8 @@
     "en_name": "Nuclear Safety and Security Commission",
     "en_short": "NSSC",
     "type": "위원회",
-    "homepage": "https://www.nssc.go.kr"
+    "homepage": "https://www.nssc.go.kr",
+    "logo": "gov"
   },
   {
     "id": "bai",
@@ -447,7 +496,8 @@
     "en_name": "Board of Audit and Inspection",
     "en_short": "BAI",
     "type": "원",
-    "homepage": "https://www.bai.go.kr"
+    "homepage": "https://www.bai.go.kr",
+    "logo": "bai"
   },
   {
     "id": "nis",
@@ -456,7 +506,8 @@
     "en_name": "National Intelligence Service",
     "en_short": "NIS",
     "type": "원",
-    "homepage": "https://www.nis.go.kr"
+    "homepage": "https://www.nis.go.kr",
+    "logo": "nis"
   },
   {
     "id": "president",
@@ -465,6 +516,7 @@
     "en_name": "Office of the President",
     "en_short": "PRESIDENT",
     "type": "실",
-    "homepage": "https://www.president.go.kr"
+    "homepage": "https://www.president.go.kr",
+    "logo": "president"
   }
 ]

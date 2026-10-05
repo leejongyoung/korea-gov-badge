@@ -11,11 +11,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 AGENCIES = ROOT / "agencies.json"
-LOGO = ROOT / "assets" / "korea-gov-mark.svg"
+LOGOS_DIR = ROOT / "assets" / "logos"
 OUTPUT = ROOT / "badges"
 STYLES = ("flat", "flat-square", "plastic", "for-the-badge", "outline")
 SLUG_PATTERN = re.compile(r"[a-z0-9_-]+\Z")
 SVG_NS = "{http://www.w3.org/2000/svg}"
+
+ET.register_namespace("", "http://www.w3.org/2000/svg")
+ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
 
 
 def load_agencies():
@@ -41,25 +44,56 @@ def load_agencies():
     return data
 
 
-def logo_paths():
-    root = ET.parse(LOGO).getroot()
-    paths = root.findall(f"{SVG_NS}path")
-    if root.get("viewBox") != "0 0 173.282 173.282" or len(paths) != 3:
-        raise ValueError("unexpected Korea Government logo structure")
-    return "".join(
-        f'<path fill="{escape(path.attrib["fill"], quote=True)}" '
-        f'd="{escape(path.attrib["d"], quote=True)}"/>'
-        for path in paths
-    )
+def clean_inner_svg(element):
+    raw = ET.tostring(element, encoding="unicode")
+    return re.sub(r'\s+xmlns(:\w+)?="http://www\.w3\.org/2000/svg"', "", raw)
+
+
+def load_logos():
+    logos = {}
+    for p in LOGOS_DIR.glob("*.svg"):
+        root = ET.parse(p).getroot()
+        vb = root.get("viewBox")
+        if vb:
+            parts = [float(x) for x in vb.split()]
+            min_x, min_y, vb_w, vb_h = parts[0], parts[1], parts[2], parts[3]
+        else:
+            min_x = 0.0
+            min_y = 0.0
+            vb_w = float(root.get("width", 300))
+            vb_h = float(root.get("height", 300))
+
+        inner = []
+        for child in root:
+            tag = child.tag.split("}")[-1]
+            if tag in ("metadata", "namedview"):
+                continue
+            inner.append(clean_inner_svg(child))
+
+        content = "".join(inner)
+        if p.stem == "taegeukgi":
+            # Add crisp border to define flag boundaries on white backgrounds
+            content += '<rect x="-72" y="-48" width="144" height="96" fill="none" stroke="#c8d1d9" stroke-width="3" rx="2"/>'
+
+        logos[p.stem] = (min_x, min_y, vb_w, vb_h, content)
+
+    if "gov" not in logos:
+        raise ValueError("assets/logos/gov.svg is required")
+    if "taegeukgi" not in logos:
+        raise ValueError("assets/logos/taegeukgi.svg is required")
+
+    return logos
 
 
 def is_korean(text):
     return any(ord(c) >= 128 for c in text)
 
 
-def render_badge(label_text, message_text, style, paths):
+def render_badge(label_text, message_text, style, logo_key, logos):
     if style not in STYLES:
         raise ValueError(f"unsupported badge style: {style!r}")
+    if logo_key not in logos:
+        raise ValueError(f"unsupported logo key: {logo_key!r}")
 
     prominent = style == "for-the-badge"
     outlined = style == "outline"
@@ -67,20 +101,27 @@ def render_badge(label_text, message_text, style, paths):
     squared = style in ("flat-square", "for-the-badge")
 
     height = 28 if prominent else 22 if outlined else 20
-    icon_size = 20 if prominent else 16
-    icon_x = 6
-    icon_y = (height - icon_size) / 2
-    icon_scale = icon_size / 173.282
-    text_x = icon_x + icon_size + 7
+    max_icon_h = 18 if prominent else 14
+    max_icon_w = 26 if prominent else 20
 
+    min_x, min_y, vb_w, vb_h, content = logos[logo_key]
+    scale = min(max_icon_w / vb_w, max_icon_h / vb_h)
+    icon_w = vb_w * scale
+    icon_h = vb_h * scale
+    icon_x = 6
+    icon_y = (height - icon_h) / 2
+    tx = icon_x - min_x * scale
+    ty = icon_y - min_y * scale
+
+    text_x = round(icon_x + icon_w + (7 if prominent else 6), 2)
     is_ko_label = is_korean(label_text)
     is_ko_msg = is_korean(message_text)
 
     char_w_label = 11 if is_ko_label else (9 if prominent else 8)
-    label_width = text_x + len(label_text) * char_w_label + (12 if prominent else 10)
+    label_width = round(text_x + len(label_text) * char_w_label + (12 if prominent else 10), 1)
 
     char_w_msg = 11 if is_ko_msg else (9 if prominent else 8)
-    message_width = max(48, len(message_text) * char_w_msg + (24 if prominent else 20))
+    message_width = max(48, round(len(message_text) * char_w_msg + (24 if prominent else 20), 1))
 
     width = label_width + message_width
     radius = 0 if squared else 4
@@ -121,38 +162,41 @@ def render_badge(label_text, message_text, style, paths):
 <path d="M{label_width} 0h{message_width}v{height}h-{message_width}z" fill="{message_color}"/>
 {gloss}</g>
 <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="{radius}" fill="none" stroke="{'#134f8c' if outlined else '#d0d7de' if not prominent else '#003764'}"/>
-<g transform="translate({icon_x} {icon_y:g}) scale({icon_scale:.8f})">{paths}</g>
+<g transform="translate({tx:.3f} {ty:.3f}) scale({scale:.6f})">{content}</g>
 <text x="{text_x}" y="{baseline:g}" fill="{text_color}" font-family="{label_font}" font-size="{font_size_label}" font-weight="600">{escape(label_text)}</text>
 <text x="{label_width + message_width / 2:g}" y="{baseline:g}" fill="{version_color}" text-anchor="middle" font-family="{msg_font}" font-size="{font_size_msg}" font-weight="700">{escape(message_text)}</text>
 </svg>
 '''
 
 
-def build_expected_badges(agencies, paths):
+def build_expected_badges(agencies, logos):
     expected = {}
     for agency in agencies:
         agency_id = agency["id"]
         name = agency["name"]
         en_short = agency["en_short"]
+        agency_logo = agency.get("logo", "gov")
 
         for style in STYLES:
-            # 1. 국문 기본: [ 대한민국 | 부처명 ]
-            ko_badge = render_badge("대한민국", name, style, paths)
+            # 1. 국문 기본: [ 대한민국 | 부처명 ] -> 앞에 대한민국이 붙는 경우 태극기 적용
+            ko_badge = render_badge("대한민국", name, style, "taegeukgi", logos)
             expected[OUTPUT / agency_id / f"{style}.svg"] = ko_badge
             expected[OUTPUT / agency_id / f"{style}-ko.svg"] = ko_badge
             expected[OUTPUT / agency_id / "ko" / f"{style}.svg"] = ko_badge
             expected[OUTPUT / name / f"{style}.svg"] = ko_badge
 
-            # 2. 영문 기본: [ Gov.kr | EN_SHORT ]
-            en_badge = render_badge("Gov.kr", en_short, style, paths)
+            # 2. 영문 기본: [ Gov.kr | EN_SHORT ] -> 대한민국 국가 도메인이므로 태극기 적용
+            en_badge = render_badge("Gov.kr", en_short, style, "taegeukgi", logos)
             expected[OUTPUT / agency_id / f"{style}-en.svg"] = en_badge
             expected[OUTPUT / agency_id / "en" / f"{style}.svg"] = en_badge
             expected[OUTPUT / name / f"{style}-en.svg"] = en_badge
 
-            # 3. 기관명-약칭 배지: [ 부처명 | EN_SHORT ]
-            abbr_badge = render_badge(name, en_short, style, paths)
+            # 3. 기관명-약칭 배지: [ 부처명 | EN_SHORT ] -> 부처별 고유 로고(국방부, 경찰청, 국정원 등) 또는 정부상징 적용
+            abbr_badge = render_badge(name, en_short, style, agency_logo, logos)
             expected[OUTPUT / agency_id / f"{style}-abbr.svg"] = abbr_badge
+            expected[OUTPUT / agency_id / f"{style}-agency.svg"] = abbr_badge
             expected[OUTPUT / name / f"{style}-abbr.svg"] = abbr_badge
+            expected[OUTPUT / name / f"{style}-agency.svg"] = abbr_badge
 
     return expected
 
@@ -163,8 +207,8 @@ def main():
     args = parser.parse_args()
 
     agencies = load_agencies()
-    paths = logo_paths()
-    expected = build_expected_badges(agencies, paths)
+    logos = load_logos()
+    expected = build_expected_badges(agencies, logos)
     existing = set(OUTPUT.glob("**/*.svg"))
 
     if args.check:
