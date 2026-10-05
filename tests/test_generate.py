@@ -44,27 +44,19 @@ class KoreaGovBadgeTests(unittest.TestCase):
 
         for agency in sample_agencies:
             for style in generate.STYLES:
-                # 1. 국문 기본 (Taegeukgi)
-                svg_ko = generate.render_badge("대한민국", agency["name"], style, "taegeukgi", logos)
-                root_ko = ET.fromstring(svg_ko)
-                self.assertEqual(root_ko.attrib["role"], "img")
-                self.assertIn(agency["name"], root_ko.attrib["aria-label"])
-                self.assertNotIn("<script", svg_ko)
-
-                # 2. 기관 고유 배지 (Agency Logo or Gov)
-                svg_abbr = generate.render_badge(agency["name"], agency["en_short"], style, agency["logo"], logos)
-                root_abbr = ET.fromstring(svg_abbr)
-                self.assertEqual(root_abbr.attrib["role"], "img")
-                self.assertIn(agency["en_short"], root_abbr.attrib["aria-label"])
-                self.assertNotIn("<script", svg_abbr)
+                svg = generate.render_badge(agency["name"], agency["en_short"], style, agency["logo"], logos)
+                root = ET.fromstring(svg)
+                self.assertEqual(root.attrib["role"], "img")
+                self.assertIn(agency["en_short"], root.attrib["aria-label"])
+                self.assertNotIn("<script", svg)
 
     def test_rejects_invalid_styles_or_logos(self):
         logos = generate.load_logos()
         with self.assertRaises(ValueError):
-            generate.render_badge("대한민국", "행정안전부", "unknown_style", "taegeukgi", logos)
+            generate.render_badge("행정안전부", "MOIS", "unknown_style", "gov", logos)
 
         with self.assertRaises(ValueError):
-            generate.render_badge("대한민국", "행정안전부", "flat", "non_existent_logo", logos)
+            generate.render_badge("행정안전부", "MOIS", "flat", "non_existent_logo", logos)
 
 
 if __name__ == "__main__":

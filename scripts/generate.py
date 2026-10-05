@@ -71,16 +71,10 @@ def load_logos():
             inner.append(clean_inner_svg(child))
 
         content = "".join(inner)
-        if p.stem == "taegeukgi":
-            # Add crisp border to define flag boundaries on white backgrounds
-            content += '<rect x="-72" y="-48" width="144" height="96" fill="none" stroke="#c8d1d9" stroke-width="3" rx="2"/>'
-
         logos[p.stem] = (min_x, min_y, vb_w, vb_h, content)
 
     if "gov" not in logos:
         raise ValueError("assets/logos/gov.svg is required")
-    if "taegeukgi" not in logos:
-        raise ValueError("assets/logos/taegeukgi.svg is required")
 
     return logos
 
@@ -117,23 +111,25 @@ def render_badge(label_text, message_text, style, logo_key, logos):
     is_ko_label = is_korean(label_text)
     is_ko_msg = is_korean(message_text)
 
-    char_w_label = 11 if is_ko_label else (9 if prominent else 8)
-    label_width = round(text_x + len(label_text) * char_w_label + (12 if prominent else 10), 1)
+    char_w_label = 12 if (prominent and is_ko_label) else 11 if is_ko_label else (9 if prominent else 8)
+    label_width = round(text_x + len(label_text) * char_w_label + (14 if prominent else 10), 1)
 
-    char_w_msg = 11 if is_ko_msg else (9 if prominent else 8)
-    message_width = max(48, round(len(message_text) * char_w_msg + (24 if prominent else 20), 1))
+    char_w_msg = 12 if (prominent and is_ko_msg) else 11 if is_ko_msg else (9 if prominent else 8)
+    message_width = max(48 if not prominent else 58, round(len(message_text) * char_w_msg + (24 if prominent else 20), 1))
 
     width = label_width + message_width
     radius = 0 if squared else 4
 
-    label_color = "#003764" if prominent else "#ffffff"
-    message_color = "#e4032e" if prominent else "#ffffff" if outlined else "#134f8c"
-    text_color = "#ffffff" if prominent else "#003764"
+    # for-the-badge도 다른 스타일들과 동일한 톤앤매너(화이트 레이블, 블루 메시지) 적용
+    label_color = "#ffffff"
+    message_color = "#ffffff" if outlined else "#134f8c"
+    text_color = "#003764"
     version_color = "#134f8c" if outlined else "#ffffff"
+    stroke_color = "#134f8c" if (outlined or prominent) else "#d0d7de"
 
     font_size_label = 11 if (prominent or is_ko_label) else 12
     font_size_msg = 11 if (prominent or is_ko_msg) else 12
-    baseline = height / 2 + (3.7 if prominent else 4)
+    baseline = height / 2 + (4 if prominent else 4)
 
     font_family_ko = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif"
     font_family_en = "Arial, Helvetica, sans-serif"
@@ -161,7 +157,7 @@ def render_badge(label_text, message_text, style, logo_key, logos):
 <rect width="{width}" height="{height}" rx="{radius}" fill="{label_color}"/>
 <path d="M{label_width} 0h{message_width}v{height}h-{message_width}z" fill="{message_color}"/>
 {gloss}</g>
-<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="{radius}" fill="none" stroke="{'#134f8c' if outlined else '#d0d7de' if not prominent else '#003764'}"/>
+<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="{radius}" fill="none" stroke="{stroke_color}"/>
 <g transform="translate({tx:.3f} {ty:.3f}) scale({scale:.6f})">{content}</g>
 <text x="{text_x}" y="{baseline:g}" fill="{text_color}" font-family="{label_font}" font-size="{font_size_label}" font-weight="600">{escape(label_text)}</text>
 <text x="{label_width + message_width / 2:g}" y="{baseline:g}" fill="{version_color}" text-anchor="middle" font-family="{msg_font}" font-size="{font_size_msg}" font-weight="700">{escape(message_text)}</text>
@@ -178,25 +174,19 @@ def build_expected_badges(agencies, logos):
         agency_logo = agency.get("logo", "gov")
 
         for style in STYLES:
-            # 1. 국문 기본: [ 대한민국 | 부처명 ] -> 앞에 대한민국이 붙는 경우 태극기 적용
-            ko_badge = render_badge("대한민국", name, style, "taegeukgi", logos)
-            expected[OUTPUT / agency_id / f"{style}.svg"] = ko_badge
-            expected[OUTPUT / agency_id / f"{style}-ko.svg"] = ko_badge
-            expected[OUTPUT / agency_id / "ko" / f"{style}.svg"] = ko_badge
-            expected[OUTPUT / name / f"{style}.svg"] = ko_badge
+            # 기관 고유 배지: [ 기관명 | 영문약칭 ]
+            # (해당 기관 공식 엠블럼 또는 통합 정부상징 심벌 적용)
+            badge = render_badge(name, en_short, style, agency_logo, logos)
 
-            # 2. 영문 기본: [ Gov.kr | EN_SHORT ] -> 대한민국 국가 도메인이므로 태극기 적용
-            en_badge = render_badge("Gov.kr", en_short, style, "taegeukgi", logos)
-            expected[OUTPUT / agency_id / f"{style}-en.svg"] = en_badge
-            expected[OUTPUT / agency_id / "en" / f"{style}.svg"] = en_badge
-            expected[OUTPUT / name / f"{style}-en.svg"] = en_badge
+            # 1. 영문 식별자 디렉터리 경로
+            expected[OUTPUT / agency_id / f"{style}.svg"] = badge
+            expected[OUTPUT / agency_id / f"{style}-abbr.svg"] = badge
+            expected[OUTPUT / agency_id / f"{style}-agency.svg"] = badge
 
-            # 3. 기관명-약칭 배지: [ 부처명 | EN_SHORT ] -> 부처별 고유 로고(국방부, 경찰청, 국정원 등) 또는 정부상징 적용
-            abbr_badge = render_badge(name, en_short, style, agency_logo, logos)
-            expected[OUTPUT / agency_id / f"{style}-abbr.svg"] = abbr_badge
-            expected[OUTPUT / agency_id / f"{style}-agency.svg"] = abbr_badge
-            expected[OUTPUT / name / f"{style}-abbr.svg"] = abbr_badge
-            expected[OUTPUT / name / f"{style}-agency.svg"] = abbr_badge
+            # 2. 한글 기관명 디렉터리 경로
+            expected[OUTPUT / name / f"{style}.svg"] = badge
+            expected[OUTPUT / name / f"{style}-abbr.svg"] = badge
+            expected[OUTPUT / name / f"{style}-agency.svg"] = badge
 
     return expected
 
