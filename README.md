@@ -1,14 +1,30 @@
 # Korea Gov Badge (대한민국 정부 기관 배지)
 
-대한민국 중앙행정기관(19부, 처, 청, 위원회 등 총 52개 기관)을 위한 오픈소스 SVG 배지 모음입니다. 공공 소프트웨어, 정부 R&D 과제, 공공데이터 연계 프로젝트, [전자정부 표준프레임워크(eGovFrame)](https://github.com/leejongyoung/egovframe-badge) 기반 시스템 등의 README에서 소관 부처 및 기관을 명확하게 표시할 수 있습니다.
+대한민국 중앙행정기관(19부, 처, 청, 위원회 등 총 54개 기관)을 위한 오픈소스 SVG 배지 모음입니다. 공공 소프트웨어, 정부 R&D 과제, 공공데이터 연계 프로젝트, [전자정부 표준프레임워크(eGovFrame)](https://github.com/leejongyoung/egovframe-badge) 기반 시스템 등의 README에서 소관 부처 및 기관을 명확하게 표시할 수 있습니다.
 
 별도의 배포 서버나 JavaScript 없이 GitHub raw URL 한 줄로 즉시 임베드할 수 있는 자립형(self-contained) 정적 SVG입니다.
 
 ---
 
+## 국가상징 및 공공기관 엠블럼 사용 안내
+
+> [!IMPORTANT]
+> **국가상징 및 기관 상징 저작권 및 준수사항**
+> - 본 저장소에서 제공하는 모든 배지에 포함된 대한민국 정부상징(GI) 및 각 정부 부처/기관의 공식 엠블럼과 명칭에 대한 권리는 대한민국 정부 및 각 해당 기관에 귀속됩니다.
+> - 공공 소프트웨어, 연구 과제, 공공데이터 연계 프로젝트 등 정당한 공공 협력 및 소관 안내 목적으로 사용해야 하며, 공공기관의 공식 명칭 및 상징을 허위로 도용하거나 정부 기관을 사칭하는 행위는 관련 법률에 의해 엄격히 금지됩니다.
+
+각 기관의 성격과 공식 상징 체계에 맞추어 심벌이 자동 적용됩니다:
+
+1. **독자 고유 로고 사용 기관**:
+   - 2016년 정부상징 통합 대상에서 제외되어 고유 상징을 유지하는 기관(**국방부, 경찰청, 국가정보원, 소방청, 해양경찰청, 감사원, 대통령비서실, 검찰청(Legacy)**)은 **해당 기관의 공식 고유 엠블럼**이 배지에 포함됩니다.
+2. **정부상징 통합 사용 부처**:
+   - 대한민국 정부상징(GI)을 사용하는 18개 부 및 공소청, 중대범죄수사청 등 각 처·청·위원회는 **대한민국 정부상징(GI)** 태극 문양이 적용됩니다.
+
+---
+
 ## 한 줄로 사용
 
-원하는 기관의 식별자 ID(`mois`, `mnd`, `knpa` 등) 또는 한글 기관명(`행정안전부`, `국방부`, `경찰청` 등)과 스타일을 URL 경로에서 선택합니다.
+원하는 기관의 식별자 ID(`mois`, `mnd`, `knpa`, `ppo`, `scia` 등) 또는 한글 기관명(`행정안전부`, `국방부`, `경찰청`, `공소청`, `중대범죄수사청` 등)과 스타일을 URL 경로에서 선택합니다.
 
 ```md
 [![행정안전부 MOIS](https://raw.githubusercontent.com/leejongyoung/korea-gov-badge/main/badges/mois/flat.svg)](https://www.mois.go.kr)
@@ -21,14 +37,42 @@
 
 ---
 
-## 공식 상징 적용 안내
+## 배지 색상 커스터마이징
 
-각 기관의 성격과 공식 상징 체계에 맞추어 심벌이 자동 적용됩니다:
+프로젝트의 README 톤앤매너에 맞추어 6가지 내장 컬러 테마를 즉시 URL로 사용하거나, 원하는 임의의 Hex 코드로 직접 생성할 수 있습니다.
 
-1. **독자 고유 로고 사용 기관**:
-   - 2016년 정부상징 통합 대상에서 제외되어 고유 상징을 유지하는 기관(**국방부, 경찰청, 국가정보원, 소방청, 해양경찰청, 검찰청, 감사원, 대통령비서실**)은 **해당 기관의 공식 고유 엠블럼**이 배지에 포함됩니다.
-2. **정부상징 통합 사용 부처**:
-   - 대한민국 정부상징(GI)을 사용하는 18개 부 및 각 처·청·위원회는 **대한민국 정부상징(GI)** 태극 문양이 적용됩니다.
+### 1. 내장 컬러 테마 (URL로 바로 사용)
+
+스타일 이름 뒤에 `-<color>`를 붙여 호출합니다 (예: `flat-navy.svg`, `flat-black.svg`):
+
+| 컬러 테마 | 테마 코드 | 색상 값 (Hex) | 행정안전부 예시 | 경찰청 예시 |
+| :--- | :---: | :---: | :--- | :--- |
+| **블루 (기본)** | `blue` | `#134f8c` | ![mois](badges/mois/flat.svg) | ![knpa](badges/knpa/flat.svg) |
+| **네이비** | `navy` | `#003764` | ![mois navy](badges/mois/flat-navy.svg) | ![knpa navy](badges/knpa/flat-navy.svg) |
+| **블랙 / 다크** | `black` | `#24292f` | ![mois black](badges/mois/flat-black.svg) | ![knpa black](badges/knpa/flat-black.svg) |
+| **그린** | `green` | `#1a7f37` | ![mois green](badges/mois/flat-green.svg) | ![knpa green](badges/knpa/flat-green.svg) |
+| **레드** | `red` | `#cf222e` | ![mois red](badges/mois/flat-red.svg) | ![knpa red](badges/knpa/flat-red.svg) |
+| **그레이** | `gray` | `#57606a` | ![mois gray](badges/mois/flat-gray.svg) | ![knpa gray](badges/knpa/flat-gray.svg) |
+
+```md
+<!-- 블랙 테마 사용 예시 -->
+[![국방부 MND](https://raw.githubusercontent.com/leejongyoung/korea-gov-badge/main/badges/mnd/flat-black.svg)](https://www.mnd.go.kr)
+
+<!-- 네이비 테마 사용 예시 -->
+[![공소청 PPO](https://raw.githubusercontent.com/leejongyoung/korea-gov-badge/main/badges/ppo/flat-navy.svg)](https://www.moj.go.kr)
+```
+
+### 2. 임의의 Hex 색상으로 직접 생성 (CLI)
+
+내장된 빌드 스크립트를 통해 원하는 Hex 색상 코드로 맞춤형 SVG를 즉시 생성할 수 있습니다:
+
+```sh
+# 보라색(#8250df) 메시지 배경의 행정안전부 flat 배지 생성
+python3 scripts/generate.py --agency mois --color "#8250df" --style flat --out custom-mois.svg
+
+# 배경색과 글자색 모두 커스텀 지정
+python3 scripts/generate.py --agency knpa --label-color "#ffffff" --text-color "#003764" --color "#0969da" --out custom-knpa.svg
+```
 
 ---
 
@@ -55,15 +99,15 @@
 | **국가정보원** | NIS | `nis` | ![nis](badges/nis/flat.svg) |
 | **소방청** | NFA | `nfa` | ![nfa](badges/nfa/flat.svg) |
 | **해양경찰청** | KCG | `kcg` | ![kcg](badges/kcg/flat.svg) |
-| **검찰청** | SPO | `spo` | ![spo](badges/spo/flat.svg) |
 | **감사원** | BAI | `bai` | ![bai](badges/bai/flat.svg) |
 | **대통령비서실** | PRESIDENT | `president` | ![president](badges/president/flat.svg) |
+| **검찰청 (Legacy)** | SPO | `spo-legacy` | ![spo](badges/spo-legacy/flat.svg) |
 
 ---
 
-## 지원 기관 목록 (총 52개 기관)
+## 지원 기관 목록 (총 54개 기관)
 
-최신 대한민국 정부조직법 및 개편 현황(우주항공청, 국가유산청, 재외동포청 개청 등 반영)을 준수하는 52개 기관의 배지를 제공합니다.
+최신 대한민국 정부조직 개편(검찰청 폐지 및 **공소청**, **중대범죄수사청** 신설, 우주항공청, 국가유산청, 재외동포청 등)을 반영한 54개 기관의 배지를 제공합니다.
 
 ### 1. 19부 (Ministries)
 
@@ -99,15 +143,16 @@
 | **국무조정실** | Office for Government Policy Coordination | OPC | `opm` | ![opm](badges/opm/flat.svg) |
 | **대통령비서실** | Office of the President | PRESIDENT | `president` | ![president](badges/president/flat.svg) |
 
-### 3. 20청 (Administrations & Agencies)
+### 3. 21청 및 특별/폐지 기관 (Administrations & Agencies)
 
 | 기관명 | 영문 명칭 | 영문 약칭 | 식별자 (Slug) | 배지 미리보기 (`flat.svg`) |
 | :--- | :--- | :--- | :--- | :--- |
+| **공소청** *(신설)* | Public Prosecution Service | PPO | `ppo` | ![ppo](badges/ppo/flat.svg) |
+| **중대범죄수사청** *(신설)* | Serious Crimes Investigation Agency | SCIA | `scia` | ![scia](badges/scia/flat.svg) |
 | **국세청** | National Tax Service | NTS | `nts` | ![nts](badges/nts/flat.svg) |
 | **관세청** | Korea Customs Service | KCS | `kcs` | ![kcs](badges/kcs/flat.svg) |
 | **조달청** | Public Procurement Service | PPS | `pps` | ![pps](badges/pps/flat.svg) |
 | **통계청** | Statistics Korea | KOSTAT | `kostat` | ![kostat](badges/kostat/flat.svg) |
-| **검찰청** | Supreme Prosecutors' Office | SPO | `spo` | ![spo](badges/spo/flat.svg) |
 | **병무청** | Military Manpower Administration | MMA | `mma` | ![mma](badges/mma/flat.svg) |
 | **방위사업청** | Defense Acquisition Program Administration | DAPA | `dapa` | ![dapa](badges/dapa/flat.svg) |
 | **경찰청** | Korean National Police Agency | KNPA | `knpa` | ![knpa](badges/knpa/flat.svg) |
@@ -123,6 +168,7 @@
 | **재외동포청** | Overseas Koreans Agency | OKA | `oka` | ![oka](badges/oka/flat.svg) |
 | **행정중심복합도시건설청** | National Administrative City Construction Agency | NAACC | `naacc` | ![naacc](badges/naacc/flat.svg) |
 | **새만금개발청** | Saemangeum Development and Promotion Agency | SDPA | `sdpa` | ![sdpa](badges/sdpa/flat.svg) |
+| **검찰청 (Legacy)** *(폐지)* | Supreme Prosecutors' Office (Legacy) | SPO | `spo-legacy` *(spo 호환)* | ![spo](badges/spo-legacy/flat.svg) |
 
 ### 4. 6위원회 (Commissions)
 
@@ -149,10 +195,10 @@
 새로운 기관 추가나 배지 스타일 수정 시 아래 명령어를 통해 배지를 재빌드하고 무결성을 검증할 수 있습니다.
 
 ```sh
-# 1. 52개 기관 1,560개 SVG 배지 생성
+# 1. 54개 기관 배지 생성 (컬러 테마 프리셋 포함 4,400개)
 python3 scripts/generate.py
 
-# 2. 단위 테스트 실행 (데이터 무결성, SVG 유효성, 보안 태그 검증)
+# 2. 단위 테스트 실행 (데이터 무결성, SVG 유효성, 커스텀 색상 검증)
 python3 -m unittest discover -s tests -v
 
 # 3. 배지 생성 결과 일치성 검증 (CI 검증용)
@@ -171,8 +217,8 @@ python3 scripts/generate.py --check
 3. **가독성 최적화 타이포그래피 및 동적 아이콘 마운팅**:
    - 정방형 엠블럼, 횡형 상징(새매, 봉황) 등 다양한 심벌의 고유 비율을 수학적으로 자동 계산하여 6px의 일관된 여백으로 텍스트와 정렬합니다.
    - 시스템 폰트 스택(`-apple-system`, `Noto Sans KR`, `Malgun Gothic` 등)을 선언하여 모든 OS에서 선명한 한글을 지원합니다.
-4. **통일된 색상 팔레트**:
-   - shields.io 호환 스타일 및 for-the-badge 스타일 모두 화이트 레이블(#ffffff)과 공공 블루 메시지(#134f8c)로 톤앤매너를 통일하여 시각적 안정감을 제공합니다.
+4. **다양한 컬러 테마 및 커스터마이징 지원**:
+   - 6가지 표준 프리셋(`blue`, `navy`, `black`, `green`, `red`, `gray`)을 지원하며, CLI를 통해 원하는 임의의 Hex 코드로 배지를 즉시 생성할 수 있습니다.
 5. **CI 무결성 보증**:
    - GitHub Actions 워크플로를 통해 `generate.py --check`가 자동으로 수행되어 생성물과 소스 코드 간의 일치를 항시 보장합니다.
 
@@ -180,5 +226,4 @@ python3 scripts/generate.py --check
 
 ## 라이선스
 
-- **코드 라이선스**: 본 저장소의 빌드 스크립트, 테스트 코드 및 CI 설정은 [MIT License](LICENSE)에 따라 자유롭게 사용 및 수정하실 수 있습니다.
-- **국가상징 및 기관 상징 저작권 안내**: 배지에 포함된 대한민국 정부상징(GI) 및 각 정부 부처/기관의 공식 엠블럼과 명칭에 대한 권리는 대한민국 정부 및 각 해당 기관에 귀속됩니다. 공공기관의 공식 명칭 및 상징을 허위로 도용하거나 정부 기관을 사칭하는 용도로 사용할 수 없습니다.
+본 저장소의 빌드 스크립트, 테스트 코드 및 CI 설정은 [MIT License](LICENSE)에 따라 자유롭게 사용 및 수정하실 수 있습니다. 국가상징 및 공공기관 엠블럼에 관한 저작권 및 사용 수칙은 문서 상단의 안내를 준수해 주시기 바랍니다.

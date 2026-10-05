@@ -270,12 +270,12 @@
     "logo": "gov"
   },
   {
-    "id": "spo",
-    "name": "검찰청",
-    "short_name": "검찰청",
-    "en_name": "Supreme Prosecutors Office",
+    "id": "spo-legacy",
+    "name": "검찰청 (Legacy)",
+    "short_name": "(구) 검찰청",
+    "en_name": "Supreme Prosecutors' Office (Legacy)",
     "en_short": "SPO",
-    "type": "청",
+    "type": "청 (폐지)",
     "homepage": "https://www.spo.go.kr",
     "logo": "spo"
   },
@@ -518,5 +518,25 @@
     "type": "실",
     "homepage": "https://www.president.go.kr",
     "logo": "president"
+  },
+  {
+    "id": "ppo",
+    "name": "공소청",
+    "short_name": "공소청",
+    "en_name": "Public Prosecution Service",
+    "en_short": "PPO",
+    "type": "청",
+    "homepage": "https://www.moj.go.kr",
+    "logo": "gov"
+  },
+  {
+    "id": "scia",
+    "name": "중대범죄수사청",
+    "short_name": "중수청",
+    "en_name": "Serious Crimes Investigation Agency",
+    "en_short": "SCIA",
+    "type": "청",
+    "homepage": "https://www.mois.go.kr",
+    "logo": "gov"
   }
 ]

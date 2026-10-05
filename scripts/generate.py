@@ -14,6 +14,32 @@ AGENCIES = ROOT / "agencies.json"
 LOGOS_DIR = ROOT / "assets" / "logos"
 OUTPUT = ROOT / "badges"
 STYLES = ("flat", "flat-square", "plastic", "for-the-badge", "outline")
+COLOR_THEMES = {
+    "blue": {  # Default 공공 블루
+        "message_color": "#134f8c",
+        "stroke_color": "#134f8c",
+    },
+    "navy": {  # 국가상징 딥 네이비
+        "message_color": "#003764",
+        "stroke_color": "#003764",
+    },
+    "black": {  # 다크 차콜 / GitHub 다크
+        "message_color": "#24292f",
+        "stroke_color": "#24292f",
+    },
+    "green": {  # 포레스트 / 에메랄드 그린
+        "message_color": "#1a7f37",
+        "stroke_color": "#1a7f37",
+    },
+    "red": {  # 태극 레드 / 크림슨
+        "message_color": "#cf222e",
+        "stroke_color": "#cf222e",
+    },
+    "gray": {  # 클래식 그레이
+        "message_color": "#57606a",
+        "stroke_color": "#57606a",
+    },
+}
 SLUG_PATTERN = re.compile(r"[a-z0-9_-]+\Z")
 SVG_NS = "{http://www.w3.org/2000/svg}"
 
@@ -83,7 +109,7 @@ def is_korean(text):
     return any(ord(c) >= 128 for c in text)
 
 
-def render_badge(label_text, message_text, style, logo_key, logos):
+def render_badge(label_text, message_text, style, logo_key, logos, color_theme="blue", custom_colors=None):
     if style not in STYLES:
         raise ValueError(f"unsupported badge style: {style!r}")
     if logo_key not in logos:
@@ -120,12 +146,33 @@ def render_badge(label_text, message_text, style, logo_key, logos):
     width = label_width + message_width
     radius = 0 if squared else 4
 
-    # for-the-badge도 다른 스타일들과 동일한 톤앤매너(화이트 레이블, 블루 메시지) 적용
-    label_color = "#ffffff"
-    message_color = "#ffffff" if outlined else "#134f8c"
-    text_color = "#003764"
-    version_color = "#134f8c" if outlined else "#ffffff"
-    stroke_color = "#134f8c" if (outlined or prominent) else "#d0d7de"
+    # 색상 결정 (커스텀 색상 우선, 프리셋 테마 기본)
+    if custom_colors:
+        raw_msg_col = custom_colors.get("message_color", "#134f8c")
+        raw_lbl_col = custom_colors.get("label_color", "#ffffff")
+        raw_txt_col = custom_colors.get("text_color", "#003764")
+        raw_ver_col = custom_colors.get("version_color", "#ffffff")
+        raw_strk_col = custom_colors.get("stroke_color", raw_msg_col)
+    else:
+        theme = COLOR_THEMES.get(color_theme, COLOR_THEMES["blue"])
+        raw_msg_col = theme["message_color"]
+        raw_lbl_col = "#ffffff"
+        raw_txt_col = "#003764"
+        raw_ver_col = "#ffffff"
+        raw_strk_col = theme["stroke_color"]
+
+    if outlined:
+        label_color = raw_lbl_col
+        message_color = raw_lbl_col
+        text_color = raw_txt_col
+        version_color = raw_msg_col
+        stroke_color = raw_strk_col
+    else:
+        label_color = raw_lbl_col
+        message_color = raw_msg_col
+        text_color = raw_txt_col
+        version_color = raw_ver_col
+        stroke_color = raw_strk_col if (prominent or style == "flat-square") else "#d0d7de"
 
     font_size_label = 11 if (prominent or is_ko_label) else 12
     font_size_msg = 11 if (prominent or is_ko_msg) else 12
@@ -167,6 +214,8 @@ def render_badge(label_text, message_text, style, logo_key, logos):
 
 def build_expected_badges(agencies, logos):
     expected = {}
+    preset_colors = ("navy", "black", "green", "red", "gray")
+
     for agency in agencies:
         agency_id = agency["id"]
         name = agency["name"]
@@ -174,19 +223,34 @@ def build_expected_badges(agencies, logos):
         agency_logo = agency.get("logo", "gov")
 
         for style in STYLES:
-            # 기관 고유 배지: [ 기관명 | 영문약칭 ]
-            # (해당 기관 공식 엠블럼 또는 통합 정부상징 심벌 적용)
-            badge = render_badge(name, en_short, style, agency_logo, logos)
+            # 1. 기본 배지 (Blue 테마)
+            badge_blue = render_badge(name, en_short, style, agency_logo, logos, "blue")
 
-            # 1. 영문 식별자 디렉터리 경로
-            expected[OUTPUT / agency_id / f"{style}.svg"] = badge
-            expected[OUTPUT / agency_id / f"{style}-abbr.svg"] = badge
-            expected[OUTPUT / agency_id / f"{style}-agency.svg"] = badge
+            expected[OUTPUT / agency_id / f"{style}.svg"] = badge_blue
+            expected[OUTPUT / agency_id / f"{style}-abbr.svg"] = badge_blue
+            expected[OUTPUT / agency_id / f"{style}-agency.svg"] = badge_blue
+            expected[OUTPUT / name / f"{style}.svg"] = badge_blue
+            expected[OUTPUT / name / f"{style}-abbr.svg"] = badge_blue
+            expected[OUTPUT / name / f"{style}-agency.svg"] = badge_blue
 
-            # 2. 한글 기관명 디렉터리 경로
-            expected[OUTPUT / name / f"{style}.svg"] = badge
-            expected[OUTPUT / name / f"{style}-abbr.svg"] = badge
-            expected[OUTPUT / name / f"{style}-agency.svg"] = badge
+            # 2. 색상 프리셋 테마 (<style>-<color>.svg)
+            for c_name in preset_colors:
+                badge_c = render_badge(name, en_short, style, agency_logo, logos, c_name)
+                expected[OUTPUT / agency_id / f"{style}-{c_name}.svg"] = badge_c
+                expected[OUTPUT / name / f"{style}-{c_name}.svg"] = badge_c
+
+            # 3. spo-legacy 호환용 기존 spo 경로 에일리어스
+            if agency_id == "spo-legacy":
+                expected[OUTPUT / "spo" / f"{style}.svg"] = badge_blue
+                expected[OUTPUT / "spo" / f"{style}-abbr.svg"] = badge_blue
+                expected[OUTPUT / "spo" / f"{style}-agency.svg"] = badge_blue
+                expected[OUTPUT / "검찰청" / f"{style}.svg"] = badge_blue
+                expected[OUTPUT / "검찰청" / f"{style}-abbr.svg"] = badge_blue
+                expected[OUTPUT / "검찰청" / f"{style}-agency.svg"] = badge_blue
+                for c_name in preset_colors:
+                    badge_c = render_badge(name, en_short, style, agency_logo, logos, c_name)
+                    expected[OUTPUT / "spo" / f"{style}-{c_name}.svg"] = badge_c
+                    expected[OUTPUT / "검찰청" / f"{style}-{c_name}.svg"] = badge_c
 
     return expected
 
@@ -194,10 +258,55 @@ def build_expected_badges(agencies, logos):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="verify committed badges match generated output")
+    parser.add_argument("--agency", help="generate on-demand custom badge for specific agency id")
+    parser.add_argument("--style", default="flat", choices=STYLES, help="badge style")
+    parser.add_argument("--color", help="custom message background color (e.g. #8250df or red)")
+    parser.add_argument("--label-color", default="#ffffff", help="custom label background color (hex)")
+    parser.add_argument("--text-color", default="#003764", help="custom label text color (hex)")
+    parser.add_argument("--out", help="output file path for custom badge")
     args = parser.parse_args()
 
     agencies = load_agencies()
     logos = load_logos()
+
+    # CLI 임의 커스텀 색상 배지 생성 모드
+    if args.agency:
+        matched = [a for a in agencies if a["id"] == args.agency or a["name"] == args.agency]
+        if not matched:
+            print(f"Error: agency {args.agency!r} not found", file=sys.stderr)
+            return 1
+        agency = matched[0]
+        custom_cols = None
+        color_theme = "blue"
+        if args.color:
+            if args.color in COLOR_THEMES:
+                color_theme = args.color
+            else:
+                custom_cols = {
+                    "message_color": args.color,
+                    "label_color": args.label_color,
+                    "text_color": args.text_color,
+                    "version_color": "#ffffff",
+                    "stroke_color": args.color,
+                }
+        svg = render_badge(
+            agency["name"],
+            agency["en_short"],
+            args.style,
+            agency.get("logo", "gov"),
+            logos,
+            color_theme=color_theme,
+            custom_colors=custom_cols,
+        )
+        if args.out:
+            out_path = Path(args.out)
+            out_path.parent.mkdir(parents=True, exist_ok=True)
+            out_path.write_text(svg, encoding="utf-8")
+            print(f"Generated custom badge for {agency['name']} -> {out_path}")
+        else:
+            sys.stdout.write(svg)
+        return 0
+
     expected = build_expected_badges(agencies, logos)
     existing = set(OUTPUT.glob("**/*.svg"))
 
@@ -225,7 +334,7 @@ def main():
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(content, encoding="utf-8")
 
-    print(f"Generated {len(expected)} badges across {len(agencies)} agencies")
+    print(f"Generated {len(expected)} badges across {len(agencies)} agencies (including color variants)")
     return 0
 
 
