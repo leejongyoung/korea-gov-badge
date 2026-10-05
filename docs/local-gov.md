@@ -30,11 +30,49 @@
 
 ---
 
-## 2. 향후 지원 예정: 기초지방자치단체 (226개 시·군·구)
+## 2. 서울특별시 자치구 (25개)
+
+서울특별시 25개 자치구 전체. 로고는 각 구청이 Wikimedia Commons에 퍼블릭 도메인(대한민국 저작권법 제7조, 공공저작물)으로 공개한 공식 구기(區旗)에서 추출했다 — 구기 원본에는 구호/구명 문구가 함께 그려진 경우가 있어, 배지 아이콘에는 그 표기가 작게 남아있을 수 있다.
+
+| 자치구 | 영문 명칭 | 식별자 (Slug) | 배지 미리보기 (`flat.svg`) |
+| :--- | :--- | :--- | :--- |
+| **종로구** | Jongno-gu | `seoul-jongno` | ![jongno](../badges/seoul-jongno/flat.svg) |
+| **중구** | Jung-gu | `seoul-jung` | ![jung](../badges/seoul-jung/flat.svg) |
+| **용산구** | Yongsan-gu | `seoul-yongsan` | ![yongsan](../badges/seoul-yongsan/flat.svg) |
+| **성동구** | Seongdong-gu | `seoul-seongdong` | ![seongdong](../badges/seoul-seongdong/flat.svg) |
+| **광진구** | Gwangjin-gu | `seoul-gwangjin` | ![gwangjin](../badges/seoul-gwangjin/flat.svg) |
+| **동대문구** | Dongdaemun-gu | `seoul-dongdaemun` | ![dongdaemun](../badges/seoul-dongdaemun/flat.svg) |
+| **중랑구** | Jungnang-gu | `seoul-jungnang` | ![jungnang](../badges/seoul-jungnang/flat.svg) |
+| **성북구** | Seongbuk-gu | `seoul-seongbuk` | ![seongbuk](../badges/seoul-seongbuk/flat.svg) |
+| **강북구** | Gangbuk-gu | `seoul-gangbuk` | ![gangbuk](../badges/seoul-gangbuk/flat.svg) |
+| **도봉구** | Dobong-gu | `seoul-dobong` | ![dobong](../badges/seoul-dobong/flat.svg) |
+| **노원구** | Nowon-gu | `seoul-nowon` | ![nowon](../badges/seoul-nowon/flat.svg) |
+| **은평구** | Eunpyeong-gu | `seoul-eunpyeong` | ![eunpyeong](../badges/seoul-eunpyeong/flat.svg) |
+| **서대문구** | Seodaemun-gu | `seoul-seodaemun` | ![seodaemun](../badges/seoul-seodaemun/flat.svg) |
+| **마포구** | Mapo-gu | `seoul-mapo` | ![mapo](../badges/seoul-mapo/flat.svg) |
+| **양천구** | Yangcheon-gu | `seoul-yangcheon` | ![yangcheon](../badges/seoul-yangcheon/flat.svg) |
+| **강서구** | Gangseo-gu | `seoul-gangseo` | ![gangseo](../badges/seoul-gangseo/flat.svg) |
+| **구로구** | Guro-gu | `seoul-guro` | ![guro](../badges/seoul-guro/flat.svg) |
+| **금천구** | Geumcheon-gu | `seoul-geumcheon` | ![geumcheon](../badges/seoul-geumcheon/flat.svg) |
+| **영등포구** | Yeongdeungpo-gu | `seoul-yeongdeungpo` | ![yeongdeungpo](../badges/seoul-yeongdeungpo/flat.svg) |
+| **동작구** | Dongjak-gu | `seoul-dongjak` | ![dongjak](../badges/seoul-dongjak/flat.svg) |
+| **관악구** | Gwanak-gu | `seoul-gwanak` | ![gwanak](../badges/seoul-gwanak/flat.svg) |
+| **서초구** | Seocho-gu | `seoul-seocho` | ![seocho](../badges/seoul-seocho/flat.svg) |
+| **강남구** | Gangnam-gu | `seoul-gangnam` | ![gangnam](../badges/seoul-gangnam/flat.svg) |
+| **송파구** | Songpa-gu | `seoul-songpa` | ![songpa](../badges/seoul-songpa/flat.svg) |
+| **강동구** | Gangdong-gu | `seoul-gangdong` | ![gangdong](../badges/seoul-gangdong/flat.svg) |
+
+홈페이지 URL은 `<slug>.go.kr` 표준 패턴을 우선 적용했다 — 일부(예: 중구·강서구는 `seoul.kr` 서브도메인, 성동구·성북구·은평구·서대문구는 영문 약어 도메인)는 개별 확인이 필요할 수 있다.
+
+---
+
+## 3. 향후 지원 예정: 그 외 기초지방자치단체 (201개 시·군·구)
+
+서울 외 기초지방자치단체. 정확한 전체 목록은 [이슈 #5](https://github.com/leejongyoung/korea-gov-badge/issues/5)에서 확정 중이다 — 아래는 확정 전까지의 예시일 뿐 전체 목록이 아니다.
 
 - **시 (75개)**: 수원시, 용인시, 고양시, 창원시, 성남시, 청주시, 천안시, 전주시 등
 - **군 (82개)**: 기장군, 달성군, 강화군, 옹진군, 울주군, 양평군 등
-- **자치구 (69개)**: 종로구, 강남구, 서초구, 송파구, 중구, 해운대구, 수성구 등
+- **자치구 (44개, 6개 광역시 소속)**: 부산 해운대구, 대구 수성구 등
 
 ---
 

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151.0" height="22" viewBox="0 0 151.0 22" role="img" aria-label="강남구 GANGNAM">
+<title>강남구 GANGNAM (outline)</title>
+<defs><clipPath id="badge-shape"><rect width="151.0" height="22" rx="4"/></clipPath></defs>
+<g clip-path="url(#badge-shape)">
+<rect width="151.0" height="22" rx="4" fill="#ffffff"/>
+<path d="M75.0 0h76v22h-76z" fill="#ffffff"/>
+</g>
+<rect x="0.5" y="0.5" width="150.0" height="21" rx="4" fill="none" stroke="#57606a"/>
+<g transform="translate(6.000 4.333) scale(0.066667)"><path d="m181.69061 131.71236c36.03486-36.034865 51.05546-79.434195 33.5521-96.937575-12.28628-12.28628-37.32548-8.54571-63.62248 7.23322a3.3285948 3.3285948 0 0 0 -1.62236 2.85101v55.160605h15.81173c.91509 0 1.65883.74373 1.65883 1.65882v53.7096c0 .91509.74374 1.65883 1.65882 1.65883h36.23903c.9151 0 1.65883-.74374 1.65883-1.65883v-14.15655c0-.9151-.74373-1.65884-1.65883-1.65884h-32.03179c2.81818-2.49006 5.6072-5.11502 8.35612-7.86029m-31.69274-31.69274v55.15696c0 1.1703-.61979 2.24945-1.62237 2.851-26.297 15.78256-51.332544 19.51949-63.618824 7.23323-17.50338-17.49974-2.47913-60.90273 33.552094-96.937585 2.74527-2.74527 5.53428-5.37022 8.35248-7.86393h-32.035464c-.91508 0-1.65882-.74375-1.65882-1.65883v-14.14927c0-.91508.74374-1.65883 1.65882-1.65883h36.239034c.9151 0 1.65884.74375 1.65884 1.65883v53.7096c0 .91508.74373 1.658825 1.65883 1.658825z" fill="#0a308a" stroke-width=".364577" /></g>
+<text x="32.0" y="15" fill="#003764" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif" font-size="11" font-weight="600">강남구</text>
+<text x="113" y="15" fill="#57606a" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">GANGNAM</text>
+</svg>

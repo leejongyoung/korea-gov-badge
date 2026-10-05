@@ -718,5 +718,255 @@
     "type": "광역자치단체",
     "homepage": "https://www.jeju.go.kr",
     "logo": "jeju"
+  },
+  {
+    "id": "seoul-jongno",
+    "name": "종로구",
+    "short_name": "종로구",
+    "en_name": "Jongno-gu",
+    "en_short": "JONGNO",
+    "type": "자치구",
+    "homepage": "https://www.jongno.go.kr",
+    "logo": "seoul-jongno"
+  },
+  {
+    "id": "seoul-jung",
+    "name": "중구",
+    "short_name": "중구",
+    "en_name": "Jung-gu",
+    "en_short": "JUNG",
+    "type": "자치구",
+    "homepage": "https://www.junggu.seoul.kr",
+    "logo": "seoul-jung"
+  },
+  {
+    "id": "seoul-yongsan",
+    "name": "용산구",
+    "short_name": "용산구",
+    "en_name": "Yongsan-gu",
+    "en_short": "YONGSAN",
+    "type": "자치구",
+    "homepage": "https://www.yongsan.go.kr",
+    "logo": "seoul-yongsan"
+  },
+  {
+    "id": "seoul-seongdong",
+    "name": "성동구",
+    "short_name": "성동구",
+    "en_name": "Seongdong-gu",
+    "en_short": "SEONGDONG",
+    "type": "자치구",
+    "homepage": "https://www.sd.go.kr",
+    "logo": "seoul-seongdong"
+  },
+  {
+    "id": "seoul-gwangjin",
+    "name": "광진구",
+    "short_name": "광진구",
+    "en_name": "Gwangjin-gu",
+    "en_short": "GWANGJIN",
+    "type": "자치구",
+    "homepage": "https://www.gwangjin.go.kr",
+    "logo": "seoul-gwangjin"
+  },
+  {
+    "id": "seoul-dongdaemun",
+    "name": "동대문구",
+    "short_name": "동대문구",
+    "en_name": "Dongdaemun-gu",
+    "en_short": "DONGDAEMUN",
+    "type": "자치구",
+    "homepage": "https://www.ddm.go.kr",
+    "logo": "seoul-dongdaemun"
+  },
+  {
+    "id": "seoul-jungnang",
+    "name": "중랑구",
+    "short_name": "중랑구",
+    "en_name": "Jungnang-gu",
+    "en_short": "JUNGNANG",
+    "type": "자치구",
+    "homepage": "https://www.jungnang.go.kr",
+    "logo": "seoul-jungnang"
+  },
+  {
+    "id": "seoul-seongbuk",
+    "name": "성북구",
+    "short_name": "성북구",
+    "en_name": "Seongbuk-gu",
+    "en_short": "SEONGBUK",
+    "type": "자치구",
+    "homepage": "https://www.sb.go.kr",
+    "logo": "seoul-seongbuk"
+  },
+  {
+    "id": "seoul-gangbuk",
+    "name": "강북구",
+    "short_name": "강북구",
+    "en_name": "Gangbuk-gu",
+    "en_short": "GANGBUK",
+    "type": "자치구",
+    "homepage": "https://www.gangbuk.go.kr",
+    "logo": "seoul-gangbuk"
+  },
+  {
+    "id": "seoul-dobong",
+    "name": "도봉구",
+    "short_name": "도봉구",
+    "en_name": "Dobong-gu",
+    "en_short": "DOBONG",
+    "type": "자치구",
+    "homepage": "https://www.dobong.go.kr",
+    "logo": "seoul-dobong"
+  },
+  {
+    "id": "seoul-nowon",
+    "name": "노원구",
+    "short_name": "노원구",
+    "en_name": "Nowon-gu",
+    "en_short": "NOWON",
+    "type": "자치구",
+    "homepage": "https://www.nowon.kr",
+    "logo": "seoul-nowon"
+  },
+  {
+    "id": "seoul-eunpyeong",
+    "name": "은평구",
+    "short_name": "은평구",
+    "en_name": "Eunpyeong-gu",
+    "en_short": "EUNPYEONG",
+    "type": "자치구",
+    "homepage": "https://www.ep.go.kr",
+    "logo": "seoul-eunpyeong"
+  },
+  {
+    "id": "seoul-seodaemun",
+    "name": "서대문구",
+    "short_name": "서대문구",
+    "en_name": "Seodaemun-gu",
+    "en_short": "SEODAEMUN",
+    "type": "자치구",
+    "homepage": "https://www.sdm.go.kr",
+    "logo": "seoul-seodaemun"
+  },
+  {
+    "id": "seoul-mapo",
+    "name": "마포구",
+    "short_name": "마포구",
+    "en_name": "Mapo-gu",
+    "en_short": "MAPO",
+    "type": "자치구",
+    "homepage": "https://www.mapo.go.kr",
+    "logo": "seoul-mapo"
+  },
+  {
+    "id": "seoul-yangcheon",
+    "name": "양천구",
+    "short_name": "양천구",
+    "en_name": "Yangcheon-gu",
+    "en_short": "YANGCHEON",
+    "type": "자치구",
+    "homepage": "https://www.yangcheon.go.kr",
+    "logo": "seoul-yangcheon"
+  },
+  {
+    "id": "seoul-gangseo",
+    "name": "강서구",
+    "short_name": "강서구",
+    "en_name": "Gangseo-gu",
+    "en_short": "GANGSEO",
+    "type": "자치구",
+    "homepage": "https://www.gangseo.seoul.kr",
+    "logo": "seoul-gangseo"
+  },
+  {
+    "id": "seoul-guro",
+    "name": "구로구",
+    "short_name": "구로구",
+    "en_name": "Guro-gu",
+    "en_short": "GURO",
+    "type": "자치구",
+    "homepage": "https://www.guro.go.kr",
+    "logo": "seoul-guro"
+  },
+  {
+    "id": "seoul-geumcheon",
+    "name": "금천구",
+    "short_name": "금천구",
+    "en_name": "Geumcheon-gu",
+    "en_short": "GEUMCHEON",
+    "type": "자치구",
+    "homepage": "https://www.geumcheon.go.kr",
+    "logo": "seoul-geumcheon"
+  },
+  {
+    "id": "seoul-yeongdeungpo",
+    "name": "영등포구",
+    "short_name": "영등포구",
+    "en_name": "Yeongdeungpo-gu",
+    "en_short": "YEONGDEUNGPO",
+    "type": "자치구",
+    "homepage": "https://www.ydp.go.kr",
+    "logo": "seoul-yeongdeungpo"
+  },
+  {
+    "id": "seoul-dongjak",
+    "name": "동작구",
+    "short_name": "동작구",
+    "en_name": "Dongjak-gu",
+    "en_short": "DONGJAK",
+    "type": "자치구",
+    "homepage": "https://www.dongjak.go.kr",
+    "logo": "seoul-dongjak"
+  },
+  {
+    "id": "seoul-gwanak",
+    "name": "관악구",
+    "short_name": "관악구",
+    "en_name": "Gwanak-gu",
+    "en_short": "GWANAK",
+    "type": "자치구",
+    "homepage": "https://www.gwanak.go.kr",
+    "logo": "seoul-gwanak"
+  },
+  {
+    "id": "seoul-seocho",
+    "name": "서초구",
+    "short_name": "서초구",
+    "en_name": "Seocho-gu",
+    "en_short": "SEOCHO",
+    "type": "자치구",
+    "homepage": "https://www.seocho.go.kr",
+    "logo": "seoul-seocho"
+  },
+  {
+    "id": "seoul-gangnam",
+    "name": "강남구",
+    "short_name": "강남구",
+    "en_name": "Gangnam-gu",
+    "en_short": "GANGNAM",
+    "type": "자치구",
+    "homepage": "https://www.gangnam.go.kr",
+    "logo": "seoul-gangnam"
+  },
+  {
+    "id": "seoul-songpa",
+    "name": "송파구",
+    "short_name": "송파구",
+    "en_name": "Songpa-gu",
+    "en_short": "SONGPA",
+    "type": "자치구",
+    "homepage": "https://www.songpa.go.kr",
+    "logo": "seoul-songpa"
+  },
+  {
+    "id": "seoul-gangdong",
+    "name": "강동구",
+    "short_name": "강동구",
+    "en_name": "Gangdong-gu",
+    "en_short": "GANGDONG",
+    "type": "자치구",
+    "homepage": "https://www.gangdong.go.kr",
+    "logo": "seoul-gangdong"
   }
 ]
