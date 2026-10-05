@@ -121,11 +121,19 @@ def render_badge(label_text, message_text, style, logo_key, logos, color_theme="
     squared = style in ("flat-square", "for-the-badge")
 
     height = 28 if prominent else 22 if outlined else 20
-    max_icon_h = 18 if prominent else 14
-    max_icon_w = 26 if prominent else 20
-
     min_x, min_y, vb_w, vb_h, content = logos[logo_key]
-    scale = min(max_icon_w / vb_w, max_icon_h / vb_h)
+    aspect = vb_w / vb_h if vb_h > 0 else 1.0
+
+    if aspect > 1.8:
+        # Wide emblems (e.g. KASA wordmark, CIO wings emblem, NFA mark)
+        target_h = 14.5 if prominent else 10.5
+        max_w = 44.0 if prominent else 34.0
+        scale = min(max_w / vb_w, target_h / vb_h)
+    else:
+        max_icon_h = 18.0 if prominent else 14.0
+        max_icon_w = 26.0 if prominent else 20.0
+        scale = min(max_icon_w / vb_w, max_icon_h / vb_h)
+
     icon_w = vb_w * scale
     icon_h = vb_h * scale
     icon_x = 6
