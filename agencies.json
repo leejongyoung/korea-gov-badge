@@ -271,9 +271,9 @@
   },
   {
     "id": "spo-legacy",
-    "name": "검찰청 (Legacy)",
-    "short_name": "(구) 검찰청",
-    "en_name": "Supreme Prosecutors' Office (Legacy)",
+    "name": "검찰청",
+    "short_name": "검찰청",
+    "en_name": "Supreme Prosecutors' Office",
     "en_short": "SPO",
     "type": "청 (폐지)",
     "homepage": "https://www.spo.go.kr",

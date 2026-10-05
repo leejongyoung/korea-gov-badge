@@ -1,6 +1,6 @@
 # Korea Gov Badge (대한민국 정부 기관 배지)
 
-대한민국 중앙행정기관(19부, 처, 청, 위원회 등 총 55개 기관)을 위한 오픈소스 SVG 배지 모음입니다. 공공 소프트웨어, 정부 R&D 과제, 공공데이터 연계 프로젝트, [전자정부 표준프레임워크(eGovFrame)](https://github.com/leejongyoung/egovframe-badge) 기반 시스템 등의 README에서 소관 부처 및 기관을 명확하게 표시할 수 있습니다.
+대한민국 중앙행정기관(19부·처·청·위원회 등 52개 기관)을 위한 SVG 배지 모음입니다. 공공 소프트웨어, 정부 R&D 과제, 공공데이터 연계 프로젝트, [전자정부 표준프레임워크(eGovFrame)](https://github.com/leejongyoung/egovframe-badge) 기반 시스템 등의 README에서 소관 부처 및 기관을 명확하게 표시할 수 있습니다.
 
 별도의 배포 서버나 JavaScript 없이 GitHub raw URL 한 줄로 즉시 임베드할 수 있는 자립형(self-contained) 정적 SVG입니다.
 
@@ -16,7 +16,7 @@
 각 기관의 성격과 공식 상징 체계에 맞추어 심벌이 자동 적용됩니다:
 
 1. **독자 고유 로고 사용 기관**:
-   - 2016년 정부상징 통합 대상에서 제외되어 고유 상징을 유지하거나 신설 시 독자 상징을 제정한 기관(**국방부, 경찰청, 국가정보원, 소방청, 해양경찰청, 감사원, 대통령비서실, 우주항공청, 고위공직자범죄수사처, 검찰청(Legacy)**)은 **해당 기관의 공식 고유 엠블럼**이 배지에 포함됩니다.
+   - 2016년 정부상징 통합 대상에서 제외되어 고유 상징을 유지하거나 신설 시 독자 상징을 제정한 기관(**국방부, 경찰청, 국가정보원, 소방청, 해양경찰청, 감사원, 대통령비서실, 우주항공청, 고위공직자범죄수사처, 검찰청(폐지)**)은 **해당 기관의 공식 고유 엠블럼**이 배지에 포함됩니다.
 2. **정부상징 통합 사용 부처**:
    - 대한민국 정부상징(GI)을 사용하는 18개 부 및 공소청, 중대범죄수사청 등 각 처·청·위원회는 **대한민국 정부상징(GI)** 태극 문양이 적용됩니다.
 
@@ -90,23 +90,6 @@ python3 scripts/generate.py --agency cio --label-color "#ffffff" --text-color "#
 
 ---
 
-## 독자 엠블럼 사용 기관 배지
-
-| 기관명 | 영문 약칭 | 식별자 (Slug) | 배지 미리보기 (`flat.svg`) |
-| :--- | :---: | :---: | :--- |
-| **우주항공청** | KASA | `kasa` | ![kasa](badges/kasa/flat.svg) |
-| **고위공직자범죄수사처** | CIO | `cio` | ![cio](badges/cio/flat.svg) |
-| **국방부** | MND | `mnd` | ![mnd](badges/mnd/flat.svg) |
-| **경찰청** | KNPA | `knpa` | ![knpa](badges/knpa/flat.svg) |
-| **국가정보원** | NIS | `nis` | ![nis](badges/nis/flat.svg) |
-| **소방청** | NFA | `nfa` | ![nfa](badges/nfa/flat.svg) |
-| **해양경찰청** | KCG | `kcg` | ![kcg](badges/kcg/flat.svg) |
-| **감사원** | BAI | `bai` | ![bai](badges/bai/flat.svg) |
-| **대통령비서실** | PRESIDENT | `president` | ![president](badges/president/flat.svg) |
-| **검찰청 (Legacy)** | SPO | `spo-legacy` | ![spo](badges/spo-legacy/flat.svg) |
-
----
-
 ## 지원 기관 목록 (총 55개 기관)
 
 최신 대한민국 정부조직 개편(우주항공청, 고위공직자범죄수사처, 검찰청 폐지 및 **공소청**, **중대범죄수사청** 신설, 국가유산청, 재외동포청 등)을 반영한 55개 기관의 배지를 제공합니다.
@@ -146,13 +129,13 @@ python3 scripts/generate.py --agency cio --label-color "#ffffff" --text-color "#
 | **국무조정실** | Office for Government Policy Coordination | OPC | `opm` | ![opm](badges/opm/flat.svg) |
 | **대통령비서실** | Office of the President | PRESIDENT | `president` | ![president](badges/president/flat.svg) |
 
-### 3. 21청 및 특별/폐지 기관 (Administrations & Agencies)
+### 3. 21청 (Administrations)
 
 | 기관명 | 영문 명칭 | 영문 약칭 | 식별자 (Slug) | 배지 미리보기 (`flat.svg`) |
 | :--- | :--- | :--- | :--- | :--- |
 | **우주항공청** | Korea AeroSpace Administration | KASA | `kasa` | ![kasa](badges/kasa/flat.svg) |
-| **공소청** *(신설)* | Public Prosecution Service | PPO | `ppo` | ![ppo](badges/ppo/flat.svg) |
-| **중대범죄수사청** *(신설)* | Serious Crimes Investigation Agency | SCIA | `scia` | ![scia](badges/scia/flat.svg) |
+| **공소청** | Public Prosecution Service | PPO | `ppo` | ![ppo](badges/ppo/flat.svg) |
+| **중대범죄수사청** | Serious Crimes Investigation Agency | SCIA | `scia` | ![scia](badges/scia/flat.svg) |
 | **국세청** | National Tax Service | NTS | `nts` | ![nts](badges/nts/flat.svg) |
 | **관세청** | Korea Customs Service | KCS | `kcs` | ![kcs](badges/kcs/flat.svg) |
 | **조달청** | Public Procurement Service | PPS | `pps` | ![pps](badges/pps/flat.svg) |
@@ -171,7 +154,7 @@ python3 scripts/generate.py --agency cio --label-color "#ffffff" --text-color "#
 | **재외동포청** | Overseas Koreans Agency | OKA | `oka` | ![oka](badges/oka/flat.svg) |
 | **행정중심복합도시건설청** | National Administrative City Construction Agency | NAACC | `naacc` | ![naacc](badges/naacc/flat.svg) |
 | **새만금개발청** | Saemangeum Development and Promotion Agency | SDPA | `sdpa` | ![sdpa](badges/sdpa/flat.svg) |
-| **검찰청 (Legacy)** *(폐지)* | Supreme Prosecutors' Office (Legacy) | SPO | `spo-legacy` *(spo 호환)* | ![spo](badges/spo-legacy/flat.svg) |
+| **검찰청(폐지)** | Supreme Prosecutors' Office | SPO | `spo-legacy` | ![spo](badges/spo-legacy/flat.svg) |
 
 ### 4. 6위원회 (Commissions)
 
