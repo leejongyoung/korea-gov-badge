@@ -1,4 +1,6 @@
 import importlib.util
+import subprocess
+import sys
 import unittest
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -92,6 +94,46 @@ class KoreaGovBadgeTests(unittest.TestCase):
         self.assertIn('fill="#f8f9fa"', svg)
         root = ET.fromstring(svg)
         self.assertEqual(root.attrib["role"], "img")
+
+    def run_cli(self, *args):
+        result = subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "generate.py"), "--agency", "kasa", *args],
+            capture_output=True, text=True, encoding="utf-8", check=True,
+        )
+        return result.stdout
+
+    def test_cli_label_and_text_colors_apply_to_every_color_mode(self):
+        label, text = "#f8f9fa", "#112233"
+        navy = generate.COLOR_THEMES["navy"]["message_color"]
+        blue = generate.COLOR_THEMES["blue"]["message_color"]
+        for style in generate.STYLES:
+            for color, message in ((None, blue), ("navy", navy), ("#8250df", "#8250df")):
+                with self.subTest(style=style, color=color):
+                    extra = ["--color", color] if color else []
+                    svg = self.run_cli("--style", style, *extra, "--label-color", label, "--text-color", text)
+                    ET.fromstring(svg)
+                    self.assertIn(f'fill="{label}"', svg)
+                    self.assertIn(f'fill="{text}"', svg)
+                    if style != "outline":
+                        self.assertIn(f'fill="{message}"', svg)
+
+    def test_cli_preset_keeps_defaults_when_label_text_omitted(self):
+        logos = generate.load_logos()
+        for color in (None, "navy", "#8250df"):
+            with self.subTest(color=color):
+                extra = ["--color", color] if color else []
+                expected = generate.render_badge(
+                    "우주항공청", "KASA", "flat", "kasa", logos,
+                    color_theme=color if color in generate.COLOR_THEMES else "blue",
+                    custom_colors={"message_color": color, "stroke_color": color} if color and color not in generate.COLOR_THEMES else None,
+                )
+                self.assertEqual(self.run_cli(*extra), expected)
+
+    def test_cli_label_color_only_keeps_preset_message_color_and_default_text(self):
+        svg = self.run_cli("--color", "navy", "--label-color", "#f8f9fa")
+        self.assertIn(f'fill="{generate.COLOR_THEMES["navy"]["message_color"]}"', svg)
+        self.assertIn('fill="#f8f9fa"', svg)
+        self.assertIn('fill="#003764"', svg)
 
     def test_rejects_invalid_styles_or_logos(self):
         logos = generate.load_logos()

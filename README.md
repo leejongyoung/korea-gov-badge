@@ -78,6 +78,12 @@ python3 scripts/generate.py --agency kasa --color "#8250df" --style flat --out c
 
 # 배경색과 글자색 모두 커스텀 지정
 python3 scripts/generate.py --agency cio --label-color "#ffffff" --text-color "#003764" --color "#0969da" --out custom-cio.svg
+
+# 내장 프리셋(navy)의 메시지 배경은 유지하고 label 배경·글자색만 변경
+python3 scripts/generate.py --agency kasa --color navy --label-color "#f8f9fa" --text-color "#112233" --out custom-navy.svg
+
+# --color 없이 label/글자색만 지정하면 기본 블루 테마의 메시지 배경을 유지
+python3 scripts/generate.py --agency kasa --label-color "#f8f9fa" --text-color "#112233" --out custom-default.svg
 ```
 
 ---
