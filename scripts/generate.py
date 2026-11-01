@@ -263,14 +263,39 @@ def build_expected_badges(agencies, logos):
     return expected
 
 
+def resolve_cli_colors(color, label_color, text_color):
+    """Map CLI color options to (color_theme, custom_colors) for render_badge.
+
+    Label/text overrides apply on top of the default theme, a built-in preset,
+    or an arbitrary color; unspecified values keep the renderer defaults.
+    """
+    color_theme = "blue"
+    custom = {}
+    if color:
+        if color in COLOR_THEMES:
+            color_theme = color
+        else:
+            custom["message_color"] = color
+            custom["stroke_color"] = color
+    if label_color:
+        custom["label_color"] = label_color
+    if text_color:
+        custom["text_color"] = text_color
+    if custom and "message_color" not in custom:
+        theme = COLOR_THEMES[color_theme]
+        custom["message_color"] = theme["message_color"]
+        custom["stroke_color"] = theme["stroke_color"]
+    return color_theme, (custom or None)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="verify committed badges match generated output")
     parser.add_argument("--agency", help="generate on-demand custom badge for specific agency id")
     parser.add_argument("--style", default="flat", choices=STYLES, help="badge style")
     parser.add_argument("--color", help="custom message background color (e.g. #8250df or red)")
-    parser.add_argument("--label-color", default="#ffffff", help="custom label background color (hex)")
-    parser.add_argument("--text-color", default="#003764", help="custom label text color (hex)")
+    parser.add_argument("--label-color", help="label background color (default: #ffffff); works with any theme or --color")
+    parser.add_argument("--text-color", help="label text color (default: #003764); works with any theme or --color")
     parser.add_argument("--out", help="output file path for custom badge")
     args = parser.parse_args()
 
@@ -284,19 +309,7 @@ def main():
             print(f"Error: agency {args.agency!r} not found", file=sys.stderr)
             return 1
         agency = matched[0]
-        custom_cols = None
-        color_theme = "blue"
-        if args.color:
-            if args.color in COLOR_THEMES:
-                color_theme = args.color
-            else:
-                custom_cols = {
-                    "message_color": args.color,
-                    "label_color": args.label_color,
-                    "text_color": args.text_color,
-                    "version_color": "#ffffff",
-                    "stroke_color": args.color,
-                }
+        color_theme, custom_cols = resolve_cli_colors(args.color, args.label_color, args.text_color)
         svg = render_badge(
             agency["name"],
             agency["en_short"],
