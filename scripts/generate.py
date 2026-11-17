@@ -66,6 +66,8 @@ def load_agencies():
             raise ValueError(f"duplicate agency id: {agency_id}")
         if name in names:
             raise ValueError(f"duplicate agency name: {name}")
+        if "logo" in item and item["logo"] is None and item.get("logo_status") != "pending_official_symbol":
+            raise ValueError(f"text-only logo must be explicitly pending: {agency_id}")
         ids.add(agency_id)
         names.add(name)
     return data
@@ -113,7 +115,7 @@ def is_korean(text):
 def render_badge(label_text, message_text, style, logo_key, logos, color_theme="blue", custom_colors=None):
     if style not in STYLES:
         raise ValueError(f"unsupported badge style: {style!r}")
-    if logo_key not in logos:
+    if logo_key is not None and logo_key not in logos:
         raise ValueError(f"unsupported logo key: {logo_key!r}")
 
     prominent = style == "for-the-badge"
@@ -122,7 +124,8 @@ def render_badge(label_text, message_text, style, logo_key, logos, color_theme="
     squared = style in ("flat-square", "for-the-badge")
 
     height = 28 if prominent else 22 if outlined else 20
-    min_x, min_y, vb_w, vb_h, content = logos[logo_key]
+    has_logo = logo_key is not None
+    min_x, min_y, vb_w, vb_h, content = logos[logo_key] if has_logo else (0, 0, 1, 1, "")
     aspect = vb_w / vb_h if vb_h > 0 else 1.0
 
     if aspect > 1.8:
@@ -135,6 +138,8 @@ def render_badge(label_text, message_text, style, logo_key, logos, color_theme="
         max_icon_w = 26.0 if prominent else 20.0
         scale = min(max_icon_w / vb_w, max_icon_h / vb_h)
 
+    if not has_logo:
+        scale = 0
     icon_w = vb_w * scale
     icon_h = vb_h * scale
     icon_x = 6
@@ -142,7 +147,7 @@ def render_badge(label_text, message_text, style, logo_key, logos, color_theme="
     tx = icon_x - min_x * scale
     ty = icon_y - min_y * scale
 
-    text_x = round(icon_x + icon_w + (7 if prominent else 6), 2)
+    text_x = round(icon_x + icon_w + (7 if prominent else 6), 2) if has_logo else 8
     is_ko_label = is_korean(label_text)
     is_ko_msg = is_korean(message_text)
 
@@ -206,6 +211,8 @@ def render_badge(label_text, message_text, style, logo_key, logos, color_theme="
         f'<rect width="{width}" height="{height}" rx="{radius}" fill="url(#gloss)"/>\n'
     ) if glossy else ""
 
+    logo_svg = f'<g transform="translate({tx:.3f} {ty:.3f}) scale({scale:.6f})">{content}</g>' if has_logo else ""
+
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{escape(aria_label, quote=True)}">
 <title>{escape(title_text)}</title>
 <defs><clipPath id="badge-shape"><rect width="{width}" height="{height}" rx="{radius}"/></clipPath></defs>
@@ -214,7 +221,7 @@ def render_badge(label_text, message_text, style, logo_key, logos, color_theme="
 <path d="M{label_width} 0h{message_width}v{height}h-{message_width}z" fill="{message_color}"/>
 {gloss}</g>
 <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="{radius}" fill="none" stroke="{stroke_color}"/>
-<g transform="translate({tx:.3f} {ty:.3f}) scale({scale:.6f})">{content}</g>
+{logo_svg}
 <text x="{text_x}" y="{baseline:g}" fill="{text_color}" font-family="{label_font}" font-size="{font_size_label}" font-weight="600">{escape(label_text)}</text>
 <text x="{label_width + message_width / 2:g}" y="{baseline:g}" fill="{version_color}" text-anchor="middle" font-family="{msg_font}" font-size="{font_size_msg}" font-weight="700">{escape(message_text)}</text>
 </svg>

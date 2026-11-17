@@ -1,6 +1,8 @@
 # 대한민국 공기업 및 공공기관 배지 카탈로그 (Public Enterprises & Institutions)
 
-기획재정부 고시 공공기관 중 주요 시장형·준시장형 공기업, 준정부기관, 정부출연연구기관의 배지 목록입니다.
+주요 시장형·준시장형 공기업, 준정부기관, 정부출연연구기관 42곳의 **구현 후보 목록**입니다. 현재 이 문서의 기관은 `agencies.json`에 수록되지 않아 배지를 제공하지 않습니다. Slug는 후보 식별자이며 사용 가능한 URL이 아닙니다. 기관 분류·소관 부처는 원래 작성된 후보 정보로, 최신 공식 지정 현황의 검증을 뜻하지 않습니다.
+
+로고의 출처·재배포 조건과 현행 상징을 확인한 뒤 [#1](https://github.com/leejongyoung/korea-gov-badge/issues/1)~[#4](https://github.com/leejongyoung/korea-gov-badge/issues/4)에서 순차 구현합니다. 목록 등재를 구현 완료로 표시하지 않습니다.
 
 ---
 

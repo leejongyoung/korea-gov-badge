@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="20" viewBox="0 0 257 20" role="img" aria-label="전남광주통합특별시 JEONNAM-GWANGJU">
+<title>전남광주통합특별시 JEONNAM-GWANGJU (flat-square)</title>
+<defs><clipPath id="badge-shape"><rect width="257" height="20" rx="0"/></clipPath></defs>
+<g clip-path="url(#badge-shape)">
+<rect width="257" height="20" rx="0" fill="#ffffff"/>
+<path d="M117 0h140v20h-140z" fill="#57606a"/>
+</g>
+<rect x="0.5" y="0.5" width="256" height="19" rx="0" fill="none" stroke="#57606a"/>
+
+<text x="8" y="14" fill="#003764" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif" font-size="11" font-weight="600">전남광주통합특별시</text>
+<text x="187" y="14" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">JEONNAM-GWANGJU</text>
+</svg>

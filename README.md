@@ -109,8 +109,8 @@ python3 scripts/generate.py --agency kasa --label-color "#f8f9fa" --text-color "
 | 카탈로그 | 대상 기관 | 기관 수 | 바로가기 |
 | :--- | :--- | :---: | :--- |
 | **대한민국 중앙행정기관** | 19부, 처, 21청, 6위원회, 감사원, 국가정보원 | 55개 | [중앙행정기관 카탈로그 바로가기 →](docs/central-gov.md) |
-| **지방자치단체** | 광역 기록 17개(현행화 [#9](https://github.com/leejongyoung/korea-gov-badge/issues/9)) + 서울 자치구 25개 + 시 75개 | 117개 | [지방자치단체 카탈로그 바로가기 →](docs/local-gov.md) |
-| **공기업 및 공공기관** | 한국전력, 코레일, LH, NIA, KISA 등 주요 공기업·준정부기관 | 35개+ | [공기업·공공기관 카탈로그 바로가기 →](docs/public-enterprises.md) |
+| **지방자치단체** | 현행 광역 16곳(통합특별시는 명칭 배지), 기초 227곳 중 103곳 구현 + 통합 전 광역 URL 2곳 보존 | 배지 121곳 | [지방자치단체 카탈로그 바로가기 →](docs/local-gov.md) |
+| **공기업 및 공공기관** | 한국전력, 코레일, LH, NIA, KISA 등 후보 목록이며 아직 배지 미구현 | 후보 42곳 | [공기업·공공기관 카탈로그 바로가기 →](docs/public-enterprises.md) |
 
 ### 주요 대표 기관 배지 예시
 
@@ -132,7 +132,7 @@ python3 scripts/generate.py --agency kasa --label-color "#f8f9fa" --text-color "
 새로운 기관 추가나 배지 스타일 수정 시 아래 명령어를 통해 배지를 재빌드하고 무결성을 검증할 수 있습니다.
 
 ```sh
-# 1. 172개 기관 배지 생성 (기관당 80개 파일 + 레거시 별칭, 총 13,800개 파일 / 서로 다른 배지 5,160종)
+# 1. 176개 기관 배지 생성 (기관당 80개 파일 + 레거시 별칭, 총 14,120개 파일 / 서로 다른 배지 5,280종)
 python3 scripts/generate.py
 
 # 2. 단위 테스트 실행 (데이터 무결성, SVG 유효성, 커스텀 색상 검증)
@@ -141,7 +141,10 @@ python3 -m unittest discover -s tests -v
 # 3. 배지 생성 결과 일치성 및 크기 예산 검증 (CI 검증용)
 python3 scripts/generate.py --check
 
-# 4. 새 로고를 추가하거나 교체했다면 생성 전에 SVG 최적화 (Node.js 필요)
+# 4. 지방자치단체 전체 목록·실제 제공 상태·문서 일치 검증
+python3 scripts/check_catalog.py --check
+
+# 5. 새 로고를 추가하거나 교체했다면 생성 전에 SVG 최적화 (Node.js 필요)
 python3 scripts/optimize_logos.py assets/logos/<slug>.svg
 ```
 
@@ -150,7 +153,7 @@ python3 scripts/optimize_logos.py assets/logos/<slug>.svg
 ## 설계 원칙
 
 1. **Self-contained SVG**:
-   - 모든 배지는 각 기관 고유 엠블럼 또는 정부상징 벡터 패스를 파일 내부에 직접 포함합니다.
+   - 로고가 있는 배지는 벡터 패스를 파일 내부에 직접 포함합니다. 공식 심벌 확인 대기 항목(`logo: null`, `logo_status: pending_official_symbol`)은 다른 기관의 상징으로 대체하지 않고 명칭만 제공합니다.
    - 외부 폰트 파일이나 외부 이미지 링크에 의존하지 않고 어디서나 완벽하게 렌더링됩니다.
 2. **이중 경로(Alias) 지원**:
    - URL 작성의 편의를 위해 영문 소문자 Slug(`kasa`, `cio`, `mois`)와 한국어 정식 명칭(`우주항공청`, `고위공직자범죄수사처`, `행정안전부`) 폴더 경로를 모두 지원합니다.
@@ -162,7 +165,7 @@ python3 scripts/optimize_logos.py assets/logos/<slug>.svg
 5. **크기 예산**:
    - 로고는 모든 배지 파일(기관당 80개)에 인라인되므로 로고 크기가 저장소 크기를 좌우합니다. `scripts/size-budget.json`이 로고 1개당 최대 용량(기본 60KB)과 전체 배지 용량 상한을 정하고, 이미 큰 로고는 현재 크기를 상한으로 고정(grandfathered)합니다. `generate.py --check`가 이를 CI에서 검증합니다.
 6. **CI 무결성 보증**:
-   - GitHub Actions 워크플로를 통해 `generate.py --check`가 자동으로 수행되어 생성물과 소스 코드 간의 일치를 항시 보장합니다.
+   - GitHub Actions에서 단위 테스트, `generate.py --check`, `check_catalog.py --check`를 실행해 생성물·행정구역 목록·제공 상태 문서의 일치를 검증합니다.
 
 ---
 

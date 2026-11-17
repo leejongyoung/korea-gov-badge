@@ -1,0 +1,47 @@
+{
+  "description": "Source/rights metadata as listed by Wikimedia Commons. The MIT code license does not cover marks. No claim of official endorsement or current brand-guide certification.",
+  "items": [
+    {
+      "id": "chungbuk-boeun",
+      "name": "보은군",
+      "commons_file": "File:Flag of Boeun.svg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Boeun.svg",
+      "license_as_listed": "Public domain",
+      "original_sha256": "82e59dc4aedc244ece22c3534f548187cfe0262002d2e008627196050e5127d7",
+      "logo_sha256": "9b357cb1c61006ebfde31e4c391ed7450d345fc32000847f8759b2a22a8ecbcb",
+      "background_removed": true,
+      "retrieved_on": "2026-11-18",
+      "restrictions": "insignia",
+      "current_brand_review": "pending municipal brand-guide comparison; flag source and licence verified",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_Boeun.svg"
+    },
+    {
+      "id": "jeonbuk-gochang",
+      "name": "고창군",
+      "commons_file": "File:Flag of Gochang.svg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Gochang.svg",
+      "license_as_listed": "Public domain",
+      "original_sha256": "fb6edab955edd468372f0503a2ac23adf6485e61aba66c4c6c2ebaafcbddbf46",
+      "logo_sha256": "7bf40082c6a15f55ec66d28e0c8c9a264028963abd84d95e894a37d5627b2317",
+      "background_removed": true,
+      "retrieved_on": "2026-11-18",
+      "restrictions": "insignia",
+      "current_brand_review": "pending municipal brand-guide comparison; flag source and licence verified",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Gochang.svg"
+    },
+    {
+      "id": "jeonnam-gwangju-goheung",
+      "name": "고흥군",
+      "commons_file": "File:Flag of Goheung.svg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Flag_of_Goheung.svg",
+      "license_as_listed": "Public domain",
+      "original_sha256": "34bd9daef446c86e452a59910fda88567a43e1dbe45543da15ddc82e28d55a7c",
+      "logo_sha256": "516d4850c06d614b6a0ff560db131272ab112fe8182ef1ff865474385ec1dbc8",
+      "background_removed": true,
+      "retrieved_on": "2026-11-18",
+      "restrictions": "insignia",
+      "current_brand_review": "pending municipal brand-guide comparison; flag source and licence verified",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_Goheung.svg"
+    }
+  ]
+}

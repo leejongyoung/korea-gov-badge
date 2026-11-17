@@ -595,9 +595,12 @@
     "short_name": "광주시",
     "en_name": "Gwangju Metropolitan City",
     "en_short": "GWANGJU",
-    "type": "광역자치단체",
+    "type": "광역자치단체(통합 전)",
     "homepage": "https://www.gwangju.go.kr",
-    "logo": "gwangju"
+    "logo": "gwangju",
+    "status": "legacy",
+    "replaced_by": "jeonnam-gwangju",
+    "valid_until": "2026-06-30"
   },
   {
     "id": "daejeon",
@@ -685,9 +688,12 @@
     "short_name": "전남도",
     "en_name": "Jeollanam-do",
     "en_short": "JEONNAM",
-    "type": "광역자치단체",
+    "type": "광역자치단체(통합 전)",
     "homepage": "https://www.jeonnam.go.kr",
-    "logo": "jeonnam"
+    "logo": "jeonnam",
+    "status": "legacy",
+    "replaced_by": "jeonnam-gwangju",
+    "valid_until": "2026-06-30"
   },
   {
     "id": "gyeongbuk",
@@ -727,7 +733,8 @@
     "en_short": "JONGNO",
     "type": "자치구",
     "homepage": "https://www.jongno.go.kr",
-    "logo": "seoul-jongno"
+    "logo": "seoul-jongno",
+    "parent": "seoul"
   },
   {
     "id": "seoul-jung",
@@ -737,7 +744,8 @@
     "en_short": "JUNG",
     "type": "자치구",
     "homepage": "https://www.junggu.seoul.kr",
-    "logo": "seoul-jung"
+    "logo": "seoul-jung",
+    "parent": "seoul"
   },
   {
     "id": "seoul-yongsan",
@@ -747,7 +755,8 @@
     "en_short": "YONGSAN",
     "type": "자치구",
     "homepage": "https://www.yongsan.go.kr",
-    "logo": "seoul-yongsan"
+    "logo": "seoul-yongsan",
+    "parent": "seoul"
   },
   {
     "id": "seoul-seongdong",
@@ -757,7 +766,8 @@
     "en_short": "SEONGDONG",
     "type": "자치구",
     "homepage": "https://www.sd.go.kr",
-    "logo": "seoul-seongdong"
+    "logo": "seoul-seongdong",
+    "parent": "seoul"
   },
   {
     "id": "seoul-gwangjin",
@@ -767,7 +777,8 @@
     "en_short": "GWANGJIN",
     "type": "자치구",
     "homepage": "https://www.gwangjin.go.kr",
-    "logo": "seoul-gwangjin"
+    "logo": "seoul-gwangjin",
+    "parent": "seoul"
   },
   {
     "id": "seoul-dongdaemun",
@@ -777,7 +788,8 @@
     "en_short": "DONGDAEMUN",
     "type": "자치구",
     "homepage": "https://www.ddm.go.kr",
-    "logo": "seoul-dongdaemun"
+    "logo": "seoul-dongdaemun",
+    "parent": "seoul"
   },
   {
     "id": "seoul-jungnang",
@@ -787,7 +799,8 @@
     "en_short": "JUNGNANG",
     "type": "자치구",
     "homepage": "https://www.jungnang.go.kr",
-    "logo": "seoul-jungnang"
+    "logo": "seoul-jungnang",
+    "parent": "seoul"
   },
   {
     "id": "seoul-seongbuk",
@@ -797,7 +810,8 @@
     "en_short": "SEONGBUK",
     "type": "자치구",
     "homepage": "https://www.sb.go.kr",
-    "logo": "seoul-seongbuk"
+    "logo": "seoul-seongbuk",
+    "parent": "seoul"
   },
   {
     "id": "seoul-gangbuk",
@@ -807,7 +821,8 @@
     "en_short": "GANGBUK",
     "type": "자치구",
     "homepage": "https://www.gangbuk.go.kr",
-    "logo": "seoul-gangbuk"
+    "logo": "seoul-gangbuk",
+    "parent": "seoul"
   },
   {
     "id": "seoul-dobong",
@@ -817,7 +832,8 @@
     "en_short": "DOBONG",
     "type": "자치구",
     "homepage": "https://www.dobong.go.kr",
-    "logo": "seoul-dobong"
+    "logo": "seoul-dobong",
+    "parent": "seoul"
   },
   {
     "id": "seoul-nowon",
@@ -827,7 +843,8 @@
     "en_short": "NOWON",
     "type": "자치구",
     "homepage": "https://www.nowon.kr",
-    "logo": "seoul-nowon"
+    "logo": "seoul-nowon",
+    "parent": "seoul"
   },
   {
     "id": "seoul-eunpyeong",
@@ -837,7 +854,8 @@
     "en_short": "EUNPYEONG",
     "type": "자치구",
     "homepage": "https://www.ep.go.kr",
-    "logo": "seoul-eunpyeong"
+    "logo": "seoul-eunpyeong",
+    "parent": "seoul"
   },
   {
     "id": "seoul-seodaemun",
@@ -847,7 +865,8 @@
     "en_short": "SEODAEMUN",
     "type": "자치구",
     "homepage": "https://www.sdm.go.kr",
-    "logo": "seoul-seodaemun"
+    "logo": "seoul-seodaemun",
+    "parent": "seoul"
   },
   {
     "id": "seoul-mapo",
@@ -857,7 +876,8 @@
     "en_short": "MAPO",
     "type": "자치구",
     "homepage": "https://www.mapo.go.kr",
-    "logo": "seoul-mapo"
+    "logo": "seoul-mapo",
+    "parent": "seoul"
   },
   {
     "id": "seoul-yangcheon",
@@ -867,7 +887,8 @@
     "en_short": "YANGCHEON",
     "type": "자치구",
     "homepage": "https://www.yangcheon.go.kr",
-    "logo": "seoul-yangcheon"
+    "logo": "seoul-yangcheon",
+    "parent": "seoul"
   },
   {
     "id": "seoul-gangseo",
@@ -877,7 +898,8 @@
     "en_short": "GANGSEO",
     "type": "자치구",
     "homepage": "https://www.gangseo.seoul.kr",
-    "logo": "seoul-gangseo"
+    "logo": "seoul-gangseo",
+    "parent": "seoul"
   },
   {
     "id": "seoul-guro",
@@ -887,7 +909,8 @@
     "en_short": "GURO",
     "type": "자치구",
     "homepage": "https://www.guro.go.kr",
-    "logo": "seoul-guro"
+    "logo": "seoul-guro",
+    "parent": "seoul"
   },
   {
     "id": "seoul-geumcheon",
@@ -897,7 +920,8 @@
     "en_short": "GEUMCHEON",
     "type": "자치구",
     "homepage": "https://www.geumcheon.go.kr",
-    "logo": "seoul-geumcheon"
+    "logo": "seoul-geumcheon",
+    "parent": "seoul"
   },
   {
     "id": "seoul-yeongdeungpo",
@@ -907,7 +931,8 @@
     "en_short": "YEONGDEUNGPO",
     "type": "자치구",
     "homepage": "https://www.ydp.go.kr",
-    "logo": "seoul-yeongdeungpo"
+    "logo": "seoul-yeongdeungpo",
+    "parent": "seoul"
   },
   {
     "id": "seoul-dongjak",
@@ -917,7 +942,8 @@
     "en_short": "DONGJAK",
     "type": "자치구",
     "homepage": "https://www.dongjak.go.kr",
-    "logo": "seoul-dongjak"
+    "logo": "seoul-dongjak",
+    "parent": "seoul"
   },
   {
     "id": "seoul-gwanak",
@@ -927,7 +953,8 @@
     "en_short": "GWANAK",
     "type": "자치구",
     "homepage": "https://www.gwanak.go.kr",
-    "logo": "seoul-gwanak"
+    "logo": "seoul-gwanak",
+    "parent": "seoul"
   },
   {
     "id": "seoul-seocho",
@@ -937,7 +964,8 @@
     "en_short": "SEOCHO",
     "type": "자치구",
     "homepage": "https://www.seocho.go.kr",
-    "logo": "seoul-seocho"
+    "logo": "seoul-seocho",
+    "parent": "seoul"
   },
   {
     "id": "seoul-gangnam",
@@ -947,7 +975,8 @@
     "en_short": "GANGNAM",
     "type": "자치구",
     "homepage": "https://www.gangnam.go.kr",
-    "logo": "seoul-gangnam"
+    "logo": "seoul-gangnam",
+    "parent": "seoul"
   },
   {
     "id": "seoul-songpa",
@@ -957,7 +986,8 @@
     "en_short": "SONGPA",
     "type": "자치구",
     "homepage": "https://www.songpa.go.kr",
-    "logo": "seoul-songpa"
+    "logo": "seoul-songpa",
+    "parent": "seoul"
   },
   {
     "id": "seoul-gangdong",
@@ -967,7 +997,8 @@
     "en_short": "GANGDONG",
     "type": "자치구",
     "homepage": "https://www.gangdong.go.kr",
-    "logo": "seoul-gangdong"
+    "logo": "seoul-gangdong",
+    "parent": "seoul"
   },
   {
     "id": "gangwon-chuncheon",
@@ -1718,5 +1749,50 @@
     "type": "시",
     "parent": "jeonnam-gwangju",
     "logo": "jeonnam-gwangju-gwangyang"
+  },
+  {
+    "id": "jeonnam-gwangju",
+    "name": "전남광주통합특별시",
+    "short_name": "전남광주통합특별시",
+    "en_name": "Jeonnam-Gwangju Special Metropolitan City",
+    "en_short": "JEONNAM-GWANGJU",
+    "type": "광역자치단체",
+    "homepage": "https://www.jeonnam-gwangju.go.kr",
+    "logo": null,
+    "logo_status": "pending_official_symbol",
+    "effective_from": "2026-07-01"
+  },
+  {
+    "id": "chungbuk-boeun",
+    "name": "충청북도 보은군",
+    "short_name": "충청북도 보은군",
+    "en_name": "Boeun County",
+    "en_short": "BOEUN",
+    "type": "군",
+    "homepage": "https://www.boeun.go.kr",
+    "parent": "chungbuk",
+    "logo": "chungbuk-boeun"
+  },
+  {
+    "id": "jeonbuk-gochang",
+    "name": "전북특별자치도 고창군",
+    "en_name": "Gochang County",
+    "en_short": "GOCHANG",
+    "parent": "jeonbuk",
+    "type": "군",
+    "short_name": "전북특별자치도 고창군",
+    "logo": "jeonbuk-gochang",
+    "homepage": "https://www.gochang.go.kr"
+  },
+  {
+    "id": "jeonnam-gwangju-goheung",
+    "name": "전남광주통합특별시 고흥군",
+    "en_name": "Goheung County",
+    "en_short": "GOHEUNG",
+    "parent": "jeonnam-gwangju",
+    "type": "군",
+    "short_name": "전남광주통합특별시 고흥군",
+    "logo": "jeonnam-gwangju-goheung",
+    "homepage": "https://www.goheung.go.kr"
   }
 ]
