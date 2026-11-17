@@ -93,9 +93,10 @@ def render(catalog, agencies):
               '## 4. 로고 출처·재검증 및 구현 대기', '',
               '- [시 75곳의 출처·해시](city-logo-sources.json)',
               '- [추가 로고 출처·해시](logo-sources.json)',
+              '- [공식 원본·출처표시 안내](logo-attribution.md)',
               '- [미구현 로고와 대기 사유](logo-pending.json)',
               '- [전체 기초자치단체 데이터·출처](local-gov-catalog.json)', '',
-              'Commons에 표시된 라이선스와 원본/가공본 해시를 기록했다. 공공누리·Commons의 저작권 표기와 별개로 상징물 사용·사칭 제한을 준수해야 한다. 각 기관의 현행 브랜드 가이드와 대조 완료를 보장하지 않는다. 확인되지 않은 로고를 추정 제작하거나 PNG를 SVG로 위장하여 넣지 않는다.', '',
+              '공식 사이트·Commons에 표시된 이용 조건과 원본/가공본 해시를 기록했다. 공공누리·Commons의 저작권 표기와 별개로 상징물 사용·사칭 제한을 준수해야 한다. 각 기관의 현행 브랜드 가이드와 대조 완료를 보장하지 않는다. 확인되지 않은 로고를 추정 제작하거나 PNG를 SVG로 위장하여 넣지 않는다.', '',
               '## 5. 행정구역 근거', '']
     for s in catalog['sources']:
         lines.append(f"- [{s['scope']}]({s['url']})")

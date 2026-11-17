@@ -32,6 +32,22 @@ class CatalogTests(unittest.TestCase):
         original['municipalities'][0]['parent'] = 'jeonnam'
         self.assertTrue(any('invalid parent' in p for p in catalog_check.validate(original, self.agencies)))
 
+    def test_public_logo_backlog_matches_catalogue_not_supported_agencies(self):
+        import re
+        text = (ROOT / 'docs/public-enterprises.md').read_text()
+        candidate_ids = set()
+        for line in text.splitlines():
+            if line.startswith('| **'):
+                cells = line.strip('|').split('|')
+                candidate_ids.update(re.findall('`([^`]+)`', cells[2]))
+        pending = json.loads((ROOT / 'docs/public-logo-pending.json').read_text())['items']
+        ids = [row['id'] for row in pending]
+        self.assertEqual(len(ids), len(set(ids)))
+        self.assertEqual(set(ids), candidate_ids - {a['id'] for a in self.agencies})
+        for row in pending:
+            if row.get('checked_on'):
+                self.assertTrue(row.get('official_source') or row.get('commons_page'))
+
     def test_incheon_current_districts_and_jeju_exception(self):
         incheon = {r['name'] for r in self.catalog['municipalities'] if r['parent'] == 'incheon'}
         self.assertEqual(incheon, {'제물포구', '영종구', '검단구', '서해구', '미추홀구', '연수구', '남동구', '부평구', '계양구', '강화군', '옹진군'})
@@ -43,7 +59,10 @@ class CatalogTests(unittest.TestCase):
         for source in sources['items']:
             raw = (ROOT / 'assets/logos' / (source['id'] + '.svg')).read_bytes()
             self.assertEqual(hashlib.sha256(raw).hexdigest(), source['logo_sha256'])
-            self.assertEqual(source['license_as_listed'], 'Public domain')
+            self.assertIn(source['license_as_listed'], {'Public domain', 'KOGL Type 1'})
+            if source['license_as_listed'] == 'KOGL Type 1':
+                self.assertTrue(source['source_page'].startswith('https://'))
+                self.assertIn('공공누리', raw.decode('utf-8'))
         pending = json.loads((ROOT / 'docs/logo-pending.json').read_text())
         # Every pending municipality must remain visible in the implementation backlog.
         entries = pending.get('items', pending.get('municipalities', []))

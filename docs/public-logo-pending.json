@@ -1,0 +1,277 @@
+{
+  "note": "Only individually checked entries carry checked_on and evidence. Other candidates remain unverified. Do not treat missing artwork as implemented. No permission request was sent to institutions.",
+  "items": [
+    {
+      "id": "kepco",
+      "name": "한국전력공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kogas",
+      "name": "한국가스공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "khnp",
+      "name": "한국수력원자력",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kdhc",
+      "name": "한국지역난방공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "iia",
+      "name": "인천국제공항공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kac",
+      "name": "한국공항공사",
+      "status": "pending_logo",
+      "reason": "original_download_deferred_429",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Korea_Airports_Corporation_logo.svg",
+      "license_as_listed": "Public domain",
+      "note": "Commons metadata verified; original fetch returned HTTP 429 / Retry-After 120. Metadata alone is not implementation.",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "id": "bpa",
+      "name": "부산항만공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "ipa",
+      "name": "인천항만공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "ygpa",
+      "name": "여수광양항만공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "upa",
+      "name": "울산항만공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "high1",
+      "name": "강원랜드",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "lh",
+      "name": "한국토지주택공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "korail",
+      "name": "한국철도공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "ex",
+      "name": "한국도로공사",
+      "status": "pending_logo",
+      "reason": "original_download_pending",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:한국도로공사_로고.svg",
+      "license_as_listed": "Public domain",
+      "note": "Commons metadata verified; original not downloaded while original host rate-limited.",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "id": "kwater",
+      "name": "한국수자원공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "komsco",
+      "name": "한국조폐공사",
+      "status": "pending_logo",
+      "reason": "original_download_pending",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Logo_of_KOMSCO.svg",
+      "license_as_listed": "Public domain",
+      "note": "Commons metadata verified; original not downloaded while original host rate-limited.",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "id": "reb",
+      "name": "한국부동산원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "hug",
+      "name": "주택도시보증공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kra",
+      "name": "한국마사회",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "komir",
+      "name": "한국광해광업공단",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "nia",
+      "name": "한국지능정보사회진흥원",
+      "status": "pending_logo",
+      "reason": "permission_required_by_source_policy",
+      "official_source": "https://www.nia.or.kr/site/nia_kor/04/10401050000002016082201.jsp",
+      "policy_source": "https://www.nia.or.kr/site/nia_kor/06/10603000000002016092303.jsp",
+      "note": "Official vector bundle retrieved for inspection only. Source policy requires prior permission for redistribution; no specific grant established.",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "id": "kisa",
+      "name": "한국인터넷진흥원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kdata",
+      "name": "한국데이터산업진흥원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "nipa",
+      "name": "정보통신산업진흥원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kocca",
+      "name": "한국콘텐츠진흥원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "nhis",
+      "name": "국민건강보험공단",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "hira",
+      "name": "건강보험심사평가원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "nps",
+      "name": "국민연금공단",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kcomwel",
+      "name": "근로복지공단",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kodit",
+      "name": "신용보증기금",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kibo",
+      "name": "기술보증기금",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kotra",
+      "name": "대한무역투자진흥공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kca",
+      "name": "한국소비자원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kto",
+      "name": "한국관광공사",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "keco",
+      "name": "한국환경공단",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kist",
+      "name": "한국과학기술연구원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "etri",
+      "name": "한국전자통신연구원",
+      "status": "pending_logo",
+      "reason": "permission_required_for_unmarked_material",
+      "official_source": "https://www.etri.re.kr/korcon/sub7/sub7_11.etri",
+      "policy_source": "https://www.etri.re.kr/korcon/etc/etc_07.etri",
+      "note": "Official CI files available; policy requires consultation for material without an applicable KOGL label. No item-specific open grant established.",
+      "checked_on": "2026-11-18"
+    },
+    {
+      "id": "kari",
+      "name": "한국항공우주연구원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kaeri",
+      "name": "한국원자력연구원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kribb",
+      "name": "한국생명공학연구원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "kriss",
+      "name": "한국표준과학연구원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    },
+    {
+      "id": "krict",
+      "name": "한국화학연구원",
+      "status": "pending_logo",
+      "reason": "not_yet_verified"
+    }
+  ]
+}

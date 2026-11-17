@@ -109,6 +109,14 @@ class KoreaGovBadgeTests(unittest.TestCase):
                     root_c = ET.fromstring(svg_c)
                     self.assertEqual(root_c.attrib["role"], "img")
 
+    def test_official_logo_attribution_survives_badge_generation(self):
+        logos = generate.load_logos()
+        for style in generate.STYLES:
+            svg = generate.render_badge("진천군", "JINCHEON", style, "chungbuk-jincheon", logos)
+            root = ET.fromstring(svg)
+            credits = [n.text or "" for n in root.iter() if n.tag.endswith("}desc")]
+            self.assertTrue(any("진천군" in c and "공공누리 제1유형" in c and "https://www.jincheon.go.kr/" in c for c in credits))
+
     def test_custom_color_generation(self):
         logos = generate.load_logos()
         custom = {

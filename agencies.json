@@ -1794,5 +1794,16 @@
     "short_name": "전남광주통합특별시 고흥군",
     "logo": "jeonnam-gwangju-goheung",
     "homepage": "https://www.goheung.go.kr"
+  },
+  {
+    "id": "chungbuk-jincheon",
+    "name": "충청북도 진천군",
+    "short_name": "진천군",
+    "en_name": "Jincheon County",
+    "en_short": "JINCHEON",
+    "type": "군",
+    "parent": "chungbuk",
+    "homepage": "https://www.jincheon.go.kr",
+    "logo": "chungbuk-jincheon"
   }
 ]
