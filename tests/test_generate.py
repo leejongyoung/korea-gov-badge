@@ -143,6 +143,19 @@ class KoreaGovBadgeTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             generate.render_badge("행정안전부", "MOIS", "flat", "non_existent_logo", logos)
 
+    def test_size_budget(self):
+        max_logo = 150 * 1024
+        max_badge = 150 * 1024
+        max_total = 170 * 1024 * 1024
+        for p in (ROOT / "assets" / "logos").glob("*.svg"):
+            self.assertLessEqual(p.stat().st_size, max_logo, f"logo too large: {p.name}")
+        total = 0
+        for p in (ROOT / "badges").glob("**/*.svg"):
+            size = p.stat().st_size
+            total += size
+            self.assertLessEqual(size, max_badge, f"badge too large: {p}")
+        self.assertLessEqual(total, max_total, f"badges total {total} bytes exceeds budget")
+
 
 if __name__ == "__main__":
     unittest.main()
