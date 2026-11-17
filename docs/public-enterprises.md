@@ -64,6 +64,8 @@
 
 ## 4. 주요 정부출연연구기관 (Government-funded Research Institutes)
 
+[공식 CI 조사 결과 (2026-11-18)](research-institute-logo-review.md): 아래 7곳 모두 공식 AI 원본 다운로드 경로와 ZIP 수신을 확인했습니다. 배지 변환·재배포 조건은 미확인으로, **신규 구현 0곳 / 7곳 보류** 상태를 유지합니다. 원본 확보와 구현 완료를 구분합니다.
+
 | 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 연구회 | 주요 연구 분야 |
 | :--- | :--- | :---: | :--- | :--- |
 | **한국과학기술연구원** | Korea Institute of Science and Technology | `kist` | 국가과학기술연구회 | 국가 종합 과학기술 연구 |
