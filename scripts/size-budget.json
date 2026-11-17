@@ -1,0 +1,10 @@
+{
+  "logo_max_bytes": 60000,
+  "grandfathered": {
+    "gyeonggi-seongnam.svg": 80687,
+    "nfa.svg": 142603,
+    "president.svg": 62595,
+    "seoul-seongbuk.svg": 115605
+  },
+  "badges_total_max_bytes": 127995596
+}

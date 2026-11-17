@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 AGENCIES = ROOT / "agencies.json"
 LOGOS_DIR = ROOT / "assets" / "logos"
 OUTPUT = ROOT / "badges"
+SIZE_BUDGET = ROOT / "scripts" / "size-budget.json"
 STYLES = ("flat", "flat-square", "plastic", "for-the-badge", "outline")
 COLOR_THEMES = {
     "blue": {  # Default 공공 블루
@@ -263,6 +264,29 @@ def build_expected_badges(agencies, logos):
     return expected
 
 
+def check_size_budget(expected, budget=None):
+    """Return budget violations for logos and the generated badge set.
+
+    Each logo is inlined into ~80 badge files, so logo size is the main driver of
+    repository size. Logos above logo_max_bytes must be listed in "grandfathered"
+    and may not grow past their recorded size. See scripts/optimize_logos.py.
+    """
+    if budget is None:
+        budget = json.loads(SIZE_BUDGET.read_text(encoding="utf-8"))
+    problems = []
+    logo_max = budget["logo_max_bytes"]
+    grandfathered = budget.get("grandfathered", {})
+    for path in sorted(LOGOS_DIR.glob("*.svg")):
+        size = path.stat().st_size
+        limit = grandfathered.get(path.name, logo_max)
+        if size > limit:
+            problems.append(f"logo too large: assets/logos/{path.name} {size} bytes > {limit}")
+    total = sum(len(content.encode("utf-8")) for content in expected.values())
+    if total > budget["badges_total_max_bytes"]:
+        problems.append(f"badges total {total} bytes > budget {budget['badges_total_max_bytes']}")
+    return problems
+
+
 def resolve_cli_colors(color, label_color, text_color):
     """Map CLI color options to (color_theme, custom_colors) for render_badge.
 
@@ -337,6 +361,11 @@ def main():
         if mismatches or extras:
             for p in sorted([*mismatches, *extras]):
                 print(f"out of date: {p.relative_to(ROOT)}", file=sys.stderr)
+            return 1
+        problems = check_size_budget(expected)
+        if problems:
+            for problem in problems:
+                print(f"size budget: {problem}", file=sys.stderr)
             return 1
         print(f"Verified {len(expected)} badges")
         return 0

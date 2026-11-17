@@ -135,6 +135,50 @@ class KoreaGovBadgeTests(unittest.TestCase):
         self.assertIn('fill="#f8f9fa"', svg)
         self.assertIn('fill="#003764"', svg)
 
+    def test_logos_are_safe_self_contained_vector_art(self):
+        drawable = {"path", "rect", "circle", "ellipse", "polygon", "polyline", "line", "text", "use"}
+        for path in sorted(generate.LOGOS_DIR.glob("*.svg")):
+            with self.subTest(logo=path.name):
+                root = ET.parse(path).getroot()
+                tags = {el.tag.split("}")[-1] for el in root.iter()}
+                self.assertTrue(root.get("viewBox") or (root.get("width") and root.get("height")))
+                self.assertTrue(tags & drawable, "logo has no drawable element")
+                self.assertFalse(tags & {"script", "foreignObject"})
+                for el in root.iter():
+                    for key, value in el.attrib.items():
+                        if key.endswith("href"):
+                            self.assertTrue(value.startswith(("#", "data:image/")), f"external reference: {value[:60]}")
+
+    def test_size_budget_flags_oversized_logos_and_total(self):
+        import tempfile
+        budget = {"logo_max_bytes": 100, "grandfathered": {"old.svg": 300}, "badges_total_max_bytes": 50}
+        with tempfile.TemporaryDirectory() as tmp:
+            logos_dir = Path(tmp)
+            (logos_dir / "ok.svg").write_text("<svg/>" + " " * 50)
+            (logos_dir / "old.svg").write_text("x" * 250)
+            (logos_dir / "grown.svg").write_text("x" * 101)
+            (logos_dir / "old-grew.svg").write_text("x" * 101)
+            original = generate.LOGOS_DIR
+            generate.LOGOS_DIR = logos_dir
+            try:
+                problems = generate.check_size_budget({Path("a"): "a" * 40, Path("b"): "b" * 20}, budget)
+                budget["grandfathered"]["old.svg"] = 200
+                grew = generate.check_size_budget({}, budget)
+            finally:
+                generate.LOGOS_DIR = original
+        text = "\n".join(problems)
+        self.assertIn("grown.svg", text)
+        self.assertIn("old-grew.svg", text)
+        self.assertNotIn("ok.svg", text)
+        self.assertNotIn("old.svg ", text)
+        self.assertIn("badges total 60", text)
+        self.assertTrue(any("old.svg" in line for line in grew))
+
+    def test_repository_stays_within_size_budget(self):
+        agencies = generate.load_agencies()
+        expected = generate.build_expected_badges(agencies, generate.load_logos())
+        self.assertEqual(generate.check_size_budget(expected), [])
+
     def test_rejects_invalid_styles_or_logos(self):
         logos = generate.load_logos()
         with self.assertRaises(ValueError):
