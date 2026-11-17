@@ -1,0 +1,2102 @@
+{
+  "verified_on": "2026-11-18",
+  "effective_on": "2026-07-01",
+  "counts": {
+    "metropolitan": 16,
+    "municipal": 227,
+    "city": 75,
+    "county": 82,
+    "district": 70
+  },
+  "sources": [
+    {
+      "url": "https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000055&nttId=128138",
+      "scope": "2025-12-31 baseline list; Korean names cross-checked from downloaded PDF",
+      "download_sha256": "3308b3e67db6f0249bc0c1e522eb70ef566301302a0ed9d78a28e45d8f156183"
+    },
+    {
+      "url": "https://www.incheon.go.kr/goodmorning/GOOD010601/list?srchPblicteIssnoCode=202607",
+      "scope": "2026-07-01: Jemulpo, Yeongjong, Geomdan, Seohae; 2 counties and 9 districts"
+    },
+    {
+      "url": "https://www.jeonnam-gwangju.go.kr/contentsView.do?pageId=jngj9",
+      "scope": "merged metropolitan government: 5 cities, 17 counties, 5 districts"
+    },
+    {
+      "url": "https://www.moel.go.kr/local/gyeonggi/news/notice/noticeView.do?bbs_seq=20260800406",
+      "scope": "current nationwide totals: 16 metropolitan and 227 municipal governments"
+    },
+    {
+      "url": "https://www.jeonnam-gwangju.go.kr/contentsView.do?pageId=jngj17",
+      "scope": "official symbol page: content in preparation at verification date; no substitute emblem"
+    }
+  ],
+  "notes": [
+    "Catalogue inclusion does not imply a supported badge or verified artwork.",
+    "English labels/slugs are project identifiers; official translated names are not asserted for pending entries.",
+    "Jeju-si and Seogwipo-si are administrative cities, excluded from the 227 municipal governments.",
+    "Sejong has no municipal governments.",
+    "No former Incheon Jung/Dong/Seo district emblems are reused for new jurisdictions."
+  ],
+  "administrative_cities": [
+    {
+      "id": "jeju-jeju",
+      "name": "제주시",
+      "parent": "jeju",
+      "type": "행정시",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeju-seogwipo",
+      "name": "서귀포시",
+      "parent": "jeju",
+      "type": "행정시",
+      "badge_status": "pending_logo"
+    }
+  ],
+  "municipalities": [
+    {
+      "id": "busan-buk",
+      "name": "북구",
+      "en_name": "Buk District",
+      "en_short": "BUK",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-busanjin",
+      "name": "부산진구",
+      "en_name": "Busanjin District",
+      "en_short": "BUSANJIN",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-dong",
+      "name": "동구",
+      "en_name": "Dong District",
+      "en_short": "DONG",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-dongnae",
+      "name": "동래구",
+      "en_name": "Dongnae District",
+      "en_short": "DONGNAE",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-gangseo",
+      "name": "강서구",
+      "en_name": "Gangseo District",
+      "en_short": "GANGSEO",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-geumjeong",
+      "name": "금정구",
+      "en_name": "Geumjeong District",
+      "en_short": "GEUMJEONG",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-gijang",
+      "name": "기장군",
+      "en_name": "Gijang County",
+      "en_short": "GIJANG",
+      "parent": "busan",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-haeundae",
+      "name": "해운대구",
+      "en_name": "Haeundae District",
+      "en_short": "HAEUNDAE",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-jung",
+      "name": "중구",
+      "en_name": "Jung District",
+      "en_short": "JUNG",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-nam",
+      "name": "남구",
+      "en_name": "Nam District",
+      "en_short": "NAM",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-saha",
+      "name": "사하구",
+      "en_name": "Saha District",
+      "en_short": "SAHA",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-sasang",
+      "name": "사상구",
+      "en_name": "Sasang District",
+      "en_short": "SASANG",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-seo",
+      "name": "서구",
+      "en_name": "Seo District",
+      "en_short": "SEO",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-suyeong",
+      "name": "수영구",
+      "en_name": "Suyeong District",
+      "en_short": "SUYEONG",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-yeongdo",
+      "name": "영도구",
+      "en_name": "Yeongdo District",
+      "en_short": "YEONGDO",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "busan-yeonje",
+      "name": "연제구",
+      "en_name": "Yeonje District",
+      "en_short": "YEONJE",
+      "parent": "busan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungbuk-boeun",
+      "name": "보은군",
+      "en_name": "Boeun County",
+      "en_short": "BOEUN",
+      "type": "군",
+      "parent": "chungbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungbuk-cheongju",
+      "name": "청주시",
+      "en_name": "Cheongju City",
+      "en_short": "CHEONGJU",
+      "type": "시",
+      "parent": "chungbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungbuk-chungju",
+      "name": "충주시",
+      "en_name": "Chungju City",
+      "en_short": "CHUNGJU",
+      "type": "시",
+      "parent": "chungbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungbuk-danyang",
+      "name": "단양군",
+      "en_name": "Danyang County",
+      "en_short": "DANYANG",
+      "type": "군",
+      "parent": "chungbuk",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungbuk-eumseong",
+      "name": "음성군",
+      "en_name": "Eumseong County",
+      "en_short": "EUMSEONG",
+      "type": "군",
+      "parent": "chungbuk",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungbuk-goesan",
+      "name": "괴산군",
+      "en_name": "Goesan County",
+      "en_short": "GOESAN",
+      "type": "군",
+      "parent": "chungbuk",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungbuk-jecheon",
+      "name": "제천시",
+      "en_name": "Jecheon City",
+      "en_short": "JECHEON",
+      "type": "시",
+      "parent": "chungbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungbuk-jeungpyeong",
+      "name": "증평군",
+      "en_name": "Jeungpyeong County",
+      "en_short": "JEUNGPYEONG",
+      "type": "군",
+      "parent": "chungbuk",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungbuk-jincheon",
+      "name": "진천군",
+      "en_name": "Jincheon County",
+      "en_short": "JINCHEON",
+      "type": "군",
+      "parent": "chungbuk",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungbuk-okcheon",
+      "name": "옥천군",
+      "en_name": "Okcheon County",
+      "en_short": "OKCHEON",
+      "type": "군",
+      "parent": "chungbuk",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungbuk-yeongdong",
+      "name": "영동군",
+      "en_name": "Yeongdong County",
+      "en_short": "YEONGDONG",
+      "type": "군",
+      "parent": "chungbuk",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungnam-asan",
+      "name": "아산시",
+      "en_name": "Asan City",
+      "en_short": "ASAN",
+      "type": "시",
+      "parent": "chungnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungnam-boryeong",
+      "name": "보령시",
+      "en_name": "Boryeong City",
+      "en_short": "BORYEONG",
+      "type": "시",
+      "parent": "chungnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungnam-buyeo",
+      "name": "부여군",
+      "en_name": "Buyeo County",
+      "en_short": "BUYEO",
+      "type": "군",
+      "parent": "chungnam",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungnam-cheonan",
+      "name": "천안시",
+      "en_name": "Cheonan City",
+      "en_short": "CHEONAN",
+      "type": "시",
+      "parent": "chungnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungnam-cheongyang",
+      "name": "청양군",
+      "en_name": "Cheongyang County",
+      "en_short": "CHEONGYANG",
+      "type": "군",
+      "parent": "chungnam",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungnam-dangjin",
+      "name": "당진시",
+      "en_name": "Dangjin City",
+      "en_short": "DANGJIN",
+      "type": "시",
+      "parent": "chungnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungnam-geumsan",
+      "name": "금산군",
+      "en_name": "Geumsan County",
+      "en_short": "GEUMSAN",
+      "type": "군",
+      "parent": "chungnam",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungnam-gongju",
+      "name": "공주시",
+      "en_name": "Gongju City",
+      "en_short": "GONGJU",
+      "type": "시",
+      "parent": "chungnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungnam-gyeryong",
+      "name": "계룡시",
+      "en_name": "Gyeryong City",
+      "en_short": "GYERYONG",
+      "type": "시",
+      "parent": "chungnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungnam-hongseong",
+      "name": "홍성군",
+      "en_name": "Hongseong County",
+      "en_short": "HONGSEONG",
+      "type": "군",
+      "parent": "chungnam",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungnam-nonsan",
+      "name": "논산시",
+      "en_name": "Nonsan City",
+      "en_short": "NONSAN",
+      "type": "시",
+      "parent": "chungnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungnam-seocheon",
+      "name": "서천군",
+      "en_name": "Seocheon County",
+      "en_short": "SEOCHEON",
+      "type": "군",
+      "parent": "chungnam",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungnam-seosan",
+      "name": "서산시",
+      "en_name": "Seosan City",
+      "en_short": "SEOSAN",
+      "type": "시",
+      "parent": "chungnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "chungnam-taean",
+      "name": "태안군",
+      "en_name": "Taean County",
+      "en_short": "TAEAN",
+      "type": "군",
+      "parent": "chungnam",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "chungnam-yesan",
+      "name": "예산군",
+      "en_name": "Yesan County",
+      "en_short": "YESAN",
+      "type": "군",
+      "parent": "chungnam",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daegu-buk",
+      "name": "북구",
+      "en_name": "Buk District",
+      "en_short": "BUK",
+      "parent": "daegu",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daegu-dalseo",
+      "name": "달서구",
+      "en_name": "Dalseo District",
+      "en_short": "DALSEO",
+      "parent": "daegu",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daegu-dalseong",
+      "name": "달성군",
+      "en_name": "Dalseong County",
+      "en_short": "DALSEONG",
+      "parent": "daegu",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daegu-dong",
+      "name": "동구",
+      "en_name": "Dong District",
+      "en_short": "DONG",
+      "parent": "daegu",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daegu-gunwi",
+      "name": "군위군",
+      "en_name": "Gunwi County",
+      "en_short": "GUNWI",
+      "parent": "daegu",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daegu-jung",
+      "name": "중구",
+      "en_name": "Jung District",
+      "en_short": "JUNG",
+      "parent": "daegu",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daegu-nam",
+      "name": "남구",
+      "en_name": "Nam District",
+      "en_short": "NAM",
+      "parent": "daegu",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daegu-seo",
+      "name": "서구",
+      "en_name": "Seo District",
+      "en_short": "SEO",
+      "parent": "daegu",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daegu-suseong",
+      "name": "수성구",
+      "en_name": "Suseong District",
+      "en_short": "SUSEONG",
+      "parent": "daegu",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daejeon-daedeok",
+      "name": "대덕구",
+      "en_name": "Daedeok District",
+      "en_short": "DAEDEOK",
+      "parent": "daejeon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daejeon-dong",
+      "name": "동구",
+      "en_name": "Dong District",
+      "en_short": "DONG",
+      "parent": "daejeon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daejeon-jung",
+      "name": "중구",
+      "en_name": "Jung District",
+      "en_short": "JUNG",
+      "parent": "daejeon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daejeon-seo",
+      "name": "서구",
+      "en_name": "Seo District",
+      "en_short": "SEO",
+      "parent": "daejeon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "daejeon-yuseong",
+      "name": "유성구",
+      "en_name": "Yuseong District",
+      "en_short": "YUSEONG",
+      "parent": "daejeon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-cheorwon",
+      "name": "철원군",
+      "en_name": "Cheorwon County",
+      "en_short": "CHEORWON",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-chuncheon",
+      "name": "춘천시",
+      "en_name": "Chuncheon City",
+      "en_short": "CHUNCHEON",
+      "type": "시",
+      "parent": "gangwon",
+      "badge_status": "available"
+    },
+    {
+      "id": "gangwon-donghae",
+      "name": "동해시",
+      "en_name": "Donghae City",
+      "en_short": "DONGHAE",
+      "type": "시",
+      "parent": "gangwon",
+      "badge_status": "available"
+    },
+    {
+      "id": "gangwon-gangneung",
+      "name": "강릉시",
+      "en_name": "Gangneung City",
+      "en_short": "GANGNEUNG",
+      "type": "시",
+      "parent": "gangwon",
+      "badge_status": "available"
+    },
+    {
+      "id": "gangwon-goseong",
+      "name": "고성군",
+      "en_name": "Goseong County",
+      "en_short": "GOSEONG",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-hoengseong",
+      "name": "횡성군",
+      "en_name": "Hoengseong County",
+      "en_short": "HOENGSEONG",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-hongcheon",
+      "name": "홍천군",
+      "en_name": "Hongcheon County",
+      "en_short": "HONGCHEON",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-hwacheon",
+      "name": "화천군",
+      "en_name": "Hwacheon County",
+      "en_short": "HWACHEON",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-inje",
+      "name": "인제군",
+      "en_name": "Inje County",
+      "en_short": "INJE",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-jeongseon",
+      "name": "정선군",
+      "en_name": "Jeongseon County",
+      "en_short": "JEONGSEON",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-pyeongchang",
+      "name": "평창군",
+      "en_name": "Pyeongchang County",
+      "en_short": "PYEONGCHANG",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-samcheok",
+      "name": "삼척시",
+      "en_name": "Samcheok City",
+      "en_short": "SAMCHEOK",
+      "type": "시",
+      "parent": "gangwon",
+      "badge_status": "available"
+    },
+    {
+      "id": "gangwon-sokcho",
+      "name": "속초시",
+      "en_name": "Sokcho City",
+      "en_short": "SOKCHO",
+      "type": "시",
+      "parent": "gangwon",
+      "badge_status": "available"
+    },
+    {
+      "id": "gangwon-taebaek",
+      "name": "태백시",
+      "en_name": "Taebaek City",
+      "en_short": "TAEBAEK",
+      "type": "시",
+      "parent": "gangwon",
+      "badge_status": "available"
+    },
+    {
+      "id": "gangwon-wonju",
+      "name": "원주시",
+      "en_name": "Wonju City",
+      "en_short": "WONJU",
+      "type": "시",
+      "parent": "gangwon",
+      "badge_status": "available"
+    },
+    {
+      "id": "gangwon-yanggu",
+      "name": "양구군",
+      "en_name": "Yanggu County",
+      "en_short": "YANGGU",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-yangyang",
+      "name": "양양군",
+      "en_name": "Yangyang County",
+      "en_short": "YANGYANG",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gangwon-yeongwol",
+      "name": "영월군",
+      "en_name": "Yeongwol County",
+      "en_short": "YEONGWOL",
+      "type": "군",
+      "parent": "gangwon",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-andong",
+      "name": "안동시",
+      "en_name": "Andong City",
+      "en_short": "ANDONG",
+      "type": "시",
+      "parent": "gyeongbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongbuk-bonghwa",
+      "name": "봉화군",
+      "en_name": "Bonghwa County",
+      "en_short": "BONGHWA",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-cheongdo",
+      "name": "청도군",
+      "en_name": "Cheongdo County",
+      "en_short": "CHEONGDO",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-cheongsong",
+      "name": "청송군",
+      "en_name": "Cheongsong County",
+      "en_short": "CHEONGSONG",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-chilgok",
+      "name": "칠곡군",
+      "en_name": "Chilgok County",
+      "en_short": "CHILGOK",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-gimcheon",
+      "name": "김천시",
+      "en_name": "Gimcheon City",
+      "en_short": "GIMCHEON",
+      "type": "시",
+      "parent": "gyeongbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongbuk-goryeong",
+      "name": "고령군",
+      "en_name": "Goryeong County",
+      "en_short": "GORYEONG",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-gumi",
+      "name": "구미시",
+      "en_name": "Gumi City",
+      "en_short": "GUMI",
+      "type": "시",
+      "parent": "gyeongbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongbuk-gyeongju",
+      "name": "경주시",
+      "en_name": "Gyeongju City",
+      "en_short": "GYEONGJU",
+      "type": "시",
+      "parent": "gyeongbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongbuk-gyeongsan",
+      "name": "경산시",
+      "en_name": "Gyeongsan City",
+      "en_short": "GYEONGSAN",
+      "type": "시",
+      "parent": "gyeongbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongbuk-mungyeong",
+      "name": "문경시",
+      "en_name": "Mungyeong City",
+      "en_short": "MUNGYEONG",
+      "type": "시",
+      "parent": "gyeongbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongbuk-pohang",
+      "name": "포항시",
+      "en_name": "Pohang City",
+      "en_short": "POHANG",
+      "type": "시",
+      "parent": "gyeongbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongbuk-sangju",
+      "name": "상주시",
+      "en_name": "Sangju City",
+      "en_short": "SANGJU",
+      "type": "시",
+      "parent": "gyeongbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongbuk-seongju",
+      "name": "성주군",
+      "en_name": "Seongju County",
+      "en_short": "SEONGJU",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-uiseong",
+      "name": "의성군",
+      "en_name": "Uiseong County",
+      "en_short": "UISEONG",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-uljin",
+      "name": "울진군",
+      "en_name": "Uljin County",
+      "en_short": "ULJIN",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-ulleung",
+      "name": "울릉군",
+      "en_name": "Ulleung County",
+      "en_short": "ULLEUNG",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-yecheon",
+      "name": "예천군",
+      "en_name": "Yecheon County",
+      "en_short": "YECHEON",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-yeongcheon",
+      "name": "영천시",
+      "en_name": "Yeongcheon City",
+      "en_short": "YEONGCHEON",
+      "type": "시",
+      "parent": "gyeongbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongbuk-yeongdeok",
+      "name": "영덕군",
+      "en_name": "Yeongdeok County",
+      "en_short": "YEONGDEOK",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongbuk-yeongju",
+      "name": "영주시",
+      "en_name": "Yeongju City",
+      "en_short": "YEONGJU",
+      "type": "시",
+      "parent": "gyeongbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongbuk-yeongyang",
+      "name": "영양군",
+      "en_name": "Yeongyang County",
+      "en_short": "YEONGYANG",
+      "parent": "gyeongbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeonggi-ansan",
+      "name": "안산시",
+      "en_name": "Ansan City",
+      "en_short": "ANSAN",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-anseong",
+      "name": "안성시",
+      "en_name": "Anseong City",
+      "en_short": "ANSEONG",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-anyang",
+      "name": "안양시",
+      "en_name": "Anyang City",
+      "en_short": "ANYANG",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-bucheon",
+      "name": "부천시",
+      "en_name": "Bucheon City",
+      "en_short": "BUCHEON",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-dongducheon",
+      "name": "동두천시",
+      "en_name": "Dongducheon City",
+      "en_short": "DONGDUCHEON",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-gapyeong",
+      "name": "가평군",
+      "en_name": "Gapyeong County",
+      "en_short": "GAPYEONG",
+      "type": "군",
+      "parent": "gyeonggi",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeonggi-gimpo",
+      "name": "김포시",
+      "en_name": "Gimpo City",
+      "en_short": "GIMPO",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-goyang",
+      "name": "고양시",
+      "en_name": "Goyang City",
+      "en_short": "GOYANG",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-gunpo",
+      "name": "군포시",
+      "en_name": "Gunpo City",
+      "en_short": "GUNPO",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-guri",
+      "name": "구리시",
+      "en_name": "Guri City",
+      "en_short": "GURI",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-gwacheon",
+      "name": "과천시",
+      "en_name": "Gwacheon City",
+      "en_short": "GWACHEON",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-gwangju",
+      "name": "광주시",
+      "en_name": "Gwangju City",
+      "en_short": "GWANGJU",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-gwangmyeong",
+      "name": "광명시",
+      "en_name": "Gwangmyeong City",
+      "en_short": "GWANGMYEONG",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-hanam",
+      "name": "하남시",
+      "en_name": "Hanam City",
+      "en_short": "HANAM",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-hwaseong",
+      "name": "화성시",
+      "en_name": "Hwaseong City",
+      "en_short": "HWASEONG",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-icheon",
+      "name": "이천시",
+      "en_name": "Icheon City",
+      "en_short": "ICHEON",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-namyangju",
+      "name": "남양주시",
+      "en_name": "Namyangju City",
+      "en_short": "NAMYANGJU",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-osan",
+      "name": "오산시",
+      "en_name": "Osan City",
+      "en_short": "OSAN",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-paju",
+      "name": "파주시",
+      "en_name": "Paju City",
+      "en_short": "PAJU",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-pocheon",
+      "name": "포천시",
+      "en_name": "Pocheon City",
+      "en_short": "POCHEON",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-pyeongtaek",
+      "name": "평택시",
+      "en_name": "Pyeongtaek City",
+      "en_short": "PYEONGTAEK",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-seongnam",
+      "name": "성남시",
+      "en_name": "Seongnam City",
+      "en_short": "SEONGNAM",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-siheung",
+      "name": "시흥시",
+      "en_name": "Siheung City",
+      "en_short": "SIHEUNG",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-suwon",
+      "name": "수원시",
+      "en_name": "Suwon City",
+      "en_short": "SUWON",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-uijeongbu",
+      "name": "의정부시",
+      "en_name": "Uijeongbu City",
+      "en_short": "UIJEONGBU",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-uiwang",
+      "name": "의왕시",
+      "en_name": "Uiwang City",
+      "en_short": "UIWANG",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-yangju",
+      "name": "양주시",
+      "en_name": "Yangju City",
+      "en_short": "YANGJU",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-yangpyeong",
+      "name": "양평군",
+      "en_name": "Yangpyeong County",
+      "en_short": "YANGPYEONG",
+      "type": "군",
+      "parent": "gyeonggi",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeonggi-yeoju",
+      "name": "여주시",
+      "en_name": "Yeoju City",
+      "en_short": "YEOJU",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeonggi-yeoncheon",
+      "name": "연천군",
+      "en_name": "Yeoncheon County",
+      "en_short": "YEONCHEON",
+      "type": "군",
+      "parent": "gyeonggi",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeonggi-yongin",
+      "name": "용인시",
+      "en_name": "Yongin City",
+      "en_short": "YONGIN",
+      "type": "시",
+      "parent": "gyeonggi",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongnam-changnyeong",
+      "name": "창녕군",
+      "en_name": "Changnyeong County",
+      "en_short": "CHANGNYEONG",
+      "parent": "gyeongnam",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongnam-changwon",
+      "name": "창원시",
+      "en_name": "Changwon City",
+      "en_short": "CHANGWON",
+      "type": "시",
+      "parent": "gyeongnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongnam-geochang",
+      "name": "거창군",
+      "en_name": "Geochang County",
+      "en_short": "GEOCHANG",
+      "parent": "gyeongnam",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongnam-geoje",
+      "name": "거제시",
+      "en_name": "Geoje City",
+      "en_short": "GEOJE",
+      "type": "시",
+      "parent": "gyeongnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongnam-gimhae",
+      "name": "김해시",
+      "en_name": "Gimhae City",
+      "en_short": "GIMHAE",
+      "type": "시",
+      "parent": "gyeongnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongnam-goseong",
+      "name": "고성군",
+      "en_name": "Goseong County, South Gyeongsang",
+      "en_short": "GOSEONG",
+      "parent": "gyeongnam",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongnam-hadong",
+      "name": "하동군",
+      "en_name": "Hadong County",
+      "en_short": "HADONG",
+      "parent": "gyeongnam",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongnam-haman",
+      "name": "함안군",
+      "en_name": "Haman County",
+      "en_short": "HAMAN",
+      "parent": "gyeongnam",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongnam-hamyang",
+      "name": "함양군",
+      "en_name": "Hamyang County",
+      "en_short": "HAMYANG",
+      "parent": "gyeongnam",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongnam-hapcheon",
+      "name": "합천군",
+      "en_name": "Hapcheon County",
+      "en_short": "HAPCHEON",
+      "parent": "gyeongnam",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongnam-jinju",
+      "name": "진주시",
+      "en_name": "Jinju City",
+      "en_short": "JINJU",
+      "type": "시",
+      "parent": "gyeongnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongnam-miryang",
+      "name": "밀양시",
+      "en_name": "Miryang City",
+      "en_short": "MIRYANG",
+      "type": "시",
+      "parent": "gyeongnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongnam-namhae",
+      "name": "남해군",
+      "en_name": "Namhae County",
+      "en_short": "NAMHAE",
+      "parent": "gyeongnam",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongnam-sacheon",
+      "name": "사천시",
+      "en_name": "Sacheon City",
+      "en_short": "SACHEON",
+      "type": "시",
+      "parent": "gyeongnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongnam-sancheong",
+      "name": "산청군",
+      "en_name": "Sancheong County",
+      "en_short": "SANCHEONG",
+      "parent": "gyeongnam",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongnam-tongyeong",
+      "name": "통영시",
+      "en_name": "Tongyeong City",
+      "en_short": "TONGYEONG",
+      "type": "시",
+      "parent": "gyeongnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "gyeongnam-uiryeong",
+      "name": "의령군",
+      "en_name": "Uiryeong County",
+      "en_short": "UIRYEONG",
+      "parent": "gyeongnam",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "gyeongnam-yangsan",
+      "name": "양산시",
+      "en_name": "Yangsan City",
+      "en_short": "YANGSAN",
+      "type": "시",
+      "parent": "gyeongnam",
+      "badge_status": "available"
+    },
+    {
+      "id": "incheon-bupyeong",
+      "name": "부평구",
+      "en_name": "Bupyeong District",
+      "en_short": "BUPYEONG",
+      "parent": "incheon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "incheon-ganghwa",
+      "name": "강화군",
+      "en_name": "Ganghwa County",
+      "en_short": "GANGHWA",
+      "parent": "incheon",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "incheon-geomdan",
+      "name": "검단구",
+      "en_name": "Geomdan District",
+      "en_short": "GEOMDAN",
+      "parent": "incheon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "incheon-gyeyang",
+      "name": "계양구",
+      "en_name": "Gyeyang District",
+      "en_short": "GYEYANG",
+      "parent": "incheon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "incheon-jemulpo",
+      "name": "제물포구",
+      "en_name": "Jemulpo District",
+      "en_short": "JEMULPO",
+      "parent": "incheon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "incheon-michuhol",
+      "name": "미추홀구",
+      "en_name": "Michuhol District",
+      "en_short": "MICHUHOL",
+      "parent": "incheon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "incheon-namdong",
+      "name": "남동구",
+      "en_name": "Namdong District",
+      "en_short": "NAMDONG",
+      "parent": "incheon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "incheon-ongjin",
+      "name": "옹진군",
+      "en_name": "Ongjin County",
+      "en_short": "ONGJIN",
+      "parent": "incheon",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "incheon-seohae",
+      "name": "서해구",
+      "en_name": "Seohae District",
+      "en_short": "SEOHAE",
+      "parent": "incheon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "incheon-yeongjong",
+      "name": "영종구",
+      "en_name": "Yeongjong District",
+      "en_short": "YEONGJONG",
+      "parent": "incheon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "incheon-yeonsu",
+      "name": "연수구",
+      "en_name": "Yeonsu District",
+      "en_short": "YEONSU",
+      "parent": "incheon",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonbuk-buan",
+      "name": "부안군",
+      "en_name": "Buan County",
+      "en_short": "BUAN",
+      "parent": "jeonbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonbuk-gimje",
+      "name": "김제시",
+      "en_name": "Gimje City",
+      "en_short": "GIMJE",
+      "type": "시",
+      "parent": "jeonbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonbuk-gochang",
+      "name": "고창군",
+      "en_name": "Gochang County",
+      "en_short": "GOCHANG",
+      "parent": "jeonbuk",
+      "type": "군",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonbuk-gunsan",
+      "name": "군산시",
+      "en_name": "Gunsan City",
+      "en_short": "GUNSAN",
+      "type": "시",
+      "parent": "jeonbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonbuk-iksan",
+      "name": "익산시",
+      "en_name": "Iksan City",
+      "en_short": "IKSAN",
+      "type": "시",
+      "parent": "jeonbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonbuk-imsil",
+      "name": "임실군",
+      "en_name": "Imsil County",
+      "en_short": "IMSIL",
+      "parent": "jeonbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonbuk-jangsu",
+      "name": "장수군",
+      "en_name": "Jangsu County",
+      "en_short": "JANGSU",
+      "parent": "jeonbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonbuk-jeongeup",
+      "name": "정읍시",
+      "en_name": "Jeongeup City",
+      "en_short": "JEONGEUP",
+      "type": "시",
+      "parent": "jeonbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonbuk-jeonju",
+      "name": "전주시",
+      "en_name": "Jeonju City",
+      "en_short": "JEONJU",
+      "type": "시",
+      "parent": "jeonbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonbuk-jinan",
+      "name": "진안군",
+      "en_name": "Jinan County",
+      "en_short": "JINAN",
+      "parent": "jeonbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonbuk-muju",
+      "name": "무주군",
+      "en_name": "Muju County",
+      "en_short": "MUJU",
+      "parent": "jeonbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonbuk-namwon",
+      "name": "남원시",
+      "en_name": "Namwon City",
+      "en_short": "NAMWON",
+      "type": "시",
+      "parent": "jeonbuk",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonbuk-sunchang",
+      "name": "순창군",
+      "en_name": "Sunchang County",
+      "en_short": "SUNCHANG",
+      "parent": "jeonbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonbuk-wanju",
+      "name": "완주군",
+      "en_name": "Wanju County",
+      "en_short": "WANJU",
+      "parent": "jeonbuk",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-boseong",
+      "name": "보성군",
+      "en_name": "Boseong County",
+      "en_short": "BOSEONG",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-buk",
+      "name": "북구",
+      "en_name": "Buk District",
+      "en_short": "BUK",
+      "parent": "jeonnam-gwangju",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-damyang",
+      "name": "담양군",
+      "en_name": "Damyang County",
+      "en_short": "DAMYANG",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-dong",
+      "name": "동구",
+      "en_name": "Dong District",
+      "en_short": "DONG",
+      "parent": "jeonnam-gwangju",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-gangjin",
+      "name": "강진군",
+      "en_name": "Gangjin County",
+      "en_short": "GANGJIN",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-goheung",
+      "name": "고흥군",
+      "en_name": "Goheung County",
+      "en_short": "GOHEUNG",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonnam-gwangju-gokseong",
+      "name": "곡성군",
+      "en_name": "Gokseong County",
+      "en_short": "GOKSEONG",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-gurye",
+      "name": "구례군",
+      "en_name": "Gurye County",
+      "en_short": "GURYE",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-gwangsan",
+      "name": "광산구",
+      "en_name": "Gwangsan District",
+      "en_short": "GWANGSAN",
+      "parent": "jeonnam-gwangju",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-gwangyang",
+      "name": "광양시",
+      "en_name": "Gwangyang City",
+      "en_short": "GWANGYANG",
+      "type": "시",
+      "parent": "jeonnam-gwangju",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonnam-gwangju-haenam",
+      "name": "해남군",
+      "en_name": "Haenam County",
+      "en_short": "HAENAM",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-hampyeong",
+      "name": "함평군",
+      "en_name": "Hampyeong County",
+      "en_short": "HAMPYEONG",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-hwasun",
+      "name": "화순군",
+      "en_name": "Hwasun County",
+      "en_short": "HWASUN",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-jangheung",
+      "name": "장흥군",
+      "en_name": "Jangheung County",
+      "en_short": "JANGHEUNG",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-jangseong",
+      "name": "장성군",
+      "en_name": "Jangseong County",
+      "en_short": "JANGSEONG",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-jindo",
+      "name": "진도군",
+      "en_name": "Jindo County",
+      "en_short": "JINDO",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-mokpo",
+      "name": "목포시",
+      "en_name": "Mokpo City",
+      "en_short": "MOKPO",
+      "type": "시",
+      "parent": "jeonnam-gwangju",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonnam-gwangju-muan",
+      "name": "무안군",
+      "en_name": "Muan County",
+      "en_short": "MUAN",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-naju",
+      "name": "나주시",
+      "en_name": "Naju City",
+      "en_short": "NAJU",
+      "type": "시",
+      "parent": "jeonnam-gwangju",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonnam-gwangju-nam",
+      "name": "남구",
+      "en_name": "Nam District",
+      "en_short": "NAM",
+      "parent": "jeonnam-gwangju",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-seo",
+      "name": "서구",
+      "en_name": "Seo District",
+      "en_short": "SEO",
+      "parent": "jeonnam-gwangju",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-sinan",
+      "name": "신안군",
+      "en_name": "Sinan County",
+      "en_short": "SINAN",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-suncheon",
+      "name": "순천시",
+      "en_name": "Suncheon City",
+      "en_short": "SUNCHEON",
+      "type": "시",
+      "parent": "jeonnam-gwangju",
+      "badge_status": "available"
+    },
+    {
+      "id": "jeonnam-gwangju-wando",
+      "name": "완도군",
+      "en_name": "Wando County",
+      "en_short": "WANDO",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-yeongam",
+      "name": "영암군",
+      "en_name": "Yeongam County",
+      "en_short": "YEONGAM",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-yeonggwang",
+      "name": "영광군",
+      "en_name": "Yeonggwang County",
+      "en_short": "YEONGGWANG",
+      "parent": "jeonnam-gwangju",
+      "type": "군",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "jeonnam-gwangju-yeosu",
+      "name": "여수시",
+      "en_name": "Yeosu City",
+      "en_short": "YEOSU",
+      "type": "시",
+      "parent": "jeonnam-gwangju",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-dobong",
+      "name": "도봉구",
+      "en_name": "Dobong-gu",
+      "en_short": "DOBONG",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-dongdaemun",
+      "name": "동대문구",
+      "en_name": "Dongdaemun-gu",
+      "en_short": "DONGDAEMUN",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-dongjak",
+      "name": "동작구",
+      "en_name": "Dongjak-gu",
+      "en_short": "DONGJAK",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-eunpyeong",
+      "name": "은평구",
+      "en_name": "Eunpyeong-gu",
+      "en_short": "EUNPYEONG",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-gangbuk",
+      "name": "강북구",
+      "en_name": "Gangbuk-gu",
+      "en_short": "GANGBUK",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-gangdong",
+      "name": "강동구",
+      "en_name": "Gangdong-gu",
+      "en_short": "GANGDONG",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-gangnam",
+      "name": "강남구",
+      "en_name": "Gangnam-gu",
+      "en_short": "GANGNAM",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-gangseo",
+      "name": "강서구",
+      "en_name": "Gangseo-gu",
+      "en_short": "GANGSEO",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-geumcheon",
+      "name": "금천구",
+      "en_name": "Geumcheon-gu",
+      "en_short": "GEUMCHEON",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-guro",
+      "name": "구로구",
+      "en_name": "Guro-gu",
+      "en_short": "GURO",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-gwanak",
+      "name": "관악구",
+      "en_name": "Gwanak-gu",
+      "en_short": "GWANAK",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-gwangjin",
+      "name": "광진구",
+      "en_name": "Gwangjin-gu",
+      "en_short": "GWANGJIN",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-jongno",
+      "name": "종로구",
+      "en_name": "Jongno-gu",
+      "en_short": "JONGNO",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-jung",
+      "name": "중구",
+      "en_name": "Jung-gu",
+      "en_short": "JUNG",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-jungnang",
+      "name": "중랑구",
+      "en_name": "Jungnang-gu",
+      "en_short": "JUNGNANG",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-mapo",
+      "name": "마포구",
+      "en_name": "Mapo-gu",
+      "en_short": "MAPO",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-nowon",
+      "name": "노원구",
+      "en_name": "Nowon-gu",
+      "en_short": "NOWON",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-seocho",
+      "name": "서초구",
+      "en_name": "Seocho-gu",
+      "en_short": "SEOCHO",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-seodaemun",
+      "name": "서대문구",
+      "en_name": "Seodaemun-gu",
+      "en_short": "SEODAEMUN",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-seongbuk",
+      "name": "성북구",
+      "en_name": "Seongbuk-gu",
+      "en_short": "SEONGBUK",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-seongdong",
+      "name": "성동구",
+      "en_name": "Seongdong-gu",
+      "en_short": "SEONGDONG",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-songpa",
+      "name": "송파구",
+      "en_name": "Songpa-gu",
+      "en_short": "SONGPA",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-yangcheon",
+      "name": "양천구",
+      "en_name": "Yangcheon-gu",
+      "en_short": "YANGCHEON",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-yeongdeungpo",
+      "name": "영등포구",
+      "en_name": "Yeongdeungpo-gu",
+      "en_short": "YEONGDEUNGPO",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "seoul-yongsan",
+      "name": "용산구",
+      "en_name": "Yongsan-gu",
+      "en_short": "YONGSAN",
+      "type": "자치구",
+      "parent": "seoul",
+      "badge_status": "available"
+    },
+    {
+      "id": "ulsan-buk",
+      "name": "북구",
+      "en_name": "Buk District",
+      "en_short": "BUK",
+      "parent": "ulsan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "ulsan-dong",
+      "name": "동구",
+      "en_name": "Dong District",
+      "en_short": "DONG",
+      "parent": "ulsan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "ulsan-jung",
+      "name": "중구",
+      "en_name": "Jung District",
+      "en_short": "JUNG",
+      "parent": "ulsan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "ulsan-nam",
+      "name": "남구",
+      "en_name": "Nam District",
+      "en_short": "NAM",
+      "parent": "ulsan",
+      "type": "자치구",
+      "badge_status": "pending_logo"
+    },
+    {
+      "id": "ulsan-ulju",
+      "name": "울주군",
+      "en_name": "Ulju County",
+      "en_short": "ULJU",
+      "parent": "ulsan",
+      "type": "군",
+      "badge_status": "pending_logo"
+    }
+  ]
+}

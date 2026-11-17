@@ -20,9 +20,10 @@ class KoreaGovBadgeTests(unittest.TestCase):
         ministries = [a for a in agencies if a.get("type") == "부"]
         self.assertEqual(len(ministries), 19)
 
-        # Verify 17 metropolitan local governments exist
+        # Verify current governments separately from preserved legacy URLs
         local_govs = [a for a in agencies if a.get("type") == "광역자치단체"]
-        self.assertEqual(len(local_govs), 17)
+        self.assertEqual(len(local_govs), 16)
+        self.assertEqual(sum(a.get("status") == "legacy" for a in agencies if a.get("replaced_by") == "jeonnam-gwangju"), 2)
 
         # Check key agencies
         agency_ids = {a["id"] for a in agencies}
@@ -57,6 +58,34 @@ class KoreaGovBadgeTests(unittest.TestCase):
         # Verify all local governments have their dedicated logo
         for lid in local_ids:
             self.assertEqual(agency_map[lid]["logo"], lid)
+
+    def test_pending_symbol_is_text_only_in_every_style_and_theme(self):
+        logos = generate.load_logos()
+        for style in generate.STYLES:
+            for color in generate.COLOR_THEMES:
+                with self.subTest(style=style, color=color):
+                    svg = generate.render_badge("전남광주통합특별시", "JEONNAM-GWANGJU", style, None, logos, color_theme=color)
+                    root = ET.fromstring(svg)
+                    self.assertIn("JEONNAM-GWANGJU", root.get("aria-label"))
+                    texts = [n.text for n in root.iter() if n.tag.endswith("}text")]
+                    self.assertIn("전남광주통합특별시", texts)
+                    self.assertNotIn('transform="translate(', svg)
+                    self.assertIn('x="8"', svg)
+
+    def test_null_logo_requires_explicit_pending_status(self):
+        import json
+        import tempfile
+        from unittest.mock import patch
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "agencies.json"
+            agency = {"id": "pending", "name": "확인 대기", "en_short": "PENDING", "logo": None}
+            path.write_text(json.dumps([agency]))
+            with patch.object(generate, "AGENCIES", path):
+                with self.assertRaisesRegex(ValueError, "explicitly pending"):
+                    generate.load_agencies()
+                agency["logo_status"] = "pending_official_symbol"
+                path.write_text(json.dumps([agency]))
+                self.assertIsNone(generate.load_agencies()[0]["logo"])
 
     def test_badges_are_valid_accessible_svg(self):
         logos = generate.load_logos()

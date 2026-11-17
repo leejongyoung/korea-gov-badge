@@ -1,0 +1,1040 @@
+{
+  "checked_on": "2026-11-18",
+  "note": "No source substitutes or guessed artwork. Wikimedia original downloads returned HTTP 429 with Retry-After 600; the bulk run was stopped. Candidate licence metadata does not mean the original was downloaded or the current CI validated.",
+  "items": [
+    {
+      "id": "gyeonggi-yeoncheon",
+      "name": "연천군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yeoncheon.svg"
+      ]
+    },
+    {
+      "id": "gyeonggi-gapyeong",
+      "name": "가평군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Gapyeong.svg"
+      ]
+    },
+    {
+      "id": "gyeonggi-yangpyeong",
+      "name": "양평군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yangpyeong.svg"
+      ]
+    },
+    {
+      "id": "gangwon-cheorwon",
+      "name": "철원군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Cheorwon.svg"
+      ]
+    },
+    {
+      "id": "gangwon-hwacheon",
+      "name": "화천군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Hwacheon.svg"
+      ]
+    },
+    {
+      "id": "gangwon-yanggu",
+      "name": "양구군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yanggu.svg"
+      ]
+    },
+    {
+      "id": "gangwon-inje",
+      "name": "인제군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Inje.svg"
+      ]
+    },
+    {
+      "id": "gangwon-goseong",
+      "name": "고성군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Goseong, Gangwon.svg"
+      ]
+    },
+    {
+      "id": "gangwon-yangyang",
+      "name": "양양군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yangyang.svg"
+      ]
+    },
+    {
+      "id": "gangwon-hongcheon",
+      "name": "홍천군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Hongcheon.svg"
+      ]
+    },
+    {
+      "id": "gangwon-hoengseong",
+      "name": "횡성군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Hoengseong.svg"
+      ]
+    },
+    {
+      "id": "gangwon-yeongwol",
+      "name": "영월군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yeongwol.svg"
+      ]
+    },
+    {
+      "id": "gangwon-pyeongchang",
+      "name": "평창군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Pyeongchang.svg"
+      ]
+    },
+    {
+      "id": "gangwon-jeongseon",
+      "name": "정선군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Jeongseon.svg"
+      ]
+    },
+    {
+      "id": "chungbuk-okcheon",
+      "name": "옥천군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Okcheon.svg"
+      ]
+    },
+    {
+      "id": "chungbuk-yeongdong",
+      "name": "영동군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yeongdong.svg"
+      ]
+    },
+    {
+      "id": "chungbuk-jeungpyeong",
+      "name": "증평군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Jeungpyeong.svg"
+      ]
+    },
+    {
+      "id": "chungbuk-jincheon",
+      "name": "진천군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Jincheon.svg"
+      ]
+    },
+    {
+      "id": "chungbuk-goesan",
+      "name": "괴산군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Goesan.svg"
+      ]
+    },
+    {
+      "id": "chungbuk-eumseong",
+      "name": "음성군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Eumseong.svg"
+      ]
+    },
+    {
+      "id": "chungbuk-danyang",
+      "name": "단양군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Danyang.svg"
+      ]
+    },
+    {
+      "id": "chungnam-geumsan",
+      "name": "금산군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Geumsan.svg"
+      ]
+    },
+    {
+      "id": "chungnam-buyeo",
+      "name": "부여군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Buyeo.svg"
+      ]
+    },
+    {
+      "id": "chungnam-seocheon",
+      "name": "서천군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Seocheon.svg"
+      ]
+    },
+    {
+      "id": "chungnam-cheongyang",
+      "name": "청양군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Cheongyang.svg"
+      ]
+    },
+    {
+      "id": "chungnam-hongseong",
+      "name": "홍성군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Hongseong.svg"
+      ]
+    },
+    {
+      "id": "chungnam-yesan",
+      "name": "예산군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yesan.svg"
+      ]
+    },
+    {
+      "id": "chungnam-taean",
+      "name": "태안군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Taean.svg"
+      ]
+    },
+    {
+      "id": "jeonbuk-wanju",
+      "name": "완주군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Wanju.svg"
+      ]
+    },
+    {
+      "id": "jeonbuk-jinan",
+      "name": "진안군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Jinan.svg"
+      ]
+    },
+    {
+      "id": "jeonbuk-muju",
+      "name": "무주군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Muju.svg"
+      ]
+    },
+    {
+      "id": "jeonbuk-jangsu",
+      "name": "장수군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Jangsu.svg"
+      ]
+    },
+    {
+      "id": "jeonbuk-imsil",
+      "name": "임실군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Imsil.svg"
+      ]
+    },
+    {
+      "id": "jeonbuk-sunchang",
+      "name": "순창군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Sunchang.svg"
+      ]
+    },
+    {
+      "id": "jeonbuk-buan",
+      "name": "부안군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Buan.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-damyang",
+      "name": "담양군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Damyang.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-gokseong",
+      "name": "곡성군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Gokseong.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-gurye",
+      "name": "구례군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Gurye.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-boseong",
+      "name": "보성군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Boseong.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-hwasun",
+      "name": "화순군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Hwasun.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-jangheung",
+      "name": "장흥군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Jangheung.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-gangjin",
+      "name": "강진군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Gangjin.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-haenam",
+      "name": "해남군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Haenam.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-yeongam",
+      "name": "영암군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yeongam.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-muan",
+      "name": "무안군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Muan.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-hampyeong",
+      "name": "함평군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Hampyeong.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-yeonggwang",
+      "name": "영광군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yeonggwang.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-jangseong",
+      "name": "장성군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Jangseong.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-wando",
+      "name": "완도군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Wando.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-jindo",
+      "name": "진도군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Jindo.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-sinan",
+      "name": "신안군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Sinan.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-uiseong",
+      "name": "의성군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Uiseong.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-cheongsong",
+      "name": "청송군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Cheongsong.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-yeongyang",
+      "name": "영양군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yeongyang.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-yeongdeok",
+      "name": "영덕군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yeongdeok.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-cheongdo",
+      "name": "청도군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Cheongdo.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-goryeong",
+      "name": "고령군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Goryeong.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-seongju",
+      "name": "성주군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Seongju.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-chilgok",
+      "name": "칠곡군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Chilgok.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-yecheon",
+      "name": "예천군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yecheon.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-bonghwa",
+      "name": "봉화군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Bonghwa.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-uljin",
+      "name": "울진군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Uljin.svg"
+      ]
+    },
+    {
+      "id": "gyeongbuk-ulleung",
+      "name": "울릉군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Ulleung.svg"
+      ]
+    },
+    {
+      "id": "gyeongnam-uiryeong",
+      "name": "의령군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Uiryeong.svg"
+      ]
+    },
+    {
+      "id": "gyeongnam-haman",
+      "name": "함안군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Haman.svg"
+      ]
+    },
+    {
+      "id": "gyeongnam-changnyeong",
+      "name": "창녕군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Changnyeong.svg"
+      ]
+    },
+    {
+      "id": "gyeongnam-goseong",
+      "name": "고성군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Goseong, South Gyeongsang.svg"
+      ]
+    },
+    {
+      "id": "gyeongnam-namhae",
+      "name": "남해군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Namhae.svg"
+      ]
+    },
+    {
+      "id": "gyeongnam-hadong",
+      "name": "하동군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Hadong.svg"
+      ]
+    },
+    {
+      "id": "gyeongnam-sancheong",
+      "name": "산청군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Sancheong.svg"
+      ]
+    },
+    {
+      "id": "gyeongnam-hamyang",
+      "name": "함양군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Hamyang.svg"
+      ]
+    },
+    {
+      "id": "gyeongnam-geochang",
+      "name": "거창군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Geochang.svg"
+      ]
+    },
+    {
+      "id": "gyeongnam-hapcheon",
+      "name": "합천군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Hapcheon.svg"
+      ]
+    },
+    {
+      "id": "busan-jung",
+      "name": "중구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Jung, Busan.svg",
+        "File:Flag of Jung District.svg",
+        "File:Flag of Jung.svg"
+      ]
+    },
+    {
+      "id": "busan-seo",
+      "name": "서구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Seo, Busan.svg",
+        "File:Flag of Seo District.svg",
+        "File:Flag of Seo.svg"
+      ]
+    },
+    {
+      "id": "busan-dong",
+      "name": "동구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Dong, Busan.svg",
+        "File:Flag of Dong District.svg",
+        "File:Flag of Dong.svg"
+      ]
+    },
+    {
+      "id": "busan-yeongdo",
+      "name": "영도구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yeongdo, Busan.svg"
+      ]
+    },
+    {
+      "id": "busan-busanjin",
+      "name": "부산진구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Busanjin, Busan.svg"
+      ]
+    },
+    {
+      "id": "busan-dongnae",
+      "name": "동래구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Dongnae, Busan.svg"
+      ]
+    },
+    {
+      "id": "busan-nam",
+      "name": "남구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Nam, Busan.svg",
+        "File:Flag of Nam District.svg",
+        "File:Flag of Nam.svg"
+      ]
+    },
+    {
+      "id": "busan-buk",
+      "name": "북구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Buk, Busan.svg",
+        "File:Flag of Buk District.svg",
+        "File:Flag of Buk.svg"
+      ]
+    },
+    {
+      "id": "busan-haeundae",
+      "name": "해운대구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Haeundae, Busan.svg"
+      ]
+    },
+    {
+      "id": "busan-saha",
+      "name": "사하구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Saha, Busan.svg"
+      ]
+    },
+    {
+      "id": "busan-geumjeong",
+      "name": "금정구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Geumjeong, Busan.svg"
+      ]
+    },
+    {
+      "id": "busan-gangseo",
+      "name": "강서구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Gangseo, Busan.svg"
+      ]
+    },
+    {
+      "id": "busan-yeonje",
+      "name": "연제구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yeonje, Busan.svg"
+      ]
+    },
+    {
+      "id": "busan-suyeong",
+      "name": "수영구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Suyeong, Busan.svg"
+      ]
+    },
+    {
+      "id": "busan-sasang",
+      "name": "사상구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Sasang, Busan.svg"
+      ]
+    },
+    {
+      "id": "busan-gijang",
+      "name": "기장군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Gijang, Busan.svg"
+      ]
+    },
+    {
+      "id": "daegu-jung",
+      "name": "중구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Jung, Daegu.svg",
+        "File:Flag of Jung District.svg",
+        "File:Flag of Jung.svg"
+      ]
+    },
+    {
+      "id": "daegu-dong",
+      "name": "동구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Dong, Daegu.svg",
+        "File:Flag of Dong District.svg",
+        "File:Flag of Dong.svg"
+      ]
+    },
+    {
+      "id": "daegu-seo",
+      "name": "서구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Seo, Daegu.svg",
+        "File:Flag of Seo District.svg",
+        "File:Flag of Seo.svg"
+      ]
+    },
+    {
+      "id": "daegu-nam",
+      "name": "남구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Nam, Daegu.svg",
+        "File:Flag of Nam District.svg",
+        "File:Flag of Nam.svg"
+      ]
+    },
+    {
+      "id": "daegu-buk",
+      "name": "북구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Buk, Daegu.svg",
+        "File:Flag of Buk District.svg",
+        "File:Flag of Buk.svg"
+      ]
+    },
+    {
+      "id": "daegu-suseong",
+      "name": "수성구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Suseong, Daegu.svg"
+      ]
+    },
+    {
+      "id": "daegu-dalseo",
+      "name": "달서구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Dalseo, Daegu.svg"
+      ]
+    },
+    {
+      "id": "daegu-dalseong",
+      "name": "달성군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Dalseong, Daegu.svg"
+      ]
+    },
+    {
+      "id": "daegu-gunwi",
+      "name": "군위군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Gunwi.svg"
+      ]
+    },
+    {
+      "id": "incheon-jemulpo",
+      "name": "제물포구",
+      "reason": "new_jurisdiction_current_symbol_unverified",
+      "candidates": [
+        "File:Flag of Jemulpo, Incheon.svg"
+      ]
+    },
+    {
+      "id": "incheon-yeongjong",
+      "name": "영종구",
+      "reason": "new_jurisdiction_current_symbol_unverified",
+      "candidates": [
+        "File:Flag of Yeongjong, Incheon.svg"
+      ]
+    },
+    {
+      "id": "incheon-michuhol",
+      "name": "미추홀구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Michuhol, Incheon.svg"
+      ]
+    },
+    {
+      "id": "incheon-yeonsu",
+      "name": "연수구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yeonsu, Incheon.svg"
+      ]
+    },
+    {
+      "id": "incheon-namdong",
+      "name": "남동구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Namdong, Incheon.svg"
+      ]
+    },
+    {
+      "id": "incheon-bupyeong",
+      "name": "부평구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Bupyeong, Incheon.svg"
+      ]
+    },
+    {
+      "id": "incheon-gyeyang",
+      "name": "계양구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Gyeyang, Incheon.svg"
+      ]
+    },
+    {
+      "id": "incheon-seohae",
+      "name": "서해구",
+      "reason": "new_jurisdiction_current_symbol_unverified",
+      "candidates": [
+        "File:Flag of Seohae, Incheon.svg"
+      ]
+    },
+    {
+      "id": "incheon-geomdan",
+      "name": "검단구",
+      "reason": "new_jurisdiction_current_symbol_unverified",
+      "candidates": [
+        "File:Flag of Geomdan, Incheon.svg"
+      ]
+    },
+    {
+      "id": "incheon-ganghwa",
+      "name": "강화군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Ganghwa, Incheon.svg"
+      ]
+    },
+    {
+      "id": "incheon-ongjin",
+      "name": "옹진군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Ongjin, Incheon.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-dong",
+      "name": "동구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Dong, Gwangju.svg",
+        "File:Flag of Dong District.svg",
+        "File:Flag of Dong.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-seo",
+      "name": "서구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Seo, Gwangju.svg",
+        "File:Flag of Seo District.svg",
+        "File:Flag of Seo.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-nam",
+      "name": "남구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Nam, Gwangju.svg",
+        "File:Flag of Nam District.svg",
+        "File:Flag of Nam.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-buk",
+      "name": "북구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Buk, Gwangju.svg",
+        "File:Flag of Buk District.svg",
+        "File:Flag of Buk.svg"
+      ]
+    },
+    {
+      "id": "jeonnam-gwangju-gwangsan",
+      "name": "광산구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Gwangsan, Gwangju.svg"
+      ]
+    },
+    {
+      "id": "daejeon-dong",
+      "name": "동구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Dong, Daejeon.svg",
+        "File:Flag of Dong District.svg",
+        "File:Flag of Dong.svg"
+      ]
+    },
+    {
+      "id": "daejeon-jung",
+      "name": "중구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Jung, Daejeon.svg",
+        "File:Flag of Jung District.svg",
+        "File:Flag of Jung.svg"
+      ]
+    },
+    {
+      "id": "daejeon-seo",
+      "name": "서구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Seo, Daejeon.svg",
+        "File:Flag of Seo District.svg",
+        "File:Flag of Seo.svg"
+      ]
+    },
+    {
+      "id": "daejeon-yuseong",
+      "name": "유성구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Yuseong, Daejeon.svg"
+      ]
+    },
+    {
+      "id": "daejeon-daedeok",
+      "name": "대덕구",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Daedeok, Daejeon.svg"
+      ]
+    },
+    {
+      "id": "ulsan-jung",
+      "name": "중구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Jung, Ulsan.svg",
+        "File:Flag of Jung District.svg",
+        "File:Flag of Jung.svg"
+      ]
+    },
+    {
+      "id": "ulsan-nam",
+      "name": "남구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Nam, Ulsan.svg",
+        "File:Flag of Nam District.svg",
+        "File:Flag of Nam.svg"
+      ]
+    },
+    {
+      "id": "ulsan-dong",
+      "name": "동구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Dong, Ulsan.svg",
+        "File:Flag of Dong District.svg",
+        "File:Flag of Dong.svg"
+      ]
+    },
+    {
+      "id": "ulsan-buk",
+      "name": "북구",
+      "reason": "no_verified_permitted_vector",
+      "candidates": [
+        "File:Flag of Buk, Ulsan.svg",
+        "File:Flag of Buk District.svg",
+        "File:Flag of Buk.svg"
+      ]
+    },
+    {
+      "id": "ulsan-ulju",
+      "name": "울주군",
+      "reason": "original_download_deferred_429",
+      "candidates": [
+        "File:Flag of Ulju, Ulsan.svg"
+      ]
+    }
+  ]
+}
