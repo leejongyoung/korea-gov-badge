@@ -1,14 +1,17 @@
 {
   "checked_on": "2026-11-18",
-  "note": "No source substitutes or guessed artwork. Wikimedia original downloads returned HTTP 429 with Retry-After 600; the bulk run was stopped. Candidate licence metadata does not mean the original was downloaded or the current CI validated.",
+  "note": "Implementation backlog, not a list of licensed assets. Source download limits and item-specific reuse restrictions are separate. Commons original endpoint continued to return HTTP 429 during 2026-11-18 verification; no mirror/proxy workaround was used. Verified official-source additions are removed from this list.",
   "items": [
     {
       "id": "gyeonggi-yeoncheon",
       "name": "연천군",
-      "reason": "original_download_deferred_429",
+      "reason": "restricted_or_conflicting_use_terms",
       "candidates": [
         "File:Flag of Yeoncheon.svg"
-      ]
+      ],
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.yeoncheon.go.kr/www/contents.do?key=3411",
+      "note": "Symbol-specific notice restricts use to nonprofit/public purposes and prohibits changes; general footer separately says Type 1. Do not infer unrestricted reuse from footer."
     },
     {
       "id": "gyeonggi-gapyeong",
@@ -16,7 +19,10 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Gapyeong.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_source": "https://www.gp.go.kr/portal/contents.do?key=713",
+      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
     },
     {
       "id": "gyeonggi-yangpyeong",
@@ -24,7 +30,9 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Yangpyeong.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
     },
     {
       "id": "gangwon-cheorwon",
@@ -32,7 +40,9 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Cheorwon.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_check_note": "URLError: <urlopen error timed out>"
     },
     {
       "id": "gangwon-hwacheon",
@@ -56,7 +66,9 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Inje.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
     },
     {
       "id": "gangwon-goseong",
@@ -80,15 +92,21 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Hongcheon.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_source": "https://www.hongcheon.go.kr/www/contents.do?key=304",
+      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
     },
     {
       "id": "gangwon-hoengseong",
       "name": "횡성군",
-      "reason": "original_download_deferred_429",
+      "reason": "reuse_permission_unverified",
       "candidates": [
         "File:Flag of Hoengseong.svg"
-      ]
+      ],
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.hsg.go.kr/www/contents.do?key=727",
+      "note": "Official AI archive retrieved; CI page has no KOGL marker. General policy requires consultation for unmarked material."
     },
     {
       "id": "gangwon-yeongwol",
@@ -101,10 +119,13 @@
     {
       "id": "gangwon-pyeongchang",
       "name": "평창군",
-      "reason": "original_download_deferred_429",
+      "reason": "restricted_use_terms",
       "candidates": [
         "File:Flag of Pyeongchang.svg"
-      ]
+      ],
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.pc.go.kr/portal/intro/intro-summary/intro-summary-symbol",
+      "note": "Official symbol page labels KOGL Type 4."
     },
     {
       "id": "gangwon-jeongseon",
@@ -125,10 +146,13 @@
     {
       "id": "chungbuk-yeongdong",
       "name": "영동군",
-      "reason": "original_download_deferred_429",
+      "reason": "restricted_use_terms",
       "candidates": [
         "File:Flag of Yeongdong.svg"
-      ]
+      ],
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.yd21.go.kr/kr/html/sub04/04030101.html",
+      "note": "Official symbol page labels KOGL Type 4."
     },
     {
       "id": "chungbuk-jeungpyeong",
@@ -136,31 +160,32 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Jeungpyeong.svg"
-      ]
-    },
-    {
-      "id": "chungbuk-jincheon",
-      "name": "진천군",
-      "reason": "original_download_deferred_429",
-      "candidates": [
-        "File:Flag of Jincheon.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_source": "https://www.jp.go.kr/kor/sub04_02_01.do",
+      "official_check_note": "Candidate files found; reuse rights and current vector artwork not yet verified."
     },
     {
       "id": "chungbuk-goesan",
       "name": "괴산군",
-      "reason": "original_download_deferred_429",
+      "reason": "reuse_permission_unverified",
       "candidates": [
         "File:Flag of Goesan.svg"
-      ]
+      ],
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.goesan.go.kr/www/contents.do?key=254",
+      "note": "Official vector archive linked, but no item-specific reuse grant established."
     },
     {
       "id": "chungbuk-eumseong",
       "name": "음성군",
-      "reason": "original_download_deferred_429",
+      "reason": "restricted_use_terms",
       "candidates": [
         "File:Flag of Eumseong.svg"
-      ]
+      ],
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.eumseong.go.kr/www/contents.do?key=410",
+      "note": "Official CI page labels KOGL Type 4; no unrestricted redistribution/conversion permission established."
     },
     {
       "id": "chungbuk-danyang",
@@ -168,7 +193,9 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Danyang.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_check_note": "HTTPError: HTTP Error 308: Permanent Redirect"
     },
     {
       "id": "chungnam-geumsan",
@@ -176,7 +203,9 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Geumsan.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
     },
     {
       "id": "chungnam-buyeo",
@@ -184,7 +213,10 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Buyeo.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_source": "https://www.buyeo.go.kr/html/kr/intro/intro_050401.html",
+      "official_check_note": "Candidate files found; reuse rights and current vector artwork not yet verified."
     },
     {
       "id": "chungnam-seocheon",
@@ -192,7 +224,10 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Seocheon.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_source": "https://www.seocheon.go.kr/kor/sub05_02_01.do",
+      "official_check_note": "Candidate files found; reuse rights and current vector artwork not yet verified."
     },
     {
       "id": "chungnam-cheongyang",
@@ -200,7 +235,10 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Cheongyang.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_source": "http://www.cheongyang.go.kr/kor/sub05_03_01.do",
+      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
     },
     {
       "id": "chungnam-hongseong",
@@ -208,7 +246,10 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Hongseong.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_source": "https://www.hongseong.go.kr/kor/sub04_010701.do",
+      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
     },
     {
       "id": "chungnam-yesan",
@@ -216,7 +257,10 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Yesan.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_source": "https://www.yesan.go.kr/kor/sub05_02_01.do",
+      "official_check_note": "Candidate files found; reuse rights and current vector artwork not yet verified."
     },
     {
       "id": "chungnam-taean",
@@ -224,7 +268,10 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Taean.svg"
-      ]
+      ],
+      "official_checked_on": "2026-11-18",
+      "official_source": "https://www.taean.go.kr/kor/sub05_02_01.do",
+      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
     },
     {
       "id": "jeonbuk-wanju",

@@ -1,5 +1,5 @@
 {
-  "description": "Source/rights metadata as listed by Wikimedia Commons. The MIT code license does not cover marks. No claim of official endorsement or current brand-guide certification.",
+  "description": "Per-logo source, rights metadata, conversion history and hashes. MIT covers code only, not the marks. See logo-attribution.md for required source credits.",
   "items": [
     {
       "id": "chungbuk-boeun",
@@ -42,6 +42,26 @@
       "restrictions": "insignia",
       "current_brand_review": "pending municipal brand-guide comparison; flag source and licence verified",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_Goheung.svg"
+    },
+    {
+      "id": "chungbuk-jincheon",
+      "name": "진천군",
+      "source_kind": "official",
+      "source_page": "https://www.jincheon.go.kr/home/sub.do?menukey=265",
+      "source_url": "https://www.jincheon.go.kr/oldData/editor/content/main/info/symbol.zip",
+      "source_author": "진천군",
+      "source_title": "진천군마크 시그니처 (jincheon_ci.ai)",
+      "source_year": "not stated on source page",
+      "license_as_listed": "KOGL Type 1",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "original_sha256": "89dc0d0e5047d6b5b92ea6e834470c498dfc58142b9795f8cddcd38e4b82033e",
+      "archive_sha256": "9053c6732f4fbb4b3875d859d1f281ba47e3f9b88d0dcab3c2a9c86b6fbf9b07",
+      "logo_sha256": "8ed6dd259082b8386ad240a9aefdc42012d2d4d1e4076ed02bcfeb5593d49426",
+      "retrieved_on": "2026-11-18",
+      "conversion": "Official PDF-compatible AI -> pdftocairo SVG; retain complete first standalone mark paths 61..70; viewBox 74 80 78 62; SVGO 4.1.0 precision=3. No tracing/redrawing/recolouring; no raster data.",
+      "background_removed": false,
+      "current_brand_review": "matched current official symbol image and signature sheet",
+      "restrictions": "Do not imply official sponsorship; observe mark use rules independently of copyright."
     }
   ]
 }
