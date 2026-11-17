@@ -20,6 +20,15 @@
 
 [지자체 로고 대기 목록](logo-pending.json)과 [공공기관 로고 확인 목록](public-logo-pending.json)을 구분한다. 공식 사이트에서 다운로드할 수 있다는 사실만으로 재배포 허락이나 자유이용을 가정하지 않는다. 개별 상징에 관한 이용 안내가 페이지 공통 푸터와 다르면 개별 안내를 우선 확인한다.
 
+## 대기 목록의 자동 검증
+
+`python3 scripts/check_catalog.py --check`는 문서·등록 상태뿐 아니라 `logo-pending.json`도 검사한다.
+
+- 대기 ID의 중복·누락 및 이미 구현된 기관이 대기 목록에 남은 경우 실패한다.
+- 개별 검토일(`checked_on`)이 있거나 이용조건 검토 사유(`restricted_use_terms`, `restricted_or_conflicting_use_terms`, `reuse_permission_unverified`)를 기록한 항목은 유효한 ISO 날짜·출처 HTTP(S) URL·설명(`note`)이 필요하다.
+- `official_checked_on`은 기존의 예비 접근 시도일이며, 이용조건 검토 완료나 파일 확보를 뜻하지 않는다. 시간초과 등 실패 기록과 `checked_on` 검토 기록을 혼동하지 않는다.
+- 검사는 오프라인 메타데이터 정합성 검사다. URL의 실제 가용성, 허락의 법률적 유효성 또는 현행 CI 일치를 자동 인증하지 않는다.
+
 ## 같은 자료를 다시 검증하는 절차
 
 1. 공식 상징 안내 페이지의 심벌 이미지와 다운로드 링크를 확인하고, 개별 이용 조건이 공통 푸터와 충돌하지 않는지 확인한다. 링크만 있다는 이유로 공개 라이선스를 가정하지 않는다.

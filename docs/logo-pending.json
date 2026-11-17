@@ -22,7 +22,14 @@
       ],
       "official_checked_on": "2026-11-18",
       "official_source": "https://www.gp.go.kr/portal/contents.do?key=713",
-      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
+      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending.",
+      "last_download": {
+        "checked_on": "2026-11-18",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Flag_of_Gapyeong.svg",
+        "http_status": 429,
+        "retry_after_seconds": 120,
+        "note": "Single original download probe; no original obtained, no proxy/mirror used."
+      }
     },
     {
       "id": "gyeonggi-yangpyeong",
@@ -138,10 +145,13 @@
     {
       "id": "chungbuk-okcheon",
       "name": "옥천군",
-      "reason": "original_download_deferred_429",
+      "reason": "restricted_use_terms",
       "candidates": [
         "File:Flag of Okcheon.svg"
-      ]
+      ],
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.oc.go.kr/www/contents.do?key=2616",
+      "note": "Official symbol page explicitly labels KOGL Type 4 (attribution, noncommercial, no derivatives). A third-party Type 1 claim was not accepted over the live official page. No logo added."
     },
     {
       "id": "chungbuk-yeongdong",
@@ -157,13 +167,13 @@
     {
       "id": "chungbuk-jeungpyeong",
       "name": "증평군",
-      "reason": "original_download_deferred_429",
+      "reason": "reuse_permission_unverified",
       "candidates": [
         "File:Flag of Jeungpyeong.svg"
       ],
-      "official_checked_on": "2026-11-18",
       "official_source": "https://www.jp.go.kr/kor/sub04_02_01.do",
-      "official_check_note": "Candidate files found; reuse rights and current vector artwork not yet verified."
+      "checked_on": "2026-11-18",
+      "note": "Official symbol page links jp_logo.zip as the symbol AI download. CI page alone did not establish permission for badge conversion/redistribution; archive content and reuse permission remain unverified."
     },
     {
       "id": "chungbuk-goesan",
@@ -232,13 +242,13 @@
     {
       "id": "chungnam-cheongyang",
       "name": "청양군",
-      "reason": "original_download_deferred_429",
+      "reason": "reuse_permission_unverified",
       "candidates": [
         "File:Flag of Cheongyang.svg"
       ],
-      "official_checked_on": "2026-11-18",
-      "official_source": "http://www.cheongyang.go.kr/kor/sub05_03_01.do",
-      "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
+      "official_source": "https://www.cheongyang.go.kr/kor/sub05_03_01.do",
+      "checked_on": "2026-11-18",
+      "note": "Official symbol page links simbol.ai and presents symbol usage guidance. File content and item-specific badge redistribution permission remain unverified; no logo added."
     },
     {
       "id": "chungnam-hongseong",
@@ -628,10 +638,13 @@
     {
       "id": "gyeongnam-hapcheon",
       "name": "합천군",
-      "reason": "original_download_deferred_429",
+      "reason": "reuse_permission_unverified",
       "candidates": [
         "File:Flag of Hapcheon.svg"
-      ]
+      ],
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.hc.go.kr/04961/05657/05672.web",
+      "note": "Official symbol page links h05672_data1.zip as the symbol AI download. File content and item-specific badge redistribution permission remain unverified; no logo added."
     },
     {
       "id": "busan-jung",

@@ -3,7 +3,9 @@
 import argparse
 import json
 from collections import Counter
+from datetime import date
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / 'docs/local-gov-catalog.json'
@@ -52,6 +54,35 @@ def validate(catalog, agencies):
     for old in ('gwangju', 'jeonnam'):
         if amap.get(old, {}).get('status') != 'legacy' or amap[old].get('replaced_by') != 'jeonnam-gwangju':
             problems.append(f'legacy compatibility metadata missing: {old}')
+    return problems
+
+
+def validate_pending(catalog, pending):
+    """Check backlog bookkeeping, not the legal correctness of source claims."""
+    rows = pending['items']
+    ids = [row['id'] for row in rows]
+    problems = []
+    if len(ids) != len(set(ids)):
+        problems.append('duplicate pending logo id')
+    expected = {row['id'] for row in catalog['municipalities']
+                if row['badge_status'] == 'pending_logo'}
+    if set(ids) != expected:
+        problems.append('pending logo coverage differs from unimplemented municipalities')
+    reviewed_reasons = {'restricted_use_terms', 'restricted_or_conflicting_use_terms',
+                        'reuse_permission_unverified'}
+    for row in rows:
+        if 'checked_on' not in row and row.get('reason') not in reviewed_reasons:
+            continue
+        try:
+            checked = row.get('checked_on', '')
+            valid_date = date.fromisoformat(checked).isoformat() == checked
+            source = urlsplit(row.get('official_source', ''))
+            valid_source = source.scheme in {'http', 'https'} and bool(source.hostname)
+        except (ValueError, TypeError, AttributeError):
+            valid_date = valid_source = False
+        note = row.get('note')
+        if not valid_date or not valid_source or not isinstance(note, str) or not note.strip():
+            problems.append(f"review evidence incomplete: {row['id']}")
     return problems
 
 
@@ -111,7 +142,8 @@ def main():
     args = parser.parse_args()
     catalog = json.loads(CATALOG.read_text(encoding='utf-8'))
     agencies = json.loads((ROOT / 'agencies.json').read_text(encoding='utf-8'))
-    problems = validate(catalog, agencies)
+    pending = json.loads((ROOT / 'docs/logo-pending.json').read_text(encoding='utf-8'))
+    problems = validate(catalog, agencies) + validate_pending(catalog, pending)
     if problems:
         for p in problems:
             print(p)
