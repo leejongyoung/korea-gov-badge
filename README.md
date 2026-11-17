@@ -132,14 +132,17 @@ python3 scripts/generate.py --agency kasa --label-color "#f8f9fa" --text-color "
 새로운 기관 추가나 배지 스타일 수정 시 아래 명령어를 통해 배지를 재빌드하고 무결성을 검증할 수 있습니다.
 
 ```sh
-# 1. 172개 기관 배지 생성 (컬러 테마 프리셋 포함 13,800개)
+# 1. 172개 기관 배지 생성 (기관당 80개 파일 + 레거시 별칭, 총 13,800개 파일 / 서로 다른 배지 5,160종)
 python3 scripts/generate.py
 
 # 2. 단위 테스트 실행 (데이터 무결성, SVG 유효성, 커스텀 색상 검증)
 python3 -m unittest discover -s tests -v
 
-# 3. 배지 생성 결과 일치성 검증 (CI 검증용)
+# 3. 배지 생성 결과 일치성 및 크기 예산 검증 (CI 검증용)
 python3 scripts/generate.py --check
+
+# 4. 새 로고를 추가하거나 교체했다면 생성 전에 SVG 최적화 (Node.js 필요)
+python3 scripts/optimize_logos.py assets/logos/<slug>.svg
 ```
 
 ---
@@ -156,7 +159,9 @@ python3 scripts/generate.py --check
    - 시스템 폰트 스택(`-apple-system`, `Noto Sans KR`, `Malgun Gothic` 등)을 선언하여 모든 OS에서 선명한 한글을 지원합니다.
 4. **다양한 컬러 테마 및 커스터마이징 지원**:
    - 6가지 표준 프리셋(`blue`, `navy`, `black`, `green`, `red`, `gray`)을 지원하며, CLI를 통해 원하는 임의의 Hex 코드로 배지를 즉시 생성할 수 있습니다.
-5. **CI 무결성 보증**:
+5. **크기 예산**:
+   - 로고는 모든 배지 파일(기관당 80개)에 인라인되므로 로고 크기가 저장소 크기를 좌우합니다. `scripts/size-budget.json`이 로고 1개당 최대 용량(기본 60KB)과 전체 배지 용량 상한을 정하고, 이미 큰 로고는 현재 크기를 상한으로 고정(grandfathered)합니다. `generate.py --check`가 이를 CI에서 검증합니다.
+6. **CI 무결성 보증**:
    - GitHub Actions 워크플로를 통해 `generate.py --check`가 자동으로 수행되어 생성물과 소스 코드 간의 일치를 항시 보장합니다.
 
 ---
