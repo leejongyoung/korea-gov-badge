@@ -5,7 +5,7 @@
     "expected_palette": [
       "#6d6d67"
     ],
-    "svg_sha256": "af24fea035b06dc02a25e212a8898434f7ce01b1c781ddf3579f3a5491304538",
+    "svg_sha256": "9656db19d1f1c074033802e420e2202e6ff3ecd862051aa37f3a03e3d6700f1b",
     "geometry_unchanged": true,
     "web_colour_status": "page_HTTP400_unverified",
     "evidence_files": {},
@@ -20,7 +20,7 @@
       "#0066a5",
       "#f15a22"
     ],
-    "svg_sha256": "51265d5a973e1456e10e3b9e8780bf334c9d66ee5f77eabc0ff32bd23a5e5459",
+    "svg_sha256": "eeda059e43cbd47ab91d8d7339730b65a82289798ebded89c475b8e5eae76b63",
     "geometry_unchanged": true,
     "web_colour_status": "explicit_web_specification",
     "evidence_files": {
@@ -37,7 +37,7 @@
     "expected_palette": [
       "#2a5caa"
     ],
-    "svg_sha256": "b3025f44f994d0873fc34ae01ef6cd9706c4471c9aaa8c4de6ce1e29ad2e2024",
+    "svg_sha256": "72b7d7bae1034113e4efcfdcfe52f5d4705c4f0184248f1a4c0d8d8cfc59abd7",
     "geometry_unchanged": true,
     "web_colour_status": "explicit_web_specification",
     "evidence_files": {
@@ -52,7 +52,7 @@
       "#525d5c",
       "#f47920"
     ],
-    "svg_sha256": "71a8c4431b7dc8b9f0a3abbb01db4aa15cbb259f8af4981ef0e56938a3f29fbc",
+    "svg_sha256": "a414eb5e27c6e1f07dffb096f2a641dd934e172c01957b0ed725254a50368a2f",
     "geometry_unchanged": true,
     "web_colour_status": "pantone_only_no_numeric_RGB_in_CI_page",
     "evidence_files": {
@@ -79,7 +79,7 @@
       "#7d7d7d",
       "#0075c2"
     ],
-    "svg_sha256": "aa237e026a984e71d504f622ca6fcae5cca739f834a194a9f097cabfdc79a598",
+    "svg_sha256": "c59ea9a23eaec00164e3e177cb5c2956739c73e5ef5728ba5fa65f7f1d4913a0",
     "geometry_unchanged": true,
     "web_colour_status": "explicit_web_specification",
     "evidence_files": {

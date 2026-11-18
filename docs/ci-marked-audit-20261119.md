@@ -8,7 +8,7 @@
 - 전45곳을 추적한다. 등록 21곳, 미등록 24곳 (이번 묶음 5곳 공식 제공 원본 대조 완료, 기존 16곳 재감사 대기). **45곳 모두 최신 공식 CI 대조가 끝났다는 의미가 아니다.** 각 항목의 `complete`가 완료 여부다.
 - 등록 16곳의 현재 SVG SHA-256, 기존 수집 원본 해시·출처·변환 검토, 45행의 기관별 배지 경로를 기록했다. 해시 일치는 출처 바이트 동일성이지 현행 CI·색·완전한 심벌의 증명이 아니다.
 - 기존 Commons 출처 10곳은 기관 공식 가이드 대조가 필요하다. 공식 출처의 기존 검토 기록도 이번 재감사 결과와 구분한다.
-- 미등록 29곳은 계속 실제 CI 구현 대상이다. `로고 대기`는 오표시 제거이며 구현 완료가 아니다. 원본이 없으면 가짜 도형·다른 기관 로고·빈 SVG·텍스트로 채우지 않는다.
+- 원래 미등록 29곳 중 5곳을 구현했고 나머지 24곳은 계속 실제 CI 구현 대상이다. `로고 대기`는 오표시 제거이며 구현 완료가 아니다. 원본이 없으면 가짜 도형·다른 기관 로고·빈 SVG·텍스트로 채우지 않는다.
 - 사용자가 라이선스 분류와 무관한 추가를 승인했다. 이용 제약은 별도 기록하며, 권리 미확인만으로 기존 로고를 제거하거나 null로 바꾸지 않는다. 과거 조사 문서의 권리 사유 보류는 당시 상태이며 현재 작업의 차단 사유가 아니다.
 
 ## 다음 검증과 작은 PR 단위
@@ -18,7 +18,7 @@
 3. 소규모 자산 PR로 실제 적용하고 한영 URL·모든 생성 변형 내장을 검사한다.
 4. unittest, generate --check, catalog --check, diff, GitHub CI를 exact head와 함께 보고한다. **Hermes 명시 회신 전 병합하지 않는다.**
 
-이 문서는 중간 추적 결과다. 남은 29곳 및 공식 재대조 미완료 항목을 다음 작업에서 누락하지 않도록 JSON을 기준으로 갱신한다. 상세 이용 제약은 [출처표시·제약 문서](logo-attribution.md), 기존 조사 원문은 [시장형](market-enterprise-logo-review.md)·[연구기관](research-institute-logo-review.md)에 보존한다.
+이 문서는 중간 추적 결과다. 남은 24곳 및 공식 재대조 미완료 항목을 다음 작업에서 누락하지 않도록 JSON을 기준으로 갱신한다. 상세 이용 제약은 [출처표시·제약 문서](logo-attribution.md), 기존 조사 원문은 [시장형](market-enterprise-logo-review.md)·[연구기관](research-institute-logo-review.md)에 보존한다.
 
 ## 이번 수신 재확인
 
@@ -28,4 +28,4 @@
 
 KIST·ETRI·KARI·KRISS·KRICT 5곳을 공식 원본에서 변환·등록했다. [원본/SVG 대조 및 해시](ci-first-five/extraction.json). KIST는 제공 AI의 한영 로고타입 전체이며 별도 심벌을 새로 만들지 않았다. 5곳 complete는 색상 게이트 재검토를 위해 false로 되돌렸다. 도형 대조와 웹 색상 표 대조는 별개이며 픽셀 일치를 주장하지 않는다. [웹 색상 근거와 미확인 항목](ci-first-five/README.md)을 참조한다. 기존 16곳 재감사·24곳 미구현이 남아 있다. 권리 허락을 뜻하지 않으며 exact-head 검토 전 병합하지 않는다.
 
-KRICT 최소폭 후속수정: [80종 실제 painted bounds](ci-first-five/krict-minimum-width.json). 19px 높이 비율유지, painted 폭61px. 15mm CSS96dpi 환산 기준이며 축소/인쇄 보전 별도. 모든 병합 보류.
+KRICT 최소폭 후속수정: [80종 실제 painted bounds](ci-first-five/krict-minimum-width.json). 19px 높이 비율유지, painted 폭61px. 15mm CSS96dpi 환산 기준이며 축소/인쇄 보전 별도. 병합 여부와 exact-head 검토 결과는 PR #31·#32에서 확인한다.

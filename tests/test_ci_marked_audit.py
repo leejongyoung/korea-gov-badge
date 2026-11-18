@@ -38,3 +38,21 @@ class MarkedAuditTests(unittest.TestCase):
             for name, digest in row['evidence_files'].items():
                 self.assertEqual(hashlib.sha256((ROOT / 'docs/ci-first-five/web-colour-evidence' / name).read_bytes()).hexdigest(), digest)
         self.assertEqual(len(next(x for x in rows if x['id'] == 'krict')['expected_palette']), 9)
+
+    def test_extraction_metadata_and_embedded_notice_match_current_assets(self):
+        import xml.etree.ElementTree as ET
+        agencies = {a['id']: a for a in json.loads((ROOT / 'agencies.json').read_text())}
+        sources = {s['id']: s for s in json.loads((ROOT / 'docs/logo-sources.json').read_text())['items']}
+        for row in json.loads((ROOT / 'docs/ci-first-five/extraction.json').read_text()):
+            id_ = row['id']
+            with self.subTest(id=id_):
+                asset = ROOT / 'assets/logos' / (id_ + '.svg')
+                self.assertEqual(hashlib.sha256(asset.read_bytes()).hexdigest(), row['svg_sha256'])
+                for directory in (id_, agencies[id_]['name']):
+                    paths = list((ROOT / 'badges' / directory).glob('*.svg'))
+                    self.assertEqual(len(paths), 40)
+                    for p in paths:
+                        credits = ''.join(n.text or '' for n in ET.parse(p).getroot().iter()
+                                          if n.tag.endswith('}desc'))
+                        self.assertIn(sources[id_]['source_page'], credits)
+                        self.assertIn('재배포 허락 미확인', credits)
