@@ -2,7 +2,7 @@
 
 행정구역 기준일: **2026-07-01**, 출처 확인일: **2026-11-18**.
 
-현행 광역 **16곳**, 기초 **227곳(시 75·군 82·자치구 70)**의 전체 목록이다. 기초 배지는 **104곳 제공**, **123곳 로고 대기**다.
+현행 광역 **16곳**, 기초 **227곳(시 75·군 82·자치구 70)**의 전체 목록이다. 기초 배지는 **191곳 제공**, **36곳 로고 대기**다.
 
 목록에 등재되었다고 배지가 구현된 것은 아니다. 아래의 제공 상태와 실제 배지 링크를 구분한다. 영문 표기와 Slug는 프로젝트 식별자이며 로고 대기 항목의 공식 영문 명칭 인증을 뜻하지 않는다.
 
@@ -68,61 +68,61 @@
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
 | 북구 | 자치구 | `busan-buk` | 로고 대기 | — |
-| 부산진구 | 자치구 | `busan-busanjin` | 로고 대기 | — |
+| 부산진구 | 자치구 | `busan-busanjin` | 제공 | ![부산진구](../badges/busan-busanjin/flat.svg) |
 | 동구 | 자치구 | `busan-dong` | 로고 대기 | — |
-| 동래구 | 자치구 | `busan-dongnae` | 로고 대기 | — |
-| 강서구 | 자치구 | `busan-gangseo` | 로고 대기 | — |
-| 금정구 | 자치구 | `busan-geumjeong` | 로고 대기 | — |
-| 기장군 | 군 | `busan-gijang` | 로고 대기 | — |
-| 해운대구 | 자치구 | `busan-haeundae` | 로고 대기 | — |
+| 동래구 | 자치구 | `busan-dongnae` | 제공 | ![동래구](../badges/busan-dongnae/flat.svg) |
+| 강서구 | 자치구 | `busan-gangseo` | 제공 | ![강서구](../badges/busan-gangseo/flat.svg) |
+| 금정구 | 자치구 | `busan-geumjeong` | 제공 | ![금정구](../badges/busan-geumjeong/flat.svg) |
+| 기장군 | 군 | `busan-gijang` | 제공 | ![기장군](../badges/busan-gijang/flat.svg) |
+| 해운대구 | 자치구 | `busan-haeundae` | 제공 | ![해운대구](../badges/busan-haeundae/flat.svg) |
 | 중구 | 자치구 | `busan-jung` | 로고 대기 | — |
 | 남구 | 자치구 | `busan-nam` | 로고 대기 | — |
-| 사하구 | 자치구 | `busan-saha` | 로고 대기 | — |
-| 사상구 | 자치구 | `busan-sasang` | 로고 대기 | — |
+| 사하구 | 자치구 | `busan-saha` | 제공 | ![사하구](../badges/busan-saha/flat.svg) |
+| 사상구 | 자치구 | `busan-sasang` | 제공 | ![사상구](../badges/busan-sasang/flat.svg) |
 | 서구 | 자치구 | `busan-seo` | 로고 대기 | — |
-| 수영구 | 자치구 | `busan-suyeong` | 로고 대기 | — |
-| 영도구 | 자치구 | `busan-yeongdo` | 로고 대기 | — |
-| 연제구 | 자치구 | `busan-yeonje` | 로고 대기 | — |
+| 수영구 | 자치구 | `busan-suyeong` | 제공 | ![수영구](../badges/busan-suyeong/flat.svg) |
+| 영도구 | 자치구 | `busan-yeongdo` | 제공 | ![영도구](../badges/busan-yeongdo/flat.svg) |
+| 연제구 | 자치구 | `busan-yeonje` | 제공 | ![연제구](../badges/busan-yeonje/flat.svg) |
 
 ### 대구광역시 (9곳: 군 2 · 자치구 7)
 
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
 | 북구 | 자치구 | `daegu-buk` | 로고 대기 | — |
-| 달서구 | 자치구 | `daegu-dalseo` | 로고 대기 | — |
-| 달성군 | 군 | `daegu-dalseong` | 로고 대기 | — |
+| 달서구 | 자치구 | `daegu-dalseo` | 제공 | ![달서구](../badges/daegu-dalseo/flat.svg) |
+| 달성군 | 군 | `daegu-dalseong` | 제공 | ![달성군](../badges/daegu-dalseong/flat.svg) |
 | 동구 | 자치구 | `daegu-dong` | 로고 대기 | — |
-| 군위군 | 군 | `daegu-gunwi` | 로고 대기 | — |
+| 군위군 | 군 | `daegu-gunwi` | 제공 | ![군위군](../badges/daegu-gunwi/flat.svg) |
 | 중구 | 자치구 | `daegu-jung` | 로고 대기 | — |
 | 남구 | 자치구 | `daegu-nam` | 로고 대기 | — |
 | 서구 | 자치구 | `daegu-seo` | 로고 대기 | — |
-| 수성구 | 자치구 | `daegu-suseong` | 로고 대기 | — |
+| 수성구 | 자치구 | `daegu-suseong` | 제공 | ![수성구](../badges/daegu-suseong/flat.svg) |
 
 ### 인천광역시 (11곳: 군 2 · 자치구 9)
 
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
-| 부평구 | 자치구 | `incheon-bupyeong` | 로고 대기 | — |
-| 강화군 | 군 | `incheon-ganghwa` | 로고 대기 | — |
+| 부평구 | 자치구 | `incheon-bupyeong` | 제공 | ![부평구](../badges/incheon-bupyeong/flat.svg) |
+| 강화군 | 군 | `incheon-ganghwa` | 제공 | ![강화군](../badges/incheon-ganghwa/flat.svg) |
 | 검단구 | 자치구 | `incheon-geomdan` | 로고 대기 | — |
-| 계양구 | 자치구 | `incheon-gyeyang` | 로고 대기 | — |
+| 계양구 | 자치구 | `incheon-gyeyang` | 제공 | ![계양구](../badges/incheon-gyeyang/flat.svg) |
 | 제물포구 | 자치구 | `incheon-jemulpo` | 로고 대기 | — |
-| 미추홀구 | 자치구 | `incheon-michuhol` | 로고 대기 | — |
-| 남동구 | 자치구 | `incheon-namdong` | 로고 대기 | — |
-| 옹진군 | 군 | `incheon-ongjin` | 로고 대기 | — |
+| 미추홀구 | 자치구 | `incheon-michuhol` | 제공 | ![미추홀구](../badges/incheon-michuhol/flat.svg) |
+| 남동구 | 자치구 | `incheon-namdong` | 제공 | ![남동구](../badges/incheon-namdong/flat.svg) |
+| 옹진군 | 군 | `incheon-ongjin` | 제공 | ![옹진군](../badges/incheon-ongjin/flat.svg) |
 | 서해구 | 자치구 | `incheon-seohae` | 로고 대기 | — |
 | 영종구 | 자치구 | `incheon-yeongjong` | 로고 대기 | — |
-| 연수구 | 자치구 | `incheon-yeonsu` | 로고 대기 | — |
+| 연수구 | 자치구 | `incheon-yeonsu` | 제공 | ![연수구](../badges/incheon-yeonsu/flat.svg) |
 
 ### 대전광역시 (5곳: 자치구 5)
 
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
-| 대덕구 | 자치구 | `daejeon-daedeok` | 로고 대기 | — |
+| 대덕구 | 자치구 | `daejeon-daedeok` | 제공 | ![대덕구](../badges/daejeon-daedeok/flat.svg) |
 | 동구 | 자치구 | `daejeon-dong` | 로고 대기 | — |
 | 중구 | 자치구 | `daejeon-jung` | 로고 대기 | — |
 | 서구 | 자치구 | `daejeon-seo` | 로고 대기 | — |
-| 유성구 | 자치구 | `daejeon-yuseong` | 로고 대기 | — |
+| 유성구 | 자치구 | `daejeon-yuseong` | 제공 | ![유성구](../badges/daejeon-yuseong/flat.svg) |
 
 ### 울산광역시 (5곳: 군 1 · 자치구 4)
 
@@ -132,7 +132,7 @@
 | 동구 | 자치구 | `ulsan-dong` | 로고 대기 | — |
 | 중구 | 자치구 | `ulsan-jung` | 로고 대기 | — |
 | 남구 | 자치구 | `ulsan-nam` | 로고 대기 | — |
-| 울주군 | 군 | `ulsan-ulju` | 로고 대기 | — |
+| 울주군 | 군 | `ulsan-ulju` | 제공 | ![울주군](../badges/ulsan-ulju/flat.svg) |
 
 ### 경기도 (31곳: 군 3 · 시 28)
 
@@ -165,7 +165,7 @@
 | 의정부시 | 시 | `gyeonggi-uijeongbu` | 제공 | ![의정부시](../badges/gyeonggi-uijeongbu/flat.svg) |
 | 의왕시 | 시 | `gyeonggi-uiwang` | 제공 | ![의왕시](../badges/gyeonggi-uiwang/flat.svg) |
 | 양주시 | 시 | `gyeonggi-yangju` | 제공 | ![양주시](../badges/gyeonggi-yangju/flat.svg) |
-| 양평군 | 군 | `gyeonggi-yangpyeong` | 로고 대기 | — |
+| 양평군 | 군 | `gyeonggi-yangpyeong` | 제공 | ![양평군](../badges/gyeonggi-yangpyeong/flat.svg) |
 | 여주시 | 시 | `gyeonggi-yeoju` | 제공 | ![여주시](../badges/gyeonggi-yeoju/flat.svg) |
 | 연천군 | 군 | `gyeonggi-yeoncheon` | 로고 대기 | — |
 | 용인시 | 시 | `gyeonggi-yongin` | 제공 | ![용인시](../badges/gyeonggi-yongin/flat.svg) |
@@ -174,24 +174,24 @@
 
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
-| 철원군 | 군 | `gangwon-cheorwon` | 로고 대기 | — |
+| 철원군 | 군 | `gangwon-cheorwon` | 제공 | ![철원군](../badges/gangwon-cheorwon/flat.svg) |
 | 춘천시 | 시 | `gangwon-chuncheon` | 제공 | ![춘천시](../badges/gangwon-chuncheon/flat.svg) |
 | 동해시 | 시 | `gangwon-donghae` | 제공 | ![동해시](../badges/gangwon-donghae/flat.svg) |
 | 강릉시 | 시 | `gangwon-gangneung` | 제공 | ![강릉시](../badges/gangwon-gangneung/flat.svg) |
-| 고성군 | 군 | `gangwon-goseong` | 로고 대기 | — |
+| 고성군 | 군 | `gangwon-goseong` | 제공 | ![고성군](../badges/gangwon-goseong/flat.svg) |
 | 횡성군 | 군 | `gangwon-hoengseong` | 로고 대기 | — |
-| 홍천군 | 군 | `gangwon-hongcheon` | 로고 대기 | — |
-| 화천군 | 군 | `gangwon-hwacheon` | 로고 대기 | — |
-| 인제군 | 군 | `gangwon-inje` | 로고 대기 | — |
-| 정선군 | 군 | `gangwon-jeongseon` | 로고 대기 | — |
+| 홍천군 | 군 | `gangwon-hongcheon` | 제공 | ![홍천군](../badges/gangwon-hongcheon/flat.svg) |
+| 화천군 | 군 | `gangwon-hwacheon` | 제공 | ![화천군](../badges/gangwon-hwacheon/flat.svg) |
+| 인제군 | 군 | `gangwon-inje` | 제공 | ![인제군](../badges/gangwon-inje/flat.svg) |
+| 정선군 | 군 | `gangwon-jeongseon` | 제공 | ![정선군](../badges/gangwon-jeongseon/flat.svg) |
 | 평창군 | 군 | `gangwon-pyeongchang` | 로고 대기 | — |
 | 삼척시 | 시 | `gangwon-samcheok` | 제공 | ![삼척시](../badges/gangwon-samcheok/flat.svg) |
 | 속초시 | 시 | `gangwon-sokcho` | 제공 | ![속초시](../badges/gangwon-sokcho/flat.svg) |
 | 태백시 | 시 | `gangwon-taebaek` | 제공 | ![태백시](../badges/gangwon-taebaek/flat.svg) |
 | 원주시 | 시 | `gangwon-wonju` | 제공 | ![원주시](../badges/gangwon-wonju/flat.svg) |
-| 양구군 | 군 | `gangwon-yanggu` | 로고 대기 | — |
-| 양양군 | 군 | `gangwon-yangyang` | 로고 대기 | — |
-| 영월군 | 군 | `gangwon-yeongwol` | 로고 대기 | — |
+| 양구군 | 군 | `gangwon-yanggu` | 제공 | ![양구군](../badges/gangwon-yanggu/flat.svg) |
+| 양양군 | 군 | `gangwon-yangyang` | 제공 | ![양양군](../badges/gangwon-yangyang/flat.svg) |
+| 영월군 | 군 | `gangwon-yeongwol` | 제공 | ![영월군](../badges/gangwon-yeongwol/flat.svg) |
 
 ### 충청북도 (11곳: 군 8 · 시 3)
 
@@ -200,7 +200,7 @@
 | 보은군 | 군 | `chungbuk-boeun` | 제공 | ![보은군](../badges/chungbuk-boeun/flat.svg) |
 | 청주시 | 시 | `chungbuk-cheongju` | 제공 | ![청주시](../badges/chungbuk-cheongju/flat.svg) |
 | 충주시 | 시 | `chungbuk-chungju` | 제공 | ![충주시](../badges/chungbuk-chungju/flat.svg) |
-| 단양군 | 군 | `chungbuk-danyang` | 로고 대기 | — |
+| 단양군 | 군 | `chungbuk-danyang` | 제공 | ![단양군](../badges/chungbuk-danyang/flat.svg) |
 | 음성군 | 군 | `chungbuk-eumseong` | 로고 대기 | — |
 | 괴산군 | 군 | `chungbuk-goesan` | 로고 대기 | — |
 | 제천시 | 시 | `chungbuk-jecheon` | 제공 | ![제천시](../badges/chungbuk-jecheon/flat.svg) |
@@ -215,119 +215,119 @@
 | :--- | :--- | :--- | :--- | :--- |
 | 아산시 | 시 | `chungnam-asan` | 제공 | ![아산시](../badges/chungnam-asan/flat.svg) |
 | 보령시 | 시 | `chungnam-boryeong` | 제공 | ![보령시](../badges/chungnam-boryeong/flat.svg) |
-| 부여군 | 군 | `chungnam-buyeo` | 로고 대기 | — |
+| 부여군 | 군 | `chungnam-buyeo` | 제공 | ![부여군](../badges/chungnam-buyeo/flat.svg) |
 | 천안시 | 시 | `chungnam-cheonan` | 제공 | ![천안시](../badges/chungnam-cheonan/flat.svg) |
 | 청양군 | 군 | `chungnam-cheongyang` | 로고 대기 | — |
 | 당진시 | 시 | `chungnam-dangjin` | 제공 | ![당진시](../badges/chungnam-dangjin/flat.svg) |
-| 금산군 | 군 | `chungnam-geumsan` | 로고 대기 | — |
+| 금산군 | 군 | `chungnam-geumsan` | 제공 | ![금산군](../badges/chungnam-geumsan/flat.svg) |
 | 공주시 | 시 | `chungnam-gongju` | 제공 | ![공주시](../badges/chungnam-gongju/flat.svg) |
 | 계룡시 | 시 | `chungnam-gyeryong` | 제공 | ![계룡시](../badges/chungnam-gyeryong/flat.svg) |
-| 홍성군 | 군 | `chungnam-hongseong` | 로고 대기 | — |
+| 홍성군 | 군 | `chungnam-hongseong` | 제공 | ![홍성군](../badges/chungnam-hongseong/flat.svg) |
 | 논산시 | 시 | `chungnam-nonsan` | 제공 | ![논산시](../badges/chungnam-nonsan/flat.svg) |
-| 서천군 | 군 | `chungnam-seocheon` | 로고 대기 | — |
+| 서천군 | 군 | `chungnam-seocheon` | 제공 | ![서천군](../badges/chungnam-seocheon/flat.svg) |
 | 서산시 | 시 | `chungnam-seosan` | 제공 | ![서산시](../badges/chungnam-seosan/flat.svg) |
-| 태안군 | 군 | `chungnam-taean` | 로고 대기 | — |
-| 예산군 | 군 | `chungnam-yesan` | 로고 대기 | — |
+| 태안군 | 군 | `chungnam-taean` | 제공 | ![태안군](../badges/chungnam-taean/flat.svg) |
+| 예산군 | 군 | `chungnam-yesan` | 제공 | ![예산군](../badges/chungnam-yesan/flat.svg) |
 
 ### 전북특별자치도 (14곳: 군 8 · 시 6)
 
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
-| 부안군 | 군 | `jeonbuk-buan` | 로고 대기 | — |
+| 부안군 | 군 | `jeonbuk-buan` | 제공 | ![부안군](../badges/jeonbuk-buan/flat.svg) |
 | 김제시 | 시 | `jeonbuk-gimje` | 제공 | ![김제시](../badges/jeonbuk-gimje/flat.svg) |
 | 고창군 | 군 | `jeonbuk-gochang` | 제공 | ![고창군](../badges/jeonbuk-gochang/flat.svg) |
 | 군산시 | 시 | `jeonbuk-gunsan` | 제공 | ![군산시](../badges/jeonbuk-gunsan/flat.svg) |
 | 익산시 | 시 | `jeonbuk-iksan` | 제공 | ![익산시](../badges/jeonbuk-iksan/flat.svg) |
-| 임실군 | 군 | `jeonbuk-imsil` | 로고 대기 | — |
-| 장수군 | 군 | `jeonbuk-jangsu` | 로고 대기 | — |
+| 임실군 | 군 | `jeonbuk-imsil` | 제공 | ![임실군](../badges/jeonbuk-imsil/flat.svg) |
+| 장수군 | 군 | `jeonbuk-jangsu` | 제공 | ![장수군](../badges/jeonbuk-jangsu/flat.svg) |
 | 정읍시 | 시 | `jeonbuk-jeongeup` | 제공 | ![정읍시](../badges/jeonbuk-jeongeup/flat.svg) |
 | 전주시 | 시 | `jeonbuk-jeonju` | 제공 | ![전주시](../badges/jeonbuk-jeonju/flat.svg) |
-| 진안군 | 군 | `jeonbuk-jinan` | 로고 대기 | — |
-| 무주군 | 군 | `jeonbuk-muju` | 로고 대기 | — |
+| 진안군 | 군 | `jeonbuk-jinan` | 제공 | ![진안군](../badges/jeonbuk-jinan/flat.svg) |
+| 무주군 | 군 | `jeonbuk-muju` | 제공 | ![무주군](../badges/jeonbuk-muju/flat.svg) |
 | 남원시 | 시 | `jeonbuk-namwon` | 제공 | ![남원시](../badges/jeonbuk-namwon/flat.svg) |
-| 순창군 | 군 | `jeonbuk-sunchang` | 로고 대기 | — |
-| 완주군 | 군 | `jeonbuk-wanju` | 로고 대기 | — |
+| 순창군 | 군 | `jeonbuk-sunchang` | 제공 | ![순창군](../badges/jeonbuk-sunchang/flat.svg) |
+| 완주군 | 군 | `jeonbuk-wanju` | 제공 | ![완주군](../badges/jeonbuk-wanju/flat.svg) |
 
 ### 경상북도 (22곳: 군 12 · 시 10)
 
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
 | 안동시 | 시 | `gyeongbuk-andong` | 제공 | ![안동시](../badges/gyeongbuk-andong/flat.svg) |
-| 봉화군 | 군 | `gyeongbuk-bonghwa` | 로고 대기 | — |
-| 청도군 | 군 | `gyeongbuk-cheongdo` | 로고 대기 | — |
-| 청송군 | 군 | `gyeongbuk-cheongsong` | 로고 대기 | — |
-| 칠곡군 | 군 | `gyeongbuk-chilgok` | 로고 대기 | — |
+| 봉화군 | 군 | `gyeongbuk-bonghwa` | 제공 | ![봉화군](../badges/gyeongbuk-bonghwa/flat.svg) |
+| 청도군 | 군 | `gyeongbuk-cheongdo` | 제공 | ![청도군](../badges/gyeongbuk-cheongdo/flat.svg) |
+| 청송군 | 군 | `gyeongbuk-cheongsong` | 제공 | ![청송군](../badges/gyeongbuk-cheongsong/flat.svg) |
+| 칠곡군 | 군 | `gyeongbuk-chilgok` | 제공 | ![칠곡군](../badges/gyeongbuk-chilgok/flat.svg) |
 | 김천시 | 시 | `gyeongbuk-gimcheon` | 제공 | ![김천시](../badges/gyeongbuk-gimcheon/flat.svg) |
-| 고령군 | 군 | `gyeongbuk-goryeong` | 로고 대기 | — |
+| 고령군 | 군 | `gyeongbuk-goryeong` | 제공 | ![고령군](../badges/gyeongbuk-goryeong/flat.svg) |
 | 구미시 | 시 | `gyeongbuk-gumi` | 제공 | ![구미시](../badges/gyeongbuk-gumi/flat.svg) |
 | 경주시 | 시 | `gyeongbuk-gyeongju` | 제공 | ![경주시](../badges/gyeongbuk-gyeongju/flat.svg) |
 | 경산시 | 시 | `gyeongbuk-gyeongsan` | 제공 | ![경산시](../badges/gyeongbuk-gyeongsan/flat.svg) |
 | 문경시 | 시 | `gyeongbuk-mungyeong` | 제공 | ![문경시](../badges/gyeongbuk-mungyeong/flat.svg) |
 | 포항시 | 시 | `gyeongbuk-pohang` | 제공 | ![포항시](../badges/gyeongbuk-pohang/flat.svg) |
 | 상주시 | 시 | `gyeongbuk-sangju` | 제공 | ![상주시](../badges/gyeongbuk-sangju/flat.svg) |
-| 성주군 | 군 | `gyeongbuk-seongju` | 로고 대기 | — |
-| 의성군 | 군 | `gyeongbuk-uiseong` | 로고 대기 | — |
-| 울진군 | 군 | `gyeongbuk-uljin` | 로고 대기 | — |
-| 울릉군 | 군 | `gyeongbuk-ulleung` | 로고 대기 | — |
-| 예천군 | 군 | `gyeongbuk-yecheon` | 로고 대기 | — |
+| 성주군 | 군 | `gyeongbuk-seongju` | 제공 | ![성주군](../badges/gyeongbuk-seongju/flat.svg) |
+| 의성군 | 군 | `gyeongbuk-uiseong` | 제공 | ![의성군](../badges/gyeongbuk-uiseong/flat.svg) |
+| 울진군 | 군 | `gyeongbuk-uljin` | 제공 | ![울진군](../badges/gyeongbuk-uljin/flat.svg) |
+| 울릉군 | 군 | `gyeongbuk-ulleung` | 제공 | ![울릉군](../badges/gyeongbuk-ulleung/flat.svg) |
+| 예천군 | 군 | `gyeongbuk-yecheon` | 제공 | ![예천군](../badges/gyeongbuk-yecheon/flat.svg) |
 | 영천시 | 시 | `gyeongbuk-yeongcheon` | 제공 | ![영천시](../badges/gyeongbuk-yeongcheon/flat.svg) |
-| 영덕군 | 군 | `gyeongbuk-yeongdeok` | 로고 대기 | — |
+| 영덕군 | 군 | `gyeongbuk-yeongdeok` | 제공 | ![영덕군](../badges/gyeongbuk-yeongdeok/flat.svg) |
 | 영주시 | 시 | `gyeongbuk-yeongju` | 제공 | ![영주시](../badges/gyeongbuk-yeongju/flat.svg) |
-| 영양군 | 군 | `gyeongbuk-yeongyang` | 로고 대기 | — |
+| 영양군 | 군 | `gyeongbuk-yeongyang` | 제공 | ![영양군](../badges/gyeongbuk-yeongyang/flat.svg) |
 
 ### 경상남도 (18곳: 군 10 · 시 8)
 
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
-| 창녕군 | 군 | `gyeongnam-changnyeong` | 로고 대기 | — |
+| 창녕군 | 군 | `gyeongnam-changnyeong` | 제공 | ![창녕군](../badges/gyeongnam-changnyeong/flat.svg) |
 | 창원시 | 시 | `gyeongnam-changwon` | 제공 | ![창원시](../badges/gyeongnam-changwon/flat.svg) |
-| 거창군 | 군 | `gyeongnam-geochang` | 로고 대기 | — |
+| 거창군 | 군 | `gyeongnam-geochang` | 제공 | ![거창군](../badges/gyeongnam-geochang/flat.svg) |
 | 거제시 | 시 | `gyeongnam-geoje` | 제공 | ![거제시](../badges/gyeongnam-geoje/flat.svg) |
 | 김해시 | 시 | `gyeongnam-gimhae` | 제공 | ![김해시](../badges/gyeongnam-gimhae/flat.svg) |
-| 고성군 | 군 | `gyeongnam-goseong` | 로고 대기 | — |
-| 하동군 | 군 | `gyeongnam-hadong` | 로고 대기 | — |
-| 함안군 | 군 | `gyeongnam-haman` | 로고 대기 | — |
-| 함양군 | 군 | `gyeongnam-hamyang` | 로고 대기 | — |
+| 고성군 | 군 | `gyeongnam-goseong` | 제공 | ![고성군](../badges/gyeongnam-goseong/flat.svg) |
+| 하동군 | 군 | `gyeongnam-hadong` | 제공 | ![하동군](../badges/gyeongnam-hadong/flat.svg) |
+| 함안군 | 군 | `gyeongnam-haman` | 제공 | ![함안군](../badges/gyeongnam-haman/flat.svg) |
+| 함양군 | 군 | `gyeongnam-hamyang` | 제공 | ![함양군](../badges/gyeongnam-hamyang/flat.svg) |
 | 합천군 | 군 | `gyeongnam-hapcheon` | 로고 대기 | — |
 | 진주시 | 시 | `gyeongnam-jinju` | 제공 | ![진주시](../badges/gyeongnam-jinju/flat.svg) |
 | 밀양시 | 시 | `gyeongnam-miryang` | 제공 | ![밀양시](../badges/gyeongnam-miryang/flat.svg) |
-| 남해군 | 군 | `gyeongnam-namhae` | 로고 대기 | — |
+| 남해군 | 군 | `gyeongnam-namhae` | 제공 | ![남해군](../badges/gyeongnam-namhae/flat.svg) |
 | 사천시 | 시 | `gyeongnam-sacheon` | 제공 | ![사천시](../badges/gyeongnam-sacheon/flat.svg) |
-| 산청군 | 군 | `gyeongnam-sancheong` | 로고 대기 | — |
+| 산청군 | 군 | `gyeongnam-sancheong` | 제공 | ![산청군](../badges/gyeongnam-sancheong/flat.svg) |
 | 통영시 | 시 | `gyeongnam-tongyeong` | 제공 | ![통영시](../badges/gyeongnam-tongyeong/flat.svg) |
-| 의령군 | 군 | `gyeongnam-uiryeong` | 로고 대기 | — |
+| 의령군 | 군 | `gyeongnam-uiryeong` | 제공 | ![의령군](../badges/gyeongnam-uiryeong/flat.svg) |
 | 양산시 | 시 | `gyeongnam-yangsan` | 제공 | ![양산시](../badges/gyeongnam-yangsan/flat.svg) |
 
 ### 전남광주통합특별시 (27곳: 군 17 · 시 5 · 자치구 5)
 
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
-| 보성군 | 군 | `jeonnam-gwangju-boseong` | 로고 대기 | — |
+| 보성군 | 군 | `jeonnam-gwangju-boseong` | 제공 | ![보성군](../badges/jeonnam-gwangju-boseong/flat.svg) |
 | 북구 | 자치구 | `jeonnam-gwangju-buk` | 로고 대기 | — |
-| 담양군 | 군 | `jeonnam-gwangju-damyang` | 로고 대기 | — |
+| 담양군 | 군 | `jeonnam-gwangju-damyang` | 제공 | ![담양군](../badges/jeonnam-gwangju-damyang/flat.svg) |
 | 동구 | 자치구 | `jeonnam-gwangju-dong` | 로고 대기 | — |
-| 강진군 | 군 | `jeonnam-gwangju-gangjin` | 로고 대기 | — |
+| 강진군 | 군 | `jeonnam-gwangju-gangjin` | 제공 | ![강진군](../badges/jeonnam-gwangju-gangjin/flat.svg) |
 | 고흥군 | 군 | `jeonnam-gwangju-goheung` | 제공 | ![고흥군](../badges/jeonnam-gwangju-goheung/flat.svg) |
-| 곡성군 | 군 | `jeonnam-gwangju-gokseong` | 로고 대기 | — |
-| 구례군 | 군 | `jeonnam-gwangju-gurye` | 로고 대기 | — |
-| 광산구 | 자치구 | `jeonnam-gwangju-gwangsan` | 로고 대기 | — |
+| 곡성군 | 군 | `jeonnam-gwangju-gokseong` | 제공 | ![곡성군](../badges/jeonnam-gwangju-gokseong/flat.svg) |
+| 구례군 | 군 | `jeonnam-gwangju-gurye` | 제공 | ![구례군](../badges/jeonnam-gwangju-gurye/flat.svg) |
+| 광산구 | 자치구 | `jeonnam-gwangju-gwangsan` | 제공 | ![광산구](../badges/jeonnam-gwangju-gwangsan/flat.svg) |
 | 광양시 | 시 | `jeonnam-gwangju-gwangyang` | 제공 | ![광양시](../badges/jeonnam-gwangju-gwangyang/flat.svg) |
-| 해남군 | 군 | `jeonnam-gwangju-haenam` | 로고 대기 | — |
-| 함평군 | 군 | `jeonnam-gwangju-hampyeong` | 로고 대기 | — |
-| 화순군 | 군 | `jeonnam-gwangju-hwasun` | 로고 대기 | — |
-| 장흥군 | 군 | `jeonnam-gwangju-jangheung` | 로고 대기 | — |
-| 장성군 | 군 | `jeonnam-gwangju-jangseong` | 로고 대기 | — |
-| 진도군 | 군 | `jeonnam-gwangju-jindo` | 로고 대기 | — |
+| 해남군 | 군 | `jeonnam-gwangju-haenam` | 제공 | ![해남군](../badges/jeonnam-gwangju-haenam/flat.svg) |
+| 함평군 | 군 | `jeonnam-gwangju-hampyeong` | 제공 | ![함평군](../badges/jeonnam-gwangju-hampyeong/flat.svg) |
+| 화순군 | 군 | `jeonnam-gwangju-hwasun` | 제공 | ![화순군](../badges/jeonnam-gwangju-hwasun/flat.svg) |
+| 장흥군 | 군 | `jeonnam-gwangju-jangheung` | 제공 | ![장흥군](../badges/jeonnam-gwangju-jangheung/flat.svg) |
+| 장성군 | 군 | `jeonnam-gwangju-jangseong` | 제공 | ![장성군](../badges/jeonnam-gwangju-jangseong/flat.svg) |
+| 진도군 | 군 | `jeonnam-gwangju-jindo` | 제공 | ![진도군](../badges/jeonnam-gwangju-jindo/flat.svg) |
 | 목포시 | 시 | `jeonnam-gwangju-mokpo` | 제공 | ![목포시](../badges/jeonnam-gwangju-mokpo/flat.svg) |
-| 무안군 | 군 | `jeonnam-gwangju-muan` | 로고 대기 | — |
+| 무안군 | 군 | `jeonnam-gwangju-muan` | 제공 | ![무안군](../badges/jeonnam-gwangju-muan/flat.svg) |
 | 나주시 | 시 | `jeonnam-gwangju-naju` | 제공 | ![나주시](../badges/jeonnam-gwangju-naju/flat.svg) |
 | 남구 | 자치구 | `jeonnam-gwangju-nam` | 로고 대기 | — |
 | 서구 | 자치구 | `jeonnam-gwangju-seo` | 로고 대기 | — |
-| 신안군 | 군 | `jeonnam-gwangju-sinan` | 로고 대기 | — |
+| 신안군 | 군 | `jeonnam-gwangju-sinan` | 제공 | ![신안군](../badges/jeonnam-gwangju-sinan/flat.svg) |
 | 순천시 | 시 | `jeonnam-gwangju-suncheon` | 제공 | ![순천시](../badges/jeonnam-gwangju-suncheon/flat.svg) |
-| 완도군 | 군 | `jeonnam-gwangju-wando` | 로고 대기 | — |
-| 영암군 | 군 | `jeonnam-gwangju-yeongam` | 로고 대기 | — |
-| 영광군 | 군 | `jeonnam-gwangju-yeonggwang` | 로고 대기 | — |
+| 완도군 | 군 | `jeonnam-gwangju-wando` | 제공 | ![완도군](../badges/jeonnam-gwangju-wando/flat.svg) |
+| 영암군 | 군 | `jeonnam-gwangju-yeongam` | 제공 | ![영암군](../badges/jeonnam-gwangju-yeongam/flat.svg) |
+| 영광군 | 군 | `jeonnam-gwangju-yeonggwang` | 제공 | ![영광군](../badges/jeonnam-gwangju-yeonggwang/flat.svg) |
 | 여수시 | 시 | `jeonnam-gwangju-yeosu` | 제공 | ![여수시](../badges/jeonnam-gwangju-yeosu/flat.svg) |
 
 ## 3. 기초자치단체에 포함하지 않는 사례

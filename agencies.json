@@ -1805,5 +1805,881 @@
     "parent": "chungbuk",
     "homepage": "https://www.jincheon.go.kr",
     "logo": "chungbuk-jincheon"
+  },
+  {
+    "id": "busan-busanjin",
+    "name": "부산광역시 부산진구",
+    "short_name": "부산진구",
+    "en_name": "Busanjin District",
+    "en_short": "BUSANJIN",
+    "type": "자치구",
+    "parent": "busan",
+    "logo": "busan-busanjin"
+  },
+  {
+    "id": "busan-dongnae",
+    "name": "부산광역시 동래구",
+    "short_name": "동래구",
+    "en_name": "Dongnae District",
+    "en_short": "DONGNAE",
+    "type": "자치구",
+    "parent": "busan",
+    "logo": "busan-dongnae"
+  },
+  {
+    "id": "busan-gangseo",
+    "name": "부산광역시 강서구",
+    "short_name": "강서구",
+    "en_name": "Gangseo District",
+    "en_short": "GANGSEO",
+    "type": "자치구",
+    "parent": "busan",
+    "logo": "busan-gangseo"
+  },
+  {
+    "id": "busan-geumjeong",
+    "name": "부산광역시 금정구",
+    "short_name": "금정구",
+    "en_name": "Geumjeong District",
+    "en_short": "GEUMJEONG",
+    "type": "자치구",
+    "parent": "busan",
+    "logo": "busan-geumjeong"
+  },
+  {
+    "id": "busan-gijang",
+    "name": "부산광역시 기장군",
+    "short_name": "기장군",
+    "en_name": "Gijang County",
+    "en_short": "GIJANG",
+    "type": "군",
+    "parent": "busan",
+    "logo": "busan-gijang"
+  },
+  {
+    "id": "busan-haeundae",
+    "name": "부산광역시 해운대구",
+    "short_name": "해운대구",
+    "en_name": "Haeundae District",
+    "en_short": "HAEUNDAE",
+    "type": "자치구",
+    "parent": "busan",
+    "logo": "busan-haeundae"
+  },
+  {
+    "id": "busan-saha",
+    "name": "부산광역시 사하구",
+    "short_name": "사하구",
+    "en_name": "Saha District",
+    "en_short": "SAHA",
+    "type": "자치구",
+    "parent": "busan",
+    "logo": "busan-saha"
+  },
+  {
+    "id": "busan-sasang",
+    "name": "부산광역시 사상구",
+    "short_name": "사상구",
+    "en_name": "Sasang District",
+    "en_short": "SASANG",
+    "type": "자치구",
+    "parent": "busan",
+    "logo": "busan-sasang"
+  },
+  {
+    "id": "busan-suyeong",
+    "name": "부산광역시 수영구",
+    "short_name": "수영구",
+    "en_name": "Suyeong District",
+    "en_short": "SUYEONG",
+    "type": "자치구",
+    "parent": "busan",
+    "logo": "busan-suyeong"
+  },
+  {
+    "id": "busan-yeongdo",
+    "name": "부산광역시 영도구",
+    "short_name": "영도구",
+    "en_name": "Yeongdo District",
+    "en_short": "YEONGDO",
+    "type": "자치구",
+    "parent": "busan",
+    "logo": "busan-yeongdo"
+  },
+  {
+    "id": "busan-yeonje",
+    "name": "부산광역시 연제구",
+    "short_name": "연제구",
+    "en_name": "Yeonje District",
+    "en_short": "YEONJE",
+    "type": "자치구",
+    "parent": "busan",
+    "logo": "busan-yeonje"
+  },
+  {
+    "id": "chungbuk-danyang",
+    "name": "충청북도 단양군",
+    "short_name": "단양군",
+    "en_name": "Danyang County",
+    "en_short": "DANYANG",
+    "type": "군",
+    "parent": "chungbuk",
+    "logo": "chungbuk-danyang"
+  },
+  {
+    "id": "chungnam-buyeo",
+    "name": "충청남도 부여군",
+    "short_name": "부여군",
+    "en_name": "Buyeo County",
+    "en_short": "BUYEO",
+    "type": "군",
+    "parent": "chungnam",
+    "logo": "chungnam-buyeo",
+    "homepage": "https://www.buyeo.go.kr"
+  },
+  {
+    "id": "chungnam-geumsan",
+    "name": "충청남도 금산군",
+    "short_name": "금산군",
+    "en_name": "Geumsan County",
+    "en_short": "GEUMSAN",
+    "type": "군",
+    "parent": "chungnam",
+    "logo": "chungnam-geumsan"
+  },
+  {
+    "id": "chungnam-hongseong",
+    "name": "충청남도 홍성군",
+    "short_name": "홍성군",
+    "en_name": "Hongseong County",
+    "en_short": "HONGSEONG",
+    "type": "군",
+    "parent": "chungnam",
+    "logo": "chungnam-hongseong",
+    "homepage": "https://www.hongseong.go.kr"
+  },
+  {
+    "id": "chungnam-seocheon",
+    "name": "충청남도 서천군",
+    "short_name": "서천군",
+    "en_name": "Seocheon County",
+    "en_short": "SEOCHEON",
+    "type": "군",
+    "parent": "chungnam",
+    "logo": "chungnam-seocheon",
+    "homepage": "https://www.seocheon.go.kr"
+  },
+  {
+    "id": "chungnam-taean",
+    "name": "충청남도 태안군",
+    "short_name": "태안군",
+    "en_name": "Taean County",
+    "en_short": "TAEAN",
+    "type": "군",
+    "parent": "chungnam",
+    "logo": "chungnam-taean",
+    "homepage": "https://www.taean.go.kr"
+  },
+  {
+    "id": "chungnam-yesan",
+    "name": "충청남도 예산군",
+    "short_name": "예산군",
+    "en_name": "Yesan County",
+    "en_short": "YESAN",
+    "type": "군",
+    "parent": "chungnam",
+    "logo": "chungnam-yesan",
+    "homepage": "https://www.yesan.go.kr"
+  },
+  {
+    "id": "daegu-dalseo",
+    "name": "대구광역시 달서구",
+    "short_name": "달서구",
+    "en_name": "Dalseo District",
+    "en_short": "DALSEO",
+    "type": "자치구",
+    "parent": "daegu",
+    "logo": "daegu-dalseo"
+  },
+  {
+    "id": "daegu-dalseong",
+    "name": "대구광역시 달성군",
+    "short_name": "달성군",
+    "en_name": "Dalseong County",
+    "en_short": "DALSEONG",
+    "type": "군",
+    "parent": "daegu",
+    "logo": "daegu-dalseong"
+  },
+  {
+    "id": "daegu-gunwi",
+    "name": "대구광역시 군위군",
+    "short_name": "군위군",
+    "en_name": "Gunwi County",
+    "en_short": "GUNWI",
+    "type": "군",
+    "parent": "daegu",
+    "logo": "daegu-gunwi"
+  },
+  {
+    "id": "daegu-suseong",
+    "name": "대구광역시 수성구",
+    "short_name": "수성구",
+    "en_name": "Suseong District",
+    "en_short": "SUSEONG",
+    "type": "자치구",
+    "parent": "daegu",
+    "logo": "daegu-suseong"
+  },
+  {
+    "id": "daejeon-daedeok",
+    "name": "대전광역시 대덕구",
+    "short_name": "대덕구",
+    "en_name": "Daedeok District",
+    "en_short": "DAEDEOK",
+    "type": "자치구",
+    "parent": "daejeon",
+    "logo": "daejeon-daedeok"
+  },
+  {
+    "id": "daejeon-yuseong",
+    "name": "대전광역시 유성구",
+    "short_name": "유성구",
+    "en_name": "Yuseong District",
+    "en_short": "YUSEONG",
+    "type": "자치구",
+    "parent": "daejeon",
+    "logo": "daejeon-yuseong"
+  },
+  {
+    "id": "gangwon-cheorwon",
+    "name": "강원특별자치도 철원군",
+    "short_name": "철원군",
+    "en_name": "Cheorwon County",
+    "en_short": "CHEORWON",
+    "type": "군",
+    "parent": "gangwon",
+    "logo": "gangwon-cheorwon"
+  },
+  {
+    "id": "gangwon-goseong",
+    "name": "강원특별자치도 고성군",
+    "short_name": "고성군",
+    "en_name": "Goseong County",
+    "en_short": "GOSEONG",
+    "type": "군",
+    "parent": "gangwon",
+    "logo": "gangwon-goseong"
+  },
+  {
+    "id": "gangwon-hongcheon",
+    "name": "강원특별자치도 홍천군",
+    "short_name": "홍천군",
+    "en_name": "Hongcheon County",
+    "en_short": "HONGCHEON",
+    "type": "군",
+    "parent": "gangwon",
+    "logo": "gangwon-hongcheon",
+    "homepage": "https://www.hongcheon.go.kr"
+  },
+  {
+    "id": "gangwon-hwacheon",
+    "name": "강원특별자치도 화천군",
+    "short_name": "화천군",
+    "en_name": "Hwacheon County",
+    "en_short": "HWACHEON",
+    "type": "군",
+    "parent": "gangwon",
+    "logo": "gangwon-hwacheon"
+  },
+  {
+    "id": "gangwon-inje",
+    "name": "강원특별자치도 인제군",
+    "short_name": "인제군",
+    "en_name": "Inje County",
+    "en_short": "INJE",
+    "type": "군",
+    "parent": "gangwon",
+    "logo": "gangwon-inje"
+  },
+  {
+    "id": "gangwon-jeongseon",
+    "name": "강원특별자치도 정선군",
+    "short_name": "정선군",
+    "en_name": "Jeongseon County",
+    "en_short": "JEONGSEON",
+    "type": "군",
+    "parent": "gangwon",
+    "logo": "gangwon-jeongseon"
+  },
+  {
+    "id": "gangwon-yanggu",
+    "name": "강원특별자치도 양구군",
+    "short_name": "양구군",
+    "en_name": "Yanggu County",
+    "en_short": "YANGGU",
+    "type": "군",
+    "parent": "gangwon",
+    "logo": "gangwon-yanggu"
+  },
+  {
+    "id": "gangwon-yangyang",
+    "name": "강원특별자치도 양양군",
+    "short_name": "양양군",
+    "en_name": "Yangyang County",
+    "en_short": "YANGYANG",
+    "type": "군",
+    "parent": "gangwon",
+    "logo": "gangwon-yangyang"
+  },
+  {
+    "id": "gangwon-yeongwol",
+    "name": "강원특별자치도 영월군",
+    "short_name": "영월군",
+    "en_name": "Yeongwol County",
+    "en_short": "YEONGWOL",
+    "type": "군",
+    "parent": "gangwon",
+    "logo": "gangwon-yeongwol"
+  },
+  {
+    "id": "gyeongbuk-bonghwa",
+    "name": "경상북도 봉화군",
+    "short_name": "봉화군",
+    "en_name": "Bonghwa County",
+    "en_short": "BONGHWA",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-bonghwa"
+  },
+  {
+    "id": "gyeongbuk-cheongdo",
+    "name": "경상북도 청도군",
+    "short_name": "청도군",
+    "en_name": "Cheongdo County",
+    "en_short": "CHEONGDO",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-cheongdo"
+  },
+  {
+    "id": "gyeongbuk-cheongsong",
+    "name": "경상북도 청송군",
+    "short_name": "청송군",
+    "en_name": "Cheongsong County",
+    "en_short": "CHEONGSONG",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-cheongsong"
+  },
+  {
+    "id": "gyeongbuk-chilgok",
+    "name": "경상북도 칠곡군",
+    "short_name": "칠곡군",
+    "en_name": "Chilgok County",
+    "en_short": "CHILGOK",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-chilgok"
+  },
+  {
+    "id": "gyeongbuk-goryeong",
+    "name": "경상북도 고령군",
+    "short_name": "고령군",
+    "en_name": "Goryeong County",
+    "en_short": "GORYEONG",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-goryeong"
+  },
+  {
+    "id": "gyeongbuk-seongju",
+    "name": "경상북도 성주군",
+    "short_name": "성주군",
+    "en_name": "Seongju County",
+    "en_short": "SEONGJU",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-seongju"
+  },
+  {
+    "id": "gyeongbuk-uiseong",
+    "name": "경상북도 의성군",
+    "short_name": "의성군",
+    "en_name": "Uiseong County",
+    "en_short": "UISEONG",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-uiseong"
+  },
+  {
+    "id": "gyeongbuk-uljin",
+    "name": "경상북도 울진군",
+    "short_name": "울진군",
+    "en_name": "Uljin County",
+    "en_short": "ULJIN",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-uljin"
+  },
+  {
+    "id": "gyeongbuk-ulleung",
+    "name": "경상북도 울릉군",
+    "short_name": "울릉군",
+    "en_name": "Ulleung County",
+    "en_short": "ULLEUNG",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-ulleung"
+  },
+  {
+    "id": "gyeongbuk-yecheon",
+    "name": "경상북도 예천군",
+    "short_name": "예천군",
+    "en_name": "Yecheon County",
+    "en_short": "YECHEON",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-yecheon"
+  },
+  {
+    "id": "gyeongbuk-yeongdeok",
+    "name": "경상북도 영덕군",
+    "short_name": "영덕군",
+    "en_name": "Yeongdeok County",
+    "en_short": "YEONGDEOK",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-yeongdeok"
+  },
+  {
+    "id": "gyeongbuk-yeongyang",
+    "name": "경상북도 영양군",
+    "short_name": "영양군",
+    "en_name": "Yeongyang County",
+    "en_short": "YEONGYANG",
+    "type": "군",
+    "parent": "gyeongbuk",
+    "logo": "gyeongbuk-yeongyang"
+  },
+  {
+    "id": "gyeonggi-yangpyeong",
+    "name": "경기도 양평군",
+    "short_name": "양평군",
+    "en_name": "Yangpyeong County",
+    "en_short": "YANGPYEONG",
+    "type": "군",
+    "parent": "gyeonggi",
+    "logo": "gyeonggi-yangpyeong"
+  },
+  {
+    "id": "gyeongnam-changnyeong",
+    "name": "경상남도 창녕군",
+    "short_name": "창녕군",
+    "en_name": "Changnyeong County",
+    "en_short": "CHANGNYEONG",
+    "type": "군",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-changnyeong"
+  },
+  {
+    "id": "gyeongnam-geochang",
+    "name": "경상남도 거창군",
+    "short_name": "거창군",
+    "en_name": "Geochang County",
+    "en_short": "GEOCHANG",
+    "type": "군",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-geochang"
+  },
+  {
+    "id": "gyeongnam-goseong",
+    "name": "경상남도 고성군",
+    "short_name": "고성군",
+    "en_name": "Goseong County, South Gyeongsang",
+    "en_short": "GOSEONG",
+    "type": "군",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-goseong"
+  },
+  {
+    "id": "gyeongnam-hadong",
+    "name": "경상남도 하동군",
+    "short_name": "하동군",
+    "en_name": "Hadong County",
+    "en_short": "HADONG",
+    "type": "군",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-hadong"
+  },
+  {
+    "id": "gyeongnam-haman",
+    "name": "경상남도 함안군",
+    "short_name": "함안군",
+    "en_name": "Haman County",
+    "en_short": "HAMAN",
+    "type": "군",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-haman"
+  },
+  {
+    "id": "gyeongnam-hamyang",
+    "name": "경상남도 함양군",
+    "short_name": "함양군",
+    "en_name": "Hamyang County",
+    "en_short": "HAMYANG",
+    "type": "군",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-hamyang"
+  },
+  {
+    "id": "gyeongnam-namhae",
+    "name": "경상남도 남해군",
+    "short_name": "남해군",
+    "en_name": "Namhae County",
+    "en_short": "NAMHAE",
+    "type": "군",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-namhae"
+  },
+  {
+    "id": "gyeongnam-sancheong",
+    "name": "경상남도 산청군",
+    "short_name": "산청군",
+    "en_name": "Sancheong County",
+    "en_short": "SANCHEONG",
+    "type": "군",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-sancheong"
+  },
+  {
+    "id": "gyeongnam-uiryeong",
+    "name": "경상남도 의령군",
+    "short_name": "의령군",
+    "en_name": "Uiryeong County",
+    "en_short": "UIRYEONG",
+    "type": "군",
+    "parent": "gyeongnam",
+    "logo": "gyeongnam-uiryeong"
+  },
+  {
+    "id": "incheon-bupyeong",
+    "name": "인천광역시 부평구",
+    "short_name": "부평구",
+    "en_name": "Bupyeong District",
+    "en_short": "BUPYEONG",
+    "type": "자치구",
+    "parent": "incheon",
+    "logo": "incheon-bupyeong"
+  },
+  {
+    "id": "incheon-ganghwa",
+    "name": "인천광역시 강화군",
+    "short_name": "강화군",
+    "en_name": "Ganghwa County",
+    "en_short": "GANGHWA",
+    "type": "군",
+    "parent": "incheon",
+    "logo": "incheon-ganghwa"
+  },
+  {
+    "id": "incheon-gyeyang",
+    "name": "인천광역시 계양구",
+    "short_name": "계양구",
+    "en_name": "Gyeyang District",
+    "en_short": "GYEYANG",
+    "type": "자치구",
+    "parent": "incheon",
+    "logo": "incheon-gyeyang"
+  },
+  {
+    "id": "incheon-michuhol",
+    "name": "인천광역시 미추홀구",
+    "short_name": "미추홀구",
+    "en_name": "Michuhol District",
+    "en_short": "MICHUHOL",
+    "type": "자치구",
+    "parent": "incheon",
+    "logo": "incheon-michuhol"
+  },
+  {
+    "id": "incheon-namdong",
+    "name": "인천광역시 남동구",
+    "short_name": "남동구",
+    "en_name": "Namdong District",
+    "en_short": "NAMDONG",
+    "type": "자치구",
+    "parent": "incheon",
+    "logo": "incheon-namdong"
+  },
+  {
+    "id": "incheon-ongjin",
+    "name": "인천광역시 옹진군",
+    "short_name": "옹진군",
+    "en_name": "Ongjin County",
+    "en_short": "ONGJIN",
+    "type": "군",
+    "parent": "incheon",
+    "logo": "incheon-ongjin"
+  },
+  {
+    "id": "incheon-yeonsu",
+    "name": "인천광역시 연수구",
+    "short_name": "연수구",
+    "en_name": "Yeonsu District",
+    "en_short": "YEONSU",
+    "type": "자치구",
+    "parent": "incheon",
+    "logo": "incheon-yeonsu"
+  },
+  {
+    "id": "jeonbuk-buan",
+    "name": "전북특별자치도 부안군",
+    "short_name": "부안군",
+    "en_name": "Buan County",
+    "en_short": "BUAN",
+    "type": "군",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-buan"
+  },
+  {
+    "id": "jeonbuk-imsil",
+    "name": "전북특별자치도 임실군",
+    "short_name": "임실군",
+    "en_name": "Imsil County",
+    "en_short": "IMSIL",
+    "type": "군",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-imsil"
+  },
+  {
+    "id": "jeonbuk-jangsu",
+    "name": "전북특별자치도 장수군",
+    "short_name": "장수군",
+    "en_name": "Jangsu County",
+    "en_short": "JANGSU",
+    "type": "군",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-jangsu"
+  },
+  {
+    "id": "jeonbuk-jinan",
+    "name": "전북특별자치도 진안군",
+    "short_name": "진안군",
+    "en_name": "Jinan County",
+    "en_short": "JINAN",
+    "type": "군",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-jinan"
+  },
+  {
+    "id": "jeonbuk-muju",
+    "name": "전북특별자치도 무주군",
+    "short_name": "무주군",
+    "en_name": "Muju County",
+    "en_short": "MUJU",
+    "type": "군",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-muju"
+  },
+  {
+    "id": "jeonbuk-sunchang",
+    "name": "전북특별자치도 순창군",
+    "short_name": "순창군",
+    "en_name": "Sunchang County",
+    "en_short": "SUNCHANG",
+    "type": "군",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-sunchang"
+  },
+  {
+    "id": "jeonbuk-wanju",
+    "name": "전북특별자치도 완주군",
+    "short_name": "완주군",
+    "en_name": "Wanju County",
+    "en_short": "WANJU",
+    "type": "군",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-wanju"
+  },
+  {
+    "id": "jeonnam-gwangju-boseong",
+    "name": "전남광주통합특별시 보성군",
+    "short_name": "보성군",
+    "en_name": "Boseong County",
+    "en_short": "BOSEONG",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-boseong"
+  },
+  {
+    "id": "jeonnam-gwangju-damyang",
+    "name": "전남광주통합특별시 담양군",
+    "short_name": "담양군",
+    "en_name": "Damyang County",
+    "en_short": "DAMYANG",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-damyang"
+  },
+  {
+    "id": "jeonnam-gwangju-gangjin",
+    "name": "전남광주통합특별시 강진군",
+    "short_name": "강진군",
+    "en_name": "Gangjin County",
+    "en_short": "GANGJIN",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-gangjin"
+  },
+  {
+    "id": "jeonnam-gwangju-gokseong",
+    "name": "전남광주통합특별시 곡성군",
+    "short_name": "곡성군",
+    "en_name": "Gokseong County",
+    "en_short": "GOKSEONG",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-gokseong"
+  },
+  {
+    "id": "jeonnam-gwangju-gurye",
+    "name": "전남광주통합특별시 구례군",
+    "short_name": "구례군",
+    "en_name": "Gurye County",
+    "en_short": "GURYE",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-gurye"
+  },
+  {
+    "id": "jeonnam-gwangju-gwangsan",
+    "name": "전남광주통합특별시 광산구",
+    "short_name": "광산구",
+    "en_name": "Gwangsan District",
+    "en_short": "GWANGSAN",
+    "type": "자치구",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-gwangsan"
+  },
+  {
+    "id": "jeonnam-gwangju-haenam",
+    "name": "전남광주통합특별시 해남군",
+    "short_name": "해남군",
+    "en_name": "Haenam County",
+    "en_short": "HAENAM",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-haenam"
+  },
+  {
+    "id": "jeonnam-gwangju-hampyeong",
+    "name": "전남광주통합특별시 함평군",
+    "short_name": "함평군",
+    "en_name": "Hampyeong County",
+    "en_short": "HAMPYEONG",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-hampyeong"
+  },
+  {
+    "id": "jeonnam-gwangju-hwasun",
+    "name": "전남광주통합특별시 화순군",
+    "short_name": "화순군",
+    "en_name": "Hwasun County",
+    "en_short": "HWASUN",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-hwasun"
+  },
+  {
+    "id": "jeonnam-gwangju-jangheung",
+    "name": "전남광주통합특별시 장흥군",
+    "short_name": "장흥군",
+    "en_name": "Jangheung County",
+    "en_short": "JANGHEUNG",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-jangheung"
+  },
+  {
+    "id": "jeonnam-gwangju-jangseong",
+    "name": "전남광주통합특별시 장성군",
+    "short_name": "장성군",
+    "en_name": "Jangseong County",
+    "en_short": "JANGSEONG",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-jangseong"
+  },
+  {
+    "id": "jeonnam-gwangju-jindo",
+    "name": "전남광주통합특별시 진도군",
+    "short_name": "진도군",
+    "en_name": "Jindo County",
+    "en_short": "JINDO",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-jindo"
+  },
+  {
+    "id": "jeonnam-gwangju-muan",
+    "name": "전남광주통합특별시 무안군",
+    "short_name": "무안군",
+    "en_name": "Muan County",
+    "en_short": "MUAN",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-muan"
+  },
+  {
+    "id": "jeonnam-gwangju-sinan",
+    "name": "전남광주통합특별시 신안군",
+    "short_name": "신안군",
+    "en_name": "Sinan County",
+    "en_short": "SINAN",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-sinan"
+  },
+  {
+    "id": "jeonnam-gwangju-wando",
+    "name": "전남광주통합특별시 완도군",
+    "short_name": "완도군",
+    "en_name": "Wando County",
+    "en_short": "WANDO",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-wando"
+  },
+  {
+    "id": "jeonnam-gwangju-yeongam",
+    "name": "전남광주통합특별시 영암군",
+    "short_name": "영암군",
+    "en_name": "Yeongam County",
+    "en_short": "YEONGAM",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-yeongam"
+  },
+  {
+    "id": "jeonnam-gwangju-yeonggwang",
+    "name": "전남광주통합특별시 영광군",
+    "short_name": "영광군",
+    "en_name": "Yeonggwang County",
+    "en_short": "YEONGGWANG",
+    "type": "군",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-yeonggwang"
+  },
+  {
+    "id": "ulsan-ulju",
+    "name": "울산광역시 울주군",
+    "short_name": "울주군",
+    "en_name": "Ulju County",
+    "en_short": "ULJU",
+    "type": "군",
+    "parent": "ulsan",
+    "logo": "ulsan-ulju"
   }
 ]
