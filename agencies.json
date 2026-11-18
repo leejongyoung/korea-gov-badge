@@ -2681,5 +2681,105 @@
     "type": "군",
     "parent": "ulsan",
     "logo": "ulsan-ulju"
+  },
+  {
+    "id": "kepco",
+    "name": "한국전력공사",
+    "short_name": "한국전력공사",
+    "en_name": "Korea Electric Power Corporation",
+    "en_short": "KEPCO",
+    "type": "시장형공기업",
+    "homepage": "https://www.kepco.co.kr",
+    "logo": "kepco"
+  },
+  {
+    "id": "kogas",
+    "name": "한국가스공사",
+    "short_name": "한국가스공사",
+    "en_name": "Korea Gas Corporation",
+    "en_short": "KOGAS",
+    "type": "시장형공기업",
+    "homepage": "https://www.kogas.or.kr",
+    "logo": "kogas"
+  },
+  {
+    "id": "khnp",
+    "name": "한국수력원자력",
+    "short_name": "한국수력원자력",
+    "en_name": "Korea Hydro & Nuclear Power",
+    "en_short": "KHNP",
+    "type": "시장형공기업",
+    "homepage": "https://www.khnp.co.kr",
+    "logo": "khnp"
+  },
+  {
+    "id": "kac",
+    "name": "한국공항공사",
+    "short_name": "한국공항공사",
+    "en_name": "Korea Airports Corporation",
+    "en_short": "KAC",
+    "type": "시장형공기업",
+    "homepage": "https://www.airport.co.kr",
+    "logo": "kac"
+  },
+  {
+    "id": "korail",
+    "name": "한국철도공사",
+    "short_name": "한국철도공사",
+    "en_name": "Korea Railroad Corporation",
+    "en_short": "KORAIL",
+    "type": "준시장형공기업",
+    "homepage": "https://www.korail.com",
+    "logo": "korail"
+  },
+  {
+    "id": "ex",
+    "name": "한국도로공사",
+    "short_name": "한국도로공사",
+    "en_name": "Korea Expressway Corporation",
+    "en_short": "EX",
+    "type": "준시장형공기업",
+    "homepage": "https://www.ex.co.kr",
+    "logo": "ex"
+  },
+  {
+    "id": "komsco",
+    "name": "한국조폐공사",
+    "short_name": "한국조폐공사",
+    "en_name": "Korea Minting and Security Printing Corp.",
+    "en_short": "KOMSCO",
+    "type": "준시장형공기업",
+    "homepage": "https://www.komsco.com",
+    "logo": "komsco"
+  },
+  {
+    "id": "kto",
+    "name": "한국관광공사",
+    "short_name": "한국관광공사",
+    "en_name": "Korea Tourism Organization",
+    "en_short": "KTO",
+    "type": "준정부기관",
+    "homepage": "https://knto.or.kr",
+    "logo": "kto"
+  },
+  {
+    "id": "kisa",
+    "name": "한국인터넷진흥원",
+    "short_name": "한국인터넷진흥원",
+    "en_name": "Korea Internet & Security Agency",
+    "en_short": "KISA",
+    "type": "준정부기관",
+    "homepage": "https://www.kisa.or.kr",
+    "logo": "kisa"
+  },
+  {
+    "id": "kaeri",
+    "name": "한국원자력연구원",
+    "short_name": "한국원자력연구원",
+    "en_name": "Korea Atomic Energy Research Institute",
+    "en_short": "KAERI",
+    "type": "출연연구기관",
+    "homepage": "https://www.kaeri.re.kr",
+    "logo": "kaeri"
   }
 ]
