@@ -257,14 +257,16 @@
       "drawing_elements": 3,
       "recorded_logo_hash_matches": true,
       "download_recheck": {
-        "utc": "2026-11-18T22:02:51.558404+00:00",
-        "bytes": 10775341,
-        "sha256": "1a8c1d498252f51b3994a48bb176ddcc8d67c3ae86cd545e5d554fd083f73e4a",
-        "content_type": "application/zip",
-        "final_url": "https://www.ygpa.or.kr/images/hmpg/ygpa/sub/st/YGPACI_AI.zip",
-        "recorded_hash_matches": false,
-        "note": "기록 원본과 수신 ZIP 해시 불일치. ZIP 메타데이터/내용 변경 또는 오류 응답 여부 확인 전 기존 로고 교체 금지.",
-        "status": "hash_mismatch_requires_inspection"
+        "status": "archive_and_member_verified_by_Hermes",
+        "evidence_origin": "Hermes full official download, ZIP CRC and member hash verification, 2026-11-19; not a visual comparison",
+        "archive_bytes": 10775341,
+        "archive_sha256": "1a8c1d498252f51b3994a48bb176ddcc8d67c3ae86cd545e5d554fd083f73e4a",
+        "member_name": "YGPA_심볼.ai",
+        "member_bytes": 1562618,
+        "member_sha256": "105894d6b31342767945a5d9f77624359e9e4754de32a9ac0d19e7b3eba2d8ba",
+        "recorded_member_hash_matches": true,
+        "zip_crc": "pass",
+        "note": "기존 original_sha256은 ZIP가 아니라 멤버 해시. 원본 변경 아님. 도형 시각 대조와 별개."
       }
     },
     {
@@ -1167,14 +1169,16 @@
       "drawing_elements": 6,
       "recorded_logo_hash_matches": true,
       "download_recheck": {
-        "utc": "2026-11-18T22:02:53.599248+00:00",
-        "bytes": 25000000,
-        "sha256": "19038f1021a85975802185ec2cb29ca27d8d38cc7eb6bfe3a18f9cd77474d601",
-        "content_type": "application/zip",
-        "final_url": "https://www.gjf.or.kr/repository/download/ci/ai.zip",
-        "recorded_hash_matches": null,
-        "note": "25 MB 상한으로 중단된 부분 수신 해시. 원본 전체 해시가 아니며 대조 불가.",
-        "status": "truncated_not_validated"
+        "status": "archive_and_member_verified_by_Hermes",
+        "evidence_origin": "Hermes full official download, ZIP CRC and member hash verification, 2026-11-19; not a visual comparison",
+        "archive_bytes": 37717867,
+        "archive_sha256": "6933136c16c3689b12476533c7120e4e084cca86a9b24763de2c68820231c7a5",
+        "member_name": "경기도일자리재단_심볼마크.eps",
+        "member_bytes": 1183274,
+        "member_sha256": "2c8c572709487758743dbee0b00ddcfdbc3e89764514e8ae879ee6ced7436288",
+        "recorded_member_hash_matches": true,
+        "zip_crc": "pass",
+        "note": "기존 original_sha256은 ZIP가 아니라 멤버 해시. 원본 변경 아님. 도형 시각 대조와 별개."
       }
     }
   ]
