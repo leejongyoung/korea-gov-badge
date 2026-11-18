@@ -54,6 +54,31 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(len(self.catalog['administrative_cities']), 2)
         self.assertFalse(any(r['parent'] in {'jeju', 'sejong'} for r in self.catalog['municipalities']))
 
+    def test_advertised_public_ci_is_wired_and_present_in_all_badges(self):
+        import re
+        import importlib.util
+        spec = importlib.util.spec_from_file_location('audit_generator', ROOT / 'scripts/generate.py')
+        generate = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(generate)
+        logos = generate.load_logos()
+        sources = {x['id']: x for x in json.loads((ROOT / 'docs/logo-sources.json').read_text())['items']}
+        agencies = {a['id']: a for a in self.agencies}
+        advertised = set(re.findall(r'\.\./badges/([^/]+)/flat\.svg', (ROOT / 'docs/public-enterprises.md').read_text()))
+        self.assertTrue(advertised)
+        for agency_id in sorted(advertised):
+            with self.subTest(agency=agency_id):
+                agency = agencies[agency_id]
+                self.assertEqual(agency.get('logo'), agency_id)
+                self.assertIn(agency_id, sources)
+                content = logos[agency_id][4]
+                self.assertTrue(content)
+                for directory in (agency_id, agency['name']):
+                    for style in generate.STYLES:
+                        for suffix in ('', '-abbr', '-agency', '-navy', '-black', '-green', '-red', '-gray'):
+                            path = ROOT / 'badges' / directory / f'{style}{suffix}.svg'
+                            self.assertTrue(path.is_file(), str(path))
+                            self.assertIn(content, path.read_text(), str(path))
+
     def test_new_logo_hashes_and_pending_coverage(self):
         sources = json.loads((ROOT / 'docs/logo-sources.json').read_text())
         for source in sources['items']:
