@@ -15,7 +15,8 @@ class PendingLogoCliTests(unittest.TestCase):
             root = Path(tmp)
             for name in ('scripts/check_catalog.py', 'agencies.json',
                          'docs/local-gov-catalog.json', 'docs/local-gov.md',
-                         'docs/logo-pending.json'):
+                         'docs/logo-pending.json', 'docs/logo-sources.json',
+                         'docs/public-logo-pending.json', 'docs/public-enterprises.md'):
                 target = root / name
                 target.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(ROOT / name, target)

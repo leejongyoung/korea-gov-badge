@@ -48,6 +48,32 @@ class CatalogTests(unittest.TestCase):
             if row.get('checked_on'):
                 self.assertTrue(row.get('official_source') or row.get('commons_page'))
 
+    def check_public(self, text):
+        sources = json.loads((ROOT / 'docs/logo-sources.json').read_text())
+        pending = json.loads((ROOT / 'docs/public-logo-pending.json').read_text())
+        return catalog_check.validate_public_previews(text, self.agencies, sources, pending)
+
+    def test_public_previews_use_their_own_ci_and_permission_marker(self):
+        self.assertEqual(self.check_public((ROOT / 'docs/public-enterprises.md').read_text()), [])
+
+    def test_wrong_ci_in_pending_row_is_rejected(self):
+        text = (ROOT / 'docs/public-enterprises.md').read_text()
+        text = text.replace('| 로고 대기 |', '| ![BPA](../badges/bpa/flat.svg) |', 1)
+        self.assertTrue(any('unimplemented' in p for p in self.check_public(text)))
+
+    def test_wrong_ci_or_duplicate_cell_in_available_row_is_rejected(self):
+        text = (ROOT / 'docs/public-enterprises.md').read_text()
+        wrong = text.replace('../badges/kepco/flat.svg', '../badges/bpa/flat.svg', 1)
+        self.assertTrue(any('identity/marker' in p for p in self.check_public(wrong)))
+        extra = text.replace('![한국전력공사](../badges/kepco/flat.svg)',
+                             '![한국전력공사](../badges/kepco/flat.svg) | ![BPA](../badges/bpa/flat.svg)', 1)
+        self.assertTrue(any('invalid public catalogue row' in p for p in self.check_public(extra)))
+
+    def test_missing_permission_star_is_rejected(self):
+        text = (ROOT / 'docs/public-enterprises.md').read_text()
+        self.assertTrue(any('identity/marker' in p for p in self.check_public(
+            text.replace(' [\\*](logo-attribution.md)', '', 1))))
+
     def test_incheon_current_districts_and_jeju_exception(self):
         incheon = {r['name'] for r in self.catalog['municipalities'] if r['parent'] == 'incheon'}
         self.assertEqual(incheon, {'제물포구', '영종구', '검단구', '서해구', '미추홀구', '연수구', '남동구', '부평구', '계양구', '강화군', '옹진군'})
