@@ -9,7 +9,7 @@
     "geometry_unchanged": true,
     "web_colour_status": "browser_verified_official_guidance",
     "evidence_files": {
-      "kist-browser-text.txt": "553ba981dc349bde2e6763d2aedfd2bb59957773563f4f6d3b74e823904bab4c",
+      "kist-browser-text.txt": "4b87f1ed5e12369af5931592ce6a02921bd2412286b5c3ed6612e1471fe27e03",
       "kist-browser-links.json": "7cafaa14cfae75f214f78012d1df6a72605b1fe557b989696ebcd9a43da8ed26"
     },
     "baseline_path_sha256": "810739264e4159df761ba36d3c53f4cf422960a8ef036d5dc9f7592f30679913"
