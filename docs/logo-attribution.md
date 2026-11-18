@@ -2,6 +2,8 @@
 
 코드의 MIT 라이선스는 기관의 상징물에 적용되지 않는다. 각 배지는 소관 안내용이며 기관의 후원·승인을 뜻하지 않는다.
 
+이 저장소는 CI 구현 여부와 이용허락 확인 여부를 구분한다. 사용자 요청에 따라 허락 미확인 CI도 제약을 남겨 제공하므로, 이미 검증된 SVG가 있는 기관을 라이선스 미확인만을 이유로 `logo: null`·텍스트 전용 상태로 되돌리지 않는다. 카탈로그에서 제공한다고 표시한 로고는 실제 생성 배지와 한글·영문 경로에도 포함되어야 한다.
+
 ## 공식 자료에서 추가한 로고
 
 | 기관·저작물 | 출처·이용 조건 | 처리 내역 |
@@ -10,9 +12,9 @@
 | 한국예술인복지재단, 2022년 「개편 CI」 (`개편_CI.ai`) | [공식 CI 배포 게시물](https://www.kawf.kr/notice/sub07View.do?selIdx=17907), [공식 AI 원본](https://www.kawf.kr/common/download.do?s=165967859177102), [공공누리 제1유형·출처표시](https://www.kogl.or.kr/info/licenseType1.do) | 2026-11-18 확인. 매뉴얼의 재생 지침에 따라 별도 AI의 완전한 심벌 경로 3개를 추출. 화면 색은 매뉴얼 A3.1의 `#0075BF` 적용, 여백 정리·SVG 변환·최적화. 새로 그리거나 래스터를 추적하지 않음. |
 | 서울에너지공사, 「심벌마크」 (원본 작성연도 미표시) | [공식 CI·공공누리 1유형](https://www.i-se.co.kr/intro06), [공식 심벌 AI](https://www.i-se.co.kr/comm/getFile?srvcId=BBSTY1&upperNo=45&fileTy=ATTACH&fileNo=1) | 별도 심벌 AI의 벡터 경로 13개를 모두 유지해 SVG 변환·여백 정리·최적화. 새로 그리거나 임의 재색상하지 않음. |
 | 경기도일자리재단, 「기관 심볼마크」 (원본 작성연도 미표시) | [공식 CI·공공누리 1유형](https://www.gjf.or.kr/main/content/view.do?sn=91), [공식 ZIP/EPS](https://www.gjf.or.kr/repository/download/ci/ai.zip) | 기관 심벌 EPS의 벡터 3개를 변환하고 공식 화면 RGB 색을 적용. 같은 ZIP의 잡아바 브랜드와 구분. 기본 배지에서 양변 27 CSS px 이상 확보. 인쇄 시 심벌 7mm 이상 유지. |
-| 부산항만공사, 「기관 CI 심벌」 (원본 작성연도 미표시) | [공식 CI 안내](https://www.busanpa.com/index.bpa?menuCd=DOM_000000101001004000), [일반 저작권정책](https://www.busanpa.com/index.bpa?menuCd=DOM_000000108001007000) | **재배포 허락 미확인·배지 내장 보류**. 공식 AI에서 벡터 도형 확인. 공공누리 미표시 자료는 일반 정책상 사전 협의 필요. 심벌 변환·SVG 배지 내장·재배포에 적용할 명시적 허락 미확인. 로고 대기 상태로 텍스트만 제공. |
-| 인천항만공사, 「CI 심벌마크 (모바일)」 (원본 작성연도 미표시) | [공식 모바일 CI](https://www.icpa.or.kr/content/view.do?contentKey=54&menuKey=1121), [일반 저작권정책](https://www.icpa.or.kr/content/view.do?menuKey=590&contentKey=134) | **재배포 허락 미확인·배지 내장 보류**. 공식 모바일 CI AI에서 벡터 도형 확인. 일반 정책은 무단 복제·배포·변경 제한, 특수 색상·효과 사용 시 협의 안내. SVG 배지 내장·재배포에 적용할 허락 미확인. 로고 대기 상태로 텍스트만 제공. |
-| 여수광양항만공사, 「CI 심벌마크 (ZIP 8 AI)」 (원본 작성연도 미표시) | [공식 CI 안내](https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2), [일반 저작권정책](https://www.ygpa.or.kr/hmpg/ygpa/addi/copy/contPageDetail.do?conts_no=327CD8B19E554F47ADE8ECFED407A1F6) | **재배포 허락 미확인·배지 내장 보류**. 공식 ZIP(8 AI) 내 벡터 도형 확인. 일반 정책은 무단 복제·배포·변경 제한 및 일부 이용 사전 협의 안내. 해당 CI에 적용할 배지 재배포 허락 미확인. 로고 대기 상태로 텍스트만 제공. |
+| 부산항만공사, 「기관 CI 심벌」 (원본 작성연도 미표시) | [공식 CI](https://www.busanpa.com/index.bpa?menuCd=DOM_000000101001004000) · [공식 원본](https://www.busanpa.com/FileManager/ofda.sko?f_idx=QzkzcDNoUWZXMlpwVGlyNW9peVFiZz09&ofn=176819345852357.ai) · [정책](https://www.busanpa.com/index.bpa?menuCd=DOM_000000108001007000) | **로고 제공·재배포 허락 미확인**. 일반 정책은 공공누리 미표시 자료의 사전 협의를 안내함. 해당 CI의 자유이용 유형 및 배지 재배포 허락 미확인. 공식 AI 벡터에서 전체 심벌을 추출해 적용. 공공누리 1유형으로 확인된 자료가 아님. |
+| 인천항만공사, 「기관 CI 심벌」 (원본 작성연도 미표시) | [공식 CI](https://www.icpa.or.kr/content/view.do?contentKey=54&menuKey=1121) · [공식 원본](https://www.icpa.or.kr/file/commonFileDownload.do?path=!@$*CJELQSRnZjbVLK3l7dJljdMBYhU1wrZJPjy1uofgerU=!@$*) · [정책](https://www.icpa.or.kr/content/view.do?menuKey=590&contentKey=134) | **로고 제공·재배포 허락 미확인**. 일반 정책에 무단 복제·배포 및 내용 변경 제한과 일부 이용의 사전 협의·허락 안내가 있음. 해당 CI 배지 재배포 허락 미확인. 공식 AI 벡터에서 전체 심벌을 추출해 적용. 공공누리 1유형으로 확인된 자료가 아님. |
+| 여수광양항만공사, 「기관 CI 심벌」 (원본 작성연도 미표시) | [공식 CI](https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2) · [공식 원본](https://www.ygpa.or.kr/images/hmpg/ygpa/sub/st/YGPACI_AI.zip) · [정책](https://www.ygpa.or.kr/hmpg/ygpa/addi/copy/contPageDetail.do?conts_no=327CD8B19E554F47ADE8ECFED407A1F6) | **로고 제공·재배포 허락 미확인**. 일반 정책에 무단 복제·배포 및 무단 변경 제한, 일부 이용의 사전 협의·허락 안내가 있음. 해당 CI 배지 재배포 허락 미확인. 공식 AI 벡터에서 전체 심벌을 추출해 적용. 공공누리 1유형으로 확인된 자료가 아님. |
 
 위 공식 자료 기반 배지를 재사용할 때 각 기관명·저작물명·출처 URL·공공누리 유형을 함께 표시한다. SVG 내부의 출처 설명(`desc`)도 유지한다. 로고/배지 변경 여부는 이용자가 실제 변경에 맞춰 표시해야 한다.
 

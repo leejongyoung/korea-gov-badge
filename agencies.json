@@ -2820,8 +2820,7 @@
     "en_short": "BPA",
     "type": "시장형공기업",
     "homepage": "https://www.busanpa.com",
-    "logo": null,
-    "logo_status": "pending_official_symbol"
+    "logo": "bpa"
   },
   {
     "id": "ipa",
@@ -2831,8 +2830,7 @@
     "en_short": "IPA",
     "type": "시장형공기업",
     "homepage": "https://www.icpa.or.kr",
-    "logo": null,
-    "logo_status": "pending_official_symbol"
+    "logo": "ipa"
   },
   {
     "id": "ygpa",
@@ -2842,7 +2840,6 @@
     "en_short": "YGPA",
     "type": "시장형공기업",
     "homepage": "https://www.ygpa.or.kr",
-    "logo": null,
-    "logo_status": "pending_official_symbol"
+    "logo": "ygpa"
   }
 ]
