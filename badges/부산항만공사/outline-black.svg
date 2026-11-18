@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="22" viewBox="0 0 132 22" role="img" aria-label="부산항만공사 BPA">
+<title>부산항만공사 BPA (outline)</title>
+<defs><clipPath id="badge-shape"><rect width="132" height="22" rx="4"/></clipPath></defs>
+<g clip-path="url(#badge-shape)">
+<rect width="132" height="22" rx="4" fill="#ffffff"/>
+<path d="M84 0h48v22h-48z" fill="#ffffff"/>
+</g>
+<rect x="0.5" y="0.5" width="131" height="21" rx="4" fill="none" stroke="#24292f"/>
+
+<text x="8" y="15" fill="#003764" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif" font-size="11" font-weight="600">부산항만공사</text>
+<text x="108" y="15" fill="#24292f" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">BPA</text>
+</svg>
