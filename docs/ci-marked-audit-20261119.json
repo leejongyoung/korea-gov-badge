@@ -879,11 +879,11 @@
       "prior_evidence_date": "2026-11-18",
       "prior_review": "정비례 확대·축소 및 색상 활용 지침을 확인했다. 이 저장소의 SVG 변환·배지 내장·재배포에 적용할 명시적 허락은 이번 조사에서 확인하지 못했다.",
       "restrictions": "정비례 확대·축소 및 색상 활용 지침을 확인했다. 이 저장소의 SVG 변환·배지 내장·재배포에 적용할 명시적 허락은 이번 조사에서 확인하지 못했다.",
-      "official_shape_colour_ci_bi_complete_symbol_review": "verified",
-      "render_comparison": "verified",
-      "status": "implemented_official_source_compared",
-      "complete": true,
-      "next_action": "Hermes exact-head 검토·병합 대기; 이용 제약·공식 원본 제공 범위는 출처 문서 참조",
+      "official_shape_colour_ci_bi_complete_symbol_review": "shape_verified_web_colour_review_pending",
+      "render_comparison": "shape_verified_not_pixel_colour_identity",
+      "status": "implemented_colour_gate_review_pending",
+      "complete": false,
+      "next_action": "Hermes exact-head colour review; all merges held; no further implementation yet",
       "download_recheck": {
         "utc": "2026-11-18T22:02:27.782136+00:00",
         "bytes": 162437,
@@ -896,7 +896,8 @@
       "drawing_elements": 53,
       "recorded_logo_hash_matches": true,
       "archive_sha256": "59c36003e6ad4b0136f4b217af0cbfc9b4756dd2ad24ba229bc79f6d253875db",
-      "evidence": "docs/ci-first-five/extraction.json"
+      "evidence": "docs/ci-first-five/extraction.json",
+      "web_colour_evidence": "docs/ci-first-five/web-colours.json"
     },
     {
       "id": "etri",
@@ -907,8 +908,8 @@
       ],
       "catalogue_path_check": true,
       "logo_file": "assets/logos/etri.svg",
-      "logo_sha256": "9318d8a575e4ad057f9cda2c13408ae20c7feb4488014712ec2efa72048973a8",
-      "recorded_logo_sha256": "9318d8a575e4ad057f9cda2c13408ae20c7feb4488014712ec2efa72048973a8",
+      "logo_sha256": "51265d5a973e1456e10e3b9e8780bf334c9d66ee5f77eabc0ff32bd23a5e5459",
+      "recorded_logo_sha256": "51265d5a973e1456e10e3b9e8780bf334c9d66ee5f77eabc0ff32bd23a5e5459",
       "recorded_original_sha256": "c62de547482c2b85c8c508b74d7f2216141f44edb04fb3a94161987e0a017a50",
       "source_url": "https://www.etri.re.kr/korcon/sub7/sub7_11.etri",
       "download_url": "https://www.etri.re.kr/file/predicalFile.etri?filename=ci_ai.zip",
@@ -916,11 +917,11 @@
       "prior_evidence_date": "2026-11-18",
       "prior_review": "임의 변경 제한을 포함하는 CI 지침을 확인했다. 일반 저작권정책은 자료별 공공누리 표시와 조건 확인을 요구한다. 해당 CI 파일에 적용되는 유형이나 별도 배지 재배포 허락은 확인하지 못했다.",
       "restrictions": "임의 변경 제한을 포함하는 CI 지침을 확인했다. 일반 저작권정책은 자료별 공공누리 표시와 조건 확인을 요구한다. 해당 CI 파일에 적용되는 유형이나 별도 배지 재배포 허락은 확인하지 못했다.",
-      "official_shape_colour_ci_bi_complete_symbol_review": "verified",
-      "render_comparison": "verified",
-      "status": "implemented_official_source_compared",
-      "complete": true,
-      "next_action": "Hermes exact-head 검토·병합 대기; 이용 제약·공식 원본 제공 범위는 출처 문서 참조",
+      "official_shape_colour_ci_bi_complete_symbol_review": "shape_verified_web_colour_review_pending",
+      "render_comparison": "shape_verified_not_pixel_colour_identity",
+      "status": "implemented_colour_gate_review_pending",
+      "complete": false,
+      "next_action": "Hermes exact-head colour review; all merges held; no further implementation yet",
       "download_recheck": {
         "utc": "2026-11-18T22:02:45.043432+00:00",
         "bytes": 8241217,
@@ -933,7 +934,8 @@
       "drawing_elements": 5,
       "recorded_logo_hash_matches": true,
       "archive_sha256": "f07b224ebc46532a1d510962559d5938ce404e75e89c56e02c150ad60ea229db",
-      "evidence": "docs/ci-first-five/extraction.json"
+      "evidence": "docs/ci-first-five/extraction.json",
+      "web_colour_evidence": "docs/ci-first-five/web-colours.json"
     },
     {
       "id": "kari",
@@ -944,8 +946,8 @@
       ],
       "catalogue_path_check": true,
       "logo_file": "assets/logos/kari.svg",
-      "logo_sha256": "a15b1e2493916143922e3e5e6ebc7278e51ee9dfd3627e9b1c9d3c5098c9a61d",
-      "recorded_logo_sha256": "a15b1e2493916143922e3e5e6ebc7278e51ee9dfd3627e9b1c9d3c5098c9a61d",
+      "logo_sha256": "b3025f44f994d0873fc34ae01ef6cd9706c4471c9aaa8c4de6ce1e29ad2e2024",
+      "recorded_logo_sha256": "b3025f44f994d0873fc34ae01ef6cd9706c4471c9aaa8c4de6ce1e29ad2e2024",
       "recorded_original_sha256": "e161e20153dd8e86668cf11cd69926b0561ba29b6cd5bb042cbda664e23a81f2",
       "source_url": "https://www.kari.re.kr//kor/contents/92",
       "download_url": "https://www.kari.re.kr/cms/attach/635c9a683e2ec6b248c4e92a21c157f5/778bdbf5db9ced7c8fd52756c00bf0cd",
@@ -953,11 +955,11 @@
       "prior_evidence_date": "2026-11-18",
       "prior_review": "심볼·시그니처·색상 지침을 확인했다. 일반 저작권정책은 무단 복제·배포 및 내용 변경을 제한하고 일부 이용에 사전 협의를 요구한다. 배지 변환·재배포에 적용할 별도 허락은 확인하지 못했다.",
       "restrictions": "심볼·시그니처·색상 지침을 확인했다. 일반 저작권정책은 무단 복제·배포 및 내용 변경을 제한하고 일부 이용에 사전 협의를 요구한다. 배지 변환·재배포에 적용할 별도 허락은 확인하지 못했다.",
-      "official_shape_colour_ci_bi_complete_symbol_review": "verified",
-      "render_comparison": "verified",
-      "status": "implemented_official_source_compared",
-      "complete": true,
-      "next_action": "Hermes exact-head 검토·병합 대기; 이용 제약·공식 원본 제공 범위는 출처 문서 참조",
+      "official_shape_colour_ci_bi_complete_symbol_review": "shape_verified_web_colour_review_pending",
+      "render_comparison": "shape_verified_not_pixel_colour_identity",
+      "status": "implemented_colour_gate_review_pending",
+      "complete": false,
+      "next_action": "Hermes exact-head colour review; all merges held; no further implementation yet",
       "download_recheck": {
         "utc": "2026-11-18T22:02:30.806958+00:00",
         "bytes": 2043094,
@@ -970,7 +972,8 @@
       "drawing_elements": 5,
       "recorded_logo_hash_matches": true,
       "archive_sha256": "7b25f8295f95abb9ad960fca45045b45e8f8d6524dd9a87ce68a2f124e8c4f7f",
-      "evidence": "docs/ci-first-five/extraction.json"
+      "evidence": "docs/ci-first-five/extraction.json",
+      "web_colour_evidence": "docs/ci-first-five/web-colours.json"
     },
     {
       "id": "kaeri",
@@ -1047,11 +1050,11 @@
       "prior_evidence_date": "2026-11-18",
       "prior_review": "원고를 정비례로 확대·축소하도록 하는 지침을 확인했다. CI 파일을 공개 다운로드할 수 있지만 이 저장소의 변환·재배포 허락은 이번 조사에서 확인하지 못했다.",
       "restrictions": "원고를 정비례로 확대·축소하도록 하는 지침을 확인했다. CI 파일을 공개 다운로드할 수 있지만 이 저장소의 변환·재배포 허락은 이번 조사에서 확인하지 못했다.",
-      "official_shape_colour_ci_bi_complete_symbol_review": "verified",
-      "render_comparison": "verified",
-      "status": "implemented_official_source_compared",
-      "complete": true,
-      "next_action": "Hermes exact-head 검토·병합 대기; 이용 제약·공식 원본 제공 범위는 출처 문서 참조",
+      "official_shape_colour_ci_bi_complete_symbol_review": "shape_verified_web_colour_review_pending",
+      "render_comparison": "shape_verified_not_pixel_colour_identity",
+      "status": "implemented_colour_gate_review_pending",
+      "complete": false,
+      "next_action": "Hermes exact-head colour review; all merges held; no further implementation yet",
       "download_recheck": {
         "utc": "2026-11-18T22:02:43.774281+00:00",
         "bytes": 7113688,
@@ -1064,7 +1067,8 @@
       "drawing_elements": 6,
       "recorded_logo_hash_matches": true,
       "archive_sha256": "ca31545da6ab651d42c528edaadfef241c86b98b10bfeaf8f723194bc12a736a",
-      "evidence": "docs/ci-first-five/extraction.json"
+      "evidence": "docs/ci-first-five/extraction.json",
+      "web_colour_evidence": "docs/ci-first-five/web-colours.json"
     },
     {
       "id": "krict",
@@ -1075,8 +1079,8 @@
       ],
       "catalogue_path_check": true,
       "logo_file": "assets/logos/krict.svg",
-      "logo_sha256": "a0a028a2bda2c62ba23c51ef6554bf16c6ef90581a73c18101ef30ca1b83dcbd",
-      "recorded_logo_sha256": "a0a028a2bda2c62ba23c51ef6554bf16c6ef90581a73c18101ef30ca1b83dcbd",
+      "logo_sha256": "831d53f403370089174f3cccaee00da0432a49acda0bfbc8ebb91e692d37e04c",
+      "recorded_logo_sha256": "831d53f403370089174f3cccaee00da0432a49acda0bfbc8ebb91e692d37e04c",
       "recorded_original_sha256": "7d0a2b81154aa467da7ccca5ace94dad83053624a2e89eac95eb18b35c42047e",
       "source_url": "https://www.krict.re.kr/kor/sub01_05_01.do",
       "download_url": "https://www.krict.re.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000003365Hg8&fileSn=0",
@@ -1084,11 +1088,11 @@
       "prior_evidence_date": "2026-11-18",
       "prior_review": "워터마크·시그니처·색상 지침과 AI 다운로드를 확인했다. Commons에서 JPG만 발견했던 결과는 공식 벡터 원본 부재를 뜻하지 않는다. 배지 변환·재배포 허락은 이번 조사에서 확인하지 못했다.",
       "restrictions": "워터마크·시그니처·색상 지침과 AI 다운로드를 확인했다. Commons에서 JPG만 발견했던 결과는 공식 벡터 원본 부재를 뜻하지 않는다. 배지 변환·재배포 허락은 이번 조사에서 확인하지 못했다.",
-      "official_shape_colour_ci_bi_complete_symbol_review": "verified",
-      "render_comparison": "verified",
-      "status": "implemented_official_source_compared",
-      "complete": true,
-      "next_action": "Hermes exact-head 검토·병합 대기; 이용 제약·공식 원본 제공 범위는 출처 문서 참조",
+      "official_shape_colour_ci_bi_complete_symbol_review": "shape_verified_web_colour_review_pending",
+      "render_comparison": "shape_verified_not_pixel_colour_identity",
+      "status": "implemented_colour_gate_review_pending",
+      "complete": false,
+      "next_action": "Hermes exact-head colour review; all merges held; no further implementation yet",
       "download_recheck": {
         "utc": "2026-11-18T22:02:33.347797+00:00",
         "bytes": 1358908,
@@ -1101,7 +1105,8 @@
       "drawing_elements": 21,
       "recorded_logo_hash_matches": true,
       "archive_sha256": "beb6b6bb5746721c297d0164f362711cf9bd769642424028d38eedcc804173ac",
-      "evidence": "docs/ci-first-five/extraction.json"
+      "evidence": "docs/ci-first-five/extraction.json",
+      "web_colour_evidence": "docs/ci-first-five/web-colours.json"
     },
     {
       "id": "kawf",

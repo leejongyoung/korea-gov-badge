@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="format-detection" content="telephone=no,email=no,address=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes">
+
+<title>
+		ETRI CI ㅣ 
+		ETRI 소개 ㅣ 
+		
+		한국전자통신연구원
+	</title>
+	<link rel="shortcut icon" href="/images/kor/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="/css/kor/common.css" />
+<link rel="stylesheet" href="/js/kor/custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
+<link rel="stylesheet" href="/css/kor/layout_2019.css?ver=20260605" media="all" />
+<link rel="stylesheet" href="/css/kor/main_2019.css?ver=20260423" />
+<link rel="stylesheet" href="/css/kor/layout_rwd2.css" />
+<link rel="stylesheet" href="/css/kor/contents.css?version=20260602" />
+<link rel="stylesheet" href="/css/kor/board.css" />
+
+<script src="/js/kor/jquery-1.9.0.min.js"></script>
+<script src="/js/kor/new_2019.js"></script>
+<script src="/js/kor/custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+<script src="/js/print/jquery.printElement.js" ></script>
+
+<script type="text/javascript">
+//<![CDATA[
+var jsImport = [
+	'/js/kor/jquery.easing.1.3.js',
+	'/js/kor/jquery.cycle.all.js',
+	'/js/kor/common.js',
+	'/js/kor/script.js',
+	'/js/kor/topmenu.js',
+	'/js/kor/jquery.touchSlider.custom.js',
+	'/js/kor/modernizr.custom.min.js',
+	'/js/kor/jquery.touchSwipe.min.js',
+	'/js/kor/html5.js',
+	'/js/kor/respond.min.js'
+];
+
+$(window).load(function(){
+	for(var i=0; i < jsImport.length; i++){	
+		$('<script type="text/javascript" src="'+jsImport[i]+'"><\/script>').appendTo($("head"));
+	}
+	
+	$('<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" />').appendTo($("head"));
+	$('<link rel="stylesheet" href="/font/SpoqaHanSans/font.css" />').appendTo($("head"));
+});
+//]]>
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	var kor_common = "/css/kor/common.css";
+	var layout = "/css/kor/layout.css";
+	var layout_rwd = "/css/kor/layout_rwd.css";	
+	var contents = "/css/kor/contents.css";
+	var kor_board = "/css/kor/board.css";
+	
+	var css = [kor_common, layout, layout_rwd, contents, kor_board];
+
+	// 프린트 기능
+	$("#print").bind("click",function(event){
+		$(".line_box").printElement({
+
+			printMode:'popup', //팝업설정 popup = 팝업창 , iframe = iframe
+			overrideElementCSS: css, //css경로
+			pageTitle:'Electronics and Telecommunications Research Institute', //인쇄 타이틀
+			printBodyOptions:{
+				//styleToAdd: 'width:'+$("#contents").width() //style attributes to add to the body of print document
+				styleToAdd: 'width:100%; background:#fff'
+				
+			},
+			leaveOpen:false //false = 인쇄후 창닫기
+		});
+		event.preventDefault();
+	});
+});
+	
+//]]>
+</script>
+
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+		});
+	</script>
+</head>
+<body id="sub" class="user">
+	<dl class="skip"> 
+        <dt><strong>바로가기 메뉴</strong></dt> 
+        <dd><a href="#contents">본문 바로가기</a></dd> 
+        <dd><a href="#gnb">주요메뉴 바로가기</a></dd> 
+	</dl>
+
+	<div id="wrap">
+		<div class="js_mobile_check"></div>
+		<div id="header">
+	<h1 class="logo"><a href="/kor/main/main.etri"><img src="/images/kor/layout_2019/logo.svg" alt="ETRI 한국전자통신연구원" /></a>
+	
+	<img src="/images/kor/layout_2019/logo_02.svg" alt="50주년" class="logo_img">
+	</h1>
+	<a href="#" class="search_toggle">검색열기</a>
+	<div class="searchs">
+		<form name="search" action="https://www.etri.re.kr/mecsearch/search.do" method="post" target="_blank" rel="noopener noreferrer" onsubmit="return searchFunc()">
+			<div class="form">
+				<label for="search_input" class="hidden">검색어</label>
+				<input type="text" name="kw" id="search_input" placeholder="검색어 입력" />
+			</div>
+			<input type="submit" class="btns" value="검색" title="검색결과가 새창으로 열립니다." />
+		</form>
+	</div>
+
+
+	<div id="gnb">
+		<ul>
+			<li>
+				<a href="/korcon/sub1/sub1_0101.etri">정보공개</a>
+				<ul>
+					<li>
+						<a href="/korcon/sub1/sub1_0101.etri">정보공개제도안내</a>
+						<ul>
+							<li><a href="/korcon/sub1/sub1_0101.etri">정보공개제도란</a></li>
+							<li><a href="https://www.open.go.kr/pa/info/openInst/formula.do" target="_blank" rel="noopener noreferrer" title="새창열림">정보공개서식</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI28">정보공개 업무편람</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="/kor/sub1/sub1_04.etri">사전정보공개</a>
+					</li>
+					<li>
+						<a href="/kor/bbs/list.etri?b_board_id=ETRI23">정보목록</a>
+					</li>
+					<li>
+						<a href="/korcon/sub1/sub1_06.etri">정보공개청구</a>
+					</li>
+
+					<!-- 숨김메뉴 -->
+					<li class="hide_menu">
+						<button class="more" title="숨김메뉴열기">숨김메뉴 열기</button>
+						<ul>
+							<li><a href="https://onest.re.kr/mngg/info/portalMngInfoList.do#" target="_blank" rel="noopener noreferrer" title="새창열림">경영공시</a></li>
+							<li><a href="/korcon/sub1/sub1_07.etri">공공데이터개방</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI33">사업실명제</a></li>		
+						</ul>
+					</li>
+					<!-- //숨김메뉴 -->
+					
+				</ul>
+			</li>
+			<li>
+				<a href="/kor/bbs/list.etri?b_board_id=ETRI01">ETRI 소식</a>
+				<ul>
+					<li><a href="/kor/bbs/list.etri?b_board_id=ETRI01">공지사항</a></li>
+					
+					<li><a href="/kor/bbs/list.etri?b_board_id=ETRI06">보도자료</a></li>
+					<li><a href="/korcon/sub2/sub2_04.etri" >ETRI SNS</a></li>
+					<li><a href="/kor/bbs/list.etri?b_board_id=ETRI39">채용공고</a></li>
+					
+
+					</ul>
+			</li>
+			<li>
+				<a href="/korcon/sub3/sub3_0401.etri">연구원 홍보</a>
+				<ul>
+					<li><a href="https://www.etri.re.kr/50th/index.html" target="_blank" rel="noopener noreferrer" title="새창열림">50년사</a></li>
+					<li>
+						<a href="/korcon/sub3/sub3_0401.etri">간행물</a>
+						<ul>
+							<li><a href="/korcon/sub3/sub3_0401.etri">Easy IT 시리즈</a></li>
+							<li><a href="/korcon/sub3/sub3_0404.etri">ETRI Brochure</a></li>
+							<li><a href="/korcon/sub3/sub3_0405.etri">ETRI Technology Report</a></li>
+							<li><a href="/korcon/sub3/sub3_0407.etri">ETRI 백서</a></li>
+							<li><a href="/korcon/sub3/sub3_0406.etri">ETRI 지속가능경영보고서</a></li>
+							<li><a href="/webzine/" target="_blank" rel="noopener noreferrer" title="새창이동">ETRI Webzine</a></li>
+							<li><a href="http://onlinelibrary.wiley.com/journal/10.4218/(ISSN)2233-7326" target="_blank" rel="noopener noreferrer" title="새창이동">ETRI Journal</a></li>
+							<li><a href="https://ettrends.etri.re.kr" target="_blank" rel="noopener noreferrer" title="새창이동">전자통신동향분석</a></li>
+							<li><a href="https://ksp.etri.re.kr/ksp/plan-report/search?size=20&sort=pubDate&direction=DESC&dataDivCd=01&keywords=" target="_blank" rel="noopener noreferrer" title="새창이동">ETRI Insight</a></li>
+							<li><a href="/korcon/sub3/sub3_0403.etri">ETRI 기술예고</a></li>
+							<li><a href="/korcon/sub3/sub3_0402.etri">좋은e웃(사보)</a></li>
+						</ul>
+					</li>
+
+
+
+					<li>
+						<a href="/korcon/sub3/sub3_1205.etri">정보통신 체험관</a>
+						<ul>
+							<li><a href="/korcon/sub3/sub3_1205.etri">관람안내</a></li>
+							<li><a href="/kor/sub3/sub3_1201.etri">관람신청</a></li>
+							<li><a href="/korcon/sub3/sub3_1207.etri">비대면 체험관</a></li>
+							</ul>
+					</li>
+					<li><a href="/kor/bbs/list.etri?b_board_id=ETRI12"> 홍보 동영상 </a></li>
+
+				</ul>
+			</li>
+			<li>
+				<a href="/korcon/sub4/sub4_0301.etri">클린 ETRI<span>(윤리경영)</span></a>
+				<ul>
+					<li><a href="/korcon/sub4/sub4_0301.etri">윤리헌장</a></li>
+					
+					<li>
+						<a href="/korcon/sub4/sub4_0901.etri">인권경영</a>
+						<ul>
+							<li><a href="/korcon/sub4/sub4_0901.etri">인권경영헌장</a></li>
+							<li><a href="/korcon/sub4/sub4_0902.etri">인권경영실천규정</a></li>
+						</ul>
+					</li>
+					
+					<li>
+						<a href="/korcon/sub4/sub4_0305.etri">청렴·반부패경영</a>
+						<ul>
+							<li><a href="/korcon/sub4/sub4_0305.etri">올인원 윤리경영</a></li>
+							<li><a href="/korcon/sub4/sub4_0302.etri">윤리경영실천규정</a></li>
+							<li><a href="/korcon/sub4/sub4_0303.etri">임직원행동강령</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI19">반부패청렴자료방</a></li>
+						</ul>
+					</li>
+				
+					<li>
+						<a href="/korcon/sub4/sub4_0501.etri">e-신문고(ETRI 신고센터)</a>
+						<ul>
+							<li><a href="/korcon/sub4/sub4_0501.etri">운영절차</a></li>
+							<li><a href="https://csc.etri.re.kr/csc/voc/reportCenterRegister">제보</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI27">예산낭비신고사례</a></li>
+						</ul>
+					</li>
+
+					
+					<!-- 숨김메뉴 -->
+					<li class="hide_menu">
+						<button class="more" title="숨김메뉴열기">숨김메뉴 열기</button>
+						<ul>
+							<li>
+								<a href="/korcon/sub4/sub4_0601.etri">공익신고</a>
+								<ul>
+									<li><a href="/korcon/sub4/sub4_0601.etri">공익신고접수</a></li>
+									<li><a href="/korcon/sub4/sub4_0602.etri">공익신고자 보호법</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="/korcon/sub4/sub4_0701.etri">청렴포털 신고</a>
+								<ul>
+									<li><a href="/korcon/sub4/sub4_0701.etri">운영절차</a></li>
+									<li><a href="https://ncp.clean.go.kr/ancrp/selectMapInsttSumryList.do?insttCd=B551963&acsStmSumryNtarNo=1&pageNum=1">보고/신고</a></li>
+								</ul>
+							</li>
+
+							<li><a href="https://csc.etri.re.kr/home/myVoc.do?method=executeGetMyVocList" target="_blank" rel="noopener noreferrer" title="새창열림">고객의소리</a></li>
+
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI40">수의계약 현황</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI41">부패징계 현황</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI32">감사결과공개</a></li>
+						</ul>
+					</li>
+					<!-- //숨김메뉴 -->
+
+					</ul>
+			</li>
+			<li>
+				<a href="/korcon/sub5/sub5_01.etri">대표연구성과</a>
+				<ul>
+					<li>
+						<a href="/korcon/sub5/sub5_07.etri">ETRI 50주년 산업 파급효과</a>
+					</li>
+					<li>
+						<a href="/korcon/sub5/sub5_01.etri">ETRI 대표성과</a>
+					</li>
+					<li>
+						<a href="/korcon/sub5/sub5_0414.etri">연도별 우수성과</a>
+					</li>
+					<li>
+						<a href="/korcon/sub5/sub5_02.etri">R&amp;D 파급효과</a>
+					</li>
+
+					<!-- 숨김메뉴 -->
+					<li class="hide_menu">
+						<button class="more" title="숨김메뉴열기">숨김메뉴 열기</button>
+						<ul>
+							<li>
+								<a href="http://www.etri.re.kr/ksp" target="_blank" rel="noopener noreferrer" title="새창이동">지식공유플랫폼</a>
+							</li>
+	
+						</ul>
+					</li>
+					<!-- //숨김메뉴 -->
+
+
+				</ul>
+			</li>
+
+			<li class="menu-wide">
+				<a href="/kor/sub6/sub6_0101.etri?departCode=168">연구&middot;행정부서</a>
+				<ul>
+					<li>
+						<a href="/kor/sub6/sub6_0101.etri?departCode=168">감사부</a>
+						<ul>
+							<li><a href="/kor/sub6/sub6_0101.etri?departCode=168">감사부 소개</a></li>
+							<li><a href="/kor/sub6/sub6_01020101.etri?departCode=168">부서소개</a></li>
+						
+						</ul>
+					</li>
+					
+					<li>
+						<a href="/kor/sub6/sub6_0101.etri?departCode=10">인공지능연구소</a>
+						<ul>
+							<li><a href="/kor/sub6/sub6_0101.etri?departCode=10">연구소소개</a></li>
+							<li><a href="/kor/sub6/sub6_01020101.etri?departCode=10">부서소개</a></li>
+						</ul>
+					</li>
+
+
+					<li>
+						<a href="/kor/sub6/sub6_0101.etri?departCode=5">피지컬AI연구소</a>
+						<ul>
+							<li><a href="/kor/sub6/sub6_0101.etri?departCode=5">연구소소개</a></li>
+							<li><a href="/kor/sub6/sub6_01020101.etri?departCode=5">부서소개</a></li>
+						
+						</ul>
+					</li>
+
+					<li>
+						<a href="/kor/sub6/sub6_0101.etri?departCode=7">입체통신연구소</a>
+						<ul>
+							<li><a href="/kor/sub6/sub6_0101.etri?departCode=7">연구소소개</a></li>
+							<li><a href="/kor/sub6/sub6_01020101.etri?departCode=7">부서부소개</a></li>
+							</ul>
+					</li>
+
+
+					<li class="hide_menu">
+						<button class="more" title="클릭시 숨김메뉴 노출" onclick="hide_menu(this)">+</button>
+						<ul>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=170">공간미디어연구소</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=170">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=170">부서소개</a></li>
+								
+								</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=9">ADX융합연구소</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=9">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=9">부서소개</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=8">ICT전략연구소</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=8">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=8">부서소개</a></li>
+								</ul>
+							</li>
+
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=187">인공지능안전연구소</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=187">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=187">부서소개</a></li>
+									</ul>
+							</li>
+
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=197">우주항공반도체전략연구단</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=197">연구소소개</a></li>
+									<!-- <li><a href="/kor/sub6/sub6_01020101.etri?departCode=197">부서소개</a></li> -->
+									</ul>
+							</li>
+
+
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=69">대경권연구본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=69">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=69">연구실소개</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=70">호남권연구본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=70">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=70">연구실소개</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=71">수도권연구본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=71">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=71">부서소개</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=128">기획본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=128">본부소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=128">부서소개</a></li>
+								</ul>
+							</li>
+		
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=3">사업화본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=3">부문소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=3">부서소개</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=2">행정본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=2">본부소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=2">부서소개</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=1">대외협력부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=1">본부소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=1">부서소개</a></li>
+								</ul>
+							</li>
+								</ul>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<!-- <a href="/korcon/sub7/sub7_0101.etri">ETRI 소개</a> -->
+				<a href="/korcon/sub7/sub7_0101.etri">ETRI 소개</a>
+				<ul>
+					<li><a href="/korcon/sub7/sub7_0101.etri">인사말</a></li>
+					<li><a href="/korcon/sub7/sub7_02.etri">연구원소개</a></li>
+					<li><a href="/korcon/sub7/sub7_03.etri">연혁</a></li>
+					<li><a href="/korcon/sub7/sub7_07.etri">조직도</a></li>
+
+
+					<!-- 숨김메뉴 -->
+					<li class="hide_menu">
+						<button class="more" title="숨김메뉴열기">숨김메뉴 열기</button>
+						<ul>
+							<li>
+								<a href="/korcon/sub7/sub7_04.etri">기타 공개정보</a>
+								</li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI21">원규 제·개정 예고</a></li>
+								
+							<li>
+								<a href="/korcon/sub7/sub7_12.etri">연구원 고객헌장</a>
+							</li>
+							<li>
+								<a href="/korcon/sub7/sub7_11.etri">ETRI CI</a>
+							</li>
+							<li>
+								<a href="/korcon/sub7/sub7_0801.etri">주요업무연락처</a>
+								<ul>
+									<li><a href="/korcon/sub7/sub7_0801.etri">관련부서 담당자</a></li>
+									<li><a href="/korcon/sub7/sub7_0802.etri">각 직할부서 연구지원실장</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/korcon/sub7/sub7_0901.etri">찾아오시는길</a>
+								<ul>
+									<li><a href="/korcon/sub7/sub7_0901.etri">대전본원</a></li>
+									<li><a href="/korcon/sub7/sub7_0902.etri">서울사무소</a></li>
+									<li><a href="/korcon/sub7/sub7_0903.etri">수도권연구본부</a>
+									</li>
+									<li><a href="/korcon/sub7/sub7_0904.etri">호남권연구본부</a></li>
+									<li><a href="/korcon/sub7/sub7_0905.etri">대경권연구본부</a></li>
+									<li><a href="/korcon/sub7/sub7_0906.etri">북경연구센터</a></li>
+									<li><a href="/korcon/sub7/sub7_0907.etri">미주기술확산센터</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<!-- //숨김메뉴 -->
+
+
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+
+
+
+
+	<div class="toputil">
+		<a href="/eng/main/main.etri" target="_blank" rel="noopener noreferrer" title="새창이동" class="btn_eng">En<span>glish</span></a>
+		<a href="/korcon/etc/etc_05.etri" class="btn_sitemap">사이트맵</a>
+		<a href="#" class="btn_googles" target="_blank" rel="noopener noreferrer" title="새창이동"
+			onclick="window.open('https://translate.google.com/?rlz=1C1OKWM_koKR775KR775&amp;um=1&amp;ie=UTF-8&amp;hl=en&amp;client=tw-ob#view=home&amp;op=translate&amp;sl=ko&amp;tl=en','new','width=640,height=480,top=10,left=10,resizable=no, scrollbars=yes, location=no, menubar=no, toolbar=no, status=no'); return false"><span>Translate</span></a>
+		<a href="#" class="btn_allmenu"><span>전체메뉴열기</span></a>
+		<a href="/korcon/etc/etc_05.etri" class="btn_allmenu_desktop"><span>사이트맵</span></a>
+	</div>
+
+	<ul class="sns_link">
+		<li class="yt"><a href="https://www.youtube.com/user/etri9401/videos" target="_blank" rel="noopener noreferrer" title="새창이동">유튜브</a></li>
+		<li class="bl"><a href="https://blog.naver.com/etripr" target="_blank" rel="noopener noreferrer" title="새창이동">블로그</a></li>
+		<li class="fb"><a href="https://www.facebook.com/EtriNewsmaker/" target="_blank" rel="noopener noreferrer" title="새창이동">페이스북</a></li>
+
+	</ul>
+
+</div><div id="visual" class="bg_07">
+			<div class="lay">
+				<strong>ETRI소개</strong>
+				<span>상상을 현실로, 진화하는 ICT세상, 고객과 함께 ICT미래를 열어가겠습니다.</span>
+			</div>
+		</div>
+		
+		<div id="container">
+			<div class="al_box line_bg">
+				<div id="lnb">
+		<h2>ETRI 소개</h2>
+			<nav>
+				<ul id="lm">
+					<li><a href="/korcon/sub7/sub7_0101.etri" >인사말</a>
+						</li> 
+
+
+					<li><a href="/korcon/sub7/sub7_02.etri" >연구원소개</a></li>
+					<li><a href="/korcon/sub7/sub7_03.etri" >연혁</a>
+						 <ul style="display:none;">
+                            <li><a href="/korcon/sub7/sub7_15.etri" >45년사</a></li>
+                            <li><a href="/korcon/sub7/sub7_10.etri" >40년사</a></li>
+                            <li><a href="/korcon/sub7/sub7_13.etri" >35년사</a></li>
+                            <li><a href="/korcon/sub7/sub7_14.etri" >30년사</a></li>
+                        </ul>					
+					</li>
+					<li><a href="/korcon/sub7/sub7_07.etri" >조직도</a></li>
+									
+                    <li><a href="/korcon/sub7/sub7_04.etri" >기타 공개정보</a>
+											</li>
+                  
+										<li><a href="/kor/bbs/list.etri?b_board_id=ETRI21" >원규 제·개정 예고</a></li>
+										<li><a href="/korcon/sub7/sub7_12.etri" >연구원 고객헌장</a></li>				
+					<li><a href="/korcon/sub7/sub7_11.etri" class="ov">ETRI CI</a></li>	
+					
+					<li><a href="/korcon/sub7/sub7_0801.etri" >주요업무연락처</a>
+						<ul style="display:none;">
+							<li><a href="/korcon/sub7/sub7_0801.etri" >관련부서 담당자</a></li>
+							<li><a href="/korcon/sub7/sub7_0802.etri" >각 직할부서 연구지원실장</a></li>
+							</ul>	
+					</li>
+					<li><a href="/korcon/sub7/sub7_0901.etri" >찾아오시는길</a>
+						<ul style="display:none;">
+							<li><a href="/korcon/sub7/sub7_0901.etri" >대전본원</a></li>
+							<li><a href="/korcon/sub7/sub7_0902.etri" >서울사무소</a></li>
+							<li><a href="/korcon/sub7/sub7_0903.etri" >수도권연구본부</a></li>
+							<li><a href="/korcon/sub7/sub7_0904.etri" >호남권연구본부</a></li>
+							<li><a href="/korcon/sub7/sub7_0905.etri" >대경권연구본부</a></li>
+							<li><a href="/korcon/sub7/sub7_0906.etri" >아시아연구협력센터</a></li>
+							<li><a href="/korcon/sub7/sub7_0907.etri" >미주연구협력센터</a></li>
+						</ul>	
+					</li>
+				</ul>				
+			</nav>
+		</div>  
+		
+<div id="contents">
+					<div class="line_box">
+						<script type="text/javascript">		
+		// 프린트 버튼을 클릭한 경우
+		
+		
+		//트위터
+		function twitter(url,msg) {
+			msg = '';
+			var href = "http://twitter.com/home?status=" + encodeURIComponent(msg) + " " + encodeURIComponent(url);
+			var a = window.open(href, 'twitter', '');
+			if ( a ) {
+				a.focus();
+			}			
+			return false;
+		}
+		
+		//페이스북
+		function facebook(url,msg) {
+			msg = '';
+			var href = "http://www.facebook.com/sharer.php?u=" + encodeURIComponent(url) + "&t=" + encodeURIComponent(msg);
+			var a = window.open(href, 'facebook', '');
+			if ( a ) {
+				a.focus();
+			}
+			
+			return false;
+		}		
+	</script>	
+
+	<div class="location">
+		<ul>
+			<li class="home"><span>홈</span></li>
+			<li><a href="/korcon/sub7/sub7_0101.etri">ETRI 소개</a></li>
+			<li><a href="/korcon/sub7/sub7_11.etri"><strong>ETRI CI</strong></a></li>
+			</ul>
+		<dl>
+			<dt>SNS 및 프린트</dt>
+			<dd class="fb"><a href="#facebook" onclick="return facebook(location.href);" title="새창연결"><span>facebook</span></a></dd>
+			<dd class="pr"><a href="#print" id="print" title="프린트 새창"><span>프린트</span></a></dd>
+		</dl>		
+	</div>
+	
+	<h3 class="cont_title">
+		ETRI CI</h3>
+	
+	<div class="content">
+
+		<!-- content :s -->
+		<h4 class="first">워드마크</h4>
+		<div class="ci01"><img src="/images/kor/sub5/ci_img01.png" alt="ETRI 워드마크" /></div>
+		<p>한국전자통신연구원의 워드마크(Word Mark)는 21세기 IT R&amp;D Global Leader로서 사명을 다하는 늘 깨어있는 연구기관임을 상징하고, 국제적 역량의 극대화를 위한 적극적 의지를 담고있다.</p>
+		<p>디자인 의도는 한국전자통신연구원의 대내외 커뮤니케이션에서 다양한 활용성과, 정확한 전달력을 기본으로 신뢰있는 연구기관임을 고지시키기 위하여, 그에 맞는 안정적인 서체와 BLUE color를 사용하여 전자통신의 이미지를 간접적으로 표현하였으며, RED color로 "<strong class="color_org">R</strong>"을 강조함으로써 늘 깨어있는 연구기관과 연구원의 열정적인 의지를 상징하도록 표현하였다.</p>
+		<div class="clearfix"></div>
+		<h4>로고타입</h4>
+		<div class="ci01"><img src="/images/kor/sub5/ci_img02.png" alt="ETRI 로고타입" /></div>
+		<p>로고타입은 ETRI의 공식적인 사명을 표기하기 위해 사용합니다.<br />
+		로고타입은 워드마크의 조합성을 고려하여 디자인 되었으며 임의로 변경할 수 없습니다.</p>		
+		<div class="clearfix"></div>
+		<h4>시그니춰┃세로 및 가로 타입</h4>
+		<p>시그니춰 조합한 워드마크와 한글 또는 영문 로고타입 등과 함께 일정한 규칙들에 의해 조합된 것을 말하며, 요소들을 임의로 다르게 조합하여 사용할 수 있습니다.</p>
+		<div class="ci02">
+			<ul>
+				<li><strong>세로타입</strong>
+					<ul>
+						<li><img src="/images/kor/sub5/signature01.png" alt="시그니춰 세로타입1" /></li>
+						<li><img src="/images/kor/sub5/signature02.png" alt="시그니춰 세로타입2" /></li>
+						<li><img src="/images/kor/sub5/signature03.png" alt="시그니춰 세로타입3" /></li>
+						<li><img src="/images/kor/sub5/signature04.png" alt="시그니춰 세로타입4" /></li>
+					</ul>
+				</li>
+				<li><strong>가로타입</strong>
+					<ul>
+						<li><img src="/images/kor/sub5/signature05.png" alt="시그니춰 가로타입1" class="hor" /></li>
+						<li><img src="/images/kor/sub5/signature06.png" alt="시그니춰 가로타입2" class="hor" /></li>
+						<li><img src="/images/kor/sub5/signature07.png" alt="시그니춰 가로타입3" class="hor" /></li>
+						<li><img src="/images/kor/sub5/signature08.png" alt="시그니춰 가로타입4" class="hor" /></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<h4>색상</h4>
+		<ul class="ci03">
+			<li><strong>인쇄 색상표현</strong>
+				<img src="/images/kor/sub5/ci_color01.jpg" alt="Blue : C100% M60% Y10% / Orange : M80% Y100%" />
+			</li>
+			<li><strong>웹 색상표현</strong>
+				<img src="/images/kor/sub5/ci_color02.jpg" alt="Blue : G102 B165 / Orange : R241 G90 B34" />
+			</li>
+		</ul>
+		<h4>다운로드</h4>
+		<div class="btn">
+			<span><a href="/file/predicalFile.etri?filename=ci_eps.eps" class="pdf_btn" title="EPS파일(인쇄용) 다운로드">EPS파일(인쇄용)</a></span>
+			<span><a href="/file/predicalFile.etri?filename=ci_ai.zip" class="pdf_btn" title="AI파일(인쇄용) 다운로드">AI파일(인쇄용)</a></span>
+			<span><a href="/file/predicalFile.etri?filename=ci_jpg.zip" class="pdf_btn" title="JPG파일(인쇄용) 다운로드">JPG파일(인쇄용)</a></span>
+			<span><a href="/file/predicalFile.etri?filename=ci_wmf.zip" class="pdf_btn" title="WMF파일(인쇄용) 다운로드">WMF파일(인쇄용)</a></span>
+			<span><a href="/file/predicalFile.etri?filename=ci_pdf.zip" class="pdf_btn" title="PDF파일(ZIP) 다운로드">PDF파일(ZIP)</a></span>
+			<span><a href="/file/predicalFile.etri?filename=ci_gif.zip" class="pdf_btn" title="GIF파일(ZIP) 다운로드">GIF파일(ZIP)</a></span>
+			<span><a href="/file/predicalFile.etri?filename=ci_png.zip" class="pdf_btn" title="PNG파일(ZIP) 다운로드">PNG파일(ZIP)</a></span>
+		</div>		
+		<BR><BR><BR><BR><BR>
+
+
+ 
+<h3 class="cont_title" style="padding:0px;">ETRI NEW 캐릭터</h3> 
+ <div class="newci">
+
+    <!--에뚜리 -->
+    <div class="newcibox">
+      <strong class="title">에뚜리<span>Etturi</span></strong>
+      <div class="img-wrap">
+      <img src="/images/kor/sub5/img_Etturi.png" alt="에뚜리 캐릭터" />
+      </div>
+      <p>에뚜리는 밤낮없이 연구에 매진하는 ETRI 연구원의 땀방울에서 탄생한 캐릭터로, 에뚜리 패밀리의 중심이자 상징적인 존재입니다. 평소에는 여유롭고 온화한 성격을 지니고 있으나, 연구가 시작되면 누구보다 진지하고 책임감 있게 임하며 연구에 대한 깊은 몰입과 헌신적인 태도를 보여줍니다.
+</p>
+    </div>
+
+    <!--에니 -->
+    <div class="newcibox">
+      <strong class="title">에니<span>Eny</span></strong>
+      <div class="img-wrap">
+      <img src="/images/kor/sub5/img_Eny.png" alt="에니 캐릭터" /></div>
+      <p>에니는 밤낮없이 연구에 헌신하는 ETRI 연구원의 열정에서 태어난 불의 형상을 닮은 캐릭터입니다. 이름은 E와 Shine을 결합해, 에니라고 만들어 보았고 연구를 빛나게 하는 에너지를 상징합니다. 꼼꼼하고 단단한 성격의 에니는 에뚜리 패밀리의 핵심 조력자로서 연구개발 전 과정이 빈틈없이 완성되도록 지원합니다. 
+</p>
+    </div>
+
+    <!--에띠 -->
+    <div class="newcibox">
+      <strong class="title">에띠<span>Etty</span></strong>
+      <div class="img-wrap">
+      <img src="/images/kor/sub5/img_Etty.png" alt="에띠 캐릭터" /></div>
+      <p>에띠는 'E'와 가능성을 의미하는 'Possibility'를 결합한 이름으로, ETRI가 지닌 무한한 성장 가능성과 미래 가치를 상징하는 캐릭터입니다. 아직 어린 존재로 직접적인 연구 활동에는 참여하지 않지만, 연구원들의 모습을 가까이에서 지켜보며 배우고 성장해 나가는 과정 자체가 미래 연구 인재 모습을 은유적으로 표현합니다.
+
+</p>
+    </div>
+
+    <!--엥뭉 -->
+    <div class="newcibox">
+      <strong class="title">엥멍<span>Engmung</span></strong>
+       <div class="img-wrap">
+      <img src="/images/kor/sub5/Engmung.png" alt="엥멍 캐릭터" /></div>
+      <p>엥멍은 에뚜리와 에니의 연구 성과로 탄생한 최첨단 AI로봇으로, 연구원들의 연구 활동을 보조하는 역할을 수행합니다. 로봇 애완견 콘셉트를 적용하여 기술적 주제를 친근하게 전달하는 동시에, 캐릭터 세계관에 재미와 활력을 더하는 존재입니다.</p>
+    </div>
+
+  </div>
+
+
+  <h4>다운로드</h4>
+  <div class="btn">
+			<span><a href="/file/predicalFile.etri?filename=01_26_ETRI_character_에뚜리_기본형.png" class="pdf_btn" title="에뚜리 PNG">에뚜리 PNG</a></span>
+			<span><a href="/file/predicalFile.etri?filename=02_26_ETRI_character_에니_기본형.png" class="pdf_btn" title="에니 PNG">에니 PNG</a></span>
+			<span><a href="/file/predicalFile.etri?filename=03_26_ETRI_character_에띠_기본형.png" class="pdf_btn" title="에띠 PNG">에띠 PNG</a></span>
+			<span><a href="/file/predicalFile.etri?filename=04_26_ETRI_character_엥멍_기본형.png" class="pdf_btn" title="엥멍 PNG">엥멍 PNG</a></span>
+		</div>
+
+  <div class="btn mt5">
+			<span><a href="/file/predicalFile.etri?filename=JPG-20260224T014703Z-1-001.zip" class="pdf_btn" title="">JPG 파일(ZIP)</a></span>
+			<span><a href="/file/predicalFile.etri?filename=PNG-20260224T014704Z-1-001.zip" class="pdf_btn" title="">PNG 파일(ZIP)</a></span>
+			<span><a href="/file/predicalFile.etri?filename=AI-20260224T014701Z-1-001.zip" class="pdf_btn" title="">AI 파일(ZIP)</a></span>
+	</div>
+	<!--	<ul class="ci02" style="padding-top:45px;">
+			<li><strong>캐릭터(에뚜리 응용)</strong>
+				<img src="/images/kor/sub5/charinfo.png" alt="캐릭터(애뚜리 응용)" />
+			</li>
+		</ul>
+		<h4>다운로드</h4>
+		<div class="btn">
+			<span><a href="/file/predicalFile.etri?filename=BI_INFO(AI).zip" class="pdf_btn" title="캐릭터(에뚜리 응용)">캐릭터 - 에뚜리 응용 (AI)</a></span>
+			<span><a href="/file/predicalFile.etri?filename=BI_INFO(PNG).zip" class="pdf_btn" title="캐릭터(에뚜리 응용)">캐릭터 - 에뚜리 응용 (PNG)</a></span>
+		</div> -->
+		
+		<!-- content :e -->
+		<!-- <BR><BR><BR><BR><BR>
+		<h3 class="cont_title" style="padding:0px;">41주년 엠블럼</h3>
+		<ul class="ci03" style="padding-top:45px;">
+			<li><strong>41주년 엠블럼</strong>
+				<img src="/images/kor/sub5/41_emblem.jpg" alt="41주년 엠블럼" />
+			</li>
+		</ul>
+		<h4>다운로드</h4>
+		<div class="btn">
+			<span><a href="/file/predicalFile.etri?filename=41_emblem.ai" class="pdf_btn" title="41주년 엠블럼(AI)">41주년 엠블럼(AI)</a></span>
+			<span><a href="/file/predicalFile.etri?filename=41_emblem.jpg" class="pdf_btn" title="41주년 엠블럼(jpg)">41주년 엠블럼(jpg)</a></span>
+		</div>
+		 -->
+	</div>
+</div>
+					<a href="#top" class="top_btn">TOP</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+
+	<div class="layout">
+		<ul class="site_link">
+			<li><a href="/korcon/sub4/sub4_0301.etri">클린ETRI</a></li>
+			<li><a href="/korcon/sub4/sub4_0501.etri">e-신문고</a></li>
+			<!-- <li><a href="/korcon/sub4/sub4_0401.etri">e-클린신고센터</a></li> -->
+			<li><a href="/korcon/sub4/sub4_0601.etri">공익신고</a></li>
+		</ul>
+		<ul class="infor_link">
+			<li><a href="/korcon/sub7/sub7_0801.etri">주요업무연락처</a></li>
+			<li><a href="/korcon/sub7/sub7_0901.etri">찾아오시는길</a></li>
+		</ul>
+		<ul class="footer_link">
+			<li><a href="/kor/personal_data/content.etri">개인정보처리방침</a></li>
+			<li><a href="/kor/personal_data/short_content.etri">이해하기 쉬운 개인정보처리방침</a></li>
+            <li><a href="/korcon/etc/etc_07.etri">저작권정책</a></li>
+			<li><a href="/korcon/etc/etc_03.etri">영상정보처리기기 운영ㆍ관리 방침</a></li>
+			<li><a href="http://210.104.33.10/kor/main.html"  >부설연구소공고</a></li>
+		</ul>
+		<address>(34129) 대전광역시 유성구 가정로 218, TEL <a href="tel:1466-38">1466-38</a></address>
+		<p class="copy">Electronics and Telecommunications Research Institute. <span>All rights reserved.</span></p>
+		<p>본 홈페이지에 게시된 이메일 주소가 자동수집되는 것을 거부하며, 이를 위반시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</p>
+		<div class="right_box">
+			
+			<p class="wa_mark"><a href="http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110" target="_blank" rel="noopener noreferrer" title="새창이동"><img src="/images/kor/layout_2019/wa_mark.png" alt="과학기술정보통신부  WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" /></a></p>
+			<p class="open_mark"><a href="http://www.kogl.or.kr/index.do" target="_blank" rel="noopener noreferrer" title="새창이동"><img src="/images/kor/layout_2019/open_mark.png" alt="OPEN 공공누리 공공제작물 자유이용허락" /></a></p>				
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">	
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-25467888-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();	
+</script>
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-25467888-3" integrity="sha384-FZ687Ur3ILkshR0cYxSl2QcI2dDNkKrN/iv3B40c5daTnF3TR0pgNZmueHGls73/" crossorigin="anonymous"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8EK8DFC7QD"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-8EK8DFC7QD');
+</script>
+
+
+
+
+</div>
+	
+
+</body>
+</html>

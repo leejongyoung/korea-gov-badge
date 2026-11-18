@@ -26,4 +26,4 @@
 
 ## 첫 구현 묶음
 
-KIST·ETRI·KARI·KRISS·KRICT 5곳을 공식 원본에서 변환·등록했다. [원본/SVG 대조 및 해시](ci-first-five/extraction.json). KIST는 제공 AI의 한영 로고타입 전체이며 별도 심벌을 새로 만들지 않았다. 5곳 complete는 이 공식 제공 원본 대조 범위의 완료이며 전체 45곳 완료가 아니다. 기존 16곳 재감사·24곳 미구현이 남아 있다. 권리 허락을 뜻하지 않으며 exact-head 검토 전 병합하지 않는다.
+KIST·ETRI·KARI·KRISS·KRICT 5곳을 공식 원본에서 변환·등록했다. [원본/SVG 대조 및 해시](ci-first-five/extraction.json). KIST는 제공 AI의 한영 로고타입 전체이며 별도 심벌을 새로 만들지 않았다. 5곳 complete는 색상 게이트 재검토를 위해 false로 되돌렸다. 도형 대조와 웹 색상 표 대조는 별개이며 픽셀 일치를 주장하지 않는다. [웹 색상 근거와 미확인 항목](ci-first-five/README.md)을 참조한다. 기존 16곳 재감사·24곳 미구현이 남아 있다. 권리 허락을 뜻하지 않으며 exact-head 검토 전 병합하지 않는다.

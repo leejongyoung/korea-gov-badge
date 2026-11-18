@@ -11,8 +11,9 @@
     ],
     "path_count": 53,
     "svg_sha256": "af24fea035b06dc02a25e212a8898434f7ce01b1c781ddf3579f3a5491304538",
-    "conversion": "Mechanical transcription of PDF fill paths and RGB values using MuPDF; KIST PostScript converted by Ghostscript. No tracing/redrawing. KARI only complete blue symbol paths, excluding guide grid.",
-    "variant": "official bilingual logotype (download contains no separate symbol)"
+    "conversion": "Mechanical official vector path extraction; renderer RGB is not certified web RGB. ETRI/KRICT explicit image RGB and KARI explicit web HEX applied without geometry changes. KIST/KRISS renderer colours retained, numeric official web RGB unverified.",
+    "variant": "official bilingual logotype (download contains no separate symbol)",
+    "web_colour_evidence": "docs/ci-first-five/web-colours.json"
   },
   {
     "id": "etri",
@@ -25,9 +26,10 @@
       429.6601867675781
     ],
     "path_count": 5,
-    "svg_sha256": "9318d8a575e4ad057f9cda2c13408ae20c7feb4488014712ec2efa72048973a8",
-    "conversion": "Mechanical transcription of PDF fill paths and RGB values using MuPDF; KIST PostScript converted by Ghostscript. No tracing/redrawing. KARI only complete blue symbol paths, excluding guide grid.",
-    "variant": "official complete symbol / wordmark"
+    "svg_sha256": "51265d5a973e1456e10e3b9e8780bf334c9d66ee5f77eabc0ff32bd23a5e5459",
+    "conversion": "Mechanical official vector path extraction; renderer RGB is not certified web RGB. ETRI/KRICT explicit image RGB and KARI explicit web HEX applied without geometry changes. KIST/KRISS renderer colours retained, numeric official web RGB unverified.",
+    "variant": "official complete symbol / wordmark",
+    "web_colour_evidence": "docs/ci-first-five/web-colours.json"
   },
   {
     "id": "kari",
@@ -40,9 +42,10 @@
       215.38201904296875
     ],
     "path_count": 5,
-    "svg_sha256": "a15b1e2493916143922e3e5e6ebc7278e51ee9dfd3627e9b1c9d3c5098c9a61d",
-    "conversion": "Mechanical transcription of PDF fill paths and RGB values using MuPDF; KIST PostScript converted by Ghostscript. No tracing/redrawing. KARI only complete blue symbol paths, excluding guide grid.",
-    "variant": "official complete symbol / wordmark"
+    "svg_sha256": "b3025f44f994d0873fc34ae01ef6cd9706c4471c9aaa8c4de6ce1e29ad2e2024",
+    "conversion": "Mechanical official vector path extraction; renderer RGB is not certified web RGB. ETRI/KRICT explicit image RGB and KARI explicit web HEX applied without geometry changes. KIST/KRISS renderer colours retained, numeric official web RGB unverified.",
+    "variant": "official complete symbol / wordmark",
+    "web_colour_evidence": "docs/ci-first-five/web-colours.json"
   },
   {
     "id": "kriss",
@@ -56,8 +59,9 @@
     ],
     "path_count": 6,
     "svg_sha256": "71a8c4431b7dc8b9f0a3abbb01db4aa15cbb259f8af4981ef0e56938a3f29fbc",
-    "conversion": "Mechanical transcription of PDF fill paths and RGB values using MuPDF; KIST PostScript converted by Ghostscript. No tracing/redrawing. KARI only complete blue symbol paths, excluding guide grid.",
-    "variant": "official complete symbol / wordmark"
+    "conversion": "Mechanical official vector path extraction; renderer RGB is not certified web RGB. ETRI/KRICT explicit image RGB and KARI explicit web HEX applied without geometry changes. KIST/KRISS renderer colours retained, numeric official web RGB unverified.",
+    "variant": "official complete symbol / wordmark",
+    "web_colour_evidence": "docs/ci-first-five/web-colours.json"
   },
   {
     "id": "krict",
@@ -70,8 +74,9 @@
       266.15069580078125
     ],
     "path_count": 21,
-    "svg_sha256": "a0a028a2bda2c62ba23c51ef6554bf16c6ef90581a73c18101ef30ca1b83dcbd",
-    "conversion": "Mechanical transcription of PDF fill paths and RGB values using MuPDF; KIST PostScript converted by Ghostscript. No tracing/redrawing. KARI only complete blue symbol paths, excluding guide grid.",
-    "variant": "official complete symbol / wordmark"
+    "svg_sha256": "831d53f403370089174f3cccaee00da0432a49acda0bfbc8ebb91e692d37e04c",
+    "conversion": "Mechanical official vector path extraction; renderer RGB is not certified web RGB. ETRI/KRICT explicit image RGB and KARI explicit web HEX applied without geometry changes. KIST/KRISS renderer colours retained, numeric official web RGB unverified.",
+    "variant": "official complete symbol / wordmark",
+    "web_colour_evidence": "docs/ci-first-five/web-colours.json"
   }
 ]

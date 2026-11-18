@@ -26,3 +26,15 @@ class MarkedAuditTests(unittest.TestCase):
                     self.assertTrue(row['source_url'])
                     self.assertTrue(row['recorded_original_sha256'])
                     self.assertTrue(row['registered'])
+
+    def test_official_web_palettes_and_unchanged_geometry(self):
+        rows = json.loads((ROOT / 'docs/ci-first-five/web-colours.json').read_text())
+        self.assertEqual(len(rows), 5)
+        for row in rows:
+            svg = (ROOT / f"assets/logos/{row['id']}.svg").read_text()
+            self.assertEqual(set(re.findall(r'#[0-9a-f]{6}', svg)), set(row['expected_palette']))
+            self.assertEqual(hashlib.sha256('\n'.join(re.findall(r'<path[^>]* d="([^"]+)"', svg)).encode()).hexdigest(), row['baseline_path_sha256'])
+            self.assertEqual(hashlib.sha256(svg.encode()).hexdigest(), row['svg_sha256'])
+            for name, digest in row['evidence_files'].items():
+                self.assertEqual(hashlib.sha256((ROOT / 'docs/ci-first-five/web-colour-evidence' / name).read_bytes()).hexdigest(), digest)
+        self.assertEqual(len(next(x for x in rows if x['id'] == 'krict')['expected_palette']), 9)
