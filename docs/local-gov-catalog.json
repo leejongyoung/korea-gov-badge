@@ -71,7 +71,7 @@
       "en_short": "BUSANJIN",
       "parent": "busan",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "busan-dong",
@@ -89,7 +89,7 @@
       "en_short": "DONGNAE",
       "parent": "busan",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "busan-gangseo",
@@ -98,7 +98,7 @@
       "en_short": "GANGSEO",
       "parent": "busan",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "busan-geumjeong",
@@ -107,7 +107,7 @@
       "en_short": "GEUMJEONG",
       "parent": "busan",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "busan-gijang",
@@ -116,7 +116,7 @@
       "en_short": "GIJANG",
       "parent": "busan",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "busan-haeundae",
@@ -125,7 +125,7 @@
       "en_short": "HAEUNDAE",
       "parent": "busan",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "busan-jung",
@@ -152,7 +152,7 @@
       "en_short": "SAHA",
       "parent": "busan",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "busan-sasang",
@@ -161,7 +161,7 @@
       "en_short": "SASANG",
       "parent": "busan",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "busan-seo",
@@ -179,7 +179,7 @@
       "en_short": "SUYEONG",
       "parent": "busan",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "busan-yeongdo",
@@ -188,7 +188,7 @@
       "en_short": "YEONGDO",
       "parent": "busan",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "busan-yeonje",
@@ -197,7 +197,7 @@
       "en_short": "YEONJE",
       "parent": "busan",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "chungbuk-boeun",
@@ -233,7 +233,7 @@
       "en_short": "DANYANG",
       "type": "군",
       "parent": "chungbuk",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "chungbuk-eumseong",
@@ -323,7 +323,7 @@
       "en_short": "BUYEO",
       "type": "군",
       "parent": "chungnam",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "chungnam-cheonan",
@@ -359,7 +359,7 @@
       "en_short": "GEUMSAN",
       "type": "군",
       "parent": "chungnam",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "chungnam-gongju",
@@ -386,7 +386,7 @@
       "en_short": "HONGSEONG",
       "type": "군",
       "parent": "chungnam",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "chungnam-nonsan",
@@ -404,7 +404,7 @@
       "en_short": "SEOCHEON",
       "type": "군",
       "parent": "chungnam",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "chungnam-seosan",
@@ -422,7 +422,7 @@
       "en_short": "TAEAN",
       "type": "군",
       "parent": "chungnam",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "chungnam-yesan",
@@ -431,7 +431,7 @@
       "en_short": "YESAN",
       "type": "군",
       "parent": "chungnam",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "daegu-buk",
@@ -449,7 +449,7 @@
       "en_short": "DALSEO",
       "parent": "daegu",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "daegu-dalseong",
@@ -458,7 +458,7 @@
       "en_short": "DALSEONG",
       "parent": "daegu",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "daegu-dong",
@@ -476,7 +476,7 @@
       "en_short": "GUNWI",
       "parent": "daegu",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "daegu-jung",
@@ -512,7 +512,7 @@
       "en_short": "SUSEONG",
       "parent": "daegu",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "daejeon-daedeok",
@@ -521,7 +521,7 @@
       "en_short": "DAEDEOK",
       "parent": "daejeon",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "daejeon-dong",
@@ -557,7 +557,7 @@
       "en_short": "YUSEONG",
       "parent": "daejeon",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gangwon-cheorwon",
@@ -566,7 +566,7 @@
       "en_short": "CHEORWON",
       "type": "군",
       "parent": "gangwon",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gangwon-chuncheon",
@@ -602,7 +602,7 @@
       "en_short": "GOSEONG",
       "type": "군",
       "parent": "gangwon",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gangwon-hoengseong",
@@ -620,7 +620,7 @@
       "en_short": "HONGCHEON",
       "type": "군",
       "parent": "gangwon",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gangwon-hwacheon",
@@ -629,7 +629,7 @@
       "en_short": "HWACHEON",
       "type": "군",
       "parent": "gangwon",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gangwon-inje",
@@ -638,7 +638,7 @@
       "en_short": "INJE",
       "type": "군",
       "parent": "gangwon",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gangwon-jeongseon",
@@ -647,7 +647,7 @@
       "en_short": "JEONGSEON",
       "type": "군",
       "parent": "gangwon",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gangwon-pyeongchang",
@@ -701,7 +701,7 @@
       "en_short": "YANGGU",
       "type": "군",
       "parent": "gangwon",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gangwon-yangyang",
@@ -710,7 +710,7 @@
       "en_short": "YANGYANG",
       "type": "군",
       "parent": "gangwon",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gangwon-yeongwol",
@@ -719,7 +719,7 @@
       "en_short": "YEONGWOL",
       "type": "군",
       "parent": "gangwon",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-andong",
@@ -737,7 +737,7 @@
       "en_short": "BONGHWA",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-cheongdo",
@@ -746,7 +746,7 @@
       "en_short": "CHEONGDO",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-cheongsong",
@@ -755,7 +755,7 @@
       "en_short": "CHEONGSONG",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-chilgok",
@@ -764,7 +764,7 @@
       "en_short": "CHILGOK",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-gimcheon",
@@ -782,7 +782,7 @@
       "en_short": "GORYEONG",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-gumi",
@@ -845,7 +845,7 @@
       "en_short": "SEONGJU",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-uiseong",
@@ -854,7 +854,7 @@
       "en_short": "UISEONG",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-uljin",
@@ -863,7 +863,7 @@
       "en_short": "ULJIN",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-ulleung",
@@ -872,7 +872,7 @@
       "en_short": "ULLEUNG",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-yecheon",
@@ -881,7 +881,7 @@
       "en_short": "YECHEON",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-yeongcheon",
@@ -899,7 +899,7 @@
       "en_short": "YEONGDEOK",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongbuk-yeongju",
@@ -917,7 +917,7 @@
       "en_short": "YEONGYANG",
       "parent": "gyeongbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeonggi-ansan",
@@ -1169,7 +1169,7 @@
       "en_short": "YANGPYEONG",
       "type": "군",
       "parent": "gyeonggi",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeonggi-yeoju",
@@ -1205,7 +1205,7 @@
       "en_short": "CHANGNYEONG",
       "parent": "gyeongnam",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongnam-changwon",
@@ -1223,7 +1223,7 @@
       "en_short": "GEOCHANG",
       "parent": "gyeongnam",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongnam-geoje",
@@ -1250,7 +1250,7 @@
       "en_short": "GOSEONG",
       "parent": "gyeongnam",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongnam-hadong",
@@ -1259,7 +1259,7 @@
       "en_short": "HADONG",
       "parent": "gyeongnam",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongnam-haman",
@@ -1268,7 +1268,7 @@
       "en_short": "HAMAN",
       "parent": "gyeongnam",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongnam-hamyang",
@@ -1277,7 +1277,7 @@
       "en_short": "HAMYANG",
       "parent": "gyeongnam",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongnam-hapcheon",
@@ -1313,7 +1313,7 @@
       "en_short": "NAMHAE",
       "parent": "gyeongnam",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongnam-sacheon",
@@ -1331,7 +1331,7 @@
       "en_short": "SANCHEONG",
       "parent": "gyeongnam",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongnam-tongyeong",
@@ -1349,7 +1349,7 @@
       "en_short": "UIRYEONG",
       "parent": "gyeongnam",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "gyeongnam-yangsan",
@@ -1367,7 +1367,7 @@
       "en_short": "BUPYEONG",
       "parent": "incheon",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "incheon-ganghwa",
@@ -1376,7 +1376,7 @@
       "en_short": "GANGHWA",
       "parent": "incheon",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "incheon-geomdan",
@@ -1394,7 +1394,7 @@
       "en_short": "GYEYANG",
       "parent": "incheon",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "incheon-jemulpo",
@@ -1412,7 +1412,7 @@
       "en_short": "MICHUHOL",
       "parent": "incheon",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "incheon-namdong",
@@ -1421,7 +1421,7 @@
       "en_short": "NAMDONG",
       "parent": "incheon",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "incheon-ongjin",
@@ -1430,7 +1430,7 @@
       "en_short": "ONGJIN",
       "parent": "incheon",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "incheon-seohae",
@@ -1457,7 +1457,7 @@
       "en_short": "YEONSU",
       "parent": "incheon",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonbuk-buan",
@@ -1466,7 +1466,7 @@
       "en_short": "BUAN",
       "parent": "jeonbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonbuk-gimje",
@@ -1511,7 +1511,7 @@
       "en_short": "IMSIL",
       "parent": "jeonbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonbuk-jangsu",
@@ -1520,7 +1520,7 @@
       "en_short": "JANGSU",
       "parent": "jeonbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonbuk-jeongeup",
@@ -1547,7 +1547,7 @@
       "en_short": "JINAN",
       "parent": "jeonbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonbuk-muju",
@@ -1556,7 +1556,7 @@
       "en_short": "MUJU",
       "parent": "jeonbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonbuk-namwon",
@@ -1574,7 +1574,7 @@
       "en_short": "SUNCHANG",
       "parent": "jeonbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonbuk-wanju",
@@ -1583,7 +1583,7 @@
       "en_short": "WANJU",
       "parent": "jeonbuk",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-boseong",
@@ -1592,7 +1592,7 @@
       "en_short": "BOSEONG",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-buk",
@@ -1610,7 +1610,7 @@
       "en_short": "DAMYANG",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-dong",
@@ -1628,7 +1628,7 @@
       "en_short": "GANGJIN",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-goheung",
@@ -1646,7 +1646,7 @@
       "en_short": "GOKSEONG",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-gurye",
@@ -1655,7 +1655,7 @@
       "en_short": "GURYE",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-gwangsan",
@@ -1664,7 +1664,7 @@
       "en_short": "GWANGSAN",
       "parent": "jeonnam-gwangju",
       "type": "자치구",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-gwangyang",
@@ -1682,7 +1682,7 @@
       "en_short": "HAENAM",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-hampyeong",
@@ -1691,7 +1691,7 @@
       "en_short": "HAMPYEONG",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-hwasun",
@@ -1700,7 +1700,7 @@
       "en_short": "HWASUN",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-jangheung",
@@ -1709,7 +1709,7 @@
       "en_short": "JANGHEUNG",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-jangseong",
@@ -1718,7 +1718,7 @@
       "en_short": "JANGSEONG",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-jindo",
@@ -1727,7 +1727,7 @@
       "en_short": "JINDO",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-mokpo",
@@ -1745,7 +1745,7 @@
       "en_short": "MUAN",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-naju",
@@ -1781,7 +1781,7 @@
       "en_short": "SINAN",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-suncheon",
@@ -1799,7 +1799,7 @@
       "en_short": "WANDO",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-yeongam",
@@ -1808,7 +1808,7 @@
       "en_short": "YEONGAM",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-yeonggwang",
@@ -1817,7 +1817,7 @@
       "en_short": "YEONGGWANG",
       "parent": "jeonnam-gwangju",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     },
     {
       "id": "jeonnam-gwangju-yeosu",
@@ -2096,7 +2096,7 @@
       "en_short": "ULJU",
       "parent": "ulsan",
       "type": "군",
-      "badge_status": "pending_logo"
+      "badge_status": "available"
     }
   ]
 }
