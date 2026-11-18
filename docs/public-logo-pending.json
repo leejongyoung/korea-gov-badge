@@ -23,39 +23,6 @@
       "policy_source": "https://www.airport.kr/ap_ko/1033/subview.do"
     },
     {
-      "id": "bpa",
-      "name": "부산항만공사",
-      "status": "pending_logo",
-      "reason": "consultation_required_for_unmarked_material",
-      "checked_on": "2026-11-18",
-      "official_source": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000101001004000",
-      "note": "공식 AI 파일의 PDF 호환 표시 영역에서 벡터 도형을 확인했다. 일반 저작권정책은 공공누리 표시가 있는 자료의 유형별 이용과 표시 없는 자료의 사전 협의를 안내한다. 해당 CI에 적용되는 공공누리 유형이나 배지 재배포 허락은 확인하지 못했다. 사이트 공통 영역의 공공누리 링크를 CI 파일의 허락 표시로 보지 않았다.",
-      "review": "market-enterprise-logo-review.json",
-      "policy_source": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000108001007000"
-    },
-    {
-      "id": "ipa",
-      "name": "인천항만공사",
-      "status": "pending_logo",
-      "reason": "redistribution_terms_unverified_by_source_policy",
-      "checked_on": "2026-11-18",
-      "official_source": "https://www.icpa.or.kr/content/view.do?contentKey=54&menuKey=1121",
-      "note": "공식 모바일 CI 페이지에서 심벌 AI 원본을 내려받아 PDF 호환 영역의 벡터 도형을 확인했다. 데스크톱 CI와 일반 저작권정책도 별도로 읽었다. CI의 특수 색상·효과 사용 시 협의 안내와 일반 정책의 복제·배포 및 무단 변경 제한을 구분했다. SVG 배지 내장·재배포에 적용되는 허락은 확인하지 못했다.",
-      "review": "market-enterprise-logo-review.json",
-      "policy_source": "https://www.icpa.or.kr/content/view.do?menuKey=590&contentKey=134"
-    },
-    {
-      "id": "ygpa",
-      "name": "여수광양항만공사",
-      "status": "pending_logo",
-      "reason": "redistribution_terms_unverified_by_source_policy",
-      "checked_on": "2026-11-18",
-      "official_source": "https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2",
-      "note": "공식 ZIP의 AI 8개를 PDF 호환 파일로 열어 벡터 도형을 확인했다. 심볼.ai에는 이미지도 포함된다. 일반 저작권정책은 무단 복제·배포 및 무단 변경 제한과 일부 이용의 사전 협의를 안내한다. 해당 CI에 적용할 배지 재배포 허락은 확인하지 못했다.",
-      "review": "market-enterprise-logo-review.json",
-      "policy_source": "https://www.ygpa.or.kr/hmpg/ygpa/addi/copy/contPageDetail.do?conts_no=327CD8B19E554F47ADE8ECFED407A1F6"
-    },
-    {
       "id": "upa",
       "name": "울산항만공사",
       "status": "pending_logo",

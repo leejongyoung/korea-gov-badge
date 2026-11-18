@@ -2811,5 +2811,38 @@
     "type": "공공기관",
     "homepage": "https://www.gjf.or.kr",
     "logo": "gjf"
+  },
+  {
+    "id": "bpa",
+    "name": "부산항만공사",
+    "short_name": "부산항만공사",
+    "en_name": "Busan Port Authority",
+    "en_short": "BPA",
+    "type": "시장형공기업",
+    "homepage": "https://www.busanpa.com",
+    "logo": null,
+    "logo_status": "pending_official_symbol"
+  },
+  {
+    "id": "ipa",
+    "name": "인천항만공사",
+    "short_name": "인천항만공사",
+    "en_name": "Incheon Port Authority",
+    "en_short": "IPA",
+    "type": "시장형공기업",
+    "homepage": "https://www.icpa.or.kr",
+    "logo": null,
+    "logo_status": "pending_official_symbol"
+  },
+  {
+    "id": "ygpa",
+    "name": "여수광양항만공사",
+    "short_name": "여수광양항만공사",
+    "en_name": "Yeosu Gwangyang Port Authority",
+    "en_short": "YGPA",
+    "type": "시장형공기업",
+    "homepage": "https://www.ygpa.or.kr",
+    "logo": null,
+    "logo_status": "pending_official_symbol"
   }
 ]
