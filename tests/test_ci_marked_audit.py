@@ -1,0 +1,28 @@
+"""Guard the full requested scope and prevent structural checks posing as CI review."""
+import hashlib
+import json
+import re
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+SCOPE = set('kepco kogas khnp kdhc iia kac bpa ipa ygpa upa high1 lh korail ex kwater komsco reb hug kra komir nia kisa kdata nipa kocca nhis hira nps kcomwel kodit kibo kotra kca kto keco kist etri kari kaeri kribb kriss krict kawf seoul-energy gjf'.split())
+
+class MarkedAuditTests(unittest.TestCase):
+    def test_full_scope_and_evidence_integrity(self):
+        rows = json.loads((ROOT / 'docs/ci-marked-audit-20261119.json').read_text())['items']
+        self.assertEqual(len(rows), 45)
+        self.assertEqual({x['id'] for x in rows}, SCOPE)
+        agencies = {x['id']: x for x in json.loads((ROOT / 'agencies.json').read_text())}
+        for row in rows:
+            with self.subTest(id=row['id']):
+                self.assertEqual(row['registered'], row['id'] in agencies)
+                if row['logo_file']:
+                    self.assertEqual(hashlib.sha256((ROOT / row['logo_file']).read_bytes()).hexdigest(), row['logo_sha256'])
+                    self.assertGreater(row['drawing_elements'], 0)
+                if row['complete']:
+                    self.assertEqual(row['official_shape_colour_ci_bi_complete_symbol_review'], 'verified')
+                    self.assertEqual(row['render_comparison'], 'verified')
+                    self.assertTrue(row['source_url'])
+                    self.assertTrue(row['recorded_original_sha256'])
+                    self.assertTrue(row['registered'])
