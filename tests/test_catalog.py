@@ -59,7 +59,14 @@ class CatalogTests(unittest.TestCase):
         for source in sources['items']:
             raw = (ROOT / 'assets/logos' / (source['id'] + '.svg')).read_bytes()
             self.assertEqual(hashlib.sha256(raw).hexdigest(), source['logo_sha256'])
-            self.assertIn(source['license_as_listed'], {'Public domain', 'KOGL Type 1'})
+            self.assertIn(source['license_as_listed'], {'Public domain', 'KOGL Type 1', 'Not established'})
+            if source['license_as_listed'] == 'Not established':
+                self.assertEqual(source['permission_status'], 'not_verified')
+                self.assertFalse(source['reuse_permission_confirmed'])
+                self.assertTrue(source['source_page'].startswith('https://'))
+                self.assertTrue(source['policy_url'].startswith('https://'))
+                self.assertTrue(source['restrictions'])
+                self.assertIn('재배포 허락 미확인', raw.decode('utf-8'))
             if source['license_as_listed'] == 'KOGL Type 1':
                 self.assertTrue(source['source_page'].startswith('https://'))
                 self.assertIn('공공누리', raw.decode('utf-8'))
