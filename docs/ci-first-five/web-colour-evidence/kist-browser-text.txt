@@ -25,19 +25,19 @@ PNG 다운로드
 
 국문로고타입
 
- 
+
 
 국영문조합
 
- 
+
 
 한문로고타입
 
- 
+
 
 한영문조합
 
- 
+
 
 영문로고타입
 
@@ -48,7 +48,7 @@ KIST의 엠블렘은 워드마크와 국ㆍ영문 로고타입을 조합하여 �
 
 엠블렘
 
- 
+
 
 색상활용
 
@@ -60,15 +60,15 @@ KIST의 엠블렘은 워드마크와 국ㆍ영문 로고타입을 조합하여 �
 
 한글좌우조합
 
- 
+
 
 한글상하조합
 
- 
+
 
 한문좌우조합
 
- 
+
 
 한문상하조합
 
@@ -83,14 +83,14 @@ Main Color
 KIST RED
  Pantone : 1788C 2X
  Process Color : Cyan 5% Magenta 90% Yellow 100%
- RGB : R228 G65 B38 
+ RGB : R228 G65 B38
 
 색상 예시 영역 색상 코드는 아래 표시
 
 KIST DARK GRAY
  Pantone : 425C
  Process Color : Magenta 5% Yellow 10% Black 70%
- RGB : R109 G110 B103 
+ RGB : R109 G110 B103
 
 Sub Color
 
@@ -101,17 +101,17 @@ Sub Color
 KIST GRAY
  Pantone : 423C
  Process Color : Black 40%
- RGB : R171 G173 B176 
+ RGB : R171 G173 B176
 
 색상 예시 영역 색상 코드는 아래 표시
 
 KIST SILVER
- Pantone : 877C 
+ Pantone : 877C
 
 색상 예시 영역 색상 코드는 아래 표시
 
 KIST GOLD
- Pantone : 873C 
+ Pantone : 873C
 
 Accent Color
 
@@ -130,7 +130,7 @@ KIST YELLOW
 KIST GREEN
  Pantone : 376C
  Process Color : Cyan 50% Yellow 100%
- RGB : R140 G200 B70 
+ RGB : R140 G200 B70
 
 색상활용
 
@@ -139,15 +139,15 @@ KIST GREEN
 
 White 배경일 경우
 
- 
+
 
 Red 배경일 경우
 
- 
+
 
 DarkGray 배경일 경우
 
- 
+
 
 Black 배경일 경우
 
