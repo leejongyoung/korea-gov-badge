@@ -7,8 +7,9 @@
 | 기관·저작물 | 출처·이용 조건 | 처리 내역 |
 | --- | --- | --- |
 | 진천군, 「진천군마크 시그니처」 (`jincheon_ci.ai`, 원본 작성연도 미표시) | [진천군 공식 상징 안내](https://www.jincheon.go.kr/home/sub.do?menukey=265), [공식 벡터 원본](https://www.jincheon.go.kr/oldData/editor/content/main/info/symbol.zip), [공공누리 제1유형·출처표시](https://www.kogl.or.kr/info/licenseType1.do) | 2026-11-18 확인. PDF 호환 AI를 `pdftocairo -svg`로 변환하고 첫 심벌의 완전한 벡터 경로만 추출. 형상·색을 새로 그리거나 래스터를 추적하지 않음. SVGO 최적화. |
+| 한국예술인복지재단, 2022년 「개편 CI」 (`개편_CI.ai`) | [공식 CI 배포 게시물](https://www.kawf.kr/notice/sub07View.do?selIdx=17907), [공식 AI 원본](https://www.kawf.kr/common/download.do?s=165967859177102), [공공누리 제1유형·출처표시](https://www.kogl.or.kr/info/licenseType1.do) | 2026-11-18 확인. 매뉴얼의 재생 지침에 따라 별도 AI의 완전한 심벌 경로 3개를 추출. 화면 색은 매뉴얼 A3.1의 `#0075BF` 적용, 여백 정리·SVG 변환·최적화. 새로 그리거나 래스터를 추적하지 않음. |
 
-진천군 배지를 재사용할 때 위 기관명·저작물명·출처 URL·공공누리 유형을 함께 표시한다. SVG 내부의 출처 설명(`desc`)도 유지한다. 로고/배지 변경 여부는 이용자가 실제 변경에 맞춰 표시해야 한다.
+위 공식 자료 기반 배지를 재사용할 때 각 기관명·저작물명·출처 URL·공공누리 유형을 함께 표시한다. SVG 내부의 출처 설명(`desc`)도 유지한다. 로고/배지 변경 여부는 이용자가 실제 변경에 맞춰 표시해야 한다.
 
 ## Commons에서 추가한 로고
 
