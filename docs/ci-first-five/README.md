@@ -25,3 +25,11 @@
 - KIST: https://kist.re.kr/ko/intro/kist-ci.do 및 www 호스트 재시도 모두 HTTP400. 공식 웹 RGB 명시 여부 이번 회차 확인 불가. 원본 렌더 색 유지, 미확인을 '명시 없음'으로 단정하지 않는다.
 
 기존 공식 PNG는 인쇄 원본 렌더 보존, SVG PNG와 비교 이미지는 현재 색으로 갱신했다. 해시 동일성은 출처 바이트 동일성일 뿐 색 인증이 아니다. 전체 45곳 미완료, 5곳도 색상 재검토 대기로 complete=false. 모든 PR 병합 보류, 추가 구현 보류. 법적 이용 허락 미확인은 유지한다.
+
+## KRICT 최소 사용 폭 수정 (2026-11-19)
+
+공식 근거: https://www.krict.re.kr/images/kor/sub01/sub010501_img01.jpg . Hermes 시각 확인: 최소 15mm는 워드마크 **폭** 기준. CSS 96dpi에서 56.692914px이며 목표 painted 폭은 57px 이상이다. 기존 flat 약33.319px는 미달했다. 원본 비율/21개 경로/색은 그대로 두고 기존 data-min-icon-size=19를 사용한다(57을 양축에 강제하지 않음). 실제 높이19px, 폭 약60.29px, 배지높이25px 이상으로 레이아웃을 확장한다. viewBox만을 검증하지 않고 실제 경로 끝점·직렬화 transform 및 raster alpha bounds를 대조한다. 전체 40 스타일/테마×2언어에서 잘림과 텍스트 겹침을 검사한다.
+
+이는 SVG 고유 크기의 화면 CSS96dpi 환산이며 사용자 축소/CSS resize/인쇄 시 물리적15mm를 보전하지 않는다. 인쇄·축소 사용자는 최종 출력 워드마크 폭15mm 이상을 별도 확보해야 한다. 색상 승인·병합은 여전히 보류이며 KARI 내부모순/KIST 미확인/KRISS Pantone 한계는 위 기록을 유지한다. 최소크기 검증: krict-minimum-width.json.
+
+실측 결과: 80/80 alpha painted 폭61px(보수적 실제 경로 끝점 폭58.63px 이상), 잘림0·텍스트겹침0. 32 tests/22,840 generate-check/catalog 통과. 다른 기관 배지 변경0. 기존 head8402fc6의 GH verify 2 SUCCESS 및 영수증 b377af2fdbb4403a90c33c5c6a54347c를 실제 조회해 확인했다(수신은 검토 승인이 아님).

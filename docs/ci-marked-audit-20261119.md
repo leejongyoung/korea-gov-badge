@@ -27,3 +27,5 @@
 ## 첫 구현 묶음
 
 KIST·ETRI·KARI·KRISS·KRICT 5곳을 공식 원본에서 변환·등록했다. [원본/SVG 대조 및 해시](ci-first-five/extraction.json). KIST는 제공 AI의 한영 로고타입 전체이며 별도 심벌을 새로 만들지 않았다. 5곳 complete는 색상 게이트 재검토를 위해 false로 되돌렸다. 도형 대조와 웹 색상 표 대조는 별개이며 픽셀 일치를 주장하지 않는다. [웹 색상 근거와 미확인 항목](ci-first-five/README.md)을 참조한다. 기존 16곳 재감사·24곳 미구현이 남아 있다. 권리 허락을 뜻하지 않으며 exact-head 검토 전 병합하지 않는다.
+
+KRICT 최소폭 후속수정: [80종 실제 painted bounds](ci-first-five/krict-minimum-width.json). 19px 높이 비율유지, painted 폭61px. 15mm CSS96dpi 환산 기준이며 축소/인쇄 보전 별도. 모든 병합 보류.
