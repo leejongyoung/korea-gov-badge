@@ -218,28 +218,6 @@
       "official_check_note": "No verified reusable vector obtained from checked page; implementation remains pending."
     },
     {
-      "id": "chungnam-buyeo",
-      "name": "부여군",
-      "reason": "original_download_deferred_429",
-      "candidates": [
-        "File:Flag of Buyeo.svg"
-      ],
-      "official_checked_on": "2026-11-18",
-      "official_source": "https://www.buyeo.go.kr/html/kr/intro/intro_050401.html",
-      "official_check_note": "Candidate files found; reuse rights and current vector artwork not yet verified."
-    },
-    {
-      "id": "chungnam-seocheon",
-      "name": "서천군",
-      "reason": "original_download_deferred_429",
-      "candidates": [
-        "File:Flag of Seocheon.svg"
-      ],
-      "official_checked_on": "2026-11-18",
-      "official_source": "https://www.seocheon.go.kr/kor/sub05_02_01.do",
-      "official_check_note": "Candidate files found; reuse rights and current vector artwork not yet verified."
-    },
-    {
       "id": "chungnam-cheongyang",
       "name": "청양군",
       "reason": "reuse_permission_unverified",
@@ -292,51 +270,11 @@
       ]
     },
     {
-      "id": "jeonbuk-jinan",
-      "name": "진안군",
-      "reason": "original_download_deferred_429",
-      "candidates": [
-        "File:Flag of Jinan.svg"
-      ]
-    },
-    {
-      "id": "jeonbuk-muju",
-      "name": "무주군",
-      "reason": "original_download_deferred_429",
-      "candidates": [
-        "File:Flag of Muju.svg"
-      ]
-    },
-    {
-      "id": "jeonbuk-jangsu",
-      "name": "장수군",
-      "reason": "original_download_deferred_429",
-      "candidates": [
-        "File:Flag of Jangsu.svg"
-      ]
-    },
-    {
-      "id": "jeonbuk-imsil",
-      "name": "임실군",
-      "reason": "original_download_deferred_429",
-      "candidates": [
-        "File:Flag of Imsil.svg"
-      ]
-    },
-    {
       "id": "jeonbuk-sunchang",
       "name": "순창군",
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Sunchang.svg"
-      ]
-    },
-    {
-      "id": "jeonbuk-buan",
-      "name": "부안군",
-      "reason": "original_download_deferred_429",
-      "candidates": [
-        "File:Flag of Buan.svg"
       ]
     },
     {
@@ -361,14 +299,6 @@
       "reason": "original_download_deferred_429",
       "candidates": [
         "File:Flag of Gurye.svg"
-      ]
-    },
-    {
-      "id": "jeonnam-gwangju-boseong",
-      "name": "보성군",
-      "reason": "original_download_deferred_429",
-      "candidates": [
-        "File:Flag of Boseong.svg"
       ]
     },
     {

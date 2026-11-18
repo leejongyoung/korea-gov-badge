@@ -2,7 +2,7 @@
 
 행정구역 기준일: **2026-07-01**, 출처 확인일: **2026-11-18**.
 
-현행 광역 **16곳**, 기초 **227곳(시 75·군 82·자치구 70)**의 전체 목록이다. 기초 배지는 **104곳 제공**, **123곳 로고 대기**다.
+현행 광역 **16곳**, 기초 **227곳(시 75·군 82·자치구 70)**의 전체 목록이다. 기초 배지는 **112곳 제공**, **115곳 로고 대기**다.
 
 목록에 등재되었다고 배지가 구현된 것은 아니다. 아래의 제공 상태와 실제 배지 링크를 구분한다. 영문 표기와 Slug는 프로젝트 식별자이며 로고 대기 항목의 공식 영문 명칭 인증을 뜻하지 않는다.
 
@@ -215,7 +215,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | 아산시 | 시 | `chungnam-asan` | 제공 | ![아산시](../badges/chungnam-asan/flat.svg) |
 | 보령시 | 시 | `chungnam-boryeong` | 제공 | ![보령시](../badges/chungnam-boryeong/flat.svg) |
-| 부여군 | 군 | `chungnam-buyeo` | 로고 대기 | — |
+| 부여군 | 군 | `chungnam-buyeo` | 제공 | ![부여군](../badges/chungnam-buyeo/flat.svg) |
 | 천안시 | 시 | `chungnam-cheonan` | 제공 | ![천안시](../badges/chungnam-cheonan/flat.svg) |
 | 청양군 | 군 | `chungnam-cheongyang` | 로고 대기 | — |
 | 당진시 | 시 | `chungnam-dangjin` | 제공 | ![당진시](../badges/chungnam-dangjin/flat.svg) |
@@ -224,7 +224,7 @@
 | 계룡시 | 시 | `chungnam-gyeryong` | 제공 | ![계룡시](../badges/chungnam-gyeryong/flat.svg) |
 | 홍성군 | 군 | `chungnam-hongseong` | 로고 대기 | — |
 | 논산시 | 시 | `chungnam-nonsan` | 제공 | ![논산시](../badges/chungnam-nonsan/flat.svg) |
-| 서천군 | 군 | `chungnam-seocheon` | 로고 대기 | — |
+| 서천군 | 군 | `chungnam-seocheon` | 제공 | ![서천군](../badges/chungnam-seocheon/flat.svg) |
 | 서산시 | 시 | `chungnam-seosan` | 제공 | ![서산시](../badges/chungnam-seosan/flat.svg) |
 | 태안군 | 군 | `chungnam-taean` | 로고 대기 | — |
 | 예산군 | 군 | `chungnam-yesan` | 로고 대기 | — |
@@ -233,17 +233,17 @@
 
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
-| 부안군 | 군 | `jeonbuk-buan` | 로고 대기 | — |
+| 부안군 | 군 | `jeonbuk-buan` | 제공 | ![부안군](../badges/jeonbuk-buan/flat.svg) |
 | 김제시 | 시 | `jeonbuk-gimje` | 제공 | ![김제시](../badges/jeonbuk-gimje/flat.svg) |
 | 고창군 | 군 | `jeonbuk-gochang` | 제공 | ![고창군](../badges/jeonbuk-gochang/flat.svg) |
 | 군산시 | 시 | `jeonbuk-gunsan` | 제공 | ![군산시](../badges/jeonbuk-gunsan/flat.svg) |
 | 익산시 | 시 | `jeonbuk-iksan` | 제공 | ![익산시](../badges/jeonbuk-iksan/flat.svg) |
-| 임실군 | 군 | `jeonbuk-imsil` | 로고 대기 | — |
-| 장수군 | 군 | `jeonbuk-jangsu` | 로고 대기 | — |
+| 임실군 | 군 | `jeonbuk-imsil` | 제공 | ![임실군](../badges/jeonbuk-imsil/flat.svg) |
+| 장수군 | 군 | `jeonbuk-jangsu` | 제공 | ![장수군](../badges/jeonbuk-jangsu/flat.svg) |
 | 정읍시 | 시 | `jeonbuk-jeongeup` | 제공 | ![정읍시](../badges/jeonbuk-jeongeup/flat.svg) |
 | 전주시 | 시 | `jeonbuk-jeonju` | 제공 | ![전주시](../badges/jeonbuk-jeonju/flat.svg) |
-| 진안군 | 군 | `jeonbuk-jinan` | 로고 대기 | — |
-| 무주군 | 군 | `jeonbuk-muju` | 로고 대기 | — |
+| 진안군 | 군 | `jeonbuk-jinan` | 제공 | ![진안군](../badges/jeonbuk-jinan/flat.svg) |
+| 무주군 | 군 | `jeonbuk-muju` | 제공 | ![무주군](../badges/jeonbuk-muju/flat.svg) |
 | 남원시 | 시 | `jeonbuk-namwon` | 제공 | ![남원시](../badges/jeonbuk-namwon/flat.svg) |
 | 순창군 | 군 | `jeonbuk-sunchang` | 로고 대기 | — |
 | 완주군 | 군 | `jeonbuk-wanju` | 로고 대기 | — |
@@ -302,7 +302,7 @@
 
 | 명칭 | 구분 | Slug | 제공 상태 | 배지 |
 | :--- | :--- | :--- | :--- | :--- |
-| 보성군 | 군 | `jeonnam-gwangju-boseong` | 로고 대기 | — |
+| 보성군 | 군 | `jeonnam-gwangju-boseong` | 제공 | ![보성군](../badges/jeonnam-gwangju-boseong/flat.svg) |
 | 북구 | 자치구 | `jeonnam-gwangju-buk` | 로고 대기 | — |
 | 담양군 | 군 | `jeonnam-gwangju-damyang` | 로고 대기 | — |
 | 동구 | 자치구 | `jeonnam-gwangju-dong` | 로고 대기 | — |

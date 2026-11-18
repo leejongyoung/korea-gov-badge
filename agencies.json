@@ -1805,5 +1805,93 @@
     "parent": "chungbuk",
     "homepage": "https://www.jincheon.go.kr",
     "logo": "chungbuk-jincheon"
+  },
+  {
+    "id": "jeonbuk-jinan",
+    "name": "전북특별자치도 진안군",
+    "short_name": "전북특별자치도 진안군",
+    "en_name": "Jinan County",
+    "en_short": "JINAN",
+    "type": "군",
+    "homepage": "https://www.jinan.go.kr",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-jinan"
+  },
+  {
+    "id": "jeonbuk-muju",
+    "name": "전북특별자치도 무주군",
+    "short_name": "전북특별자치도 무주군",
+    "en_name": "Muju County",
+    "en_short": "MUJU",
+    "type": "군",
+    "homepage": "https://www.muju.go.kr",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-muju"
+  },
+  {
+    "id": "jeonbuk-jangsu",
+    "name": "전북특별자치도 장수군",
+    "short_name": "전북특별자치도 장수군",
+    "en_name": "Jangsu County",
+    "en_short": "JANGSU",
+    "type": "군",
+    "homepage": "https://www.jangsu.go.kr",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-jangsu"
+  },
+  {
+    "id": "jeonbuk-imsil",
+    "name": "전북특별자치도 임실군",
+    "short_name": "전북특별자치도 임실군",
+    "en_name": "Imsil County",
+    "en_short": "IMSIL",
+    "type": "군",
+    "homepage": "https://www.imsil.go.kr",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-imsil"
+  },
+  {
+    "id": "jeonbuk-buan",
+    "name": "전북특별자치도 부안군",
+    "short_name": "전북특별자치도 부안군",
+    "en_name": "Buan County",
+    "en_short": "BUAN",
+    "type": "군",
+    "homepage": "https://www.buan.go.kr",
+    "parent": "jeonbuk",
+    "logo": "jeonbuk-buan"
+  },
+  {
+    "id": "jeonnam-gwangju-boseong",
+    "name": "전남광주통합특별시 보성군",
+    "short_name": "전남광주통합특별시 보성군",
+    "en_name": "Boseong County",
+    "en_short": "BOSEONG",
+    "type": "군",
+    "homepage": "https://www.boseong.go.kr",
+    "parent": "jeonnam-gwangju",
+    "logo": "jeonnam-gwangju-boseong"
+  },
+  {
+    "id": "chungnam-buyeo",
+    "name": "충청남도 부여군",
+    "short_name": "충청남도 부여군",
+    "en_name": "Buyeo County",
+    "en_short": "BUYEO",
+    "type": "군",
+    "homepage": "https://www.buyeo.go.kr",
+    "parent": "chungnam",
+    "logo": "chungnam-buyeo"
+  },
+  {
+    "id": "chungnam-seocheon",
+    "name": "충청남도 서천군",
+    "short_name": "충청남도 서천군",
+    "en_name": "Seocheon County",
+    "en_short": "SEOCHEON",
+    "type": "군",
+    "homepage": "https://www.seocheon.go.kr",
+    "parent": "chungnam",
+    "logo": "chungnam-seocheon"
   }
 ]
