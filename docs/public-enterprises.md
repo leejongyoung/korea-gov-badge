@@ -1,6 +1,6 @@
 # 대한민국 공기업 및 공공기관 배지 카탈로그 (Public Enterprises & Institutions)
 
-주요 시장형·준시장형 공기업, 준정부기관, 정부출연연구기관 42곳의 **구현 후보 목록**입니다. 현재 이 문서의 기관은 `agencies.json`에 수록되지 않아 배지를 제공하지 않습니다. Slug는 후보 식별자이며 사용 가능한 URL이 아닙니다. 기관 분류·소관 부처는 원래 작성된 후보 정보로, 최신 공식 지정 현황의 검증을 뜻하지 않습니다.
+주요 시장형·준시장형 공기업, 준정부기관, 정부출연연구기관 42곳의 목록입니다. 이 중 **10곳은 배지를 제공**하고(배지 열에 미리보기 표시) 나머지 32곳은 로고 확인 대기 상태이며 배지를 제공하지 않습니다. 대기 기관의 Slug는 후보 식별자이며 사용 가능한 URL이 아닙니다. 제공 기관의 로고는 Wikimedia Commons가 Public domain(상표 표시)로 표시한 파일을 사용했고 해당 기관의 상표임을 유의해야 합니다([출처·해시](logo-sources.json)). 기관 분류·소관 부처는 원래 작성된 후보 정보로, 최신 공식 지정 현황의 검증을 뜻하지 않습니다.
 
 로고의 출처·재배포 조건과 현행 상징을 확인한 뒤 [#1](https://github.com/leejongyoung/korea-gov-badge/issues/1)~[#4](https://github.com/leejongyoung/korea-gov-badge/issues/4)에서 순차 구현합니다. 목록 등재를 구현 완료로 표시하지 않습니다. 개별 확인 상태·공식 출처·보류 근거는 [로고 확인 목록](public-logo-pending.json)에 기록합니다.
 
@@ -8,57 +8,57 @@
 
 ## 1. 시장형 공기업 (Market-type Public Enterprises)
 
-| 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 부처 | 주요 사업 |
-| :--- | :--- | :---: | :--- | :--- |
-| **한국전력공사** | Korea Electric Power Corporation | `kepco` | 산업통상자원부 | 전력 공급 및 송배전 |
-| **한국가스공사** | Korea Gas Corporation | `kogas` | 산업통상자원부 | 천연가스 도입 및 공급 |
-| **한국수력원자력** | Korea Hydro & Nuclear Power | `khnp` | 산업통상자원부 | 원자력 및 수력 발전 |
-| **한국지역난방공사** | Korea District Heating Corp. | `kdhc` | 산업통상자원부 | 집단에너지 및 열공급 |
-| **인천국제공항공사** | Incheon International Airport Corp. | `iia` | 국토교통부 | 인천공항 운영 및 항행 인프라 |
-| **한국공항공사** | Korea Airports Corporation | `kac` | 국토교통부 | 전국 14개 지방공항 운영 |
-| **부산항만공사** | Busan Port Authority | `bpa` | 해양수산부 | 부산항 개발 및 운영 |
-| **인천항만공사** | Incheon Port Authority | `ipa` | 해양수산부 | 인천항 개발 및 운영 |
-| **여수광양항만공사** | Yeosu Gwangyang Port Authority | `ygpa` | 해양수산부 | 광양항/여수항 개발 및 운영 |
-| **울산항만공사** | Ulsan Port Authority | `upa` | 해양수산부 | 울산항 개발 및 운영 |
-| **강원랜드** | Kangwon Land | `high1` | 산업통상자원부 | 복합리조트 및 관광 |
+| 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 부처 | 주요 사업 | 배지 (`flat.svg`) |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| **한국전력공사** | Korea Electric Power Corporation | `kepco` | 산업통상자원부 | 전력 공급 및 송배전 | ![한국전력공사](../badges/kepco/flat.svg) |
+| **한국가스공사** | Korea Gas Corporation | `kogas` | 산업통상자원부 | 천연가스 도입 및 공급 | ![한국가스공사](../badges/kogas/flat.svg) |
+| **한국수력원자력** | Korea Hydro & Nuclear Power | `khnp` | 산업통상자원부 | 원자력 및 수력 발전 | ![한국수력원자력](../badges/khnp/flat.svg) |
+| **한국지역난방공사** | Korea District Heating Corp. | `kdhc` | 산업통상자원부 | 집단에너지 및 열공급 | — |
+| **인천국제공항공사** | Incheon International Airport Corp. | `iia` | 국토교통부 | 인천공항 운영 및 항행 인프라 | — |
+| **한국공항공사** | Korea Airports Corporation | `kac` | 국토교통부 | 전국 14개 지방공항 운영 | ![한국공항공사](../badges/kac/flat.svg) |
+| **부산항만공사** | Busan Port Authority | `bpa` | 해양수산부 | 부산항 개발 및 운영 | — |
+| **인천항만공사** | Incheon Port Authority | `ipa` | 해양수산부 | 인천항 개발 및 운영 | — |
+| **여수광양항만공사** | Yeosu Gwangyang Port Authority | `ygpa` | 해양수산부 | 광양항/여수항 개발 및 운영 | — |
+| **울산항만공사** | Ulsan Port Authority | `upa` | 해양수산부 | 울산항 개발 및 운영 | — |
+| **강원랜드** | Kangwon Land | `high1` | 산업통상자원부 | 복합리조트 및 관광 | — |
 
 ---
 
 ## 2. 준시장형 공기업 (Quasi-market-type Public Enterprises)
 
-| 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 부처 | 주요 사업 |
-| :--- | :--- | :---: | :--- | :--- |
-| **한국토지주택공사** | Korea Land and Housing Corporation | `lh` | 국토교통부 | 주거 복지 및 도시 개발 |
-| **한국철도공사** | Korea Railroad Corporation | `korail` | 국토교통부 | 철도 여객 및 화물 운송 |
-| **한국도로공사** | Korea Expressway Corporation | `ex` | 국토교통부 | 고속도로 건설 및 유지관리 |
-| **한국수자원공사** | Korea Water Resources Corporation | `kwater` | 환경부 | 수자원 관리 및 광역상수도 |
-| **한국조폐공사** | Korea Minting and Security Printing Corp. | `komsco` | 기획재정부 | 화폐, 신분증, 보안 인쇄 |
-| **한국부동산원** | Korea Real Estate Board | `reb` | 국토교통부 | 부동산 가격 공시 및 통계 |
-| **주택도시보증공사** | Korea Housing & Urban Guarantee Corp. | `hug` | 국토교통부 | 주택보증 및 도시재생 기금 |
-| **한국마사회** | Korea Racing Authority | `kra` | 농림축산식품부 | 경마 시행 및 말산업 육성 |
-| **한국광해광업공단** | Korea Mine Rehabilitation and Mineral Resources Corp. | `komir` | 산업통상자원부 | 광해방지 및 핵심광물 확보 |
+| 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 부처 | 주요 사업 | 배지 (`flat.svg`) |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| **한국토지주택공사** | Korea Land and Housing Corporation | `lh` | 국토교통부 | 주거 복지 및 도시 개발 | — |
+| **한국철도공사** | Korea Railroad Corporation | `korail` | 국토교통부 | 철도 여객 및 화물 운송 | ![한국철도공사](../badges/korail/flat.svg) |
+| **한국도로공사** | Korea Expressway Corporation | `ex` | 국토교통부 | 고속도로 건설 및 유지관리 | ![한국도로공사](../badges/ex/flat.svg) |
+| **한국수자원공사** | Korea Water Resources Corporation | `kwater` | 환경부 | 수자원 관리 및 광역상수도 | — |
+| **한국조폐공사** | Korea Minting and Security Printing Corp. | `komsco` | 기획재정부 | 화폐, 신분증, 보안 인쇄 | ![한국조폐공사](../badges/komsco/flat.svg) |
+| **한국부동산원** | Korea Real Estate Board | `reb` | 국토교통부 | 부동산 가격 공시 및 통계 | — |
+| **주택도시보증공사** | Korea Housing & Urban Guarantee Corp. | `hug` | 국토교통부 | 주택보증 및 도시재생 기금 | — |
+| **한국마사회** | Korea Racing Authority | `kra` | 농림축산식품부 | 경마 시행 및 말산업 육성 | — |
+| **한국광해광업공단** | Korea Mine Rehabilitation and Mineral Resources Corp. | `komir` | 산업통상자원부 | 광해방지 및 핵심광물 확보 | — |
 
 ---
 
 ## 3. 주요 준정부기관 및 IT·공공데이터 공공기관 (Quasi-governmental Institutions)
 
-| 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 부처 | 주요 사업 |
-| :--- | :--- | :---: | :--- | :--- |
-| **한국지능정보사회진흥원** | National Information Society Agency | `nia` | 과학기술정보통신부 | 국가 ICT 인프라 및 전자정부·데이터 |
-| **한국인터넷진흥원** | Korea Internet & Security Agency | `kisa` | 과학기술정보통신부 | 인터넷 진흥 및 정보보호·ISMS |
-| **한국데이터산업진흥원** | Korea Data Agency | `kdata` | 과학기술정보통신부 | 데이터 산업 육성 및 바우처 |
-| **정보통신산업진흥원** | National IT Industry Promotion Agency | `nipa` | 과학기술정보통신부 | IT·SW 산업 육성 |
-| **한국콘텐츠진흥원** | Korea Creative Content Agency | `kocca` | 문화체육관광부 | K-콘텐츠 및 게임·문화 진흥 |
-| **국민건강보험공단** | National Health Insurance Service | `nhis` | 보건복지부 | 국민건강보험 및 노인장기요양 |
-| **건강보험심사평가원** | Health Insurance Review and Assessment Service | `hira` | 보건복지부 | 진료비 심사 및 적정성 평가 |
-| **국민연금공단** | National Pension Service | `nps` | 보건복지부 | 국민연금 관리 및 기금 운용 |
-| **근로복지공단** | Korea Workers' Compensation & Welfare Service | `kcomwel` | 고용노동부 | 산재보험 및 근로자 복지 |
-| **신용보증기금** | Korea Credit Guarantee Fund | `kodit` | 금융위원회 | 중소기업 신용보증 |
-| **기술보증기금** | Korea Technology Finance Corporation | `kibo` | 중소벤처기업부 | 기술금융 및 벤처 보증 |
-| **대한무역투자진흥공사** | Korea Trade-Investment Promotion Agency | `kotra` | 산업통상자원부 | 무역 진흥 및 외국인 투자 유치 |
-| **한국소비자원** | Korea Consumer Agency | `kca` | 공정거래위원회 | 소비자 권익 증진 및 피해 구제 |
-| **한국관광공사** | Korea Tourism Organization | `kto` | 문화체육관광부 | 한국 관광 홍보 및 관광산업 |
-| **한국환경공단** | Korea Environment Corporation | `keco` | 환경부 | 환경오염 방지 및 자원순환 |
+| 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 부처 | 주요 사업 | 배지 (`flat.svg`) |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| **한국지능정보사회진흥원** | National Information Society Agency | `nia` | 과학기술정보통신부 | 국가 ICT 인프라 및 전자정부·데이터 | — |
+| **한국인터넷진흥원** | Korea Internet & Security Agency | `kisa` | 과학기술정보통신부 | 인터넷 진흥 및 정보보호·ISMS | ![한국인터넷진흥원](../badges/kisa/flat.svg) |
+| **한국데이터산업진흥원** | Korea Data Agency | `kdata` | 과학기술정보통신부 | 데이터 산업 육성 및 바우처 | — |
+| **정보통신산업진흥원** | National IT Industry Promotion Agency | `nipa` | 과학기술정보통신부 | IT·SW 산업 육성 | — |
+| **한국콘텐츠진흥원** | Korea Creative Content Agency | `kocca` | 문화체육관광부 | K-콘텐츠 및 게임·문화 진흥 | — |
+| **국민건강보험공단** | National Health Insurance Service | `nhis` | 보건복지부 | 국민건강보험 및 노인장기요양 | — |
+| **건강보험심사평가원** | Health Insurance Review and Assessment Service | `hira` | 보건복지부 | 진료비 심사 및 적정성 평가 | — |
+| **국민연금공단** | National Pension Service | `nps` | 보건복지부 | 국민연금 관리 및 기금 운용 | — |
+| **근로복지공단** | Korea Workers' Compensation & Welfare Service | `kcomwel` | 고용노동부 | 산재보험 및 근로자 복지 | — |
+| **신용보증기금** | Korea Credit Guarantee Fund | `kodit` | 금융위원회 | 중소기업 신용보증 | — |
+| **기술보증기금** | Korea Technology Finance Corporation | `kibo` | 중소벤처기업부 | 기술금융 및 벤처 보증 | — |
+| **대한무역투자진흥공사** | Korea Trade-Investment Promotion Agency | `kotra` | 산업통상자원부 | 무역 진흥 및 외국인 투자 유치 | — |
+| **한국소비자원** | Korea Consumer Agency | `kca` | 공정거래위원회 | 소비자 권익 증진 및 피해 구제 | — |
+| **한국관광공사** | Korea Tourism Organization | `kto` | 문화체육관광부 | 한국 관광 홍보 및 관광산업 | ![한국관광공사](../badges/kto/flat.svg) |
+| **한국환경공단** | Korea Environment Corporation | `keco` | 환경부 | 환경오염 방지 및 자원순환 | — |
 
 ---
 
@@ -66,15 +66,15 @@
 
 [공식 CI 조사 결과 (2026-11-18)](research-institute-logo-review.md): 아래 7곳 모두 공식 AI 원본 다운로드 경로와 ZIP 수신을 확인했습니다. 배지 변환·재배포 조건은 미확인으로, **신규 구현 0곳 / 7곳 보류** 상태를 유지합니다. 원본 확보와 구현 완료를 구분합니다.
 
-| 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 연구회 | 주요 연구 분야 |
-| :--- | :--- | :---: | :--- | :--- |
-| **한국과학기술연구원** | Korea Institute of Science and Technology | `kist` | 국가과학기술연구회 | 국가 종합 과학기술 연구 |
-| **한국전자통신연구원** | Electronics and Telecommunications Research Institute | `etri` | 국가과학기술연구회 | ICT·인공지능·통신 |
-| **한국항공우주연구원** | Korea Aerospace Research Institute | `kari` | 국가과학기술연구회 | 발사체·위성·항공우주 기술 |
-| **한국원자력연구원** | Korea Atomic Energy Research Institute | `kaeri` | 국가과학기술연구회 | 원자력 에너지 및 방사선 |
-| **한국생명공학연구원** | Korea Research Institute of Bioscience and Biotechnology | `kribb` | 국가과학기술연구회 | 바이오·생명과학 연구 |
-| **한국표준과학연구원** | Korea Research Institute of Standards and Science | `kriss` | 국가과학기술연구회 | 국가 측정표준 및 양자 |
-| **한국화학연구원** | Korea Research Institute of Chemical Technology | `krict` | 국가과학기술연구회 | 화학 소재 및 의약 |
+| 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 연구회 | 주요 연구 분야 | 배지 (`flat.svg`) |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| **한국과학기술연구원** | Korea Institute of Science and Technology | `kist` | 국가과학기술연구회 | 국가 종합 과학기술 연구 | — |
+| **한국전자통신연구원** | Electronics and Telecommunications Research Institute | `etri` | 국가과학기술연구회 | ICT·인공지능·통신 | — |
+| **한국항공우주연구원** | Korea Aerospace Research Institute | `kari` | 국가과학기술연구회 | 발사체·위성·항공우주 기술 | — |
+| **한국원자력연구원** | Korea Atomic Energy Research Institute | `kaeri` | 국가과학기술연구회 | 원자력 에너지 및 방사선 | ![한국원자력연구원](../badges/kaeri/flat.svg) |
+| **한국생명공학연구원** | Korea Research Institute of Bioscience and Biotechnology | `kribb` | 국가과학기술연구회 | 바이오·생명과학 연구 | — |
+| **한국표준과학연구원** | Korea Research Institute of Standards and Science | `kriss` | 국가과학기술연구회 | 국가 측정표준 및 양자 | — |
+| **한국화학연구원** | Korea Research Institute of Chemical Technology | `krict` | 국가과학기술연구회 | 화학 소재 및 의약 | — |
 
 ---
 

@@ -2,24 +2,6 @@
   "note": "Only individually checked entries carry checked_on and evidence. Other candidates remain unverified. Do not treat missing artwork as implemented. No permission request was sent to institutions.",
   "items": [
     {
-      "id": "kepco",
-      "name": "한국전력공사",
-      "status": "pending_logo",
-      "reason": "not_yet_verified"
-    },
-    {
-      "id": "kogas",
-      "name": "한국가스공사",
-      "status": "pending_logo",
-      "reason": "not_yet_verified"
-    },
-    {
-      "id": "khnp",
-      "name": "한국수력원자력",
-      "status": "pending_logo",
-      "reason": "not_yet_verified"
-    },
-    {
       "id": "kdhc",
       "name": "한국지역난방공사",
       "status": "pending_logo",
@@ -30,16 +12,6 @@
       "name": "인천국제공항공사",
       "status": "pending_logo",
       "reason": "not_yet_verified"
-    },
-    {
-      "id": "kac",
-      "name": "한국공항공사",
-      "status": "pending_logo",
-      "reason": "original_download_deferred_429",
-      "commons_page": "https://commons.wikimedia.org/wiki/File:Korea_Airports_Corporation_logo.svg",
-      "license_as_listed": "Public domain",
-      "note": "Commons metadata verified; original fetch returned HTTP 429 / Retry-After 120. Metadata alone is not implementation.",
-      "checked_on": "2026-11-18"
     },
     {
       "id": "bpa",
@@ -78,36 +50,10 @@
       "reason": "not_yet_verified"
     },
     {
-      "id": "korail",
-      "name": "한국철도공사",
-      "status": "pending_logo",
-      "reason": "not_yet_verified"
-    },
-    {
-      "id": "ex",
-      "name": "한국도로공사",
-      "status": "pending_logo",
-      "reason": "original_download_pending",
-      "commons_page": "https://commons.wikimedia.org/wiki/File:한국도로공사_로고.svg",
-      "license_as_listed": "Public domain",
-      "note": "Commons metadata verified; original not downloaded while original host rate-limited.",
-      "checked_on": "2026-11-18"
-    },
-    {
       "id": "kwater",
       "name": "한국수자원공사",
       "status": "pending_logo",
       "reason": "not_yet_verified"
-    },
-    {
-      "id": "komsco",
-      "name": "한국조폐공사",
-      "status": "pending_logo",
-      "reason": "original_download_pending",
-      "commons_page": "https://commons.wikimedia.org/wiki/File:Logo_of_KOMSCO.svg",
-      "license_as_listed": "Public domain",
-      "note": "Commons metadata verified; original not downloaded while original host rate-limited.",
-      "checked_on": "2026-11-18"
     },
     {
       "id": "reb",
@@ -142,12 +88,6 @@
       "policy_source": "https://www.nia.or.kr/site/nia_kor/06/10603000000002016092303.jsp",
       "note": "Official vector bundle retrieved for inspection only. Source policy requires prior permission for redistribution; no specific grant established.",
       "checked_on": "2026-11-18"
-    },
-    {
-      "id": "kisa",
-      "name": "한국인터넷진흥원",
-      "status": "pending_logo",
-      "reason": "not_yet_verified"
     },
     {
       "id": "kdata",
@@ -216,12 +156,6 @@
       "reason": "not_yet_verified"
     },
     {
-      "id": "kto",
-      "name": "한국관광공사",
-      "status": "pending_logo",
-      "reason": "not_yet_verified"
-    },
-    {
       "id": "keco",
       "name": "한국환경공단",
       "status": "pending_logo",
@@ -240,20 +174,15 @@
       "reason": "permission_required_for_unmarked_material",
       "official_source": "https://www.etri.re.kr/korcon/sub7/sub7_11.etri",
       "policy_source": "https://www.etri.re.kr/korcon/etc/etc_07.etri",
-      "note": "Official CI files available; policy requires consultation for material without an applicable KOGL label. No item-specific open grant established.",
+      "note": "Official CI files available; policy requires consultation for material without an applicable KOGL label. No item-specific open grant established. Commons has a Public domain (trademarked) file, but the official policy requires consultation/permission, so it was not added.",
       "checked_on": "2026-11-18"
     },
     {
       "id": "kari",
       "name": "한국항공우주연구원",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
-    },
-    {
-      "id": "kaeri",
-      "name": "한국원자력연구원",
-      "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "not_yet_verified",
+      "note": "Commons has a Public domain (trademarked) file, but the official policy requires consultation/permission, so it was not added."
     },
     {
       "id": "kribb",
