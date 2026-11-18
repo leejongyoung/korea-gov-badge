@@ -133,7 +133,10 @@
       "id": "nipa",
       "name": "정보통신산업진흥원",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "redistribution_terms_unverified",
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.nipa.kr/home/4-4-5",
+      "note": "공식 CI 소개에서 AI ZIP과 JPG 다운로드 경로를 확인했다. 확인한 CI 본문에서 해당 로고의 배지 변환·재배포에 적용할 공개 이용조건을 확정하지 못했다. 파일은 내려받거나 변환하지 않았으며 원본 부재를 뜻하지 않는다."
     },
     {
       "id": "kocca",
@@ -187,13 +190,21 @@
       "id": "kca",
       "name": "한국소비자원",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "redistribution_terms_unverified",
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.kca.go.kr/kca/sub.do?menukey=5038",
+      "note": "공식 CI 소개에서 AI ZIP과 JPG ZIP 경로를 확인했다. 일반 정책은 공공누리 표시 없는 자료의 사전 협의를 안내하지만 해당 CI의 파일별 유형·배지 재배포 허락은 확인하지 못했다. 파일은 내려받거나 변환하지 않았다.",
+      "policy_source": "https://www.kca.go.kr/kca/sub.do?menukey=5312"
     },
     {
       "id": "keco",
       "name": "한국환경공단",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "redistribution_terms_unverified",
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.keco.or.kr/web/lay1/S1T34C60/contents.do",
+      "note": "공식 시그니처 안내의 CI ZIP 경로와 비례·간격·색상 지침을 확인했다. 일반 정책은 공공누리 미표시 자료의 사전 협의를 안내한다. 해당 CI에 적용되는 배지 변환·재배포 허락은 확인하지 못해 파일 다운로드·변환 없이 대기 유지한다.",
+      "policy_source": "https://www.keco.or.kr/web/lay1/S1T6C1349/contents.do"
     },
     {
       "id": "kist",

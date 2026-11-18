@@ -1430,6 +1430,28 @@
       "current_brand_review": "pending organization CI guide comparison; Commons licence label verified; organization trademark",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Korea_Atomic_Energy_Research_Institute_logo_%28Hangul%29.svg",
       "note": "Commons labels this logo Public domain (US simple-logo basis) with a trademark restriction. The organization symbol remains a registered/unregistered trademark; the label does not assert Korean copyright status."
+    },
+    {
+      "id": "kawf",
+      "name": "한국예술인복지재단",
+      "source_kind": "official",
+      "source_page": "https://www.kawf.kr/notice/sub07View.do?selIdx=17907",
+      "source_url": "https://www.kawf.kr/common/download.do?s=165967859177102",
+      "source_author": "한국예술인복지재단",
+      "source_title": "개편 CI (개편_CI.ai), 심벌마크",
+      "source_year": "2022",
+      "license_as_listed": "KOGL Type 1",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "policy_url": "https://www.kawf.kr/utility/sub06.do",
+      "original_sha256": "91f0b73586b2bfbdddcdd2287efa2c2eefdb04cdbd44531396d4d3028bfb9110",
+      "guide_url": "https://www.kawf.kr/common/download.do?s=165967859173901",
+      "guide_sha256": "d3c2d9ce10d9cead3c847c899d71e39141b65db8398fe62e65c20f0e94a7d85b",
+      "logo_sha256": "36cfdcbd668db5c34d227dae3ca1c71afde1c5d4f27a7723dd8902426cbd1e27",
+      "retrieved_on": "2026-11-18",
+      "conversion": "Official PDF-compatible AI, page 1 -> pdftocairo SVG; retain first 3 complete standalone symbol paths, remove whitespace and omit separate wordmark variants. Apply manual A3.1/A3.2 screen RGB #0075BF rather than CMYK preview colour. SVGO 4.1.0 precision=4 with removeDesc=false. No tracing or recreated paths. Manual pages 2,5,9,10 read using pdftotext; original homepage logo silhouette compared.",
+      "background_removed": false,
+      "current_brand_review": "2022 redesigned AW symbol matches the current official homepage logo silhouette; symbol A1 and digital reproduction instructions reviewed. Not a 10th-anniversary emblem.",
+      "restrictions": "Attribute Korean Artist Welfare Foundation, 2022 redesigned CI, official source URL and KOGL Type 1; preserve full symbol proportions and source description; do not imply endorsement."
     }
   ]
 }

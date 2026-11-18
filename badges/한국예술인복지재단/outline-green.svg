@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="207.0" height="22" viewBox="0 0 207.0 22" role="img" aria-label="한국예술인복지재단 KAWF">
+<title>한국예술인복지재단 KAWF (outline)</title>
+<defs><clipPath id="badge-shape"><rect width="207.0" height="22" rx="4"/></clipPath></defs>
+<g clip-path="url(#badge-shape)">
+<rect width="207.0" height="22" rx="4" fill="#ffffff"/>
+<path d="M155.0 0h52v22h-52z" fill="#ffffff"/>
+</g>
+<rect x="0.5" y="0.5" width="206.0" height="21" rx="4" fill="none" stroke="#1a7f37"/>
+<g transform="translate(-0.469 -10.829) scale(0.236837)"><desc>한국예술인복지재단, 2022년 「개편 CI」의 심벌마크. 출처: https://www.kawf.kr/notice/sub07View.do?selIdx=17907 . 공공누리 제1유형(출처표시), https://www.kogl.or.kr/info/licenseType1.do . 공식 AI 첫 시트의 심벌 경로 3개 전체를 추출, 여백 정리 및 SVG 변환. 화면용 색상은 공식 매뉴얼 A3.1의 KAWF Blue #0075BF 적용. 공식 후원·인증을 뜻하지 않음.</desc><path fill="#0075bf" d="m156.3906 71.9453-20.2226 40.4453h13.4804l20.2227-40.4453Zm-107.8554 0-20.2227 40.4453H41.793l11.461-22.918 11.457 22.918h13.4843L57.9727 71.9453Zm53.9258 0-20.2227 40.4453h13.4844l11.457-22.918 11.461 22.918h13.4804l-20.2227-40.4453Zm0 0" /></g>
+<text x="46.0" y="15" fill="#003764" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif" font-size="11" font-weight="600">한국예술인복지재단</text>
+<text x="181" y="15" fill="#1a7f37" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">KAWF</text>
+</svg>

@@ -2781,5 +2781,15 @@
     "type": "출연연구기관",
     "homepage": "https://www.kaeri.re.kr",
     "logo": "kaeri"
+  },
+  {
+    "id": "kawf",
+    "name": "한국예술인복지재단",
+    "short_name": "한국예술인복지재단",
+    "en_name": "Korean Artists Welfare Foundation",
+    "en_short": "KAWF",
+    "type": "공공기관",
+    "homepage": "https://www.kawf.kr",
+    "logo": "kawf"
   }
 ]
