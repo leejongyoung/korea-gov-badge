@@ -5,43 +5,77 @@
       "id": "kdhc",
       "name": "한국지역난방공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "redistribution_terms_unverified",
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.kdhc.co.kr/kdhc/main/contents.do?menuNo=200129",
+      "note": "공식 심벌 ZIP 안의 심벌.pdf를 열었으나 PDF 표시 영역에는 벡터 도형 0개·이미지 1개가 확인됐다. 다른 CI 다운로드 전체를 검사한 결과는 아니다. CI 페이지의 한난체 상업적 이용 허가 문구는 글꼴에 대한 안내이므로 심벌의 이용조건으로 일반화하지 않는다. 심벌의 SVG 변환·배지 내장·재배포에 적용할 명시적 허락은 확인하지 못했다.",
+      "review": "market-enterprise-logo-review.json"
     },
     {
       "id": "iia",
       "name": "인천국제공항공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "prior_permission_required_for_ci_use",
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.airport.kr/co_ko/573/subview.do",
+      "note": "공식 CI 페이지는 기관상징을 사전 허가 없이 사용하면 상표권 관련 제재를 받을 수 있다고 안내한다. 페이지에는 JPG 다운로드 3개가 있으며 이번 검토에서 벡터 링크는 찾지 못했다. 배지 변환·재배포에 적용할 별도 허락도 확인하지 못했다.",
+      "review": "market-enterprise-logo-review.json",
+      "policy_source": "https://www.airport.kr/ap_ko/1033/subview.do"
     },
     {
       "id": "bpa",
       "name": "부산항만공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "consultation_required_for_unmarked_material",
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000101001004000",
+      "note": "공식 AI 파일의 PDF 호환 표시 영역에서 벡터 도형을 확인했다. 일반 저작권정책은 공공누리 표시가 있는 자료의 유형별 이용과 표시 없는 자료의 사전 협의를 안내한다. 해당 CI에 적용되는 공공누리 유형이나 배지 재배포 허락은 확인하지 못했다. 사이트 공통 영역의 공공누리 링크를 CI 파일의 허락 표시로 보지 않았다.",
+      "review": "market-enterprise-logo-review.json",
+      "policy_source": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000108001007000"
     },
     {
       "id": "ipa",
       "name": "인천항만공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "redistribution_terms_unverified_by_source_policy",
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.icpa.or.kr/content/view.do?contentKey=54&menuKey=1121",
+      "note": "공식 모바일 CI 페이지에서 심벌 AI 원본을 내려받아 PDF 호환 영역의 벡터 도형을 확인했다. 데스크톱 CI와 일반 저작권정책도 별도로 읽었다. CI의 특수 색상·효과 사용 시 협의 안내와 일반 정책의 복제·배포 및 무단 변경 제한을 구분했다. SVG 배지 내장·재배포에 적용되는 허락은 확인하지 못했다.",
+      "review": "market-enterprise-logo-review.json",
+      "policy_source": "https://www.icpa.or.kr/content/view.do?menuKey=590&contentKey=134"
     },
     {
       "id": "ygpa",
       "name": "여수광양항만공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "redistribution_terms_unverified_by_source_policy",
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2",
+      "note": "공식 ZIP의 AI 8개를 PDF 호환 파일로 열어 벡터 도형을 확인했다. 심볼.ai에는 이미지도 포함된다. 일반 저작권정책은 무단 복제·배포 및 무단 변경 제한과 일부 이용의 사전 협의를 안내한다. 해당 CI에 적용할 배지 재배포 허락은 확인하지 못했다.",
+      "review": "market-enterprise-logo-review.json",
+      "policy_source": "https://www.ygpa.or.kr/hmpg/ygpa/addi/copy/contPageDetail.do?conts_no=327CD8B19E554F47ADE8ECFED407A1F6"
     },
     {
       "id": "upa",
       "name": "울산항만공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "consultation_required_for_unmarked_material",
+      "checked_on": "2026-11-18",
+      "official_source": "https://www.upa.or.kr/portal/contents.do?mid=0505000000",
+      "note": "공식 로고소개 페이지의 심벌·로고 다운로드는 GIF/JPG로 안내되어 있다. 이번 검토에서 CI 벡터 원본 링크는 찾지 못했다. 캐릭터 ZIP은 기관 심벌 벡터로 간주하지 않았다. 일반 정책은 공공누리 표시 없는 자료의 사전 협의를 안내하며 해당 CI에 적용할 유형이나 배지 재배포 허락은 확인하지 못했다.",
+      "review": "market-enterprise-logo-review.json",
+      "policy_source": "https://www.upa.or.kr/portal/contents.do?mid=0805000000"
     },
     {
       "id": "high1",
       "name": "강원랜드",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "permission_required_by_source_policy",
+      "checked_on": "2026-11-18",
+      "official_source": "https://kangwonland.high1.com/kangwonland/contents.do?key=2750",
+      "note": "공식 브랜드 체계도는 회사 CI와 하이원리조트 BI를 구분하며, 별도의 강원랜드 로고 페이지를 확인했다. 해당 페이지에서 내려받을 벡터 링크는 찾지 못했다. 일반 저작권 고지는 허용 범위 밖의 복제·배포·변형에 사전 허가를 요구한다. 회사 로고 대신 리조트 브랜드 로고를 넣지 않았다.",
+      "review": "market-enterprise-logo-review.json",
+      "policy_source": "https://kangwonland.high1.com/www/contents.do?key=801"
     },
     {
       "id": "lh",

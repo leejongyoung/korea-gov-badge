@@ -1,0 +1,235 @@
+{
+  "checked_on": "2026-11-18",
+  "issue": 1,
+  "scope": "Seven pending candidates in the existing market-type catalogue, not a review of current official institution classifications. No legal clearance or new badge implementation.",
+  "supported_before": 4,
+  "pending_reviewed": 7,
+  "new_badges": 0,
+  "downloaded_originals": 4,
+  "vector_drawing_sources_confirmed": 3,
+  "inspection_method": "HTTP downloads and SHA-256; ZIP members read without execution; PDF/PDF-compatible AI inspected using PyMuPDF get_drawings and get_images. This does not validate appearance, conversion fidelity or usage permission.",
+  "items": [
+    {
+      "id": "kdhc",
+      "name": "한국지역난방공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.kdhc.co.kr/kdhc/main/contents.do?menuNo=200129",
+      "redistribution_status": "unverified",
+      "implementation_status": "pending_logo",
+      "reason": "redistribution_terms_unverified",
+      "review_note": "공식 심벌 ZIP 안의 심벌.pdf를 열었으나 PDF 표시 영역에는 벡터 도형 0개·이미지 1개가 확인됐다. 다른 CI 다운로드 전체를 검사한 결과는 아니다. CI 페이지의 한난체 상업적 이용 허가 문구는 글꼴에 대한 안내이므로 심벌의 이용조건으로 일반화하지 않는다. 심벌의 SVG 변환·배지 내장·재배포에 적용할 명시적 허락은 확인하지 못했다.",
+      "download": {
+        "url": "https://www.kdhc.co.kr/kdhc/cmmn/file/fileDown.do?atchFileId=fad0105c4fb04a7091a0052ba44828d8&fileSn=8",
+        "status": 200,
+        "content_type": "application/x-msdownload;charset=UTF-8",
+        "content_disposition": "attachment; filename=\"simbol.zip\"",
+        "bytes": 113316,
+        "sha256": "a356394a16f1bf950a3b625f2de8c7f860b05e31ad34a7af647075d63f076947",
+        "format": "ZIP containing image-based PDF",
+        "inspection": [
+          {
+            "name": "심벌.pdf",
+            "magic": "%PDF-1.2",
+            "sha256": "f32731b010c8e7a3687f8f948dfab55f244a3de03861d79a9dc41246461e1bf5",
+            "pages": 1,
+            "drawing_count": 0,
+            "image_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "iia",
+      "name": "인천국제공항공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.airport.kr/co_ko/573/subview.do",
+      "redistribution_status": "unverified",
+      "implementation_status": "pending_logo",
+      "reason": "prior_permission_required_for_ci_use",
+      "review_note": "공식 CI 페이지는 기관상징을 사전 허가 없이 사용하면 상표권 관련 제재를 받을 수 있다고 안내한다. 페이지에는 JPG 다운로드 3개가 있으며 이번 검토에서 벡터 링크는 찾지 못했다. 배지 변환·재배포에 적용할 별도 허락도 확인하지 못했다.",
+      "policy_url": "https://www.airport.kr/ap_ko/1033/subview.do",
+      "download_status": "not_downloaded",
+      "raster_download_links": [
+        "https://www.airport.kr/sites/co_ko/down/IIAC_jpg01.jpg",
+        "https://www.airport.kr/sites/co_ko/down/IIAC_jpg02.jpg",
+        "https://www.airport.kr/sites/co_ko/down/IIAC_jpg03.jpg"
+      ]
+    },
+    {
+      "id": "bpa",
+      "name": "부산항만공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000101001004000",
+      "redistribution_status": "unverified",
+      "implementation_status": "pending_logo",
+      "reason": "consultation_required_for_unmarked_material",
+      "review_note": "공식 AI 파일의 PDF 호환 표시 영역에서 벡터 도형을 확인했다. 일반 저작권정책은 공공누리 표시가 있는 자료의 유형별 이용과 표시 없는 자료의 사전 협의를 안내한다. 해당 CI에 적용되는 공공누리 유형이나 배지 재배포 허락은 확인하지 못했다. 사이트 공통 영역의 공공누리 링크를 CI 파일의 허락 표시로 보지 않았다.",
+      "policy_url": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000108001007000",
+      "download": {
+        "url": "https://www.busanpa.com/FileManager/ofda.sko?f_idx=QzkzcDNoUWZXMlpwVGlyNW9peVFiZz09&ofn=176819345852357.ai",
+        "status": 200,
+        "content_type": "application/octet-stream;charset=UTF-8",
+        "content_disposition": "attachment; filename*=UTF-8''%EB%B6%80%EC%82%B0%ED%95%AD%EB%A7%8C%EA%B3%B5%EC%82%ACCI.ai",
+        "bytes": 156675,
+        "sha256": "c11f5429a5dc622e1b7f541b33ede93e0218e5954f7073cb07b4e51a59dd34eb",
+        "format": "PDF-compatible AI",
+        "inspection": [
+          {
+            "name": "부산항만공사CI.ai",
+            "magic": "%PDF-1.5",
+            "sha256": "c11f5429a5dc622e1b7f541b33ede93e0218e5954f7073cb07b4e51a59dd34eb",
+            "pages": 1,
+            "drawing_count": 61,
+            "image_count": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "ipa",
+      "name": "인천항만공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.icpa.or.kr/content/view.do?contentKey=54&menuKey=1121",
+      "redistribution_status": "unverified",
+      "implementation_status": "pending_logo",
+      "reason": "redistribution_terms_unverified_by_source_policy",
+      "review_note": "공식 모바일 CI 페이지에서 심벌 AI 원본을 내려받아 PDF 호환 영역의 벡터 도형을 확인했다. 데스크톱 CI와 일반 저작권정책도 별도로 읽었다. CI의 특수 색상·효과 사용 시 협의 안내와 일반 정책의 복제·배포 및 무단 변경 제한을 구분했다. SVG 배지 내장·재배포에 적용되는 허락은 확인하지 못했다.",
+      "policy_url": "https://www.icpa.or.kr/content/view.do?menuKey=590&contentKey=134",
+      "download_page_url": "https://www.icpa.or.kr/mobile/content/view.do?contentKey=54&menuKey=1121",
+      "download": {
+        "url": "https://www.icpa.or.kr/file/commonFileDownload.do?path=!@$*CJELQSRnZjbVLK3l7dJljdMBYhU1wrZJPjy1uofgerU=!@$*",
+        "status": 200,
+        "content_type": "application/octet-stream",
+        "content_disposition": "attachment; filename=\"CI_symbolMark_01.ai\";",
+        "bytes": 1063749,
+        "sha256": "141c00db9190fc66dcbca96d9ff7d417813a1cee7d50b418d8d70a466b73800e",
+        "format": "PDF-compatible AI",
+        "inspection": [
+          {
+            "name": "CI_symbolMark_01.ai",
+            "magic": "%PDF-1.5",
+            "sha256": "141c00db9190fc66dcbca96d9ff7d417813a1cee7d50b418d8d70a466b73800e",
+            "pages": 1,
+            "drawing_count": 3,
+            "image_count": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "ygpa",
+      "name": "여수광양항만공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2",
+      "redistribution_status": "unverified",
+      "implementation_status": "pending_logo",
+      "reason": "redistribution_terms_unverified_by_source_policy",
+      "review_note": "공식 ZIP의 AI 8개를 PDF 호환 파일로 열어 벡터 도형을 확인했다. 심볼.ai에는 이미지도 포함된다. 일반 저작권정책은 무단 복제·배포 및 무단 변경 제한과 일부 이용의 사전 협의를 안내한다. 해당 CI에 적용할 배지 재배포 허락은 확인하지 못했다.",
+      "policy_url": "https://www.ygpa.or.kr/hmpg/ygpa/addi/copy/contPageDetail.do?conts_no=327CD8B19E554F47ADE8ECFED407A1F6",
+      "download": {
+        "url": "https://www.ygpa.or.kr/images/hmpg/ygpa/sub/st/YGPACI_AI.zip",
+        "status": 200,
+        "content_type": "application/zip",
+        "content_disposition": null,
+        "bytes": 10775341,
+        "sha256": "1a8c1d498252f51b3994a48bb176ddcc8d67c3ae86cd545e5d554fd083f73e4a",
+        "format": "ZIP",
+        "inspection": [
+          {
+            "name": "YGPA_YG Cube 시그니처.ai",
+            "magic": "%PDF-1.5",
+            "sha256": "5f212384ea874828a21319a0f73484e8bc0a548a0617019d7b0c9f056af0bcc8",
+            "pages": 1,
+            "drawing_count": 136,
+            "image_count": 0
+          },
+          {
+            "name": "YGPA_국 영문 혼용 시그니처.ai",
+            "magic": "%PDF-1.5",
+            "sha256": "a1ddbe9ce27b2c16a9115a69119e99b1abbe4f0222a5dbe9105e54801eb97399",
+            "pages": 1,
+            "drawing_count": 279,
+            "image_count": 0
+          },
+          {
+            "name": "YGPA_로고(국문).ai",
+            "magic": "%PDF-1.5",
+            "sha256": "d541287a94654762ed879c77a93e81a3ceffb649d375f37855a4423516e41f37",
+            "pages": 1,
+            "drawing_count": 191,
+            "image_count": 0
+          },
+          {
+            "name": "YGPA_로고(기본형).ai",
+            "magic": "%PDF-1.5",
+            "sha256": "87a20218199ef969430a454b7e843186f609fce28db743945895822702caafac",
+            "pages": 1,
+            "drawing_count": 157,
+            "image_count": 0
+          },
+          {
+            "name": "YGPA_심볼(네가티브활용).ai",
+            "magic": "%PDF-1.5",
+            "sha256": "8dd79217236037ed6675cf2e951f6d7e44407e9718ec0934621b9b3e734e53c8",
+            "pages": 1,
+            "drawing_count": 85,
+            "image_count": 0
+          },
+          {
+            "name": "YGPA_심볼.ai",
+            "magic": "%PDF-1.5",
+            "sha256": "105894d6b31342767945a5d9f77624359e9e4754de32a9ac0d19e7b3eba2d8ba",
+            "pages": 1,
+            "drawing_count": 251,
+            "image_count": 2
+          },
+          {
+            "name": "YGPA_영문 시그니처.ai",
+            "magic": "%PDF-1.5",
+            "sha256": "4532c8cbea79462b5b9b51a6a35670049dd30aa46532a13db8fce75ecc6ccad8",
+            "pages": 1,
+            "drawing_count": 196,
+            "image_count": 0
+          },
+          {
+            "name": "YGPA_한문 영문혼용 시그니처.ai",
+            "magic": "%PDF-1.5",
+            "sha256": "31a1a58cc315f117f9ed18fa8ed05d6d1f032d114011bf2b6fd18cd2f49b456d",
+            "pages": 1,
+            "drawing_count": 207,
+            "image_count": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "upa",
+      "name": "울산항만공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.upa.or.kr/portal/contents.do?mid=0505000000",
+      "redistribution_status": "unverified",
+      "implementation_status": "pending_logo",
+      "reason": "consultation_required_for_unmarked_material",
+      "review_note": "공식 로고소개 페이지의 심벌·로고 다운로드는 GIF/JPG로 안내되어 있다. 이번 검토에서 CI 벡터 원본 링크는 찾지 못했다. 캐릭터 ZIP은 기관 심벌 벡터로 간주하지 않았다. 일반 정책은 공공누리 표시 없는 자료의 사전 협의를 안내하며 해당 CI에 적용할 유형이나 배지 재배포 허락은 확인하지 못했다.",
+      "policy_url": "https://www.upa.or.kr/portal/contents.do?mid=0805000000",
+      "download_status": "not_downloaded",
+      "raster_download_links": [
+        "https://www.upa.or.kr/file/direct/download.do?filename=심볼마크_gif.gif&path=/file",
+        "https://www.upa.or.kr/file/direct/download.do?filename=심볼마크_jpg.jpg&path=/file"
+      ]
+    },
+    {
+      "id": "high1",
+      "name": "강원랜드",
+      "checked_on": "2026-11-18",
+      "source_url": "https://kangwonland.high1.com/kangwonland/contents.do?key=2750",
+      "redistribution_status": "unverified",
+      "implementation_status": "pending_logo",
+      "reason": "permission_required_by_source_policy",
+      "review_note": "공식 브랜드 체계도는 회사 CI와 하이원리조트 BI를 구분하며, 별도의 강원랜드 로고 페이지를 확인했다. 해당 페이지에서 내려받을 벡터 링크는 찾지 못했다. 일반 저작권 고지는 허용 범위 밖의 복제·배포·변형에 사전 허가를 요구한다. 회사 로고 대신 리조트 브랜드 로고를 넣지 않았다.",
+      "policy_url": "https://kangwonland.high1.com/www/contents.do?key=801",
+      "brand_structure_url": "https://kangwonland.high1.com/kangwonland/contents.do?key=2749",
+      "download_status": "not_downloaded"
+    }
+  ]
+}
