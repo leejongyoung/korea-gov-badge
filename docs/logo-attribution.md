@@ -11,6 +11,10 @@
 | 서울에너지공사, 「심벌마크」 (원본 작성연도 미표시) | [공식 CI·공공누리 1유형](https://www.i-se.co.kr/intro06), [공식 심벌 AI](https://www.i-se.co.kr/comm/getFile?srvcId=BBSTY1&upperNo=45&fileTy=ATTACH&fileNo=1) | 별도 심벌 AI의 벡터 경로 13개를 모두 유지해 SVG 변환·여백 정리·최적화. 새로 그리거나 임의 재색상하지 않음. |
 | 경기도일자리재단, 「기관 심볼마크」 (원본 작성연도 미표시) | [공식 CI·공공누리 1유형](https://www.gjf.or.kr/main/content/view.do?sn=91), [공식 ZIP/EPS](https://www.gjf.or.kr/repository/download/ci/ai.zip) | 기관 심벌 EPS의 벡터 3개를 변환하고 공식 화면 RGB 색을 적용. 같은 ZIP의 잡아바 브랜드와 구분. 기본 배지에서 양변 27 CSS px 이상 확보. 인쇄 시 심벌 7mm 이상 유지. |
 
+| 부산항만공사, 「심벌마크」 (원본 작성연도 미표시) | [공식 CI·공공누리 1유형](https://www.busanpa.com/index.bpa?menuCd=DOM_000000101001004000), [공식 AI](https://www.busanpa.com/FileManager/ofda.sko?f_idx=QzkzcDNoUWZXMlpwVGlyNW9peVFiZz09&ofn=176819345852357.ai), [공공누리 제1유형·출처표시](https://www.kogl.or.kr/info/licenseType1.do) | 공식 AI의 벡터 61개 경로 중 심벌 4개를 추출해 SVG 변환·여백 정리·최적화. 재배포 허락 미확인. |
+| 인천항만공사, 「심벌마크」 (원본 작성연도 미표시) | [공식 CI·공공누리 1유형](https://www.icpa.or.kr/content/view.do?contentKey=54&menuKey=1121), [공식 AI](https://www.icpa.or.kr/file/commonFileDownload.do?path=!@CJELQSRnZjbVLK3l7dJljdMBYhU1wrZJPjy1uofgerU=!@) | 공식 AI의 벡터 3개 경로 중 심벌 3개를 유지. 재배포 허락 미확인. |
+| 여수광양항만공사, 「심볼마크」 (원본 작성연도 미표시) | [공식 CI·공공누리 1유형](https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2), [공식 ZIP/EPS](https://www.ygpa.or.kr/images/hmpg/ygpa/sub/st/YGPACI_AI.zip) | 기관 심볼 EPS의 벡터 3개를 변환. 같은 ZIP의 잡아바 브랜드와 구분. 재배포 허락 미확인. |
+
 위 공식 자료 기반 배지를 재사용할 때 각 기관명·저작물명·출처 URL·공공누리 유형을 함께 표시한다. SVG 내부의 출처 설명(`desc`)도 유지한다. 로고/배지 변경 여부는 이용자가 실제 변경에 맞춰 표시해야 한다.
 
 ## Commons에서 추가한 로고
@@ -46,3 +50,13 @@
 ## 로고별 최소 표시 크기
 
 공식 CI 지침에 최소 크기가 있는 로고는 루트 SVG의 `data-min-icon-size`에 양변 최소 CSS px를 기록한다. 생성기는 비례를 유지한 채 심벌과 배지 높이를 함께 키운다. 이 속성이 없는 기존 배지의 크기는 바꾸지 않는다. 경기도일자리재단은 7mm 안내에 대응해 27 CSS px(96px/in 기준 약 7.14mm)를 사용한다. SVG를 외부에서 축소하거나 인쇄할 때에는 실제 심벌 크기 7mm 이상을 별도로 유지해야 한다.
+
+## 구현은 제공하되 재배포 허락은 확인되지 않은 CI
+
+사용자 요청으로 다음 CI도 제공한다. 자료 수록은 권리자의 이용허락이나 자유이용 판정을 뜻하지 않으며, 코드의 MIT 라이선스도 이 로고에 적용되지 않는다. 제약과 확인 상태는 SVG 및 모든 생성 배지의 `desc`에도 포함한다.
+
+| 기관 | 공식 CI·정책 | 확인된 제약·상태 |
+| --- | --- | --- |
+| 부산항만공사 | [공식 CI](https://www.busanpa.com/index.bpa?menuCd=DOM_000000101001004000) · [정책](https://www.busanpa.com/index.bpa?menuCd=DOM_000000108001007000) | 일반 정책은 공공누리 미표시 자료의 사전 협의를 안내함. 해당 CI의 자유이용 유형 및 배지 재배포 허락 미확인. |
+| 인천항만공사 | [공식 CI](https://www.icpa.or.kr/content/view.do?contentKey=54&menuKey=1121) · [정책](https://www.icpa.or.kr/content/view.do?menuKey=590&contentKey=134) | 일반 정책에 무단 복제·배포 및 내용 변경 제한과 일부 이용의 사전 협의·허락 안내가 있음. 해당 CI 배지 재배포 허락 미확인. |
+| 여수광양항만공사 | [공식 CI](https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2) · [정책](https://www.ygpa.or.kr/hmpg/ygpa/addi/copy/contPageDetail.do?conts_no=327CD8B19E554F47ADE8ECFED407A1F6) | 일반 정책에 무단 복제·배포 및 무단 변경 제한, 일부 이용의 사전 협의·허락 안내가 있음. 해당 CI 배지 재배포 허락 미확인. |
