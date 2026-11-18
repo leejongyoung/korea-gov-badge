@@ -174,43 +174,8 @@
       "policy_source": "https://www.keco.or.kr/web/lay1/S1T6C1349/contents.do"
     },
     {
-      "id": "kist",
-      "name": "한국과학기술연구원",
-      "status": "pending_logo",
-      "reason": "not_yet_verified"
-    },
-    {
-      "id": "etri",
-      "name": "한국전자통신연구원",
-      "status": "pending_logo",
-      "reason": "permission_required_for_unmarked_material",
-      "official_source": "https://www.etri.re.kr/korcon/sub7/sub7_11.etri",
-      "policy_source": "https://www.etri.re.kr/korcon/etc/etc_07.etri",
-      "note": "Official CI files available; policy requires consultation for material without an applicable KOGL label. No item-specific open grant established. Commons has a Public domain (trademarked) file, but the official policy requires consultation/permission, so it was not added.",
-      "checked_on": "2026-11-18"
-    },
-    {
-      "id": "kari",
-      "name": "한국항공우주연구원",
-      "status": "pending_logo",
-      "reason": "not_yet_verified",
-      "note": "Commons has a Public domain (trademarked) file, but the official policy requires consultation/permission, so it was not added."
-    },
-    {
       "id": "kribb",
       "name": "한국생명공학연구원",
-      "status": "pending_logo",
-      "reason": "not_yet_verified"
-    },
-    {
-      "id": "kriss",
-      "name": "한국표준과학연구원",
-      "status": "pending_logo",
-      "reason": "not_yet_verified"
-    },
-    {
-      "id": "krict",
-      "name": "한국화학연구원",
       "status": "pending_logo",
       "reason": "not_yet_verified"
     }

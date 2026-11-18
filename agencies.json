@@ -2841,5 +2841,55 @@
     "type": "시장형공기업",
     "homepage": "https://www.ygpa.or.kr",
     "logo": "ygpa"
+  },
+  {
+    "id": "kist",
+    "name": "한국과학기술연구원",
+    "short_name": "KIST",
+    "en_name": "Korea Institute of Science and Technology",
+    "en_short": "KIST",
+    "type": "연구기관",
+    "homepage": "https://kist.re.kr",
+    "logo": "kist"
+  },
+  {
+    "id": "etri",
+    "name": "한국전자통신연구원",
+    "short_name": "ETRI",
+    "en_name": "Electronics and Telecommunications Research Institute",
+    "en_short": "ETRI",
+    "type": "연구기관",
+    "homepage": "https://www.etri.re.kr",
+    "logo": "etri"
+  },
+  {
+    "id": "kari",
+    "name": "한국항공우주연구원",
+    "short_name": "KARI",
+    "en_name": "Korea Aerospace Research Institute",
+    "en_short": "KARI",
+    "type": "연구기관",
+    "homepage": "https://www.kari.re.kr",
+    "logo": "kari"
+  },
+  {
+    "id": "kriss",
+    "name": "한국표준과학연구원",
+    "short_name": "KRISS",
+    "en_name": "Korea Research Institute of Standards and Science",
+    "en_short": "KRISS",
+    "type": "연구기관",
+    "homepage": "https://www.kriss.re.kr",
+    "logo": "kriss"
+  },
+  {
+    "id": "krict",
+    "name": "한국화학연구원",
+    "short_name": "KRICT",
+    "en_name": "Korea Research Institute of Chemical Technology",
+    "en_short": "KRICT",
+    "type": "연구기관",
+    "homepage": "https://www.krict.re.kr",
+    "logo": "krict"
   }
 ]

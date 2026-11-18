@@ -74,13 +74,13 @@
 
 | 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 연구회 | 주요 연구 분야 | 배지 (`flat.svg`) |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| **한국과학기술연구원** | Korea Institute of Science and Technology | `kist` | 국가과학기술연구회 | 국가 종합 과학기술 연구 | 로고 대기 |
-| **한국전자통신연구원** | Electronics and Telecommunications Research Institute | `etri` | 국가과학기술연구회 | ICT·인공지능·통신 | 로고 대기 |
-| **한국항공우주연구원** | Korea Aerospace Research Institute | `kari` | 국가과학기술연구회 | 발사체·위성·항공우주 기술 | 로고 대기 |
+| **한국과학기술연구원** | Korea Institute of Science and Technology | `kist` | 국가과학기술연구회 | 국가 종합 과학기술 연구 | ![한국과학기술연구원](../badges/kist/flat.svg) [\*](logo-attribution.md) |
+| **한국전자통신연구원** | Electronics and Telecommunications Research Institute | `etri` | 국가과학기술연구회 | ICT·인공지능·통신 | ![한국전자통신연구원](../badges/etri/flat.svg) [\*](logo-attribution.md) |
+| **한국항공우주연구원** | Korea Aerospace Research Institute | `kari` | 국가과학기술연구회 | 발사체·위성·항공우주 기술 | ![한국항공우주연구원](../badges/kari/flat.svg) [\*](logo-attribution.md) |
 | **한국원자력연구원** | Korea Atomic Energy Research Institute | `kaeri` | 국가과학기술연구회 | 원자력 에너지 및 방사선 | ![한국원자력연구원](../badges/kaeri/flat.svg) |
 | **한국생명공학연구원** | Korea Research Institute of Bioscience and Biotechnology | `kribb` | 국가과학기술연구회 | 바이오·생명과학 연구 | 로고 대기 |
-| **한국표준과학연구원** | Korea Research Institute of Standards and Science | `kriss` | 국가과학기술연구회 | 국가 측정표준 및 양자 | 로고 대기 |
-| **한국화학연구원** | Korea Research Institute of Chemical Technology | `krict` | 국가과학기술연구회 | 화학 소재 및 의약 | 로고 대기 |
+| **한국표준과학연구원** | Korea Research Institute of Standards and Science | `kriss` | 국가과학기술연구회 | 국가 측정표준 및 양자 | ![한국표준과학연구원](../badges/kriss/flat.svg) [\*](logo-attribution.md) |
+| **한국화학연구원** | Korea Research Institute of Chemical Technology | `krict` | 국가과학기술연구회 | 화학 소재 및 의약 | ![한국화학연구원](../badges/krict/flat.svg) [\*](logo-attribution.md) |
 
 ---
 

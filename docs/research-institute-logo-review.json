@@ -15,8 +15,9 @@
       "container": "zip",
       "ai_entry_count": 1,
       "redistribution_status": "unverified",
-      "implementation_status": "pending",
-      "review_note": "정비례 확대·축소 및 색상 활용 지침을 확인했다. 이 저장소의 SVG 변환·배지 내장·재배포에 적용할 명시적 허락은 이번 조사에서 확인하지 못했다."
+      "implementation_status": "implemented_2026-11-19",
+      "review_note": "정비례 확대·축소 및 색상 활용 지침을 확인했다. 이 저장소의 SVG 변환·배지 내장·재배포에 적용할 명시적 허락은 이번 조사에서 확인하지 못했다.",
+      "implementation_evidence": "ci-first-five/extraction.json"
     },
     {
       "id": "etri",
@@ -30,8 +31,9 @@
       "container": "zip",
       "ai_entry_count": 11,
       "redistribution_status": "unverified",
-      "implementation_status": "pending",
-      "review_note": "임의 변경 제한을 포함하는 CI 지침을 확인했다. 일반 저작권정책은 자료별 공공누리 표시와 조건 확인을 요구한다. 해당 CI 파일에 적용되는 유형이나 별도 배지 재배포 허락은 확인하지 못했다."
+      "implementation_status": "implemented_2026-11-19",
+      "review_note": "임의 변경 제한을 포함하는 CI 지침을 확인했다. 일반 저작권정책은 자료별 공공누리 표시와 조건 확인을 요구한다. 해당 CI 파일에 적용되는 유형이나 별도 배지 재배포 허락은 확인하지 못했다.",
+      "implementation_evidence": "ci-first-five/extraction.json"
     },
     {
       "id": "kari",
@@ -45,8 +47,9 @@
       "container": "zip",
       "ai_entry_count": 1,
       "redistribution_status": "unverified",
-      "implementation_status": "pending",
-      "review_note": "심볼·시그니처·색상 지침을 확인했다. 일반 저작권정책은 무단 복제·배포 및 내용 변경을 제한하고 일부 이용에 사전 협의를 요구한다. 배지 변환·재배포에 적용할 별도 허락은 확인하지 못했다."
+      "implementation_status": "implemented_2026-11-19",
+      "review_note": "심볼·시그니처·색상 지침을 확인했다. 일반 저작권정책은 무단 복제·배포 및 내용 변경을 제한하고 일부 이용에 사전 협의를 요구한다. 배지 변환·재배포에 적용할 별도 허락은 확인하지 못했다.",
+      "implementation_evidence": "ci-first-five/extraction.json"
     },
     {
       "id": "kaeri",
@@ -90,8 +93,9 @@
       "container": "zip",
       "ai_entry_count": 7,
       "redistribution_status": "unverified",
-      "implementation_status": "pending",
-      "review_note": "원고를 정비례로 확대·축소하도록 하는 지침을 확인했다. CI 파일을 공개 다운로드할 수 있지만 이 저장소의 변환·재배포 허락은 이번 조사에서 확인하지 못했다."
+      "implementation_status": "implemented_2026-11-19",
+      "review_note": "원고를 정비례로 확대·축소하도록 하는 지침을 확인했다. CI 파일을 공개 다운로드할 수 있지만 이 저장소의 변환·재배포 허락은 이번 조사에서 확인하지 못했다.",
+      "implementation_evidence": "ci-first-five/extraction.json"
     },
     {
       "id": "krict",
@@ -105,8 +109,9 @@
       "container": "zip",
       "ai_entry_count": 1,
       "redistribution_status": "unverified",
-      "implementation_status": "pending",
-      "review_note": "워터마크·시그니처·색상 지침과 AI 다운로드를 확인했다. Commons에서 JPG만 발견했던 결과는 공식 벡터 원본 부재를 뜻하지 않는다. 배지 변환·재배포 허락은 이번 조사에서 확인하지 못했다."
+      "implementation_status": "implemented_2026-11-19",
+      "review_note": "워터마크·시그니처·색상 지침과 AI 다운로드를 확인했다. Commons에서 JPG만 발견했던 결과는 공식 벡터 원본 부재를 뜻하지 않는다. 배지 변환·재배포 허락은 이번 조사에서 확인하지 못했다.",
+      "implementation_evidence": "ci-first-five/extraction.json"
     }
   ]
 }

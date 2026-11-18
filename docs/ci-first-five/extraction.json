@@ -1,0 +1,77 @@
+[
+  {
+    "id": "kist",
+    "member": "KIST CI.ai",
+    "member_sha256": "f48691b3427941e02249de27b166d959e106b8e1f222f9ccc4126a69b2e860c6",
+    "crop": [
+      132.24400329589844,
+      121.47003173828125,
+      471.7029724121094,
+      193.8289794921875
+    ],
+    "path_count": 53,
+    "svg_sha256": "af24fea035b06dc02a25e212a8898434f7ce01b1c781ddf3579f3a5491304538",
+    "conversion": "Mechanical transcription of PDF fill paths and RGB values using MuPDF; KIST PostScript converted by Ghostscript. No tracing/redrawing. KARI only complete blue symbol paths, excluding guide grid.",
+    "variant": "official bilingual logotype (download contains no separate symbol)"
+  },
+  {
+    "id": "etri",
+    "member": "1. wordmark.ai",
+    "member_sha256": "c62de547482c2b85c8c508b74d7f2216141f44edb04fb3a94161987e0a017a50",
+    "crop": [
+      176.33009338378906,
+      367.3119812011719,
+      419.9541015625,
+      429.6601867675781
+    ],
+    "path_count": 5,
+    "svg_sha256": "9318d8a575e4ad057f9cda2c13408ae20c7feb4488014712ec2efa72048973a8",
+    "conversion": "Mechanical transcription of PDF fill paths and RGB values using MuPDF; KIST PostScript converted by Ghostscript. No tracing/redrawing. KARI only complete blue symbol paths, excluding guide grid.",
+    "variant": "official complete symbol / wordmark"
+  },
+  {
+    "id": "kari",
+    "member": "CI.ai",
+    "member_sha256": "e161e20153dd8e86668cf11cd69926b0561ba29b6cd5bb042cbda664e23a81f2",
+    "crop": [
+      66.68669891357422,
+      117.2881851196289,
+      223.70599365234375,
+      215.38201904296875
+    ],
+    "path_count": 5,
+    "svg_sha256": "a15b1e2493916143922e3e5e6ebc7278e51ee9dfd3627e9b1c9d3c5098c9a61d",
+    "conversion": "Mechanical transcription of PDF fill paths and RGB values using MuPDF; KIST PostScript converted by Ghostscript. No tracing/redrawing. KARI only complete blue symbol paths, excluding guide grid.",
+    "variant": "official complete symbol / wordmark"
+  },
+  {
+    "id": "kriss",
+    "member": "kriss-╣½╣Φ░µ.ai",
+    "member_sha256": "a0b262a6e54ce44d16fe614df19e96fb965cce3580ad38ba6582c8760053699e",
+    "crop": [
+      233.89480590820312,
+      403.3818054199219,
+      362.7214050292969,
+      439.12591552734375
+    ],
+    "path_count": 6,
+    "svg_sha256": "71a8c4431b7dc8b9f0a3abbb01db4aa15cbb259f8af4981ef0e56938a3f29fbc",
+    "conversion": "Mechanical transcription of PDF fill paths and RGB values using MuPDF; KIST PostScript converted by Ghostscript. No tracing/redrawing. KARI only complete blue symbol paths, excluding guide grid.",
+    "variant": "official complete symbol / wordmark"
+  },
+  {
+    "id": "krict",
+    "member": "ai__╗÷╗≤├╝░Φ_FULL COLOR.ai",
+    "member_sha256": "7d0a2b81154aa467da7ccca5ace94dad83053624a2e89eac95eb18b35c42047e",
+    "crop": [
+      -0.2396087646484375,
+      0.5888843536376953,
+      842.456298828125,
+      266.15069580078125
+    ],
+    "path_count": 21,
+    "svg_sha256": "a0a028a2bda2c62ba23c51ef6554bf16c6ef90581a73c18101ef30ca1b83dcbd",
+    "conversion": "Mechanical transcription of PDF fill paths and RGB values using MuPDF; KIST PostScript converted by Ghostscript. No tracing/redrawing. KARI only complete blue symbol paths, excluding guide grid.",
+    "variant": "official complete symbol / wordmark"
+  }
+]
