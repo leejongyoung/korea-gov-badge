@@ -1,5 +1,5 @@
 {
-  "note": "Only individually checked entries carry checked_on and evidence. Other candidates remain unverified. Do not treat missing artwork as implemented. No permission request was sent to institutions. Implemented logos with unverified permission are recorded in logo-sources.json, not hidden in this implementation backlog. Implemented logos with unverified permission are recorded in logo-sources.json, not hidden in this implementation backlog.",
+  "note": "Only individually checked entries carry checked_on and evidence. Other candidates remain unverified. Do not treat missing artwork as implemented. No permission request was sent to institutions.",
   "items": [
     {
       "id": "kdhc",

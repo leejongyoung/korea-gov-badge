@@ -2815,31 +2815,34 @@
   {
     "id": "bpa",
     "name": "부산항만공사",
+    "short_name": "부산항만공사",
     "en_name": "Busan Port Authority",
     "en_short": "BPA",
-    "homepage": "https://www.busanpa.com",
-    "short_name": "부산항만공사",
     "type": "시장형공기업",
-    "logo": "bpa"
+    "homepage": "https://www.busanpa.com",
+    "logo": null,
+    "logo_status": "pending_official_symbol"
   },
   {
     "id": "ipa",
     "name": "인천항만공사",
+    "short_name": "인천항만공사",
     "en_name": "Incheon Port Authority",
     "en_short": "IPA",
-    "homepage": "https://www.icpa.or.kr",
-    "short_name": "인천항만공사",
     "type": "시장형공기업",
-    "logo": "ipa"
+    "homepage": "https://www.icpa.or.kr",
+    "logo": null,
+    "logo_status": "pending_official_symbol"
   },
   {
     "id": "ygpa",
     "name": "여수광양항만공사",
+    "short_name": "여수광양항만공사",
     "en_name": "Yeosu Gwangyang Port Authority",
     "en_short": "YGPA",
-    "homepage": "https://www.ygpa.or.kr",
-    "short_name": "여수광양항만공사",
     "type": "시장형공기업",
-    "logo": "ygpa"
+    "homepage": "https://www.ygpa.or.kr",
+    "logo": null,
+    "logo_status": "pending_official_symbol"
   }
 ]
