@@ -1,6 +1,6 @@
 # 대한민국 공기업 및 공공기관 배지 카탈로그 (Public Enterprises & Institutions)
 
-주요 시장형·준시장형 공기업, 준정부기관, 정부출연연구기관 및 기타 공공기관 43곳의 목록입니다. 이 중 **11곳은 배지를 제공**하고(배지 열에 미리보기 표시) 나머지 32곳은 로고 확인 대기 상태이며 배지를 제공하지 않습니다. 대기 기관의 Slug는 후보 식별자이며 사용 가능한 URL이 아닙니다. 제공 기관 중 10곳은 Wikimedia Commons가 Public domain(상표 표시)로 표시한 파일을, 한국예술인복지재단은 공식 게시물의 공공누리 제1유형 CI를 사용합니다([출처·해시](logo-sources.json), [출처표시 안내](logo-attribution.md)). 기관 상징의 상표권과 사칭 제한은 별도로 준수해야 합니다. 기관 분류·소관 부처는 원래 작성된 후보 정보로, 최신 공식 지정 현황의 검증을 뜻하지 않습니다.
+주요 시장형·준시장형 공기업, 준정부기관, 정부출연연구기관 및 기타 공공기관 45곳의 목록입니다. 이 중 **13곳은 배지를 제공**하고(배지 열에 미리보기 표시) 나머지 32곳은 로고 확인 대기 상태이며 배지를 제공하지 않습니다. 대기 기관의 Slug는 후보 식별자이며 사용 가능한 URL이 아닙니다. 제공 기관 중 10곳은 Wikimedia Commons가 Public domain(상표 표시)로 표시한 파일을, 한국예술인복지재단·서울에너지공사·경기도일자리재단은 공식 자료의 공공누리 제1유형 CI를 사용합니다([출처·해시](logo-sources.json), [출처표시 안내](logo-attribution.md)). 기관 상징의 상표권과 사칭 제한은 별도로 준수해야 합니다. 기관 분류·소관 부처는 원래 작성된 후보 정보로, 최신 공식 지정 현황의 검증을 뜻하지 않습니다.
 
 로고의 출처·재배포 조건과 현행 상징을 확인한 뒤 [#1](https://github.com/leejongyoung/korea-gov-badge/issues/1)~[#4](https://github.com/leejongyoung/korea-gov-badge/issues/4)에서 순차 구현합니다. 목록 등재를 구현 완료로 표시하지 않습니다. 개별 확인 상태·공식 출처·보류 근거는 [로고 확인 목록](public-logo-pending.json)에 기록합니다.
 
@@ -87,5 +87,7 @@
 | 기관명 | 영문 명칭 | 영문 약칭 / Slug | 주요 기능 | 배지 (`flat.svg`) |
 | :--- | :--- | :---: | :--- | :--- |
 | **한국예술인복지재단** | Korean Artists Welfare Foundation | `kawf` | 예술인 복지 지원 | ![한국예술인복지재단](../badges/kawf/flat.svg) |
+| **서울에너지공사** | Seoul Energy | `seoul-energy` | 친환경 에너지 공급 | ![서울에너지공사](../badges/seoul-energy/flat.svg) |
+| **경기도일자리재단** | Gyeonggido Job Foundation | `gjf` | 일자리·직업훈련 지원 | ![경기도일자리재단](../badges/gjf/flat.svg) |
 
 [← 메인 README로 돌아가기](../README.md)

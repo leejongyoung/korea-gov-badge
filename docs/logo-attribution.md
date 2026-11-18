@@ -8,6 +8,8 @@
 | --- | --- | --- |
 | 진천군, 「진천군마크 시그니처」 (`jincheon_ci.ai`, 원본 작성연도 미표시) | [진천군 공식 상징 안내](https://www.jincheon.go.kr/home/sub.do?menukey=265), [공식 벡터 원본](https://www.jincheon.go.kr/oldData/editor/content/main/info/symbol.zip), [공공누리 제1유형·출처표시](https://www.kogl.or.kr/info/licenseType1.do) | 2026-11-18 확인. PDF 호환 AI를 `pdftocairo -svg`로 변환하고 첫 심벌의 완전한 벡터 경로만 추출. 형상·색을 새로 그리거나 래스터를 추적하지 않음. SVGO 최적화. |
 | 한국예술인복지재단, 2022년 「개편 CI」 (`개편_CI.ai`) | [공식 CI 배포 게시물](https://www.kawf.kr/notice/sub07View.do?selIdx=17907), [공식 AI 원본](https://www.kawf.kr/common/download.do?s=165967859177102), [공공누리 제1유형·출처표시](https://www.kogl.or.kr/info/licenseType1.do) | 2026-11-18 확인. 매뉴얼의 재생 지침에 따라 별도 AI의 완전한 심벌 경로 3개를 추출. 화면 색은 매뉴얼 A3.1의 `#0075BF` 적용, 여백 정리·SVG 변환·최적화. 새로 그리거나 래스터를 추적하지 않음. |
+| 서울에너지공사, 「심벌마크」 (원본 작성연도 미표시) | [공식 CI·공공누리 1유형](https://www.i-se.co.kr/intro06), [공식 심벌 AI](https://www.i-se.co.kr/comm/getFile?srvcId=BBSTY1&upperNo=45&fileTy=ATTACH&fileNo=1) | 별도 심벌 AI의 벡터 경로 13개를 모두 유지해 SVG 변환·여백 정리·최적화. 새로 그리거나 임의 재색상하지 않음. |
+| 경기도일자리재단, 「기관 심볼마크」 (원본 작성연도 미표시) | [공식 CI·공공누리 1유형](https://www.gjf.or.kr/main/content/view.do?sn=91), [공식 ZIP/EPS](https://www.gjf.or.kr/repository/download/ci/ai.zip) | 기관 심벌 EPS의 벡터 3개를 변환하고 공식 화면 RGB 색을 적용. 같은 ZIP의 잡아바 브랜드와 구분. 기본 배지에서 양변 27 CSS px 이상 확보. 인쇄 시 심벌 7mm 이상 유지. |
 
 위 공식 자료 기반 배지를 재사용할 때 각 기관명·저작물명·출처 URL·공공누리 유형을 함께 표시한다. SVG 내부의 출처 설명(`desc`)도 유지한다. 로고/배지 변경 여부는 이용자가 실제 변경에 맞춰 표시해야 한다.
 
@@ -40,3 +42,7 @@
 4. 경로를 래스터화하거나 새로 그리지 않는다. 심벌의 모든 도형을 유지하고 여백만 제외한다. 출처표시 `desc`를 넣고, 기존 SVGO 4.1.0을 사용할 때 `removeDesc: false`로 보존한다.
 5. 신규 심벌과 5가지 스타일 배지를 렌더링해 잘림·색·형상·가독성을 확인한다. `unittest`, `generate.py --check`, `check_catalog.py --check`와 CI를 통과한 정확한 커밋을 검토한 뒤 병합한다.
 6. Commons가 429를 반환하면 `Retry-After` 동안 해당 호스트의 수집을 중단한다. 대기 시간을 임의로 짧게 자르거나 프록시·미러로 우회하지 않는다. 다른 공식 출처를 독립적으로 검증하되 권리 확인도 함께 다시 한다.
+
+## 로고별 최소 표시 크기
+
+공식 CI 지침에 최소 크기가 있는 로고는 루트 SVG의 `data-min-icon-size`에 양변 최소 CSS px를 기록한다. 생성기는 비례를 유지한 채 심벌과 배지 높이를 함께 키운다. 이 속성이 없는 기존 배지의 크기는 바꾸지 않는다. 경기도일자리재단은 7mm 안내에 대응해 27 CSS px(96px/in 기준 약 7.14mm)를 사용한다. SVG를 외부에서 축소하거나 인쇄할 때에는 실제 심벌 크기 7mm 이상을 별도로 유지해야 한다.
