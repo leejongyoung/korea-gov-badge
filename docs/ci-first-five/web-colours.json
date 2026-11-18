@@ -3,12 +3,15 @@
     "id": "kist",
     "replacements": {},
     "expected_palette": [
-      "#6d6d67"
+      "#6d6e67"
     ],
-    "svg_sha256": "9656db19d1f1c074033802e420e2202e6ff3ecd862051aa37f3a03e3d6700f1b",
+    "svg_sha256": "7338e52574456f3f94efd85ada16cc41629520be5d09fb4efb7c7f4a1657e455",
     "geometry_unchanged": true,
-    "web_colour_status": "page_HTTP400_unverified",
-    "evidence_files": {},
+    "web_colour_status": "browser_verified_official_guidance",
+    "evidence_files": {
+      "kist-browser-text.txt": "553ba981dc349bde2e6763d2aedfd2bb59957773563f4f6d3b74e823904bab4c",
+      "kist-browser-links.json": "7cafaa14cfae75f214f78012d1df6a72605b1fe557b989696ebcd9a43da8ed26"
+    },
     "baseline_path_sha256": "810739264e4159df761ba36d3c53f4cf422960a8ef036d5dc9f7592f30679913"
   },
   {
@@ -24,8 +27,7 @@
     "geometry_unchanged": true,
     "web_colour_status": "explicit_web_specification",
     "evidence_files": {
-      "etri.jpg": "135e7de2db616f297ff0d3dfd93bcdc43ddc3fa63682cf29b3f3beac228d6664",
-      "etri.html": "b3da59d697675cd04e48c38782663e480a4d0302fcf0d5932eaf785d30767ba2"
+      "etri-evidence.json": "018a1c4ad3464e6503ea42540503b7dcae834dce213e06560a79ac01f6e7d69d"
     },
     "baseline_path_sha256": "618bf2c73cb297685581ac472a2005be3bfb52ab5d815a0adde7b555dd8be2a8"
   },
@@ -41,7 +43,7 @@
     "geometry_unchanged": true,
     "web_colour_status": "explicit_web_specification",
     "evidence_files": {
-      "kari.html": "aa5ec65a51035e4b4db843d201f134dfcc6e8a3df61da8af0d8097e4f91a8375"
+      "kari-evidence.json": "e0adbf825b8bca5e4f65dd0436e1a82d4457db2f3e686919aa8d3ba8bca71241"
     },
     "baseline_path_sha256": "d1c54fd7c0f7a4e7c0334178469b1418a51b27274ce0e1a1b21ab693a5451c73"
   },
@@ -56,7 +58,7 @@
     "geometry_unchanged": true,
     "web_colour_status": "pantone_only_no_numeric_RGB_in_CI_page",
     "evidence_files": {
-      "kriss.html": "f5a01e83fee3fee14509e06ef308b9d899491fd1f671eb90ffb65348263ca615"
+      "kriss-evidence.json": "56ca2abb09f99f7d2f6ac919b35d879251a6d6eabf203be59e43b955cfb0574e"
     },
     "baseline_path_sha256": "b0759e212a1429e58cc77283a92e9b41da4f52ab3b2df10a58f378e3506c68ec"
   },
@@ -83,8 +85,7 @@
     "geometry_unchanged": true,
     "web_colour_status": "explicit_web_specification",
     "evidence_files": {
-      "krict.jpg": "ed9db106a70c54bd4f6c6fb3ba9e6b4d0a72209753491f84d93e4131b918894c",
-      "krict.html": "9ac89afa063fe08a0bcaea5ed919d74c657b5274cc0370908402dcb803983987"
+      "krict-evidence.json": "2d27e61aaaee8b9aa1ef92ff4d8a62d4c00c2d5a0b5bf08c2cc937179df13c9f"
     },
     "baseline_path_sha256": "f36be94ec182c2c9f56522524ab1a06cc748c64ff01993cea3a3f46129b72018"
   }

@@ -1564,7 +1564,7 @@
       "retrieved_on": "2026-11-19",
       "original_sha256": "f48691b3427941e02249de27b166d959e106b8e1f222f9ccc4126a69b2e860c6",
       "archive_sha256": "59c36003e6ad4b0136f4b217af0cbfc9b4756dd2ad24ba229bc79f6d253875db",
-      "logo_sha256": "9656db19d1f1c074033802e420e2202e6ff3ecd862051aa37f3a03e3d6700f1b",
+      "logo_sha256": "7338e52574456f3f94efd85ada16cc41629520be5d09fb4efb7c7f4a1657e455",
       "conversion": "Mechanical official vector path extraction; renderer RGB is not certified web RGB. ETRI/KRICT explicit image RGB and KARI explicit web HEX applied without geometry changes. KIST/KRISS renderer colours retained, numeric official web RGB unverified.",
       "current_brand_review": "Geometry compared to supplied artwork; web colour provenance separate; no pixel identity or legal clearance claim. See ci-first-five/web-colours.json.",
       "web_colour_evidence": "docs/ci-first-five/web-colours.json"
