@@ -3,6 +3,7 @@
 
 import argparse
 import json
+import math
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -101,6 +102,12 @@ def load_logos():
 
         content = "".join(inner)
         logos[p.stem] = (min_x, min_y, vb_w, vb_h, content)
+        minimum = root.get("data-min-icon-size")
+        if minimum is not None:
+            minimum = float(minimum)
+            if not math.isfinite(minimum) or not 0 < minimum <= 256 or vb_w <= 0 or vb_h <= 0:
+                raise ValueError(f"invalid minimum icon size: {p.name}")
+            logos[p.stem] += (minimum,)
 
     if "gov" not in logos:
         raise ValueError("assets/logos/gov.svg is required")
@@ -125,7 +132,9 @@ def render_badge(label_text, message_text, style, logo_key, logos, color_theme="
 
     height = 28 if prominent else 22 if outlined else 20
     has_logo = logo_key is not None
-    min_x, min_y, vb_w, vb_h, content = logos[logo_key] if has_logo else (0, 0, 1, 1, "")
+    logo_data = logos[logo_key] if has_logo else (0, 0, 1, 1, "")
+    min_x, min_y, vb_w, vb_h, content = logo_data[:5]
+    min_icon_size = logo_data[5] if len(logo_data) > 5 else 0
     aspect = vb_w / vb_h if vb_h > 0 else 1.0
 
     if aspect > 1.8:
@@ -140,6 +149,10 @@ def render_badge(label_text, message_text, style, logo_key, logos, color_theme="
 
     if not has_logo:
         scale = 0
+    elif min_icon_size:
+        # Opt-in brand minimum, in CSS px at the SVG's intrinsic display size.
+        scale = max(scale, min_icon_size / vb_w, min_icon_size / vb_h)
+        height = max(height, math.ceil(vb_h * scale + 6))
     icon_w = vb_w * scale
     icon_h = vb_h * scale
     icon_x = 6

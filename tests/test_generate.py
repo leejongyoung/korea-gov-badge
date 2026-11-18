@@ -132,6 +132,36 @@ class KoreaGovBadgeTests(unittest.TestCase):
         root = ET.fromstring(svg)
         self.assertEqual(root.attrib["role"], "img")
 
+    def test_brand_minimum_fits_without_clipping_in_every_style(self):
+        import re
+        logos = generate.load_logos()
+        for style in generate.STYLES:
+            for theme in generate.COLOR_THEMES:
+                with self.subTest(style=style, theme=theme):
+                    svg = generate.render_badge("경기도일자리재단", "GJF", style, "gjf", logos, theme)
+                    root = ET.fromstring(svg)
+                    group = next(g for g in root.findall(f"{generate.SVG_NS}g") if g.get("transform"))
+                    scale = float(re.search(r"scale\(([^)]+)\)", group.get("transform")).group(1))
+                    width, height = logos["gjf"][2:4]
+                    self.assertGreaterEqual(min(width, height) * scale, 26.99)
+                    self.assertGreaterEqual(float(root.get("height")) - height * scale, 5.99)
+                    self.assertIn("공공누리", svg)
+        # A logo that does not opt in retains the existing compact layout.
+        old = ET.fromstring(generate.render_badge("한국예술인복지재단", "KAWF", "flat", "kawf", logos))
+        self.assertEqual(old.get("height"), "20")
+
+    def test_invalid_minimum_icon_metadata_is_rejected(self):
+        import tempfile
+        from unittest.mock import patch
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            for value in ("nan", "inf", "-1", "0", "257", "bad"):
+                with self.subTest(value=value):
+                    (directory / "gov.svg").write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" data-min-icon-size="{value}"><path d="M0 0h10v10H0z"/></svg>')
+                    with patch.object(generate, "LOGOS_DIR", directory):
+                        with self.assertRaises(ValueError):
+                            generate.load_logos()
+
     def run_cli(self, *args):
         result = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "generate.py"), "--agency", "kasa", *args],

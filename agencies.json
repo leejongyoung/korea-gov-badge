@@ -2791,5 +2791,25 @@
     "type": "공공기관",
     "homepage": "https://www.kawf.kr",
     "logo": "kawf"
+  },
+  {
+    "id": "seoul-energy",
+    "name": "서울에너지공사",
+    "short_name": "서울에너지공사",
+    "en_name": "Seoul Energy",
+    "en_short": "Seoul Energy",
+    "type": "공공기관",
+    "homepage": "https://www.i-se.co.kr",
+    "logo": "seoul-energy"
+  },
+  {
+    "id": "gjf",
+    "name": "경기도일자리재단",
+    "short_name": "경기도일자리재단",
+    "en_name": "Gyeonggido Job Foundation",
+    "en_short": "GJF",
+    "type": "공공기관",
+    "homepage": "https://www.gjf.or.kr",
+    "logo": "gjf"
   }
 ]

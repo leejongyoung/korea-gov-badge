@@ -1452,6 +1452,47 @@
       "background_removed": false,
       "current_brand_review": "2022 redesigned AW symbol matches the current official homepage logo silhouette; symbol A1 and digital reproduction instructions reviewed. Not a 10th-anniversary emblem.",
       "restrictions": "Attribute Korean Artist Welfare Foundation, 2022 redesigned CI, official source URL and KOGL Type 1; preserve full symbol proportions and source description; do not imply endorsement."
+    },
+    {
+      "id": "seoul-energy",
+      "name": "서울에너지공사",
+      "source_kind": "official",
+      "source_page": "https://www.i-se.co.kr/intro06",
+      "source_author": "서울에너지공사",
+      "source_title": "기관 심벌마크",
+      "source_year": "not stated on source page",
+      "license_as_listed": "KOGL Type 1",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "logo_sha256": "30eb99d479b1e3046b9da5442bf02b8ca0a4c6490e5e4589c50a5cb26a2da662",
+      "retrieved_on": "2026-11-18",
+      "background_removed": false,
+      "restrictions": "Keep the official symbol shape, proportions and source description. Do not imply official endorsement.",
+      "source_url": "https://www.i-se.co.kr/comm/getFile?srvcId=BBSTY1&upperNo=45&fileTy=ATTACH&fileNo=1",
+      "original_sha256": "998d6dcc039ed8a265ae47b1988ad7837d79af09b0c1bc6d4e8c5fc623550bf3",
+      "conversion": "Official standalone PDF-compatible AI -> pdftocairo SVG; preserve all 13 vector paths, crop surrounding whitespace to viewBox 96 286 396 317, SVGO 4.1.0 precision=4 removeDesc=false. No tracing or recolouring.",
+      "current_brand_review": "Compared standalone digital original with the symbol/brand shapes shown on the current official CI page; preserve supplied AI colour variant."
+    },
+    {
+      "id": "gjf",
+      "name": "경기도일자리재단",
+      "source_kind": "official",
+      "source_page": "https://www.gjf.or.kr/main/content/view.do?sn=91",
+      "source_author": "경기도일자리재단",
+      "source_title": "기관 심벌마크",
+      "source_year": "not stated on source page",
+      "license_as_listed": "KOGL Type 1",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "logo_sha256": "eba16bca557370ac3e8504687753b44fff81676517becbfc8d5f8f764268eec7",
+      "retrieved_on": "2026-11-18",
+      "background_removed": false,
+      "restrictions": "Keep the official symbol shape, proportions and source description. Do not imply official endorsement.",
+      "source_url": "https://www.gjf.or.kr/repository/download/ci/ai.zip",
+      "archive_sha256": "6933136c16c3689b12476533c7120e4e084cca86a9b24763de2c68820231c7a5",
+      "original_filename": "경기도일자리재단_심볼마크.eps",
+      "original_sha256": "2c8c572709487758743dbee0b00ddcfdbc3e89764514e8ae879ee6ced7436288",
+      "conversion": "Official ZIP member (EPS) -> Ghostscript SAFER EPSCrop pdfwrite -> pdftocairo SVG; retain 3 complete vector shapes. Apply official CI page RGB values #90b03e/#ed1c24/#3777bc rather than CMYK preview mapping. SVGO precision=4 removeDesc=false.",
+      "current_brand_review": "Foundation GJF symbol matched against official CI introduction; JOBABA service branding guide in the same archive is not the corporate symbol guide.",
+      "minimum_display": "CI page prohibits symbol use below 7 mm. data-min-icon-size=27 opts into a 27 CSS px minimum on both symbol dimensions (96 px/in); output grows rather than distorting the symbol. Do not reduce below 7 mm when printing."
     }
   ]
 }
