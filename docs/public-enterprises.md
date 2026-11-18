@@ -8,6 +8,8 @@
 
 ## 1. 시장형 공기업 (Market-type Public Enterprises)
 
+[공식 CI 조사 결과 (2026-11-18)](market-enterprise-logo-review.md): 기존 4곳은 제공 중이며, 나머지 7곳의 공식 CI·이용 조건을 확인했습니다. 원본 4개를 검사했으나 배지 재배포 허락은 확인하지 못해 **신규 구현 0곳 / 7곳 대기**를 유지합니다. 파일 확보와 구현 완료를 구분합니다.
+
 | 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 부처 | 주요 사업 | 배지 (`flat.svg`) |
 | :--- | :--- | :---: | :--- | :--- | :--- |
 | **한국전력공사** | Korea Electric Power Corporation | `kepco` | 산업통상자원부 | 전력 공급 및 송배전 | ![한국전력공사](../badges/kepco/flat.svg) |
