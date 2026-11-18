@@ -2,6 +2,7 @@
 """Validate administrative coverage and its generated catalogue (offline)."""
 import argparse
 import json
+import re
 from collections import Counter
 from datetime import date
 from pathlib import Path
@@ -86,6 +87,41 @@ def validate_pending(catalog, pending):
     return problems
 
 
+def validate_public_previews(text, agencies, sources, pending):
+    """Reject another institution's CI, duplicate cells, and false availability."""
+    amap = {a['id']: a for a in agencies}
+    smap = {s['id']: s for s in sources['items']}
+    pending_ids = {p['id'] for p in pending['items']}
+    problems, seen = [], set()
+    columns = None
+    for line in text.splitlines():
+        if line.startswith('| 기관명 |'):
+            columns = len(line.strip().strip('|').split('|'))
+        if not line.startswith('| **'):
+            continue
+        cells = [c.strip() for c in line.strip().strip('|').split('|')]
+        ids = re.findall(r'`([^`]+)`', cells[2])
+        if len(ids) != 1 or len(cells) != columns:
+            problems.append('invalid public catalogue row: ' + cells[0])
+            continue
+        id_ = ids[0]
+        if id_ in seen:
+            problems.append('duplicate public catalogue id: ' + id_)
+        seen.add(id_)
+        agency = amap.get(id_)
+        if agency is None:
+            if cells[-1] != '로고 대기' or id_ not in pending_ids:
+                problems.append('unimplemented public CI shown as available: ' + id_)
+            continue
+        marker = ' [\\*](logo-attribution.md)' if smap.get(id_, {}).get('permission_status') == 'not_verified' else ''
+        expected = f"![{agency['name']}](../badges/{id_}/flat.svg)" + marker
+        if cells[-1] != expected or agency.get('logo') != id_ or id_ not in smap:
+            problems.append('public CI identity/marker mismatch: ' + id_)
+    if not seen or seen - set(amap) != pending_ids:
+        problems.append('public catalogue and pending coverage differ')
+    return problems
+
+
 def render(catalog, agencies):
     amap = {a['id']: a for a in agencies}
     rows = catalog['municipalities']
@@ -143,7 +179,11 @@ def main():
     catalog = json.loads(CATALOG.read_text(encoding='utf-8'))
     agencies = json.loads((ROOT / 'agencies.json').read_text(encoding='utf-8'))
     pending = json.loads((ROOT / 'docs/logo-pending.json').read_text(encoding='utf-8'))
-    problems = validate(catalog, agencies) + validate_pending(catalog, pending)
+    public_sources = json.loads((ROOT / 'docs/logo-sources.json').read_text(encoding='utf-8'))
+    public_pending = json.loads((ROOT / 'docs/public-logo-pending.json').read_text(encoding='utf-8'))
+    public_text = (ROOT / 'docs/public-enterprises.md').read_text(encoding='utf-8')
+    problems = (validate(catalog, agencies) + validate_pending(catalog, pending)
+                + validate_public_previews(public_text, agencies, public_sources, public_pending))
     if problems:
         for p in problems:
             print(p)

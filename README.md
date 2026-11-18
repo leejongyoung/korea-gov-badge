@@ -53,7 +53,7 @@
 
 | 컬러 테마 | 테마 코드 | 색상 값 (Hex) | 우주항공청 예시 | 고위공직자범죄수사처 예시 |
 | :--- | :---: | :---: | :--- | :--- |
-| **블루 (기본)** | `blue` | `#134f8c` | ![kasa](badges/kasa/flat.svg) | ![YGPA](../badges/ygpa/flat.svg) **이용제약 확인 필요** |
+| **블루 (기본)** | `blue` | `#134f8c` | ![kasa](badges/kasa/flat.svg) | ![cio](badges/cio/flat.svg) |
 | **네이비** | `navy` | `#003764` | ![kasa navy](badges/kasa/flat-navy.svg) | ![cio navy](badges/cio/flat-navy.svg) |
 | **블랙 / 다크** | `black` | `#24292f` | ![kasa black](badges/kasa/flat-black.svg) | ![cio black](badges/cio/flat-black.svg) |
 | **그린** | `green` | `#1a7f37` | ![kasa green](badges/kasa/flat-green.svg) | ![cio green](badges/cio/flat-green.svg) |
@@ -112,9 +112,7 @@ python3 scripts/generate.py --agency kasa --label-color "#f8f9fa" --text-color "
 | **지방자치단체** | 현행 광역 16곳(통합특별시는 명칭 배지), 기초 227곳 중 191곳 구현 + 통합 전 광역 URL 2곳 보존 | 배지 209곳 | [지방자치단체 카탈로그 바로가기 →](docs/local-gov.md) |
 | **공기업 및 공공기관** | 후보 42곳 중 13곳 및 공식 CI 이용 조건을 확인한 한국예술인복지재단·서울에너지공사·경기도일자리재단 추가 구현(합계 45곳 중 16곳 제공, 29곳은 로고 확인 대기) | 배지 16곳 | [공기업·공공기관 카탈로그 바로가기 →](docs/public-enterprises.md) |
 
-부산·인천·여수광양항만공사 CI는 재배포 허락 미확인 상태로 수록되어 있습니다. 로고 제공 여부와 자유이용 허락은 별개이며, [기관별 출처·이용제약](docs/logo-attribution.md)을 확인해야 합니다.
-
-부산·인천·여수광양항만공사 CI는 재배포 허락 미확인 상태로 수록되어 있습니다. 로고 제공 여부와 자유이용 허락은 별개이며, [기관별 출처·이용제약](docs/logo-attribution.md)을 확인해야 합니다.
+\* : CI 이용 조건·재배포 허락 확인이 필요한 항목입니다. [기관별 출처·이용제약](docs/logo-attribution.md)에 상세 설명을 유지합니다.
 
 ### 주요 대표 기관 배지 예시
 
