@@ -1,0 +1,189 @@
+{
+  "checked_on": "2026-11-18",
+  "issue": 1,
+  "base_commit": "790c6296cda51d6391030973f1f3a03b73b078ea",
+  "scope": "Review of the 7 remaining candidates in issue #1; not a current legal classification or legal clearance. Existing 4 implementations from PR #21 are not cleared by this review.",
+  "originals_policy": "Original artwork is held in local scratch for inspection only, not committed or redistributed. No permission requests were sent.",
+  "items": [
+    {
+      "id": "kdhc",
+      "name": "한국지역난방공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.kdhc.co.kr/kdhc/main/contents.do?menuNo=200129",
+      "reason": "official_vector_reuse_permission_unverified",
+      "implementation_status": "pending",
+      "reuse_permission_status": "not_established",
+      "review_note": "심벌 다운로드는 ZIP 안의 PDF 1건으로 확인했다. CI 페이지의 조형·색상 지침은 확인했으나 SVG 변환·배지 내장·재배포에 적용할 명시적 허락은 확인하지 못했다. 한난체의 상업적 이용 허가 문구는 글꼴에 대한 것으로 심벌 전체의 조건으로 일반화하지 않았다.",
+      "evidence": [
+        {
+          "url": "https://www.kdhc.co.kr/kdhc/main/contents.do?menuNo=200129",
+          "capture_method": "browser DOM text",
+          "text_sha256": "e170f0cf559482a67f03fc36268d3b45678ee0c31ba66e02760998fce21e5792"
+        }
+      ],
+      "download": {
+        "url": "https://www.kdhc.co.kr/kdhc/cmmn/file/fileDown.do?atchFileId=fad0105c4fb04a7091a0052ba44828d8&fileSn=8",
+        "bytes": 113316,
+        "sha256": "a356394a16f1bf950a3b625f2de8c7f860b05e31ad34a7af647075d63f076947",
+        "content_type": "application/x-msdownload;charset=UTF-8",
+        "content_disposition": "attachment; filename=\"simbol.zip\"",
+        "http_status": 200,
+        "container": "ZIP containing 1 PDF"
+      }
+    },
+    {
+      "id": "iia",
+      "name": "인천국제공항공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.airport.kr/co_ko/573/subview.do",
+      "reason": "permission_required_by_source_policy",
+      "implementation_status": "pending",
+      "reuse_permission_status": "not_established",
+      "review_note": "CI 페이지에서 사전 허가 없는 기관상징 사용에 대한 상표권 제재 경고를 확인했다. 공개 다운로드는 JPG 조합 3종이며, 이를 배지 재배포 허락으로 보지 않았다. 허가 요청은 보내지 않았다.",
+      "evidence": [
+        {
+          "url": "https://www.airport.kr/co_ko/573/subview.do",
+          "capture_method": "browser DOM text",
+          "text_sha256": "da9002c589d75939b2914c96d89acccd72e7a45dbf62c247176d7e3a0132107b"
+        }
+      ],
+      "download_status": "not_retrieved"
+    },
+    {
+      "id": "bpa",
+      "name": "부산항만공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000101001004000",
+      "reason": "permission_required_for_unmarked_material",
+      "implementation_status": "pending",
+      "reuse_permission_status": "not_established",
+      "review_note": "공식 AI 원본(PDF 호환 헤더)을 내려받았다. 저작권정책은 공공누리가 없는 자료 이용에 사전 협의를 요구한다. CI 페이지에서 해당 로고에 적용되는 공공누리 표시를 확인하지 못했으므로 변환·재배포는 보류했다.",
+      "policy_url": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000108001007000",
+      "evidence": [
+        {
+          "url": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000101001004000",
+          "capture_method": "browser DOM text",
+          "text_sha256": "5b1693a48ddfbddb24799d9b4a7fbb70ff5b8abdc4132e04225ae986842aba39"
+        },
+        {
+          "url": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000108001007000",
+          "capture_method": "HTTPS HTML text",
+          "text_sha256": "df4f36a2282c6655fce3fc994f6da683a0b43c31cb0fca9571196149589f3769"
+        }
+      ],
+      "download": {
+        "url": "https://www.busanpa.com/FileManager/ofda.sko?f_idx=QzkzcDNoUWZXMlpwVGlyNW9peVFiZz09&ofn=176819345852357.ai",
+        "bytes": 156675,
+        "sha256": "c11f5429a5dc622e1b7f541b33ede93e0218e5954f7073cb07b4e51a59dd34eb",
+        "content_type": "application/octet-stream;charset=UTF-8",
+        "content_disposition": "attachment; filename*=UTF-8''%EB%B6%80%EC%82%B0%ED%95%AD%EB%A7%8C%EA%B3%B5%EC%82%ACCI.ai",
+        "http_status": 200,
+        "container": "AI with PDF-compatible header"
+      }
+    },
+    {
+      "id": "ipa",
+      "name": "인천항만공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.icpa.or.kr/content/view.do?menuKey=121&contentKey=54",
+      "reason": "permission_required_by_source_policy",
+      "implementation_status": "pending",
+      "reuse_permission_status": "not_established",
+      "review_note": "CI의 심벌·시그니처·색상 지침을 확인했다. 저작권정책은 무단 복제·배포와 내용 변경을 제한하고 수익·혜택 목적 이용에 사전 협의 또는 허락을 요구한다. 배너 링크 안내를 일반적인 로고 재배포 허락으로 확대 해석하지 않았다. 벡터 원본은 확보하지 않았다.",
+      "policy_url": "https://www.icpa.or.kr/content/view.do?menuKey=590&contentKey=134",
+      "evidence": [
+        {
+          "url": "https://www.icpa.or.kr/content/view.do?menuKey=121&contentKey=54",
+          "capture_method": "HTTPS HTML text",
+          "text_sha256": "e6d8bb1dc02fad817743a2ad82b926ead0f7555d8670af0d5697b590fdf444bb"
+        },
+        {
+          "url": "https://www.icpa.or.kr/content/view.do?menuKey=590&contentKey=134",
+          "capture_method": "HTTPS HTML text",
+          "text_sha256": "d11853f247b5e9661816b7dd52ed3f232f2b43c2205ad15b0053ea2cbff05d04"
+        }
+      ],
+      "download_status": "not_retrieved"
+    },
+    {
+      "id": "ygpa",
+      "name": "여수광양항만공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2",
+      "reason": "permission_required_by_source_policy",
+      "implementation_status": "pending",
+      "reuse_permission_status": "not_established",
+      "review_note": "공식 AI ZIP(8개 AI 항목)을 내려받았다. 일반 저작권정책은 무단 복제·배포 및 내용 변경을 제한하고 수익·혜택 목적 이용에 사전 협의 또는 허락을 요구한다. 저장소의 변환·배지 내장·재배포에 적용할 별도 허락은 확인하지 못했다.",
+      "policy_url": "https://www.ygpa.or.kr/hmpg/ygpa/addi/copy/contPageDetail.do?conts_no=327CD8B19E554F47ADE8ECFED407A1F6",
+      "evidence": [
+        {
+          "url": "https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2",
+          "capture_method": "HTTPS HTML text",
+          "text_sha256": "460546ff11a73f71480d998d9d0ea357c608c6784845e0a64cfa410aca4a1838"
+        },
+        {
+          "url": "https://www.ygpa.or.kr/hmpg/ygpa/addi/copy/contPageDetail.do?conts_no=327CD8B19E554F47ADE8ECFED407A1F6",
+          "capture_method": "HTTPS HTML text",
+          "text_sha256": "9721a8ae6535ce9d96b0cf7239f906b6baf060241651009f0884a6cf6dde3196"
+        }
+      ],
+      "download": {
+        "url": "https://www.ygpa.or.kr/images/hmpg/ygpa/sub/st/YGPACI_AI.zip",
+        "bytes": 10775341,
+        "sha256": "1a8c1d498252f51b3994a48bb176ddcc8d67c3ae86cd545e5d554fd083f73e4a",
+        "content_type": "application/zip",
+        "content_disposition": null,
+        "http_status": 200,
+        "container": "ZIP containing 8 AI entries"
+      }
+    },
+    {
+      "id": "upa",
+      "name": "울산항만공사",
+      "checked_on": "2026-11-18",
+      "source_url": "https://www.upa.or.kr/portal/contents.do?mid=0505000000",
+      "reason": "permission_required_for_unmarked_material",
+      "implementation_status": "pending",
+      "reuse_permission_status": "not_established",
+      "review_note": "국문 CI 페이지의 심벌·로고 다운로드는 GIF/JPG로 확인했다. 저작권정책은 공공누리가 부착되지 않은 자료 이용에 사전 협의를 요구한다. 해당 CI에 적용되는 공공누리 표시나 배지 재배포 허락은 확인하지 못했다. 캐릭터 ZIP은 로고 벡터로 간주하지 않았다.",
+      "policy_url": "https://www.upa.or.kr/portal/contents.do?mid=0805000000",
+      "evidence": [
+        {
+          "url": "https://www.upa.or.kr/portal/contents.do?mid=0505000000",
+          "capture_method": "HTTPS HTML text",
+          "text_sha256": "90206ab5cc6a0acb7e0f0060bfcc7561ba56574076971b1c5576d1fb266c03b2"
+        },
+        {
+          "url": "https://www.upa.or.kr/portal/contents.do?mid=0805000000",
+          "capture_method": "HTTPS HTML text",
+          "text_sha256": "27a1b7b093a79bac52efd1133ffbc7c20d163c692211c9bdb0ffd571fa4e3613"
+        }
+      ],
+      "download_status": "not_retrieved"
+    },
+    {
+      "id": "high1",
+      "name": "강원랜드",
+      "checked_on": "2026-11-18",
+      "source_url": "https://kangwonland.high1.com/kangwonland/contents.do?key=2750",
+      "reason": "permission_required_by_source_policy",
+      "implementation_status": "pending",
+      "reuse_permission_status": "not_established",
+      "review_note": "공식 사이트는 강원랜드 CI와 하이원리조트 BI를 구분한다. 이슈의 slug high1만 보고 리조트 BI를 회사 로고로 대체하지 않는다. 회사 페이지에서 연결한 저작권정책은 개인적·비영리적 다운로드/링크 외 이용에 사전 허가를 요구하므로 공개 배지 저장소 재배포는 보류했다.",
+      "policy_url": "https://kangwonland.high1.com/www/contents.do?key=801",
+      "evidence": [
+        {
+          "url": "https://kangwonland.high1.com/kangwonland/contents.do?key=2750",
+          "capture_method": "HTTPS HTML text",
+          "text_sha256": "5e10fb33c180fabe2c0c65711573585564ac49692df3ff333b3d3f7ea6344ac1"
+        },
+        {
+          "url": "https://kangwonland.high1.com/www/contents.do?key=801",
+          "capture_method": "HTTPS HTML text",
+          "text_sha256": "89332f6fbadd52a856489c0a90402e2661fa7ac929b514211c99f3028d32ee0d"
+        }
+      ],
+      "download_status": "not_retrieved"
+    }
+  ]
+}

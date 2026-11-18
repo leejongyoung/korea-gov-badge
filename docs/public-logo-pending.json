@@ -5,43 +5,76 @@
       "id": "kdhc",
       "name": "한국지역난방공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "official_vector_reuse_permission_unverified",
+      "official_source": "https://www.kdhc.co.kr/kdhc/main/contents.do?menuNo=200129",
+      "checked_on": "2026-11-18",
+      "note": "심벌 다운로드는 ZIP 안의 PDF 1건으로 확인했다. CI 페이지의 조형·색상 지침은 확인했으나 SVG 변환·배지 내장·재배포에 적용할 명시적 허락은 확인하지 못했다. 한난체의 상업적 이용 허가 문구는 글꼴에 대한 것으로 심벌 전체의 조건으로 일반화하지 않았다.",
+      "evidence": "docs/market-enterprise-logo-review.json#kdhc"
     },
     {
       "id": "iia",
       "name": "인천국제공항공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "permission_required_by_source_policy",
+      "official_source": "https://www.airport.kr/co_ko/573/subview.do",
+      "checked_on": "2026-11-18",
+      "note": "CI 페이지에서 사전 허가 없는 기관상징 사용에 대한 상표권 제재 경고를 확인했다. 공개 다운로드는 JPG 조합 3종이며, 이를 배지 재배포 허락으로 보지 않았다. 허가 요청은 보내지 않았다.",
+      "evidence": "docs/market-enterprise-logo-review.json#iia"
     },
     {
       "id": "bpa",
       "name": "부산항만공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "permission_required_for_unmarked_material",
+      "official_source": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000101001004000",
+      "checked_on": "2026-11-18",
+      "note": "공식 AI 원본(PDF 호환 헤더)을 내려받았다. 저작권정책은 공공누리가 없는 자료 이용에 사전 협의를 요구한다. CI 페이지에서 해당 로고에 적용되는 공공누리 표시를 확인하지 못했으므로 변환·재배포는 보류했다.",
+      "evidence": "docs/market-enterprise-logo-review.json#bpa",
+      "policy_source": "https://www.busanpa.com/index.bpa?menuCd=DOM_000000108001007000"
     },
     {
       "id": "ipa",
       "name": "인천항만공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "permission_required_by_source_policy",
+      "official_source": "https://www.icpa.or.kr/content/view.do?menuKey=121&contentKey=54",
+      "checked_on": "2026-11-18",
+      "note": "CI의 심벌·시그니처·색상 지침을 확인했다. 저작권정책은 무단 복제·배포와 내용 변경을 제한하고 수익·혜택 목적 이용에 사전 협의 또는 허락을 요구한다. 배너 링크 안내를 일반적인 로고 재배포 허락으로 확대 해석하지 않았다. 벡터 원본은 확보하지 않았다.",
+      "evidence": "docs/market-enterprise-logo-review.json#ipa",
+      "policy_source": "https://www.icpa.or.kr/content/view.do?menuKey=590&contentKey=134"
     },
     {
       "id": "ygpa",
       "name": "여수광양항만공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "permission_required_by_source_policy",
+      "official_source": "https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2",
+      "checked_on": "2026-11-18",
+      "note": "공식 AI ZIP(8개 AI 항목)을 내려받았다. 일반 저작권정책은 무단 복제·배포 및 내용 변경을 제한하고 수익·혜택 목적 이용에 사전 협의 또는 허락을 요구한다. 저장소의 변환·배지 내장·재배포에 적용할 별도 허락은 확인하지 못했다.",
+      "evidence": "docs/market-enterprise-logo-review.json#ygpa",
+      "policy_source": "https://www.ygpa.or.kr/hmpg/ygpa/addi/copy/contPageDetail.do?conts_no=327CD8B19E554F47ADE8ECFED407A1F6"
     },
     {
       "id": "upa",
       "name": "울산항만공사",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "permission_required_for_unmarked_material",
+      "official_source": "https://www.upa.or.kr/portal/contents.do?mid=0505000000",
+      "checked_on": "2026-11-18",
+      "note": "국문 CI 페이지의 심벌·로고 다운로드는 GIF/JPG로 확인했다. 저작권정책은 공공누리가 부착되지 않은 자료 이용에 사전 협의를 요구한다. 해당 CI에 적용되는 공공누리 표시나 배지 재배포 허락은 확인하지 못했다. 캐릭터 ZIP은 로고 벡터로 간주하지 않았다.",
+      "evidence": "docs/market-enterprise-logo-review.json#upa",
+      "policy_source": "https://www.upa.or.kr/portal/contents.do?mid=0805000000"
     },
     {
       "id": "high1",
       "name": "강원랜드",
       "status": "pending_logo",
-      "reason": "not_yet_verified"
+      "reason": "permission_required_by_source_policy",
+      "official_source": "https://kangwonland.high1.com/kangwonland/contents.do?key=2750",
+      "checked_on": "2026-11-18",
+      "note": "공식 사이트는 강원랜드 CI와 하이원리조트 BI를 구분한다. 이슈의 slug high1만 보고 리조트 BI를 회사 로고로 대체하지 않는다. 회사 페이지에서 연결한 저작권정책은 개인적·비영리적 다운로드/링크 외 이용에 사전 허가를 요구하므로 공개 배지 저장소 재배포는 보류했다.",
+      "evidence": "docs/market-enterprise-logo-review.json#high1",
+      "policy_source": "https://kangwonland.high1.com/www/contents.do?key=801"
     },
     {
       "id": "lh",
