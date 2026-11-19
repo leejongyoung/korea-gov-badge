@@ -1,12 +1,14 @@
 {
   "institution": "KARI",
-  "official_ci_url": "https://www.kari.re.kr/kor/sub01_05_01.do",
+  "official_ci_url": "https://www.kari.re.kr//kor/contents/92",
   "source_html_sha256": "aa5ec65a51035e4b4db843d201f134dfcc6e8a3df61da8af0d8097e4f91a8375",
-  "excerpt_sha256": "5c223a2119f9eff65a605bbacb70c2464db38aecbc91ddce1fa5bd39650854b6",
-  "excerpt": "<div id=\"cover-screen\" style=\"width:100%; height:100%; top:0px; position:absolute; z-index:10; background:#fff; display:none;\"></div>\n<div class=\"desc_btn\"><a href=\"/cms/attach/635c9a683e2ec6b248c4e92a21c157f5/778bdbf5db9ced7c8fd52756c00bf0cd\" class=\"btn\" data-color=\"blue\" data-i=\"down\" data-s=\"outline\" type=\"button\" title=\"AI 다운로드\">AI 다운로드</a>&nbsp;<a href=\"/cms/attach/635c9a683e2ec6b248c4e92a21c157f5/9a9db098b587ee18b321c826f3707a49\" class=\"btn\" data-color=\"blue\" data-i=\"down\" data-s=\"outline\" type=\"button\" title=\"JPG 다운로드\">JPG 다운로드</a></div>\n<h4 class=\"sub-title-3 \">컬러 시스템 <em>Color System</em></h4>\n<p>전용색상은 주색 (main color)과 보조색 (sub color)으로 나누어지며&nbsp;별색으로 인쇄하는 것이 원칙이나 매체의 특성상 별색 인쇄가 불가능한 매체일 경우에는 4원색 인쇄방법을 사용할 수 있습니다.</p>\n<ul class=\"colors\">\nRGB :&nbsp;60. 45. 160<br />\nRGB :&nbsp;40. 140. 120<br />\nHEX :&nbsp;#00a8a5</div>\nRGB :&nbsp;213. 205. 173<br />\n<a href=\"https://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110\" target=\"_blank\" class=\"mk\" style=\"display: block; margin-top: 1rem;\" title=\"새 창, 국가 공인 인증기관 : 웹와치\"><img src=\"/images/site/kor/common/wa_mark.png\" alt=\"과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)\"></a>",
-  "verified_colors": {
-    "main": "#003D7A",
-    "name": "KARI Navy"
-  },
-  "note": "Full HTML preserved externally; this JSON replaces the HTML in the repo. Original SHA is for the full HTML, excerpt SHA is for the excerpt only."
+  "excerpt_sha256": "9252d88ec479557c418b88b21f96c91bbf38543ec208274e9dbd15418d5929d8",
+  "excerpt": "<ul class=\"colors\">\r\n\t<li>\r\n\t<div class=\"c\"><strong>Royal Blue</strong>DIC. No. 2605p</div>\r\n\r\n\t<div class=\"d\">CMYK :&nbsp;90. 70. 0. 0<br />\r\n\tRGB :&nbsp;60. 45. 160<br />\r\n\tHEX :&nbsp;#2a5caa</div>\r\n\t</li>\r\n\t<li>\r\n\t<div class=\"c\"><strong>Green Blue</strong>DIC. No. 2578</div>\r\n\r\n\t<div class=\"d\">CMYK :&nbsp;80. 10. 40. 0<br />\r\n\tRGB :&nbsp;40. 140. 120<br />\r\n\tHEX :&nbsp;#00a8a5</div>\r\n\t</li>\r\n\t<li>\r\n\t<div class=\"c\"><strong>Royal Gray</strong>DIC. No. 547</div>\r\n\r\n\t<div class=\"d\">CMYK :&nbsp;10. 10. 30. 0<br />\r\n\tRGB :&nbsp;213. 205. 173<br />\r\n\tHEX :&nbsp;#d5cdad</div>\r\n\t</li>\r\n</ul>",
+  "verified_colors": [
+    "#2a5caa"
+  ],
+  "note": "Applied explicit Royal Blue HEX #2a5caa. Same official block RGB(60,45,160) conflicts with HEX. Conflict retained, not resolved or silently normalized.",
+  "applied_colors": [
+    "#2a5caa"
+  ]
 }

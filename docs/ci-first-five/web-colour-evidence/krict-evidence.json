@@ -4,9 +4,27 @@
   "source_html_sha256": "9ac89afa063fe08a0bcaea5ed919d74c657b5274cc0370908402dcb803983987",
   "excerpt_sha256": "4e735aa315a6c5788775d6b623cd4f7bcc10875ba41a8bb1a1ab86fb5eda3b2d",
   "excerpt": "<div class=\"sub__background topImage1\"></div>\n<h3>Main color</h3>\n<li>Spot color PANTONE 325C</li>\n<li>RGB R116,G198,B190</li>\n<li>Web color #74O6BE</li>\n<li>Spot color PANTONE 326C </li>\n<li>RGB R76,G187,B180</li>\n<li>Web color #4CBBB4</li>\n<li>Spot color PANTONE 7716C</li>\n<li>RGB G172,B151</li>\n<li>Web color #O0AC97</li>\n<li>Spot color PANTONE 7467C</li>\n<li>RGB R46,G182,B170</li>\n<li>Web color #2EB6AA</li>\n<li>Spot color PANTONE 2995C</li>\n<li>RGB R66,G189,B216</li>\n<li>Web color #42BDD8</li>\n<li>Spot color PANTONE 632C</li>\n<li>RGB R173,B169</li>\n<li>Web color #00ADA9</li>\n<li>Spot color PANTONE 3005C</li>\n<li>RGB G153,B217</li>\n<li>Web color #0099D9</li>\n<li>Spot color PANTONE Cool Gray 9C</li>\n<li>RGB R125,G125,B125</li>\n<li>Web color #7D7D7D</li>\n<li>Spot color PANTONE 3015C</li>\n<li>RGB G117,B194</li>\n<li>Web color #0075C2</li>\n<h3>Sub color</h3>\n<li>KRICT CI Gold : Spot color PANTONE 873C</li>\n<li>KRICT CI Silver : Spot color PANTONE 877C</li>",
-  "verified_colors": {
-    "main": "#006D3C",
-    "name": "KRICT Green"
-  },
-  "note": "Full HTML preserved externally; this JSON replaces the HTML in the repo. Original SHA is for the full HTML, excerpt SHA is for the excerpt only."
+  "verified_colors": [
+    "#74c6be",
+    "#4cbbb4",
+    "#00ac97",
+    "#2eb6aa",
+    "#42bdd8",
+    "#00ada9",
+    "#0099d9",
+    "#7d7d7d",
+    "#0075c2"
+  ],
+  "note": "Applied palette is based on RGB digits in official color image sub010501_img04.jpg, not normalization of mistyped HTML Web color fields. Original excerpt and full-HTML hash retained. Image hash: ed9db106a70c54bd4f6c6fb3ba9e6b4d0a72209753491f84d93e4131b918894c.",
+  "applied_colors": [
+    "#74c6be",
+    "#4cbbb4",
+    "#00ac97",
+    "#2eb6aa",
+    "#42bdd8",
+    "#00ada9",
+    "#0099d9",
+    "#7d7d7d",
+    "#0075c2"
+  ]
 }

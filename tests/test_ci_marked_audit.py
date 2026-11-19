@@ -37,6 +37,13 @@ class MarkedAuditTests(unittest.TestCase):
             self.assertEqual(hashlib.sha256(svg.encode()).hexdigest(), row['svg_sha256'])
             for name, digest in row['evidence_files'].items():
                 self.assertEqual(hashlib.sha256((ROOT / 'docs/ci-first-five/web-colour-evidence' / name).read_bytes()).hexdigest(), digest)
+                if name.endswith('-evidence.json'):
+                    evidence = json.loads((ROOT / 'docs/ci-first-five/web-colour-evidence' / name).read_text())
+                    self.assertEqual(set(evidence['applied_colors']), set(row['expected_palette']))
+                    self.assertTrue(set(evidence['verified_colors']).issubset(row['expected_palette']))
+                    self.assertEqual(hashlib.sha256(evidence['excerpt'].encode()).hexdigest(), evidence['excerpt_sha256'])
+                    if row['id'] == 'kriss':
+                        self.assertEqual(evidence['verified_colors'], [])
         self.assertEqual(len(next(x for x in rows if x['id'] == 'krict')['expected_palette']), 9)
 
     def test_extraction_metadata_and_embedded_notice_match_current_assets(self):

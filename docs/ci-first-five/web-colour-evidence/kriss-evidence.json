@@ -1,12 +1,13 @@
 {
   "institution": "KRISS",
-  "official_ci_url": "https://www.kriss.re.kr/kor/sub01_05_01.do",
+  "official_ci_url": "https://www.kriss.re.kr/menu.es?mid=a10101070000",
   "source_html_sha256": "f5a01e83fee3fee14509e06ef308b9d899491fd1f671eb90ffb65348263ca615",
-  "excerpt_sha256": "c39a0bb239e158302450d01d9c2c1b68376b637087e27a33d0e75e940f7ea7e3",
-  "excerpt": "<div id=\"hiddenLayer\" style=\"display:none\"></div>\n<div class=\"mw\" id=\"mw_temp\" style=\"display:none;\"></div>\n<ul id=\"smenu1\" class=\"ul0101000000\" style=\"display:none;\">\n<ul id=\"smenu2\" class=\"ul0108000000\" style=\"display:none;\">\n<ul id=\"smenu5\" class=\"ul0104000000\" style=\"display:none;\">\n<ul id=\"smenu6\" class=\"ul0106000000\" style=\"display:none;\">\n<input type=\"submit\" value=\"전송\" style=\"display:none;height:0;width:0;\" />\n<div class=\"color\">\n<i class=\"color1\"></i>\n<i class=\"color2\"></i>\n<i class=\"color3\"></i>\n<i class=\"color4\"></i>\n<i class=\"color5\"></i>",
-  "verified_colors": {
-    "main": "#003399",
-    "name": "KRISS Blue"
-  },
-  "note": "Full HTML preserved externally; this JSON replaces the HTML in the repo. Original SHA is for the full HTML, excerpt SHA is for the excerpt only."
+  "excerpt_sha256": "7bc9e9816272e62df618750c00665c21aa090b0e7c4352b2e78881e855a635be",
+  "excerpt": "            <h3 class=\"title2\">메인컬러</h3>\n            <ul>\n                <li>\n                    <i class=\"color1\"></i>\n                    <strong>KRISS Gray</strong>\n                    <span>PANTONE 425C</span>\n                </li>\n                <li>\n                    <i class=\"color2\"></i>\n                    <strong>KRISS Orange</strong>\n                    <span>PANTONE151C</span>\n                </li>\n            </ul>\n        </article>\n        \n        <article class=\"group group2\">",
+  "verified_colors": [],
+  "note": "Official page specifies Pantone 425C/151C, not numeric web RGB. verified_colors is empty; applied_colors records only the supplied-artwork renderer conversion, not official RGB certification.",
+  "applied_colors": [
+    "#525d5c",
+    "#f47920"
+  ]
 }

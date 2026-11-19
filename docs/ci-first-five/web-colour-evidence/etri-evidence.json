@@ -1,13 +1,16 @@
 {
   "institution": "ETRI",
-  "official_ci_url": "https://www.etri.re.kr/etri/intro/ci.do",
+  "official_ci_url": "https://www.etri.re.kr/korcon/sub7/sub7_11.etri",
   "source_html_sha256": "b3da59d697675cd04e48c38782663e480a4d0302fcf0d5932eaf785d30767ba2",
   "excerpt_sha256": "732c0ec8c25ce7fc918913cb4915199ccfcbf26d8934045c3c3e392527f50c33",
   "excerpt": "styleToAdd: 'width:100%; background:#fff'\n<ul style=\"display:none;\">\n<ul style=\"display:none;\">\n<ul style=\"display:none;\">\n<p>디자인 의도는 한국전자통신연구원의 대내외 커뮤니케이션에서 다양한 활용성과, 정확한 전달력을 기본으로 신뢰있는 연구기관임을 고지시키기 위하여, 그에 맞는 안정적인 서체와 BLUE color를 사용하여 전자통신의 이미지를 간접적으로 표현하였으며, RED color로 \"<strong class=\"color_org\">R</strong>\"을 강조함으로써 늘 깨어있는 연구기관과 연구원의 열정적인 의지를 상징하도록 표현하였다.</p>\n<img src=\"/images/kor/sub5/ci_color01.jpg\" alt=\"Blue : C100% M60% Y10% / Orange : M80% Y100%\" />\n<img src=\"/images/kor/sub5/ci_color02.jpg\" alt=\"Blue : G102 B165 / Orange : R241 G90 B34\" />\n<h3 class=\"cont_title\" style=\"padding:0px;\">ETRI NEW 캐릭터</h3>\n<!--\t<ul class=\"ci02\" style=\"padding-top:45px;\">\n<h3 class=\"cont_title\" style=\"padding:0px;\">41주년 엠블럼</h3>\n<ul class=\"ci03\" style=\"padding-top:45px;\">",
-  "verified_colors": {
-    "main": "#003399",
-    "sub": "#0099CC",
-    "name": "ETRI Blue"
-  },
-  "note": "Full HTML preserved externally; this JSON replaces the HTML in the repo. Original SHA is for the full HTML, excerpt SHA is for the excerpt only."
+  "verified_colors": [
+    "#0066a5",
+    "#f15a22"
+  ],
+  "note": "Blue G102 B165 (R omitted=0); Orange R241 G90 B34 from official RGB image alt and image. Hex values derived arithmetically, not the former incorrect generic-blue summary.",
+  "applied_colors": [
+    "#0066a5",
+    "#f15a22"
+  ]
 }
