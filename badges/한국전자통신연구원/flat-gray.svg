@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="207.0" height="20" viewBox="0 0 207.0 20" role="img" aria-label="한국전자통신연구원 ETRI">
+<title>한국전자통신연구원 ETRI (flat)</title>
+<defs><clipPath id="badge-shape"><rect width="207.0" height="20" rx="4"/></clipPath></defs>
+<g clip-path="url(#badge-shape)">
+<rect width="207.0" height="20" rx="4" fill="#ffffff"/>
+<path d="M155.0 0h52v20h-52z" fill="#57606a"/>
+</g>
+<rect x="0.5" y="0.5" width="206.0" height="19" rx="4" fill="none" stroke="#d0d7de"/>
+<g transform="translate(-18.609 -45.612) scale(0.139559)"><desc>한국전자통신연구원 공식 CI 원본 변환. 재배포 허락 미확인. 출처: https://www.etri.re.kr/korcon/sub7/sub7_11.etri 원본: https://www.etri.re.kr/file/predicalFile.etri?filename=ci_ai.zip 이용 안내: 임의 변경 제한을 포함하는 CI 지침을 확인했다. 일반 저작권정책은 자료별 공공누리 표시와 조건 확인을 요구한다. 해당 CI 파일에 적용되는 유형이나 별도 배지 재배포 허락은 확인하지 못했다.</desc><path fill="#0066a5" fill-rule="nonzero" d="M401.17679 367.31198L401.17679 425.74216L419.9541 425.74216L419.9541 367.31198L401.17679 367.31198" /><path fill="#0066a5" fill-rule="nonzero" d="M248.7495 367.31198L248.7495 379.61038L270.7056 379.61038L270.7056 425.74216L289.5347 425.74216L289.5347 379.61038L311.49319 379.61038L311.49319 367.31198L248.7495 367.31198" /><path fill="#0066a5" fill-rule="nonzero" d="M237.64011 379.61038L237.64011 367.31198L176.33009 367.31198L176.33009 414.56396C176.33009 420.72849 180.3618 425.72656 185.33501 425.72656L237.64011 425.72656L237.64011 413.42828L195.15919 413.42828L195.15919 402.66986L237.64011 402.66986L237.64011 390.36868L195.15919 390.36868L195.15919 379.61038L237.64011 379.61038" /><path fill="#f15a22" fill-rule="nonzero" d="M368.1123 398.49368L345.9502 398.49368L371.36429 429.66019L393.52829 429.66019L368.1123 398.49368" /><path fill="#f15a22" fill-rule="nonzero" d="M377.93951 367.31198L320.92871 367.31198L320.92871 425.74216L339.7598 425.74216L339.7598 379.61038L368.1152 379.61038L368.1152 398.49167L386.94821 398.49167L386.94821 378.47217C386.94821 372.30908 382.91699 367.31198 377.93951 367.31198" /></g>
+<text x="46.0" y="14" fill="#003764" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Malgun Gothic', Arial, sans-serif" font-size="11" font-weight="600">한국전자통신연구원</text>
+<text x="181" y="14" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">ETRI</text>
+</svg>

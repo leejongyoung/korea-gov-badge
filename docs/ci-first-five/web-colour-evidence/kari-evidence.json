@@ -1,0 +1,14 @@
+{
+  "institution": "KARI",
+  "official_ci_url": "https://www.kari.re.kr//kor/contents/92",
+  "source_html_sha256": "aa5ec65a51035e4b4db843d201f134dfcc6e8a3df61da8af0d8097e4f91a8375",
+  "excerpt_sha256": "9252d88ec479557c418b88b21f96c91bbf38543ec208274e9dbd15418d5929d8",
+  "excerpt": "<ul class=\"colors\">\r\n\t<li>\r\n\t<div class=\"c\"><strong>Royal Blue</strong>DIC. No. 2605p</div>\r\n\r\n\t<div class=\"d\">CMYK :&nbsp;90. 70. 0. 0<br />\r\n\tRGB :&nbsp;60. 45. 160<br />\r\n\tHEX :&nbsp;#2a5caa</div>\r\n\t</li>\r\n\t<li>\r\n\t<div class=\"c\"><strong>Green Blue</strong>DIC. No. 2578</div>\r\n\r\n\t<div class=\"d\">CMYK :&nbsp;80. 10. 40. 0<br />\r\n\tRGB :&nbsp;40. 140. 120<br />\r\n\tHEX :&nbsp;#00a8a5</div>\r\n\t</li>\r\n\t<li>\r\n\t<div class=\"c\"><strong>Royal Gray</strong>DIC. No. 547</div>\r\n\r\n\t<div class=\"d\">CMYK :&nbsp;10. 10. 30. 0<br />\r\n\tRGB :&nbsp;213. 205. 173<br />\r\n\tHEX :&nbsp;#d5cdad</div>\r\n\t</li>\r\n</ul>",
+  "verified_colors": [
+    "#2a5caa"
+  ],
+  "note": "Applied explicit Royal Blue HEX #2a5caa. Same official block RGB(60,45,160) conflicts with HEX. Conflict retained, not resolved or silently normalized.",
+  "applied_colors": [
+    "#2a5caa"
+  ]
+}

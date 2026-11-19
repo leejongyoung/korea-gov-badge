@@ -26,3 +26,40 @@ class MarkedAuditTests(unittest.TestCase):
                     self.assertTrue(row['source_url'])
                     self.assertTrue(row['recorded_original_sha256'])
                     self.assertTrue(row['registered'])
+
+    def test_official_web_palettes_and_unchanged_geometry(self):
+        rows = json.loads((ROOT / 'docs/ci-first-five/web-colours.json').read_text())
+        self.assertEqual(len(rows), 5)
+        for row in rows:
+            svg = (ROOT / f"assets/logos/{row['id']}.svg").read_text()
+            self.assertEqual(set(re.findall(r'#[0-9a-f]{6}', svg)), set(row['expected_palette']))
+            self.assertEqual(hashlib.sha256('\n'.join(re.findall(r'<path[^>]* d="([^"]+)"', svg)).encode()).hexdigest(), row['baseline_path_sha256'])
+            self.assertEqual(hashlib.sha256(svg.encode()).hexdigest(), row['svg_sha256'])
+            for name, digest in row['evidence_files'].items():
+                self.assertEqual(hashlib.sha256((ROOT / 'docs/ci-first-five/web-colour-evidence' / name).read_bytes()).hexdigest(), digest)
+                if name.endswith('-evidence.json'):
+                    evidence = json.loads((ROOT / 'docs/ci-first-five/web-colour-evidence' / name).read_text())
+                    self.assertEqual(set(evidence['applied_colors']), set(row['expected_palette']))
+                    self.assertTrue(set(evidence['verified_colors']).issubset(row['expected_palette']))
+                    self.assertEqual(hashlib.sha256(evidence['excerpt'].encode()).hexdigest(), evidence['excerpt_sha256'])
+                    if row['id'] == 'kriss':
+                        self.assertEqual(evidence['verified_colors'], [])
+        self.assertEqual(len(next(x for x in rows if x['id'] == 'krict')['expected_palette']), 9)
+
+    def test_extraction_metadata_and_embedded_notice_match_current_assets(self):
+        import xml.etree.ElementTree as ET
+        agencies = {a['id']: a for a in json.loads((ROOT / 'agencies.json').read_text())}
+        sources = {s['id']: s for s in json.loads((ROOT / 'docs/logo-sources.json').read_text())['items']}
+        for row in json.loads((ROOT / 'docs/ci-first-five/extraction.json').read_text()):
+            id_ = row['id']
+            with self.subTest(id=id_):
+                asset = ROOT / 'assets/logos' / (id_ + '.svg')
+                self.assertEqual(hashlib.sha256(asset.read_bytes()).hexdigest(), row['svg_sha256'])
+                for directory in (id_, agencies[id_]['name']):
+                    paths = list((ROOT / 'badges' / directory).glob('*.svg'))
+                    self.assertEqual(len(paths), 40)
+                    for p in paths:
+                        credits = ''.join(n.text or '' for n in ET.parse(p).getroot().iter()
+                                          if n.tag.endswith('}desc'))
+                        self.assertIn(sources[id_]['source_page'], credits)
+                        self.assertIn('재배포 허락 미확인', credits)

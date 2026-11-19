@@ -1,0 +1,94 @@
+[
+  {
+    "id": "kist",
+    "replacements": {
+      "#6d6d67": "#6d6e67"
+    },
+    "expected_palette": [
+      "#6d6e67"
+    ],
+    "svg_sha256": "7338e52574456f3f94efd85ada16cc41629520be5d09fb4efb7c7f4a1657e455",
+    "geometry_unchanged": true,
+    "web_colour_status": "browser_verified_official_guidance",
+    "evidence_files": {
+      "kist-browser-text.txt": "4b87f1ed5e12369af5931592ce6a02921bd2412286b5c3ed6612e1471fe27e03",
+      "kist-browser-links.json": "7cafaa14cfae75f214f78012d1df6a72605b1fe557b989696ebcd9a43da8ed26"
+    },
+    "baseline_path_sha256": "810739264e4159df761ba36d3c53f4cf422960a8ef036d5dc9f7592f30679913"
+  },
+  {
+    "id": "etri",
+    "replacements": {
+      "#0066a6": "#0066a5"
+    },
+    "expected_palette": [
+      "#0066a5",
+      "#f15a22"
+    ],
+    "svg_sha256": "eeda059e43cbd47ab91d8d7339730b65a82289798ebded89c475b8e5eae76b63",
+    "geometry_unchanged": true,
+    "web_colour_status": "explicit_web_specification",
+    "evidence_files": {
+      "etri-evidence.json": "f83bee1900cb8dbbf73f584b9ce9dac12cfa07cb22654d9c4bd564298cee0943"
+    },
+    "baseline_path_sha256": "618bf2c73cb297685581ac472a2005be3bfb52ab5d815a0adde7b555dd8be2a8"
+  },
+  {
+    "id": "kari",
+    "replacements": {
+      "#2957a6": "#2a5caa"
+    },
+    "expected_palette": [
+      "#2a5caa"
+    ],
+    "svg_sha256": "72b7d7bae1034113e4efcfdcfe52f5d4705c4f0184248f1a4c0d8d8cfc59abd7",
+    "geometry_unchanged": true,
+    "web_colour_status": "explicit_web_specification",
+    "evidence_files": {
+      "kari-evidence.json": "f7ca5c06ecc021bff64e71189da7717af66f567039310cfaaac80d5e983ace75"
+    },
+    "baseline_path_sha256": "d1c54fd7c0f7a4e7c0334178469b1418a51b27274ce0e1a1b21ab693a5451c73"
+  },
+  {
+    "id": "kriss",
+    "replacements": {},
+    "expected_palette": [
+      "#525d5c",
+      "#f47920"
+    ],
+    "svg_sha256": "a414eb5e27c6e1f07dffb096f2a641dd934e172c01957b0ed725254a50368a2f",
+    "geometry_unchanged": true,
+    "web_colour_status": "pantone_only_no_numeric_RGB_in_CI_page",
+    "evidence_files": {
+      "kriss-evidence.json": "ffee12e950eafb7abe02364ee85ec4d5c96d335bfc9ea9b54082a0771b510926"
+    },
+    "baseline_path_sha256": "b0759e212a1429e58cc77283a92e9b41da4f52ab3b2df10a58f378e3506c68ec"
+  },
+  {
+    "id": "krict",
+    "replacements": {
+      "#4abbb4": "#4cbbb4",
+      "#2db6aa": "#2eb6aa",
+      "#3ebdd8": "#42bdd8",
+      "#0199d9": "#0099d9"
+    },
+    "expected_palette": [
+      "#74c6be",
+      "#4cbbb4",
+      "#00ac97",
+      "#2eb6aa",
+      "#42bdd8",
+      "#00ada9",
+      "#0099d9",
+      "#7d7d7d",
+      "#0075c2"
+    ],
+    "svg_sha256": "c59ea9a23eaec00164e3e177cb5c2956739c73e5ef5728ba5fa65f7f1d4913a0",
+    "geometry_unchanged": true,
+    "web_colour_status": "explicit_web_specification",
+    "evidence_files": {
+      "krict-evidence.json": "ce9da3368d9b7320cf0d59d4cdfc07d526958face7d07a001efec6999ebedb70"
+    },
+    "baseline_path_sha256": "f36be94ec182c2c9f56522524ab1a06cc748c64ff01993cea3a3f46129b72018"
+  }
+]

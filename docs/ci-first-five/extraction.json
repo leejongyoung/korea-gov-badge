@@ -1,0 +1,83 @@
+[
+  {
+    "id": "kist",
+    "member": "KIST CI.ai",
+    "member_sha256": "f48691b3427941e02249de27b166d959e106b8e1f222f9ccc4126a69b2e860c6",
+    "crop": [
+      132.24400329589844,
+      121.47003173828125,
+      471.7029724121094,
+      193.8289794921875
+    ],
+    "path_count": 53,
+    "svg_sha256": "7338e52574456f3f94efd85ada16cc41629520be5d09fb4efb7c7f4a1657e455",
+    "conversion": "Official supplied vector geometry retained; KIST DARK GRAY corrected to explicit official web RGB (109,110,103). Evidence: ci-first-five/web-colour-evidence/kist-browser-text.txt.",
+    "variant": "official bilingual logotype (download contains no separate symbol)",
+    "web_colour_evidence": "docs/ci-first-five/web-colours.json",
+    "current_brand_review": "Official supplied bilingual logotype; explicit KIST DARK GRAY web RGB applied. No claim of legal reuse clearance."
+  },
+  {
+    "id": "etri",
+    "member": "1. wordmark.ai",
+    "member_sha256": "c62de547482c2b85c8c508b74d7f2216141f44edb04fb3a94161987e0a017a50",
+    "crop": [
+      176.33009338378906,
+      367.3119812011719,
+      419.9541015625,
+      429.6601867675781
+    ],
+    "path_count": 5,
+    "svg_sha256": "eeda059e43cbd47ab91d8d7339730b65a82289798ebded89c475b8e5eae76b63",
+    "conversion": "Mechanical official vector path extraction; renderer RGB is not certified web RGB. ETRI/KRICT explicit image RGB and KARI explicit web HEX applied without geometry changes. KIST/KRISS renderer colours retained, numeric official web RGB unverified.",
+    "variant": "official complete symbol / wordmark",
+    "web_colour_evidence": "docs/ci-first-five/web-colours.json"
+  },
+  {
+    "id": "kari",
+    "member": "CI.ai",
+    "member_sha256": "e161e20153dd8e86668cf11cd69926b0561ba29b6cd5bb042cbda664e23a81f2",
+    "crop": [
+      66.68669891357422,
+      117.2881851196289,
+      223.70599365234375,
+      215.38201904296875
+    ],
+    "path_count": 5,
+    "svg_sha256": "72b7d7bae1034113e4efcfdcfe52f5d4705c4f0184248f1a4c0d8d8cfc59abd7",
+    "conversion": "Mechanical official vector path extraction; renderer RGB is not certified web RGB. ETRI/KRICT explicit image RGB and KARI explicit web HEX applied without geometry changes. KIST/KRISS renderer colours retained, numeric official web RGB unverified.",
+    "variant": "official complete symbol / wordmark",
+    "web_colour_evidence": "docs/ci-first-five/web-colours.json"
+  },
+  {
+    "id": "kriss",
+    "member": "kriss-╣½╣Φ░µ.ai",
+    "member_sha256": "a0b262a6e54ce44d16fe614df19e96fb965cce3580ad38ba6582c8760053699e",
+    "crop": [
+      233.89480590820312,
+      403.3818054199219,
+      362.7214050292969,
+      439.12591552734375
+    ],
+    "path_count": 6,
+    "svg_sha256": "a414eb5e27c6e1f07dffb096f2a641dd934e172c01957b0ed725254a50368a2f",
+    "conversion": "Mechanical official vector path extraction; renderer RGB is not certified web RGB. ETRI/KRICT explicit image RGB and KARI explicit web HEX applied without geometry changes. KIST/KRISS renderer colours retained, numeric official web RGB unverified.",
+    "variant": "official complete symbol / wordmark",
+    "web_colour_evidence": "docs/ci-first-five/web-colours.json"
+  },
+  {
+    "id": "krict",
+    "member": "ai__╗÷╗≤├╝░Φ_FULL COLOR.ai",
+    "member_sha256": "7d0a2b81154aa467da7ccca5ace94dad83053624a2e89eac95eb18b35c42047e",
+    "crop": [
+      -0.2396087646484375,
+      0.5888843536376953,
+      842.456298828125,
+      266.15069580078125
+    ],
+    "path_count": 21,
+    "svg_sha256": "c59ea9a23eaec00164e3e177cb5c2956739c73e5ef5728ba5fa65f7f1d4913a0",
+    "conversion": "Mechanical official vector path extraction; renderer RGB is not certified web RGB. ETRI/KRICT explicit image RGB and KARI explicit web HEX applied without geometry changes. KIST/KRISS renderer colours retained, numeric official web RGB unverified.",
+    "variant": "official complete symbol / wordmark",
+    "web_colour_evidence": "docs/ci-first-five/web-colours.json"
+  }
+]

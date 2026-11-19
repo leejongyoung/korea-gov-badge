@@ -51,3 +51,15 @@
 ## 로고별 최소 표시 크기
 
 공식 CI 지침에 최소 크기가 있는 로고는 루트 SVG의 `data-min-icon-size`에 양변 최소 CSS px를 기록한다. 생성기는 비례를 유지한 채 심벌과 배지 높이를 함께 키운다. 이 속성이 없는 기존 배지의 크기는 바꾸지 않는다. 경기도일자리재단은 7mm 안내에 대응해 27 CSS px(96px/in 기준 약 7.14mm)를 사용한다. SVG를 외부에서 축소하거나 인쇄할 때에는 실제 심벌 크기 7mm 이상을 별도로 유지해야 한다.
+
+## 연구기관 첫 구현 묶음 (2026-11-19)
+
+5곳 모두 공식 CI 다운로드의 벡터 경로를 기계적으로 옮겼다. 상표·이용 제약과 재배포 허락 미확인 상태는 유지하며 카탈로그에 별표를 표시했다. 구현은 법적 이용 허락이나 기관 보증을 뜻하지 않는다.
+
+- **한국과학기술연구원**: [공식 CI](https://kist.re.kr/ko/intro/kist-ci.do), [원본 다운로드](https://kist.re.kr/cms/etcResourceDown.do?site=%24cms%24NYeyA&key=%24cms%24NISQygKg+gwiB0AvAlgByA). 정비례 확대·축소 및 색상 활용 지침을 확인했다. 이 저장소의 SVG 변환·배지 내장·재배포에 적용할 명시적 허락은 이번 조사에서 확인하지 못했다. 변환: official bilingual logotype (download contains no separate symbol).
+- **한국전자통신연구원**: [공식 CI](https://www.etri.re.kr/korcon/sub7/sub7_11.etri), [원본 다운로드](https://www.etri.re.kr/file/predicalFile.etri?filename=ci_ai.zip). 임의 변경 제한을 포함하는 CI 지침을 확인했다. 일반 저작권정책은 자료별 공공누리 표시와 조건 확인을 요구한다. 해당 CI 파일에 적용되는 유형이나 별도 배지 재배포 허락은 확인하지 못했다. 변환: official complete symbol / wordmark.
+- **한국항공우주연구원**: [공식 CI](https://www.kari.re.kr//kor/contents/92), [원본 다운로드](https://www.kari.re.kr/cms/attach/635c9a683e2ec6b248c4e92a21c157f5/778bdbf5db9ced7c8fd52756c00bf0cd). 심볼·시그니처·색상 지침을 확인했다. 일반 저작권정책은 무단 복제·배포 및 내용 변경을 제한하고 일부 이용에 사전 협의를 요구한다. 배지 변환·재배포에 적용할 별도 허락은 확인하지 못했다. 변환: official complete symbol / wordmark.
+- **한국표준과학연구원**: [공식 CI](https://www.kriss.re.kr/menu.es?mid=a10101070000), [원본 다운로드](https://www.kriss.re.kr/main/download/KRISS_CI.zip). 원고를 정비례로 확대·축소하도록 하는 지침을 확인했다. CI 파일을 공개 다운로드할 수 있지만 이 저장소의 변환·재배포 허락은 이번 조사에서 확인하지 못했다. 변환: official complete symbol / wordmark.
+- **한국화학연구원**: [공식 CI](https://www.krict.re.kr/kor/sub01_05_01.do), [원본 다운로드](https://www.krict.re.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000003365Hg8&fileSn=0). 워터마크·시그니처·색상 지침과 AI 다운로드를 확인했다. Commons에서 JPG만 발견했던 결과는 공식 벡터 원본 부재를 뜻하지 않는다. 배지 변환·재배포 허락은 이번 조사에서 확인하지 못했다. 변환: official complete symbol / wordmark.
+
+[추출 해시·범위 및 원본/SVG 렌더](ci-first-five/extraction.json). KARI 가이드 격자는 심벌이 아니므로 제외했다. KIST는 공식 AI에 있는 로고타입 전체이며 별도 심벌은 이 다운로드에 없다.

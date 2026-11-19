@@ -1,0 +1,892 @@
+{
+  "baseline_head": "8402fc66042408aac3b3e7cc14a0ef75df2f3abf",
+  "prior_github_verify_success_count": 2,
+  "prior_receipt_id": "b377af2fdbb4403a90c33c5c6a54347c",
+  "prior_receipt_verified_in": "hermes-reports/delivered/e3ec7c59-1302-4a00-a4ee-443598bd1050.json",
+  "renderer": "ImageMagick SVG alpha bounds at intrinsic CSS96dpi",
+  "source": "https://www.krict.re.kr/images/kor/sub01/sub010501_img01.jpg",
+  "source_sha256": "7d31e77556235424ef56ffc971f4f2b535969e180b5c9d99144c05c0a43432cb",
+  "unrelated_badge_changes": 0,
+  "measurements": [
+    {
+      "path": "badges/krict/for-the-badge-black.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-square-red.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-square-black.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-gray.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/plastic-navy.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-agency.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/plastic-red.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/plastic-abbr.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/plastic-green.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/outline-gray.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/plastic.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-square-abbr.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/for-the-badge.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/for-the-badge-navy.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/for-the-badge-abbr.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/outline-black.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-square-navy.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/plastic-agency.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-black.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-green.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/for-the-badge-red.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-red.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/outline-red.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/for-the-badge-gray.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/outline-agency.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/outline-green.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-square-gray.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/plastic-black.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/outline-abbr.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/for-the-badge-agency.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-square.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/outline-navy.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/plastic-gray.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-navy.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/outline.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-abbr.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/for-the-badge-green.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-square-green.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/krict/flat-square-agency.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/for-the-badge-black.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-square-red.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-square-black.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-gray.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/plastic-navy.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-agency.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/plastic-red.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/plastic-abbr.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/plastic-green.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/outline-gray.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/plastic.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-square-abbr.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/for-the-badge.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/for-the-badge-navy.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/for-the-badge-abbr.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/outline-black.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-square-navy.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/plastic-agency.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-black.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-green.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/for-the-badge-red.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-red.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/outline-red.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/for-the-badge-gray.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/outline-agency.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/outline-green.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-square-gray.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/plastic-black.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/outline-abbr.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/for-the-badge-agency.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-square.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/outline-navy.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/plastic-gray.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-navy.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/outline.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-abbr.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/for-the-badge-green.svg",
+      "transform": "translate(6.017 4.458) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        4,
+        67,
+        25
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-square-green.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    },
+    {
+      "path": "badges/한국화학연구원/flat-square-agency.svg",
+      "transform": "translate(6.017 2.958) scale(0.071546)",
+      "painted_alpha_bbox": [
+        6,
+        3,
+        67,
+        23
+      ],
+      "painted_width_px": 61
+    }
+  ]
+}

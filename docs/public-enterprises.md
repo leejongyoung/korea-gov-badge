@@ -1,12 +1,12 @@
 # 대한민국 공기업 및 공공기관 배지 카탈로그 (Public Enterprises & Institutions)
 
-주요 시장형·준시장형 공기업, 준정부기관, 정부출연연구기관 및 기타 공공기관 45곳의 목록입니다. 이 중 **16곳은 배지를 제공**하고(배지 열에 미리보기 표시) 나머지 29곳은 로고 확인 대기 상태이며 배지를 제공하지 않습니다. 대기 기관의 Slug는 후보 식별자이며 사용 가능한 URL이 아닙니다. 제공 기관 중 10곳은 Wikimedia Commons가 Public domain(상표 표시)로 표시한 파일을, 한국예술인복지재단·서울에너지공사·경기도일자리재단은 공식 자료의 공공누리 제1유형 CI를 사용합니다([출처·해시](logo-sources.json), [출처표시 안내](logo-attribution.md)). 부산·인천·여수광양항만공사 3곳은 재배포 허락 미확인 상태로 제약을 명시해 제공합니다([기관별 제약](logo-attribution.md#구현은-제공하되-재배포-허락은-확인되지-않은-ci)). 기관 상징의 상표권과 사칭 제한은 별도로 준수해야 합니다. 기관 분류·소관 부처는 원래 작성된 후보 정보로, 최신 공식 지정 현황의 검증을 뜻하지 않습니다.
+주요 시장형·준시장형 공기업, 준정부기관, 정부출연연구기관 및 기타 공공기관 45곳의 목록입니다. 이 중 **21곳은 배지를 제공**하고(배지 열에 미리보기 표시) 나머지 24곳은 로고 확인 대기 상태이며 배지를 제공하지 않습니다. 대기 기관의 Slug는 후보 식별자이며 사용 가능한 URL이 아닙니다. 제공 기관 중 10곳은 Wikimedia Commons가 Public domain(상표 표시)로 표시한 파일을, 한국예술인복지재단·서울에너지공사·경기도일자리재단은 공식 자료의 공공누리 제1유형 CI를 사용합니다([출처·해시](logo-sources.json), [출처표시 안내](logo-attribution.md)). 부산·인천·여수광양항만공사 3곳은 재배포 허락 미확인 상태로 제약을 명시해 제공합니다([기관별 제약](logo-attribution.md#구현은-제공하되-재배포-허락은-확인되지-않은-ci)). KIST·ETRI·KARI·KRISS·KRICT 5곳도 공식 벡터를 변환해 제공하며 재배포 허락 미확인 표시를 유지합니다. 기관 상징의 상표권과 사칭 제한은 별도로 준수해야 합니다. 기관 분류·소관 부처는 원래 작성된 후보 정보로, 최신 공식 지정 현황의 검증을 뜻하지 않습니다.
 
 로고의 출처·재배포 조건과 현행 상징을 확인한 뒤 [#1](https://github.com/leejongyoung/korea-gov-badge/issues/1)~[#4](https://github.com/leejongyoung/korea-gov-badge/issues/4)에서 순차 구현합니다. 목록 등재를 구현 완료로 표시하지 않습니다. 개별 확인 상태·공식 출처·보류 근거는 [로고 확인 목록](public-logo-pending.json)에 기록합니다.
 
 \* : 이용 조건·재배포 허락 확인이 필요한 CI입니다. [기관별 출처·제약 설명](logo-attribution.md)을 확인하세요. 별표는 CI 누락을 뜻하지 않으며, ‘로고 대기’와 구분합니다.
 
-[45곳 공식 CI 전수 재감사 진행 현황](ci-marked-audit-20261119.md): 기존 출처·해시와 최신 공식 대조 완료를 구분하며, 미구현 29곳도 구현 대상으로 추적합니다.
+[45곳 공식 CI 전수 재감사 진행 현황](ci-marked-audit-20261119.md): 기존 출처·해시와 최신 공식 대조 완료를 구분하며, 미구현 24곳도 구현 대상으로 추적합니다.
 
 ---
 
@@ -70,17 +70,17 @@
 
 ## 4. 주요 정부출연연구기관 (Government-funded Research Institutes)
 
-[공식 CI 조사 결과 (2026-11-18)](research-institute-logo-review.md): 아래 7곳 모두 공식 AI 원본 다운로드 경로와 ZIP 수신을 확인했습니다. 배지 변환·재배포 조건은 미확인으로, **신규 구현 0곳 / 7곳 보류** 상태를 유지합니다. 원본 확보와 구현 완료를 구분합니다.
+[공식 CI 조사 결과 (2026-11-18)](research-institute-logo-review.md): 아래 7곳의 공식 AI 다운로드를 조사했고, KIST·ETRI·KARI·KRISS·KRICT 5곳을 공식 벡터에서 추가 구현했습니다. 한국원자력연구원은 기존 제공, 한국생명공학연구원 1곳은 추출·검증 대기입니다. 새 5곳의 이용제약·색상 확인 한계는 [원본·SVG 대조](ci-first-five/README.md)에 기록합니다. 원본 확보·구현·이용허락은 별개입니다.
 
 | 기관명 | 영문 명칭 | 영문 약칭 / Slug | 소관 연구회 | 주요 연구 분야 | 배지 (`flat.svg`) |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| **한국과학기술연구원** | Korea Institute of Science and Technology | `kist` | 국가과학기술연구회 | 국가 종합 과학기술 연구 | 로고 대기 |
-| **한국전자통신연구원** | Electronics and Telecommunications Research Institute | `etri` | 국가과학기술연구회 | ICT·인공지능·통신 | 로고 대기 |
-| **한국항공우주연구원** | Korea Aerospace Research Institute | `kari` | 국가과학기술연구회 | 발사체·위성·항공우주 기술 | 로고 대기 |
+| **한국과학기술연구원** | Korea Institute of Science and Technology | `kist` | 국가과학기술연구회 | 국가 종합 과학기술 연구 | ![한국과학기술연구원](../badges/kist/flat.svg) [\*](logo-attribution.md) |
+| **한국전자통신연구원** | Electronics and Telecommunications Research Institute | `etri` | 국가과학기술연구회 | ICT·인공지능·통신 | ![한국전자통신연구원](../badges/etri/flat.svg) [\*](logo-attribution.md) |
+| **한국항공우주연구원** | Korea Aerospace Research Institute | `kari` | 국가과학기술연구회 | 발사체·위성·항공우주 기술 | ![한국항공우주연구원](../badges/kari/flat.svg) [\*](logo-attribution.md) |
 | **한국원자력연구원** | Korea Atomic Energy Research Institute | `kaeri` | 국가과학기술연구회 | 원자력 에너지 및 방사선 | ![한국원자력연구원](../badges/kaeri/flat.svg) |
 | **한국생명공학연구원** | Korea Research Institute of Bioscience and Biotechnology | `kribb` | 국가과학기술연구회 | 바이오·생명과학 연구 | 로고 대기 |
-| **한국표준과학연구원** | Korea Research Institute of Standards and Science | `kriss` | 국가과학기술연구회 | 국가 측정표준 및 양자 | 로고 대기 |
-| **한국화학연구원** | Korea Research Institute of Chemical Technology | `krict` | 국가과학기술연구회 | 화학 소재 및 의약 | 로고 대기 |
+| **한국표준과학연구원** | Korea Research Institute of Standards and Science | `kriss` | 국가과학기술연구회 | 국가 측정표준 및 양자 | ![한국표준과학연구원](../badges/kriss/flat.svg) [\*](logo-attribution.md) |
+| **한국화학연구원** | Korea Research Institute of Chemical Technology | `krict` | 국가과학기술연구회 | 화학 소재 및 의약 | ![한국화학연구원](../badges/krict/flat.svg) [\*](logo-attribution.md) |
 
 ---
 
