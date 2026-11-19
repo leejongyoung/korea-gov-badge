@@ -4,10 +4,11 @@
   "full_accuracy_audit_complete": false,
   "new_implementations_on_hold": true,
   "corrections_in_this_batch": [
-    "kepco",
     "bpa",
-    "korail",
+    "ex",
+    "kepco",
     "kisa",
+    "korail",
     "kto"
   ],
   "items": [
@@ -40,7 +41,8 @@
       "svg_sha256": "abe0d6e056020420ef26839d088d7a52378ef5fdc65d1504287fb86353b647ac",
       "complete": false,
       "remaining": "Do not mark geometry or archived hash comparison as complete colour/minimum verification.",
-      "first_pass_done": true
+      "first_pass_done": true,
+      "follow_up_2026_11_20": "Official bilingual English signature AI (cip_05_03.AI, sha256 cea23345...) and symbol AI obtained and compared visually: geometry matches the current selected variant (25 drawing paths, no raster). Native spot-colour rendering differs from the Commons derivative and the official page publishes no RGB table, so the palette is not replaced and not certified."
     },
     {
       "id": "khnp",
@@ -70,7 +72,8 @@
       "svg_sha256": "0013ae1616baeecc5648251ea7ca2772be2a857117cca01cf3df1c0d606a9f11",
       "complete": false,
       "remaining": "Web RGB/Pantone conversion and minimum-size checks are not implied by hashes or outline similarity.",
-      "first_pass_done": true
+      "first_pass_done": true,
+      "follow_up_2026_11_20": "Official symbol AI and full-signature AI (03KAC Corporate Signature.ai) obtained; the selected 국영문 상하조합 signature and wine symbol match the current shape. Minimum-use diagram reads 15 with no explicit unit in the reviewed sheet, so no minimum is claimed."
     },
     {
       "id": "bpa",
@@ -142,12 +145,13 @@
       "official_page_sha256": "1f8094f1a1c03246889a35fbabca961722f2854e9d0ce1a7b79d6d4987b5d05d",
       "source_page_inspected": true,
       "geometry_comparison": "first-pass visual comparison to official page or provided original; not all brand variants",
-      "palette_status": "official page/source reviewed; remaining mapping between selected signature/gradient and official colour specifications",
+      "palette_status": "explicit official RGB table (PANTONE 185 C 237,27,47 / 285 C 0,113,206 / 2746 C 16,30,142 / 1815 C 128,37,40) applied to the existing paths; the crossing overlap is mapped to 2746 C (assumption: the table lists no separate overlap colour). Web illustration RGB bytes differ slightly from the table and are not used.",
       "minimum_status": "numeric minimum not established for the selected variant in reviewed source",
-      "svg_sha256": "5b7541fe1a74f0064227c647894c90890b1bbb48f51d38fe30b88c185c664b01",
+      "svg_sha256": "0f4d0a84bc89b301036ae32c55750876c4ec7f36b80b1eeab567c88db99ef564",
       "complete": false,
-      "remaining": "Do not mark geometry or archived hash comparison as complete colour/minimum verification.",
-      "first_pass_done": true
+      "remaining": "Native AI download returned an HTML 404 page, so the original file could not be inspected. Overlap-to-spot mapping is an assumption recorded here; minimum size for this variant is not stated in the reviewed page.",
+      "first_pass_done": true,
+      "correction_verified": true
     },
     {
       "id": "komsco",

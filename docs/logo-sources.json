@@ -1392,13 +1392,14 @@
       "commons_page": "https://commons.wikimedia.org/wiki/File:한국도로공사_로고.svg",
       "license_as_listed": "Public domain",
       "original_sha256": "e9d08a73eb37fe253255c49db5f6b9316d635baa4f39666a985dc6f652a96926",
-      "logo_sha256": "5b7541fe1a74f0064227c647894c90890b1bbb48f51d38fe30b88c185c664b01",
+      "logo_sha256": "0f4d0a84bc89b301036ae32c55750876c4ec7f36b80b1eeab567c88db99ef564",
       "background_removed": false,
       "retrieved_on": "2026-11-18",
       "restrictions": "trademarked",
       "current_brand_review": "pending organization CI guide comparison; Commons licence label verified; organization trademark",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%ED%95%9C%EA%B5%AD%EB%8F%84%EB%A1%9C%EA%B3%B5%EC%82%AC_%EB%A1%9C%EA%B3%A0.svg",
-      "note": "Commons labels this logo Public domain (US simple-logo basis) with a trademark restriction. The organization symbol remains a registered/unregistered trademark; the label does not assert Korean copyright status."
+      "note": "Commons labels this logo Public domain (US simple-logo basis) with a trademark restriction. The organization symbol remains a registered/unregistered trademark; the label does not assert Korean copyright status.",
+      "colour_note": "2026-11-20: colours set to the official RGB table on the 한국도로공사 CI page; geometry unchanged from the Commons derivative."
     },
     {
       "id": "komsco",
