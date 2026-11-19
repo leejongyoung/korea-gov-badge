@@ -1,7 +1,9 @@
 [
   {
     "id": "kist",
-    "replacements": {},
+    "replacements": {
+      "#6d6d67": "#6d6e67"
+    },
     "expected_palette": [
       "#6d6e67"
     ],
