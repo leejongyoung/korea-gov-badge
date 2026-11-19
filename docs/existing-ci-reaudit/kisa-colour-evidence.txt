@@ -1,0 +1,33 @@
+COLOR
+KISA Main Blue
+PANTONE  - 281 C
+C 100%, M 70%, Y 0%, K 30%
+R 0, G 56, B 127
+KISA Blue
+C 100%, M 70%, Y 0%, K 0%
+R 0, G 78, B 162
+KISA Dark Blue
+C 100%, M 70%, Y 0%, K 50%
+R 0, G 43, B 105
+KISA Green
+C 50%, M 0%, Y 100%, K 0%
+R 143, G 195, B 31
+KISA Dark Green
+C 50%, M 0%, Y 100%, K 43%
+R 96, G 135, B 9
+로고타입
+시그니처 조합
+앰블럼
+이 페이지에서 제공하는 정보에 대하여 어느 정도 만족하셨습니까?
+매우 만족
+만족
+보통
+불만족
+매우 불만족
+의견입력란
+의견등록
+최종수정일 :
+2022-06-17
+$('.btn_upload').click(function(){
+        var radioVal = $('input[name="satis01"]:checked').val();
+        if(radioVal == null) {

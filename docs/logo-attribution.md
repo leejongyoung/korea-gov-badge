@@ -63,3 +63,12 @@
 - **한국화학연구원**: [공식 CI](https://www.krict.re.kr/kor/sub01_05_01.do), [원본 다운로드](https://www.krict.re.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000003365Hg8&fileSn=0). 워터마크·시그니처·색상 지침과 AI 다운로드를 확인했다. Commons에서 JPG만 발견했던 결과는 공식 벡터 원본 부재를 뜻하지 않는다. 배지 변환·재배포 허락은 이번 조사에서 확인하지 못했다. 변환: official complete symbol / wordmark.
 
 [추출 해시·범위 및 원본/SVG 렌더](ci-first-five/extraction.json). KARI 가이드 격자는 심벌이 아니므로 제외했다. KIST는 공식 AI에 있는 로고타입 전체이며 별도 심벌은 이 다운로드에 없다.
+
+## 기존 CI 정확성 정정 (2026-11-19)
+
+- 한전은 기존 Commons 파일 대신 현재 공식 CI 페이지의 영문 시그니처 SVG를 사용한다. 공개된 웹 원고도 배지 재배포 허락 확인을 뜻하지 않으며 별표를 유지한다. 이전 Commons 기록은 `logo-sources.json`의 `prior_source`에 보존했다.
+- 부산항만공사는 공식 웹 심벌 SVG로 교체했다. 기존 AI 수집 기록은 이력이고 현재 제공 원고의 URL·해시는 `logo-sources.json`을 기준으로 한다. 기존 이용제약은 유지한다.
+- 코레일은 공식 WEB Blue/LightBlue와 심벌 최소 폭20mm를 반영했다. 현재 intrinsic 크기에서 실제 도형 폭을 측정했으며 외부 CSS 축소·인쇄 시20mm를 보장하지 않는다. 공식 페이지의 제4유형 안내와 Commons PD 표기는 서로 다른 출처 정보이며, 후자가 전자의 이용조건을 해제한다는 뜻이 아니다.
+- KISA는 공식 표의 Main Blue/Blue/Dark Blue/Green/Dark Green RGB를, KTO는 심벌의4개 해당 RGB를 반영했다. 기존 Commons 원고의 도형·그라데이션/음영 구조는 유지했다. KTO 회색 로고타입은 원고 색을 보존했으며 심벌 색상표로 인증하지 않았다.
+
+[21곳 재감사·정정 근거와 미확인 사항](existing-ci-reaudit/README.md). 모든 항목을 정상·자유이용으로 판정한 보고서가 아니다.

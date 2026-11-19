@@ -1,0 +1,45 @@
+[
+  {
+    "file": "ise-symbol.eps",
+    "url": "https://www.i-se.co.kr/comm/getFile?srvcId=BBSTY1&upperNo=44&fileTy=ATTACH&fileNo=1",
+    "bytes": 1486966,
+    "sha256": "d9a7f1182b4635cf8de0ace30855b30032beb51eeb5d7b68e4557bf755fb7d57",
+    "magic": "b'\\xc5\\xd0\\xd3\\xc6 \\x00\\x00\\x00\\xaaN\\x07\\x00'",
+    "valid_asset": true
+  },
+  {
+    "file": "kogas-symbol.ai",
+    "url": "https://www.kogas.or.kr/fileDownload.do?REAL_NAME=cip_01_01.ai&fileName=ci.ai",
+    "bytes": 244,
+    "sha256": "87078c527103ca84ac5329ec6c921f90a97dfd181fb737915724752c1ead564f",
+    "magic": "b'\\r\\n<!DOCTYPE '",
+    "valid_asset": false,
+    "outcome": "HTML error response, not usable vector source"
+  },
+  {
+    "file": "kogas-signatures.zip",
+    "url": "https://www.kogas.or.kr/fileDownload.do?REAL_NAME=cip_sig.zip&fileName=ci.zip",
+    "bytes": 244,
+    "sha256": "87078c527103ca84ac5329ec6c921f90a97dfd181fb737915724752c1ead564f",
+    "magic": "b'\\r\\n<!DOCTYPE '",
+    "valid_asset": false,
+    "outcome": "HTML error response, not usable vector source"
+  },
+  {
+    "file": "kogas-colours.ai",
+    "url": "https://www.kogas.or.kr/fileDownload.do?REAL_NAME=cip_03_01.ai&fileName=ci.ai",
+    "bytes": 244,
+    "sha256": "87078c527103ca84ac5329ec6c921f90a97dfd181fb737915724752c1ead564f",
+    "magic": "b'\\r\\n<!DOCTYPE '",
+    "valid_asset": false,
+    "outcome": "HTML error response, not usable vector source"
+  },
+  {
+    "file": "kto-original.ai",
+    "url": "https://knto.or.kr/comm/getFile?srvcId=MEDIA&upperNo=PGzektP%5eOSJteCany7K7xA%3d%3d&fileTy=MEDIA&fileNo=UwKWFkGzqKYOytpCVmfr6Q%3d%3d",
+    "bytes": 3366808,
+    "sha256": "74d5b8da0392b5c92d7a80f481a18aaef3e2934bc3b3d5fbb4aff846df2a041a",
+    "magic": "b'PK\\x03\\x04\\x14\\x00\\x00\\x00\\x08\\x00\\xe6V'",
+    "valid_asset": true
+  }
+]
