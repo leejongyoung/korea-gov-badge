@@ -1,0 +1,16 @@
+[
+  {
+    "normalized_file": "bpa-official-0.svg",
+    "normalized_sha256": "2faf6655294c48ae1dbd94b35fbbf8c2b98d1f89715a5557d3b3dfe331211eab",
+    "raw_archive": "bpa-official-0.svg.gz",
+    "raw_payload_sha256": "c3c2f5401f3f5604558cc631564dcff3f2fc373a7555f7e1d050bd663b194134",
+    "normalization": "Only CRLF to LF in evidence SVG. Raw response payload retained verbatim in gzip."
+  },
+  {
+    "normalized_file": "kepco-signature.svg",
+    "normalized_sha256": "42e0224a70f136770cef2be92b8a7c4f509ecb40518b3b8be0a643613793decf",
+    "raw_archive": "kepco-signature.svg.gz",
+    "raw_payload_sha256": "d16a31b5c90b9b967692683e10921738d73434ca2206808d41e064f56710a880",
+    "normalization": "Only CRLF to LF in evidence SVG. Raw response payload retained verbatim in gzip."
+  }
+]

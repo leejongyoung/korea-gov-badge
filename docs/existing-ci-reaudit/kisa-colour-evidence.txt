@@ -31,4 +31,3 @@ R 96, G 135, B 9
 $('.btn_upload').click(function(){
         var radioVal = $('input[name="satis01"]:checked').val();
         if(radioVal == null) {
-   

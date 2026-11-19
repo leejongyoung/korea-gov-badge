@@ -1,5 +1,6 @@
 """Keep official-source corrections distinct from a blanket CI clearance."""
 import hashlib
+import gzip
 import json
 import re
 import unittest
@@ -21,6 +22,17 @@ def drawing_tree(node):
 
 
 class ExistingCIReauditTests(unittest.TestCase):
+    def test_normalization_preserves_original_download_bytes(self):
+        sources = {x['id']: x for x in json.loads((ROOT / 'docs/logo-sources.json').read_text())['items']}
+        ids = {'kepco-signature.svg': 'kepco', 'bpa-official-0.svg': 'bpa'}
+        for row in json.loads((EVIDENCE / 'source-normalization.json').read_text()):
+            raw = gzip.decompress((EVIDENCE / row['raw_archive']).read_bytes())
+            normalized = (EVIDENCE / row['normalized_file']).read_bytes()
+            self.assertEqual(digest(raw), row['raw_payload_sha256'])
+            self.assertEqual(digest(raw), sources[ids[row['normalized_file']]]['original_sha256'])
+            self.assertEqual(digest(normalized), row['normalized_sha256'])
+            self.assertEqual(normalized, raw.replace(b'\r\n', b'\n'))
+
     def test_current_official_web_artwork_not_retraced(self):
         for id_, original in [('kepco', 'kepco-signature.svg'),
                               ('bpa', 'bpa-official-0.svg')]:

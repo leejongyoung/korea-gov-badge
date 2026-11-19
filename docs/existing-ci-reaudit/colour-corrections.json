@@ -10,7 +10,7 @@
     },
     "source_url": "https://www.kisa.or.kr/604",
     "evidence_file": "kisa-colour-evidence.txt",
-    "evidence_sha256": "80b90c5e8aa0b96f02bee4ea6a88a9bafa25d00d93419cfa0b2a7802a19ef478",
+    "evidence_sha256": "abd273968e8683f53431923b74bb4ed3c0c5ff116fd538a3a35949cb065c324b",
     "baseline_path_sha256": "0595de0e0201500280e5050620fd55653bfc1d382c8e8e09fae3152336998962",
     "svg_sha256": "52e3db7122ae27ac43cf8243b5a1c2d3e0b3bfc35cd58812cd57d191f254605f"
   },
@@ -24,7 +24,7 @@
     },
     "source_url": "https://knto.or.kr/eng/AboutCI",
     "evidence_file": "kto-colour-evidence.txt",
-    "evidence_sha256": "5e0a4b5e8fab33f1517e1c418da2f4047f85bbe708016a77a897f806c4d51d88",
+    "evidence_sha256": "02ce445da05b431ceff26e0e600bebf729a7dee221911b36f813f2709b985d2c",
     "baseline_path_sha256": "d428e1c14a80d6f0befe727fc00de51471bd2225daa7647d0c75c0b613d3e292",
     "svg_sha256": "39b280194cc2b8182ec6ea999114f38631330ac447ec655c80e1d05360cf08f1"
   }
