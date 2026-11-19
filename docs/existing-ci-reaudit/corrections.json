@@ -43,5 +43,14 @@
     "old_path_sha256": "469d9975aaf259096b87b8d48f15046f6000710fc8ebe5ca625f163e355bc79c",
     "geometry_source": "unchanged_main_geometry",
     "official_page": "https://knto.or.kr/eng/AboutCI"
+  },
+  {
+    "id": "ex",
+    "svg_sha256": "0f4d0a84bc89b301036ae32c55750876c4ec7f36b80b1eeab567c88db99ef564",
+    "old_svg_sha256": "5b7541fe1a74f0064227c647894c90890b1bbb48f51d38fe30b88c185c664b01",
+    "path_sha256": "a656821fba5ef359add8bb439377308e467fbd8f09709329b1059f2635751f55",
+    "old_path_sha256": "a656821fba5ef359add8bb439377308e467fbd8f09709329b1059f2635751f55",
+    "geometry_source": "unchanged_main_geometry",
+    "official_page": "https://www.ex.co.kr/site/com/pageProcess.do"
   }
 ]

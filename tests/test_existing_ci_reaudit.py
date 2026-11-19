@@ -79,7 +79,7 @@ class ExistingCIReauditTests(unittest.TestCase):
         self.assertEqual(len(audit['items']), 21)
         self.assertFalse(audit['full_accuracy_audit_complete'])
         self.assertTrue(audit['new_implementations_on_hold'])
-        self.assertEqual(set(audit['corrections_in_this_batch']), {'kepco', 'bpa', 'korail', 'kisa', 'kto'})
+        self.assertEqual(set(audit['corrections_in_this_batch']), {'kepco', 'bpa', 'korail', 'kisa', 'kto', 'ex'})
         for id_ in ['seoul-energy', 'ygpa']:
             row = next(x for x in audit['items'] if x['id'] == id_)
             self.assertFalse(row['complete'])

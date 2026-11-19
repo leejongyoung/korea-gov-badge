@@ -7048,7 +7048,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "0ac4a124fae254970a5835b97999cbf91d65244cfe40e9ed9e7960c1f79ad742"
+    "badge_sha256": "b1a2bcb38936cd40ac99ac2ff492d758ff798af79722f35f91e522958bf76229"
   },
   {
     "path": "badges/ex/flat-square-red.svg",
@@ -7059,7 +7059,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "27f07927c673dd34a10132823db3ed3a5c9d1201eaf4845cdd3b73aa6a9ddc84"
+    "badge_sha256": "d75bd7e117931d57233c19e29ce5a5b29e5750852a57123788c243a40bd7cc1a"
   },
   {
     "path": "badges/ex/flat-square-black.svg",
@@ -7070,7 +7070,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "18a8793edf02fd24d0102c96d3ddba781c18cc0375120c426a0c20781029510b"
+    "badge_sha256": "b7c0e554377ec0d2d01f4babad925383de5c0cf2d0f32e193640a7c608087cda"
   },
   {
     "path": "badges/ex/flat-gray.svg",
@@ -7081,7 +7081,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "0c418f6e4dbbf251ec9b216b413a3f89bb52649d4a3a9ce75e44a47338e69a25"
+    "badge_sha256": "8f2b49f1a0dcdebba5cd6e68a9782d75881979fd27ff1dd812f421ac84feee0f"
   },
   {
     "path": "badges/ex/plastic-navy.svg",
@@ -7092,7 +7092,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "ac6ca5fcc5d175c1cf41ee229b52aa5dab36bf87994503aff2b5af5f28b49aaf"
+    "badge_sha256": "4dfe075daa39d2f30a86cd8cda42abcd64f8d02b99e770777cd204cfaaa46a26"
   },
   {
     "path": "badges/ex/flat-agency.svg",
@@ -7103,7 +7103,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "8d82472ebdda6ffcb1cfb54aad6c7c1a81f6e68e9f0a4d17793ef2567c31fe59"
+    "badge_sha256": "61fd7618774666738bd09d78bbd7d33e968d94cd651a8da5713b1d5141eeefe0"
   },
   {
     "path": "badges/ex/plastic-red.svg",
@@ -7114,7 +7114,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "6c509bd4c09063ff6c34c541087731089ae59108c3d6bdc30fbf6fa9c06e63b9"
+    "badge_sha256": "dccc7a271590c6198471f98b520bbf19af4ffcc31ab681d0d24d1c4851c976d1"
   },
   {
     "path": "badges/ex/plastic-abbr.svg",
@@ -7125,7 +7125,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "f7d04009491291ed26b017e4efdac489d9f03c41cca09993447f6c994eedd502"
+    "badge_sha256": "79c10d9872b0846b59c2188d8601cad22671c6741bcaf4b29392ab122e19a7c6"
   },
   {
     "path": "badges/ex/plastic-green.svg",
@@ -7136,7 +7136,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "6c55cd75a0ffa0219cafc6b349e7bb52b65276e4b1cc7a84dcdc4fa6c9194a1e"
+    "badge_sha256": "0c2848d8a542f339c826efee1761c85e53c005b7a040387ce807ccd74e89b655"
   },
   {
     "path": "badges/ex/outline-gray.svg",
@@ -7147,7 +7147,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "7f8303da4bcf18197ec1fb3753a1819436fc7a5bdadd84d6e07ed86cb6689086"
+    "badge_sha256": "b4352c9222bb8a1d4d5ba2a46e91512aa831f66bb7a3772cb42a7d4ee044a34f"
   },
   {
     "path": "badges/ex/plastic.svg",
@@ -7158,7 +7158,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "f7d04009491291ed26b017e4efdac489d9f03c41cca09993447f6c994eedd502"
+    "badge_sha256": "79c10d9872b0846b59c2188d8601cad22671c6741bcaf4b29392ab122e19a7c6"
   },
   {
     "path": "badges/ex/flat-square-abbr.svg",
@@ -7169,7 +7169,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "56b5588611406283c0f000e1a74066787c7c6c58798f40f90f05748f2c5e32dc"
+    "badge_sha256": "f0bd513818032377a58af4a1660c552f3cee9283c01cdeff82b976bc2e96ccde"
   },
   {
     "path": "badges/ex/for-the-badge.svg",
@@ -7180,7 +7180,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "e87e8bb759e5b5dc53a371a80b086caef0f322d6cfdaca0d1fa640aa7aae94f0"
+    "badge_sha256": "6c9f34e5bf54b2f4b39dd3304679d8b7900a82ce0b733683a33381f5cacbb776"
   },
   {
     "path": "badges/ex/flat.svg",
@@ -7191,7 +7191,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "8d82472ebdda6ffcb1cfb54aad6c7c1a81f6e68e9f0a4d17793ef2567c31fe59"
+    "badge_sha256": "61fd7618774666738bd09d78bbd7d33e968d94cd651a8da5713b1d5141eeefe0"
   },
   {
     "path": "badges/ex/for-the-badge-navy.svg",
@@ -7202,7 +7202,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "2e6ae638bd033eebdb2dfa5a7da0349917b424cead68473f72315ccdcb1951ec"
+    "badge_sha256": "b17fdd72160793491bf925bee0b0f67e5a4affb1a75f56a6191a5ea8f3d2568c"
   },
   {
     "path": "badges/ex/for-the-badge-abbr.svg",
@@ -7213,7 +7213,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "e87e8bb759e5b5dc53a371a80b086caef0f322d6cfdaca0d1fa640aa7aae94f0"
+    "badge_sha256": "6c9f34e5bf54b2f4b39dd3304679d8b7900a82ce0b733683a33381f5cacbb776"
   },
   {
     "path": "badges/ex/outline-black.svg",
@@ -7224,7 +7224,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "f8289a6b8a5f0090a6699630bc6951a80ccb4333f2dc3b39bd8221015769f98f"
+    "badge_sha256": "a565c4c3d11e1e1fa3d24e5ae10bfc2a7380c60e1c042064d6246f932e8930b1"
   },
   {
     "path": "badges/ex/flat-square-navy.svg",
@@ -7235,7 +7235,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "a2332e8359aa02e2e3b7b6ee09c7359e0535c3b3f923d8e799615d9c63d29a49"
+    "badge_sha256": "e23707a8b406fb882f6665674f7b071df5360a7fb4496d833888eded8ee05a5f"
   },
   {
     "path": "badges/ex/plastic-agency.svg",
@@ -7246,7 +7246,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "f7d04009491291ed26b017e4efdac489d9f03c41cca09993447f6c994eedd502"
+    "badge_sha256": "79c10d9872b0846b59c2188d8601cad22671c6741bcaf4b29392ab122e19a7c6"
   },
   {
     "path": "badges/ex/flat-black.svg",
@@ -7257,7 +7257,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "c20429640daac368bfcc3b4ae726b6251bc2bf42a76f01584be2f31bbcb57309"
+    "badge_sha256": "52b53f24eb55c0938a918dcbc2d6788dd4c6a8afb975dbe5dc02192a246e58df"
   },
   {
     "path": "badges/ex/flat-green.svg",
@@ -7268,7 +7268,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "e94514295feceb79654f55ec961c70781e579d1dddb642bd800aaf2dedc0eb63"
+    "badge_sha256": "7db92fa9a2d87a64735195ef27190cf575b28a0148acaa81e17bfd289dfc4c12"
   },
   {
     "path": "badges/ex/for-the-badge-red.svg",
@@ -7279,7 +7279,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "42b014b8aa9b11a75a360d9543d0bb9c1db5370b89146adcbfa063f2536cbd5a"
+    "badge_sha256": "4ac847dbd4cc54a0419714588dafdff8256fd763241f1b0825fd2b8e3bbfc16a"
   },
   {
     "path": "badges/ex/flat-red.svg",
@@ -7290,7 +7290,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "9d7030a3f1d9bab42b5ebcc0574508987dd48b954f9ea484d250eea15f3eb46e"
+    "badge_sha256": "3e111b050be975f35f7804c229be21baf1fc71e438b571c5ac4148425f6ad659"
   },
   {
     "path": "badges/ex/outline-red.svg",
@@ -7301,7 +7301,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "f8b73f277af71795e8d3c538230d5f22f0295e6ddc2918acc53be99aa4ffc547"
+    "badge_sha256": "5b17da42175ac167a60eb25bd257771631afcd063376c7f73348cd2c248e2ac6"
   },
   {
     "path": "badges/ex/for-the-badge-gray.svg",
@@ -7312,7 +7312,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "e2d681f58157bf3e461778ed45d3b979fe1bec0cb3dbfa92c668226ccf6d4548"
+    "badge_sha256": "f7033600da6ea42b6d5e82cbcd55e45ba5905afa89760727081e5fe288c63b18"
   },
   {
     "path": "badges/ex/outline-agency.svg",
@@ -7323,7 +7323,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "0eebd9495b5ce59d55f1f55ff628b9322e3c7b663c7e29bde5a1ee8f7ba3ce59"
+    "badge_sha256": "55179efeda7f1cc8a7a7ea549aecf7b6a5db53453ae0502deb50f6523c5ed6a2"
   },
   {
     "path": "badges/ex/outline-green.svg",
@@ -7334,7 +7334,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "0071f012d4a2da0185b275b65e730e1f5c2de8526ba02d2d14a9a2dfdcfb8e8a"
+    "badge_sha256": "eda96031d9264d5d2b5ddaf8dee53db10ba561c7a1d08b469582ac95704471f9"
   },
   {
     "path": "badges/ex/flat-square-gray.svg",
@@ -7345,7 +7345,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "e87e15fc5fcbb88c17e12595e337dfb9ef24a8d2c241c6a78eba301cc1b8f8d8"
+    "badge_sha256": "183ce3c8409aadeb50892e51a34054035bbdfd6bddcc376c8f35fbc106019fed"
   },
   {
     "path": "badges/ex/plastic-black.svg",
@@ -7356,7 +7356,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "ef22c1eb820dd3796be5685f11c7ac2f23b6e9ad06cec877692945cc7b29233b"
+    "badge_sha256": "e9abf852ebcd389bb2d75206521be579168a313d10c5ccc6c2c5ee9914710a1f"
   },
   {
     "path": "badges/ex/outline-abbr.svg",
@@ -7367,7 +7367,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "0eebd9495b5ce59d55f1f55ff628b9322e3c7b663c7e29bde5a1ee8f7ba3ce59"
+    "badge_sha256": "55179efeda7f1cc8a7a7ea549aecf7b6a5db53453ae0502deb50f6523c5ed6a2"
   },
   {
     "path": "badges/ex/for-the-badge-agency.svg",
@@ -7378,7 +7378,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "e87e8bb759e5b5dc53a371a80b086caef0f322d6cfdaca0d1fa640aa7aae94f0"
+    "badge_sha256": "6c9f34e5bf54b2f4b39dd3304679d8b7900a82ce0b733683a33381f5cacbb776"
   },
   {
     "path": "badges/ex/flat-square.svg",
@@ -7389,7 +7389,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "56b5588611406283c0f000e1a74066787c7c6c58798f40f90f05748f2c5e32dc"
+    "badge_sha256": "f0bd513818032377a58af4a1660c552f3cee9283c01cdeff82b976bc2e96ccde"
   },
   {
     "path": "badges/ex/outline-navy.svg",
@@ -7400,7 +7400,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "7c01bfaf11412d4df4a2b227f5e7abf966c2d7d177b7e360befac3fe46072026"
+    "badge_sha256": "f70c0be58fc94d1eeac577a916effa5507f1bc4b9cf705cf828d2ab6733095bb"
   },
   {
     "path": "badges/ex/plastic-gray.svg",
@@ -7411,7 +7411,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "f01dec66467ccaef203baaaaeb9e64daf57a4eaee09785039e0573c11a29466a"
+    "badge_sha256": "924432bd92dfa00fa6734a4e626e468b1daf9f80dd0c535ed0cf40d3124faf12"
   },
   {
     "path": "badges/ex/flat-navy.svg",
@@ -7422,7 +7422,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "51992f92160c581ee47112b5b65dc3646d2b233a2ad2cbd4fb7d4dcc4c87a5b8"
+    "badge_sha256": "817396986f247e14805e1f55afc0138b89a69f9806cc4cd2b94f20b3ed2f6209"
   },
   {
     "path": "badges/ex/outline.svg",
@@ -7433,7 +7433,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "0eebd9495b5ce59d55f1f55ff628b9322e3c7b663c7e29bde5a1ee8f7ba3ce59"
+    "badge_sha256": "55179efeda7f1cc8a7a7ea549aecf7b6a5db53453ae0502deb50f6523c5ed6a2"
   },
   {
     "path": "badges/ex/flat-abbr.svg",
@@ -7444,7 +7444,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "8d82472ebdda6ffcb1cfb54aad6c7c1a81f6e68e9f0a4d17793ef2567c31fe59"
+    "badge_sha256": "61fd7618774666738bd09d78bbd7d33e968d94cd651a8da5713b1d5141eeefe0"
   },
   {
     "path": "badges/ex/for-the-badge-green.svg",
@@ -7455,7 +7455,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "2689b7687127459ab1393913da812b1a39ce30073e3f83a437c561684bc1d55b"
+    "badge_sha256": "6a26497395bf9301a1f6ac1f47350025d3eb917cfe78a1880897d6e4a9fa7a40"
   },
   {
     "path": "badges/ex/flat-square-green.svg",
@@ -7466,7 +7466,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "97fb21fc4416024eac15c954d68e7b694de1a687dbcd5456516bd0ba8b0bb0f2"
+    "badge_sha256": "178ea48f67ecda2f8a7f67f9c0c15b4ca6e2ad76a1fc843ed00f52fe910dd035"
   },
   {
     "path": "badges/ex/flat-square-agency.svg",
@@ -7477,7 +7477,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "56b5588611406283c0f000e1a74066787c7c6c58798f40f90f05748f2c5e32dc"
+    "badge_sha256": "f0bd513818032377a58af4a1660c552f3cee9283c01cdeff82b976bc2e96ccde"
   },
   {
     "path": "badges/한국도로공사/for-the-badge-black.svg",
@@ -7488,7 +7488,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "0ac4a124fae254970a5835b97999cbf91d65244cfe40e9ed9e7960c1f79ad742"
+    "badge_sha256": "b1a2bcb38936cd40ac99ac2ff492d758ff798af79722f35f91e522958bf76229"
   },
   {
     "path": "badges/한국도로공사/flat-square-red.svg",
@@ -7499,7 +7499,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "27f07927c673dd34a10132823db3ed3a5c9d1201eaf4845cdd3b73aa6a9ddc84"
+    "badge_sha256": "d75bd7e117931d57233c19e29ce5a5b29e5750852a57123788c243a40bd7cc1a"
   },
   {
     "path": "badges/한국도로공사/flat-square-black.svg",
@@ -7510,7 +7510,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "18a8793edf02fd24d0102c96d3ddba781c18cc0375120c426a0c20781029510b"
+    "badge_sha256": "b7c0e554377ec0d2d01f4babad925383de5c0cf2d0f32e193640a7c608087cda"
   },
   {
     "path": "badges/한국도로공사/flat-gray.svg",
@@ -7521,7 +7521,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "0c418f6e4dbbf251ec9b216b413a3f89bb52649d4a3a9ce75e44a47338e69a25"
+    "badge_sha256": "8f2b49f1a0dcdebba5cd6e68a9782d75881979fd27ff1dd812f421ac84feee0f"
   },
   {
     "path": "badges/한국도로공사/plastic-navy.svg",
@@ -7532,7 +7532,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "ac6ca5fcc5d175c1cf41ee229b52aa5dab36bf87994503aff2b5af5f28b49aaf"
+    "badge_sha256": "4dfe075daa39d2f30a86cd8cda42abcd64f8d02b99e770777cd204cfaaa46a26"
   },
   {
     "path": "badges/한국도로공사/flat-agency.svg",
@@ -7543,7 +7543,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "8d82472ebdda6ffcb1cfb54aad6c7c1a81f6e68e9f0a4d17793ef2567c31fe59"
+    "badge_sha256": "61fd7618774666738bd09d78bbd7d33e968d94cd651a8da5713b1d5141eeefe0"
   },
   {
     "path": "badges/한국도로공사/plastic-red.svg",
@@ -7554,7 +7554,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "6c509bd4c09063ff6c34c541087731089ae59108c3d6bdc30fbf6fa9c06e63b9"
+    "badge_sha256": "dccc7a271590c6198471f98b520bbf19af4ffcc31ab681d0d24d1c4851c976d1"
   },
   {
     "path": "badges/한국도로공사/plastic-abbr.svg",
@@ -7565,7 +7565,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "f7d04009491291ed26b017e4efdac489d9f03c41cca09993447f6c994eedd502"
+    "badge_sha256": "79c10d9872b0846b59c2188d8601cad22671c6741bcaf4b29392ab122e19a7c6"
   },
   {
     "path": "badges/한국도로공사/plastic-green.svg",
@@ -7576,7 +7576,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "6c55cd75a0ffa0219cafc6b349e7bb52b65276e4b1cc7a84dcdc4fa6c9194a1e"
+    "badge_sha256": "0c2848d8a542f339c826efee1761c85e53c005b7a040387ce807ccd74e89b655"
   },
   {
     "path": "badges/한국도로공사/outline-gray.svg",
@@ -7587,7 +7587,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "7f8303da4bcf18197ec1fb3753a1819436fc7a5bdadd84d6e07ed86cb6689086"
+    "badge_sha256": "b4352c9222bb8a1d4d5ba2a46e91512aa831f66bb7a3772cb42a7d4ee044a34f"
   },
   {
     "path": "badges/한국도로공사/plastic.svg",
@@ -7598,7 +7598,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "f7d04009491291ed26b017e4efdac489d9f03c41cca09993447f6c994eedd502"
+    "badge_sha256": "79c10d9872b0846b59c2188d8601cad22671c6741bcaf4b29392ab122e19a7c6"
   },
   {
     "path": "badges/한국도로공사/flat-square-abbr.svg",
@@ -7609,7 +7609,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "56b5588611406283c0f000e1a74066787c7c6c58798f40f90f05748f2c5e32dc"
+    "badge_sha256": "f0bd513818032377a58af4a1660c552f3cee9283c01cdeff82b976bc2e96ccde"
   },
   {
     "path": "badges/한국도로공사/for-the-badge.svg",
@@ -7620,7 +7620,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "e87e8bb759e5b5dc53a371a80b086caef0f322d6cfdaca0d1fa640aa7aae94f0"
+    "badge_sha256": "6c9f34e5bf54b2f4b39dd3304679d8b7900a82ce0b733683a33381f5cacbb776"
   },
   {
     "path": "badges/한국도로공사/flat.svg",
@@ -7631,7 +7631,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "8d82472ebdda6ffcb1cfb54aad6c7c1a81f6e68e9f0a4d17793ef2567c31fe59"
+    "badge_sha256": "61fd7618774666738bd09d78bbd7d33e968d94cd651a8da5713b1d5141eeefe0"
   },
   {
     "path": "badges/한국도로공사/for-the-badge-navy.svg",
@@ -7642,7 +7642,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "2e6ae638bd033eebdb2dfa5a7da0349917b424cead68473f72315ccdcb1951ec"
+    "badge_sha256": "b17fdd72160793491bf925bee0b0f67e5a4affb1a75f56a6191a5ea8f3d2568c"
   },
   {
     "path": "badges/한국도로공사/for-the-badge-abbr.svg",
@@ -7653,7 +7653,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "e87e8bb759e5b5dc53a371a80b086caef0f322d6cfdaca0d1fa640aa7aae94f0"
+    "badge_sha256": "6c9f34e5bf54b2f4b39dd3304679d8b7900a82ce0b733683a33381f5cacbb776"
   },
   {
     "path": "badges/한국도로공사/outline-black.svg",
@@ -7664,7 +7664,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "f8289a6b8a5f0090a6699630bc6951a80ccb4333f2dc3b39bd8221015769f98f"
+    "badge_sha256": "a565c4c3d11e1e1fa3d24e5ae10bfc2a7380c60e1c042064d6246f932e8930b1"
   },
   {
     "path": "badges/한국도로공사/flat-square-navy.svg",
@@ -7675,7 +7675,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "a2332e8359aa02e2e3b7b6ee09c7359e0535c3b3f923d8e799615d9c63d29a49"
+    "badge_sha256": "e23707a8b406fb882f6665674f7b071df5360a7fb4496d833888eded8ee05a5f"
   },
   {
     "path": "badges/한국도로공사/plastic-agency.svg",
@@ -7686,7 +7686,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "f7d04009491291ed26b017e4efdac489d9f03c41cca09993447f6c994eedd502"
+    "badge_sha256": "79c10d9872b0846b59c2188d8601cad22671c6741bcaf4b29392ab122e19a7c6"
   },
   {
     "path": "badges/한국도로공사/flat-black.svg",
@@ -7697,7 +7697,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "c20429640daac368bfcc3b4ae726b6251bc2bf42a76f01584be2f31bbcb57309"
+    "badge_sha256": "52b53f24eb55c0938a918dcbc2d6788dd4c6a8afb975dbe5dc02192a246e58df"
   },
   {
     "path": "badges/한국도로공사/flat-green.svg",
@@ -7708,7 +7708,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "e94514295feceb79654f55ec961c70781e579d1dddb642bd800aaf2dedc0eb63"
+    "badge_sha256": "7db92fa9a2d87a64735195ef27190cf575b28a0148acaa81e17bfd289dfc4c12"
   },
   {
     "path": "badges/한국도로공사/for-the-badge-red.svg",
@@ -7719,7 +7719,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "42b014b8aa9b11a75a360d9543d0bb9c1db5370b89146adcbfa063f2536cbd5a"
+    "badge_sha256": "4ac847dbd4cc54a0419714588dafdff8256fd763241f1b0825fd2b8e3bbfc16a"
   },
   {
     "path": "badges/한국도로공사/flat-red.svg",
@@ -7730,7 +7730,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "9d7030a3f1d9bab42b5ebcc0574508987dd48b954f9ea484d250eea15f3eb46e"
+    "badge_sha256": "3e111b050be975f35f7804c229be21baf1fc71e438b571c5ac4148425f6ad659"
   },
   {
     "path": "badges/한국도로공사/outline-red.svg",
@@ -7741,7 +7741,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "f8b73f277af71795e8d3c538230d5f22f0295e6ddc2918acc53be99aa4ffc547"
+    "badge_sha256": "5b17da42175ac167a60eb25bd257771631afcd063376c7f73348cd2c248e2ac6"
   },
   {
     "path": "badges/한국도로공사/for-the-badge-gray.svg",
@@ -7752,7 +7752,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "e2d681f58157bf3e461778ed45d3b979fe1bec0cb3dbfa92c668226ccf6d4548"
+    "badge_sha256": "f7033600da6ea42b6d5e82cbcd55e45ba5905afa89760727081e5fe288c63b18"
   },
   {
     "path": "badges/한국도로공사/outline-agency.svg",
@@ -7763,7 +7763,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "0eebd9495b5ce59d55f1f55ff628b9322e3c7b663c7e29bde5a1ee8f7ba3ce59"
+    "badge_sha256": "55179efeda7f1cc8a7a7ea549aecf7b6a5db53453ae0502deb50f6523c5ed6a2"
   },
   {
     "path": "badges/한국도로공사/outline-green.svg",
@@ -7774,7 +7774,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "0071f012d4a2da0185b275b65e730e1f5c2de8526ba02d2d14a9a2dfdcfb8e8a"
+    "badge_sha256": "eda96031d9264d5d2b5ddaf8dee53db10ba561c7a1d08b469582ac95704471f9"
   },
   {
     "path": "badges/한국도로공사/flat-square-gray.svg",
@@ -7785,7 +7785,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "e87e15fc5fcbb88c17e12595e337dfb9ef24a8d2c241c6a78eba301cc1b8f8d8"
+    "badge_sha256": "183ce3c8409aadeb50892e51a34054035bbdfd6bddcc376c8f35fbc106019fed"
   },
   {
     "path": "badges/한국도로공사/plastic-black.svg",
@@ -7796,7 +7796,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "ef22c1eb820dd3796be5685f11c7ac2f23b6e9ad06cec877692945cc7b29233b"
+    "badge_sha256": "e9abf852ebcd389bb2d75206521be579168a313d10c5ccc6c2c5ee9914710a1f"
   },
   {
     "path": "badges/한국도로공사/outline-abbr.svg",
@@ -7807,7 +7807,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "0eebd9495b5ce59d55f1f55ff628b9322e3c7b663c7e29bde5a1ee8f7ba3ce59"
+    "badge_sha256": "55179efeda7f1cc8a7a7ea549aecf7b6a5db53453ae0502deb50f6523c5ed6a2"
   },
   {
     "path": "badges/한국도로공사/for-the-badge-agency.svg",
@@ -7818,7 +7818,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "e87e8bb759e5b5dc53a371a80b086caef0f322d6cfdaca0d1fa640aa7aae94f0"
+    "badge_sha256": "6c9f34e5bf54b2f4b39dd3304679d8b7900a82ce0b733683a33381f5cacbb776"
   },
   {
     "path": "badges/한국도로공사/flat-square.svg",
@@ -7829,7 +7829,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "56b5588611406283c0f000e1a74066787c7c6c58798f40f90f05748f2c5e32dc"
+    "badge_sha256": "f0bd513818032377a58af4a1660c552f3cee9283c01cdeff82b976bc2e96ccde"
   },
   {
     "path": "badges/한국도로공사/outline-navy.svg",
@@ -7840,7 +7840,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "7c01bfaf11412d4df4a2b227f5e7abf966c2d7d177b7e360befac3fe46072026"
+    "badge_sha256": "f70c0be58fc94d1eeac577a916effa5507f1bc4b9cf705cf828d2ab6733095bb"
   },
   {
     "path": "badges/한국도로공사/plastic-gray.svg",
@@ -7851,7 +7851,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "f01dec66467ccaef203baaaaeb9e64daf57a4eaee09785039e0573c11a29466a"
+    "badge_sha256": "924432bd92dfa00fa6734a4e626e468b1daf9f80dd0c535ed0cf40d3124faf12"
   },
   {
     "path": "badges/한국도로공사/flat-navy.svg",
@@ -7862,7 +7862,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "51992f92160c581ee47112b5b65dc3646d2b233a2ad2cbd4fb7d4dcc4c87a5b8"
+    "badge_sha256": "817396986f247e14805e1f55afc0138b89a69f9806cc4cd2b94f20b3ed2f6209"
   },
   {
     "path": "badges/한국도로공사/outline.svg",
@@ -7873,7 +7873,7 @@
     "bottom": 16.677945248374726,
     "badge_height": 22,
     "label_x": 32,
-    "badge_sha256": "0eebd9495b5ce59d55f1f55ff628b9322e3c7b663c7e29bde5a1ee8f7ba3ce59"
+    "badge_sha256": "55179efeda7f1cc8a7a7ea549aecf7b6a5db53453ae0502deb50f6523c5ed6a2"
   },
   {
     "path": "badges/한국도로공사/flat-abbr.svg",
@@ -7884,7 +7884,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "8d82472ebdda6ffcb1cfb54aad6c7c1a81f6e68e9f0a4d17793ef2567c31fe59"
+    "badge_sha256": "61fd7618774666738bd09d78bbd7d33e968d94cd651a8da5713b1d5141eeefe0"
   },
   {
     "path": "badges/한국도로공사/for-the-badge-green.svg",
@@ -7895,7 +7895,7 @@
     "bottom": 21.381759057233467,
     "badge_height": 28,
     "label_x": 39,
-    "badge_sha256": "2689b7687127459ab1393913da812b1a39ce30073e3f83a437c561684bc1d55b"
+    "badge_sha256": "6a26497395bf9301a1f6ac1f47350025d3eb917cfe78a1880897d6e4a9fa7a40"
   },
   {
     "path": "badges/한국도로공사/flat-square-green.svg",
@@ -7906,7 +7906,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "97fb21fc4416024eac15c954d68e7b694de1a687dbcd5456516bd0ba8b0bb0f2"
+    "badge_sha256": "178ea48f67ecda2f8a7f67f9c0c15b4ca6e2ad76a1fc843ed00f52fe910dd035"
   },
   {
     "path": "badges/한국도로공사/flat-square-agency.svg",
@@ -7917,7 +7917,7 @@
     "bottom": 15.677945248374726,
     "badge_height": 20,
     "label_x": 32,
-    "badge_sha256": "56b5588611406283c0f000e1a74066787c7c6c58798f40f90f05748f2c5e32dc"
+    "badge_sha256": "f0bd513818032377a58af4a1660c552f3cee9283c01cdeff82b976bc2e96ccde"
   },
   {
     "path": "badges/komsco/for-the-badge-black.svg",

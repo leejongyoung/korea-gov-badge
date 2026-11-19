@@ -1,0 +1,4 @@
+한국도로공사 공식 CI 페이지 전용색상 지정(2026-11-20 확인)
+https://www.ex.co.kr/site/com/pageProcess.do (menuno=100501060)
+
+File 다운로드 JPEG File 다운로드 한국도로공사 CI Grid 전용색상 지정별색 PANTONE 185 C 2X CMYK 0, 100, 90, 0 RGB 237, 27, 47 PANTONE 285 C CMYK 90, 52, 0, 0 RGB 0, 113, 206 PANTONE 2746 C CMYK 100, 95, 10, 5 RGB 16, 30, 142 PANTONE 1815 C CMYK 30, 92, 82, 35 RGB 128, 37, 40 보조색상 지정별색 PANTONE COOL GRAY 10 C CMYK 0, 0, 0, 60 RGB 128, 130, 133 PANTONE COOL GRAY 1C CMYK 0, 0, 0, 12 RGB 219, 217, 214 PANTONE 872 C PANTONE 1815 C877 C 문의처 한국도로공사 콜센터 1588-2504 이 페이지에 대한 고객님의 소중한 의견을 듣고

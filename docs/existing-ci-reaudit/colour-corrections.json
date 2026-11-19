@@ -27,5 +27,20 @@
     "evidence_sha256": "02ce445da05b431ceff26e0e600bebf729a7dee221911b36f813f2709b985d2c",
     "baseline_path_sha256": "d428e1c14a80d6f0befe727fc00de51471bd2225daa7647d0c75c0b613d3e292",
     "svg_sha256": "39b280194cc2b8182ec6ea999114f38631330ac447ec655c80e1d05360cf08f1"
+  },
+  {
+    "id": "ex",
+    "mapping": {
+      "#eb2333": "#ed1b2f",
+      "#007dc2": "#0071ce",
+      "#85353a": "#802528",
+      "#00238e": "#101e8e",
+      "#283a8c": "#101e8e"
+    },
+    "source_url": "https://www.ex.co.kr/site/com/pageProcess.do",
+    "evidence_file": "ex-colour-evidence.txt",
+    "evidence_sha256": "251051bf271ba262048872cbc632b46536cd5916fdcb5d45d4e1463f2fecbe81",
+    "baseline_path_sha256": "a656821fba5ef359add8bb439377308e467fbd8f09709329b1059f2635751f55",
+    "svg_sha256": "0f4d0a84bc89b301036ae32c55750876c4ec7f36b80b1eeab567c88db99ef564"
   }
 ]
